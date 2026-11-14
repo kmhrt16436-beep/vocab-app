@@ -14,7 +14,17 @@
 <nav aria-label="メインメニュー"><button data-tab="study" aria-pressed="true">学習する</button><button data-tab="cards" aria-pressed="false">カード管理</button><button data-tab="data" aria-pressed="false">データ</button></nav>
 <section id="study"><div class="toolbar"><span class="eyebrow">TODAY'S PRACTICE</span><span id="sessionType" class="badge"></span></div><div id="studyContent"></div><p class="rule">○は、①重要な日本語訳と②他の意味を<strong>すべて</strong>言えたときだけ。一部だけ・迷った場合は×にしましょう。</p><details><summary>復習のしくみ</summary><p>間隔は 0日 → 1日 → 3日 → 7日 → 14日 → 30日 → 60日。○で1段階進み、60日以降は60日間隔です。×は0日段階に戻り、次回は翌日です。</p><p>×のカードはその日の通常出題の最後に、1枚につきもう一度だけ出題します。再出題でも同じ判定を行うため、○なら1日段階、×なら0日段階となり、どちらも翌日に復習します。残り枚数・全枚数には再出題分も含まれます。</p><p>新しいカードは今日のキューに入ります。日付は端末の現地日付を使います。</p></details></section>
 <section id="cards" hidden><div class="toolbar"><h2>カード管理</h2><button id="addCard" class="primary">＋ 追加</button></div><div id="editor" class="panel" hidden><h3 id="editorTitle">カードを追加</h3><form id="cardForm"><div id="formFields"></div><div class="actions"><button type="button" id="cancelEdit">キャンセル</button><button type="submit" class="primary">保存する</button></div></form></div><label for="search">単語・意味で検索</label><input id="search" type="search" placeholder="例：submit ／ 提出"><div id="cardList"></div></section>
-<section id="data" hidden><div class="panel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code>英単語,①重要な日本語訳,②他の意味,③類義語・派生語・対義語,④短い例文,⑤例文の日本語訳,⑥イラスト</code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">この端末・ブラウザのlocalStorageに自動保存します。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
+<section id="data" hidden><div class="panel" id="cloudPanel">
+<h2>メールでログイン・端末間同期</h2>
+<p class="muted">同じメールアドレスでログインすると、カード・復習予定・今日の進捗を共有できます。</p>
+<details id="cloudSettings"><summary>初回の接続設定</summary><p class="muted">管理者から案内されたSupabaseの接続情報を入力します。この端末に保存されます。</p><label for="cloudUrl">Project URL</label><input id="cloudUrl" type="url" placeholder="https://xxxxx.supabase.co" autocomplete="off"><label for="cloudKey">Publishable key（公開キー）</label><input id="cloudKey" type="text" placeholder="sb_publishable_… または anon キー" autocomplete="off"><p class="muted">公開用キーのみ使用してください。service_role・secretキーは入力しないでください。</p><button id="saveCloudConfig">接続設定を保存</button></details>
+<div id="cloudLogin"><label for="cloudEmail">メールアドレス</label><input id="cloudEmail" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com"><button id="sendCloudCode" style="margin-top:12px">ログインリンクを送る</button><p class="muted">この端末のメールでリンクを開いてください。メールアプリ内ではなく、このアプリを使う同じChromeで開きます。</p></div>
+<div id="cloudAccount" hidden><p id="cloudIdentity"></p><div class="actions"><button id="cloudSync" class="primary">今すぐ同期</button><button id="cloudLogout">ログアウト</button></div></div>
+<p id="cloudStatus" role="status" aria-live="polite">未ログイン：この端末に保存しています。</p>
+<div id="cloudChoice" hidden><p class="notice">どちらのデータを使うか選んでください。初回は自動で上書きしません。変更が競合した場合もここで選べます。必要なら先に下のJSONエクスポートでバックアップしてください。</p><p id="cloudSummary"></p><div class="actions"><button id="useCloud">クラウドのデータを使う</button><button id="useDevice" class="negative">この端末のデータをクラウドへ保存</button></div></div>
+<p class="muted">ログイン後、最初に使うデータを選ぶと自動同期が始まります。通信できない間も端末に保存し、再接続時に同期します。ログアウトするとログイン前の端末データに戻ります。</p>
+</div>
+<div class="panel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code>英単語,①重要な日本語訳,②他の意味,③類義語・派生語・対義語,④短い例文,⑤例文の日本語訳,⑥イラスト</code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">この端末・ブラウザのlocalStorageに自動保存します。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
 </main><div id="toast" role="status" hidden></div>
 <script>
 'use strict';
@@ -63,6 +73,172 @@ $('importJson').onclick=()=>{try{const restored=validate(JSON.parse($('jsonText'
 // 同じ日の途中キューはそのまま復元。初回のみサンプルをキューに登録。
 if(!syncDay())addDue();persist();render();
 setInterval(()=>{if(syncDay())render()},30000);document.addEventListener('visibilitychange',()=>{if(!document.hidden&&syncDay())render()});
+// メール認証とSupabase REST API。外部ライブラリは使用しません。
+const CONFIG_KEY=KEY+':cloud-config', AUTH_KEY=KEY+':cloud-auth';
+let cloudConfig=null, cloudAuth=null, cloudReady=false, cloudRevision=0, cloudBase='', cloudTimer;
+let cloudBusy=false, cloudEpoch=0, cloudRefresh=null, cloudRequestBusy=false;
+let activeStorageKey=KEY, pendingCloudLink=null;
+const localPersist=persist;
+persist=function(){
+  if(storageBlocked)return;
+  if(activeStorageKey===KEY)localPersist();
+  else try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末に保存できません。JSONでバックアップしてください。'}
+  if(cloudReady){clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+};
+function cloudMessage(s){$('cloudStatus').textContent=s}
+function cloudLocalKey(id){return KEY+':account:'+id}
+function configValid(c){return c && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(c.url)&&typeof c.key==='string'&&c.key.length>20}
+function checkPublicKey(key){
+  if(key.startsWith('sb_secret_'))throw Error('secretキーは使用できません。公開用キーを使ってください。');
+  if(key.startsWith('eyJ')){try{const p=JSON.parse(atob(key.split('.')[1].replace(/-/g,'+').replace(/_/g,'/')));if(p.role!=='anon')throw Error('公開用anonキーではありません。')}catch(e){throw Error('公開用anonキーまたはPublishable keyを使ってください。')}}
+}
+async function cloudFetch(path,body,auth=false,method='POST',retry=true){
+  if(!configValid(cloudConfig))throw Error('初回の接続設定を入力してください。');
+  const epoch=cloudEpoch, token=cloudAuth?.access_token;
+  const headers={apikey:cloudConfig.key,'Content-Type':'application/json'};
+  if(auth){if(!token)throw Error('ログインしてください。');headers.Authorization='Bearer '+token}
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
+  let response;
+  try{response=await fetch(cloudConfig.url+path,{method,headers,body:body===undefined?undefined:JSON.stringify(body),signal:controller.signal})}finally{clearTimeout(timeout)}
+  if(epoch!==cloudEpoch)throw Error('接続状態が変更されました。もう一度操作してください。');
+  if(response.status===401&&auth&&retry){await refreshCloudAuth();return cloudFetch(path,body,auth,method,false)}
+  const data=await response.json().catch(()=>null);
+  if(!response.ok){const error=Error(data?.msg||data?.message||data?.error_description||'通信に失敗しました。');error.conflict=data?.code==='40001';throw error}
+  return data;
+}
+function saveCloudAuth(data){if(!data?.access_token||!data?.refresh_token||!data?.user?.id)throw Error('ログイン情報が不正です。');cloudAuth=data;localStorage.setItem(AUTH_KEY,JSON.stringify(data))}
+async function refreshCloudAuth(){
+  if(!cloudAuth?.refresh_token)throw Error('メールのリンクで再ログインしてください。');
+  if(!cloudRefresh)cloudRefresh=cloudFetch('/auth/v1/token?grant_type=refresh_token',{refresh_token:cloudAuth.refresh_token}).then(saveCloudAuth).finally(()=>{cloudRefresh=null});
+  return cloudRefresh;
+}
+async function cloudAction(fn){if(cloudRequestBusy)return;if(cloudBusy){cloudMessage('同期の完了を待ってから、もう一度操作してください。');return;}cloudRequestBusy=true;const buttons=['saveCloudConfig','sendCloudCode','useDevice','useCloud','cloudLogout','cloudSync'];buttons.forEach(id=>$(id).disabled=true);try{await fn()}catch(e){cloudMessage('操作できません：'+e.message)}finally{cloudRequestBusy=false;buttons.forEach(id=>$(id).disabled=false)}}
+async function readCloud(){
+  const rows=await cloudFetch('/rest/v1/word_progress?select=revision,payload&user_id=eq.'+encodeURIComponent(cloudAuth.user.id),undefined,true,'GET');
+  if(!Array.isArray(rows))throw Error('保存先の応答が不正です。');
+  if(!rows.length)return null;
+  if(!Number.isSafeInteger(rows[0].revision)||rows[0].revision<1)throw Error('クラウドの版番号が不正です。');
+  return {revision:rows[0].revision,payload:validate(rows[0].payload)};
+}
+async function writeCloud(revision,snapshot){
+  const data=await cloudFetch('/rest/v1/rpc/save_word_progress',{expected_revision:revision,new_payload:JSON.parse(snapshot)},true);
+  if(!Number.isSafeInteger(data?.revision)||data.revision!==revision+1)throw Error('保存先の応答が不正です。');
+  return data.revision;
+}
+function replaceStudyState(next){state=validate(next);revealed=false;editing=null;$('editor').hidden=true;syncDay();render()}
+function cloudAccountUI(){const logged=!!cloudAuth;$('cloudLogin').hidden=logged;$('cloudAccount').hidden=!logged;$('cloudIdentity').textContent=logged?`ログイン中：${cloudAuth.user.email||''}`:'';$('cloudSettings').open=!cloudConfig;$('cloudSync').disabled=!cloudReady}
+async function showCloudChoice(){
+  cloudReady=false;clearTimeout(cloudTimer);$('cloudChoice').hidden=false;cloudMessage('同期は停止中です。使うデータを選んでください。');
+  const remote=await readCloud();
+  $('cloudSummary').textContent=`この端末：${state.cards.length}枚 ／ クラウド：${remote?remote.payload.cards.length+'枚':'まだデータがありません'}`;
+  $('useCloud').disabled=!remote;
+}
+async function loginCloud(data){
+  if(storageBlocked)throw Error('端末データを読み込めていません。JSONで復元してからログインしてください。');
+  saveCloudAuth(data);cloudEpoch++;cloudAccountUI();
+  const saved=localStorage.getItem(cloudLocalKey(cloudAuth.user.id));
+  if(saved){const next=validate(JSON.parse(saved));activeStorageKey=cloudLocalKey(cloudAuth.user.id);replaceStudyState(next)}
+  await showCloudChoice();
+}
+async function chooseCloud(mode){
+  if(!cloudAuth)throw Error('ログインしてください。');
+  const remote=await readCloud(),original=JSON.stringify(state);
+  if(mode==='remote'){
+    if(!remote)throw Error('クラウドにデータがありません。端末のデータを保存してください。');
+    if(!confirm('この端末の表示をクラウドのカード・進捗に置き換えますか？ 必要なら先にJSONを保存してください。'))return;
+    // 通信中の編集を取り消さないよう、確定前に比較します。
+    if(JSON.stringify(state)!==original)throw Error('端末のデータが変わりました。もう一度選んでください。');
+    activeStorageKey=cloudLocalKey(cloudAuth.user.id);cloudRevision=remote.revision;cloudBase=JSON.stringify(remote.payload);replaceStudyState(remote.payload);
+  }else{
+    if(!confirm('この端末のカード・進捗でクラウドを置き換えますか？ 他の端末にも反映されます。'))return;
+    const snapshot=JSON.stringify(state),revision=await writeCloud(remote?.revision||0,snapshot);
+    activeStorageKey=cloudLocalKey(cloudAuth.user.id);cloudRevision=revision;cloudBase=snapshot;
+  }
+  cloudReady=true;$('cloudChoice').hidden=true;persist();cloudAccountUI();cloudMessage('同期を開始しました。');
+}
+async function syncCloud(){
+  if(!cloudAuth||!cloudReady||cloudBusy||cloudRequestBusy)return;
+  cloudBusy=true;const epoch=cloudEpoch;
+  try{
+    const snapshot=JSON.stringify(state);
+    if(snapshot!==cloudBase){
+      const revision=await writeCloud(cloudRevision,snapshot);
+      if(epoch!==cloudEpoch)return;
+      cloudRevision=revision;cloudBase=snapshot;
+    }else{
+      const remote=await readCloud();
+      if(epoch!==cloudEpoch)return;
+      if(remote&&remote.revision!==cloudRevision){
+        if(JSON.stringify(state)!==snapshot){await showCloudChoice();return}
+        cloudRevision=remote.revision;cloudBase=JSON.stringify(remote.payload);
+        // 未保存の編集フォームがある場合はユーザーの選択を待ちます。
+        if(!$('editor').hidden){await showCloudChoice();return}
+        replaceStudyState(remote.payload);persist();
+      }
+    }
+    cloudMessage('同期済み：'+new Date().toLocaleTimeString('ja-JP'));
+    if(JSON.stringify(state)!==cloudBase){clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+  }catch(e){
+    if(epoch!==cloudEpoch)return;
+    if(e.conflict){cloudReady=false;$('cloudChoice').hidden=false;cloudMessage('別の端末にも変更があります。使うデータを選んでください。')}
+    else cloudMessage('未同期：'+e.message+' 端末のデータは保持しています。再接続後に再試行します。');
+  }finally{cloudBusy=false}
+}
+$('saveCloudConfig').onclick=()=>cloudAction(async()=>{
+  if(cloudAuth)throw Error('接続先を変更する前にログアウトしてください。');
+  const c={url:$('cloudUrl').value.trim().replace(/\/$/,''),key:$('cloudKey').value.trim()};
+  if(!configValid(c))throw Error('Project URLと公開キーを確認してください。');
+  checkPublicKey(c.key);localStorage.setItem(CONFIG_KEY,JSON.stringify(c));cloudConfig=c;cloudEpoch++;cloudAccountUI();cloudMessage('接続設定を保存しました。メールアドレスを入力してください。');if(pendingCloudLink)await initCloud();
+});
+$('sendCloudCode').onclick=()=>cloudAction(async()=>{
+  const email=$('cloudEmail').value.trim().toLowerCase();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))throw Error('メールアドレスを確認してください。');
+  const redirect=new URL(location.href);redirect.hash='';redirect.search='';
+  await cloudFetch('/auth/v1/otp?redirect_to='+encodeURIComponent(redirect.href),{email,create_user:true});
+  cloudMessage('ログイン用メールを送りました。メール内のリンクを、このアプリと同じChromeで開いてください。届かない場合は迷惑メールとSupabaseの送信制限を確認してください。');
+});
+$('useCloud').onclick=()=>cloudAction(()=>chooseCloud('remote'));
+$('useDevice').onclick=()=>cloudAction(()=>chooseCloud('local'));
+$('cloudSync').onclick=()=>syncCloud();
+$('cloudLogout').onclick=()=>cloudAction(async()=>{
+  if(!confirm('ログアウトしますか？ 未同期のデータはこの端末に保持されます。'))return;
+  const oldAuth=cloudAuth;cloudReady=false;cloudEpoch++;clearTimeout(cloudTimer);
+  // 端末からログイン情報を消去。アカウントの学習データは専用キーに保持します。
+  cloudAuth=null;localStorage.removeItem(AUTH_KEY);activeStorageKey=KEY;
+  const anonymous=localStorage.getItem(KEY);replaceStudyState(anonymous?JSON.parse(anonymous):initial());
+  $('cloudChoice').hidden=true;cloudAccountUI();persist();cloudMessage('ログアウトしました。ログイン前の端末データを表示しています。');
+  if(oldAuth&&cloudConfig)fetch(cloudConfig.url+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:cloudConfig.key,Authorization:'Bearer '+oldAuth.access_token}}).catch(()=>{});
+});
+async function initCloud(){
+  try{
+    const hash=new URLSearchParams(location.hash.slice(1));
+    if(hash.has('access_token')||hash.has('error_description')){
+      history.replaceState(null,'',location.pathname+location.search);
+      if(hash.has('error_description'))throw Error(hash.get('error_description'));
+      if(!hash.get('refresh_token'))throw Error('ログインリンクが不完全です。メールを再送してください。');
+      pendingCloudLink={access_token:hash.get('access_token'),refresh_token:hash.get('refresh_token')};
+    }
+    const c=JSON.parse(localStorage.getItem(CONFIG_KEY)||'null');if(configValid(c)){checkPublicKey(c.key);cloudConfig=c;$('cloudUrl').value=c.url;$('cloudKey').value=c.key}
+    cloudAccountUI();
+    if(pendingCloudLink){
+      tab('data');
+      if(!cloudConfig){$('cloudSettings').open=true;cloudMessage('ログインを完了するため、先に接続設定を保存してください。この画面は閉じずに入力してください。');return}
+      cloudAuth=pendingCloudLink;
+      try{
+        const user=await cloudFetch('/auth/v1/user',undefined,true,'GET',false);
+        await loginCloud({...pendingCloudLink,user});pendingCloudLink=null;
+      }catch(e){cloudAuth=null;throw e}
+      return;
+    }
+    const auth=JSON.parse(localStorage.getItem(AUTH_KEY)||'null');
+    if(auth&&cloudConfig)await loginCloud(auth);
+  }catch(e){cloudMessage('接続できません：'+e.message+' 端末のデータは保持しています。');cloudAccountUI()}
+}
+window.addEventListener('hashchange',()=>{const h=new URLSearchParams(location.hash.slice(1));if(h.has('access_token')||h.has('error_description'))initCloud()});
+window.addEventListener('online',()=>syncCloud());
+setInterval(()=>{if(!document.hidden)syncCloud()},20000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncCloud()});
+initCloud();
+
 </script>
 </body>
 </html>
