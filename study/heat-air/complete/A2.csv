@@ -13,10 +13,10 @@
 【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？,P(C₀Q₀＋CQ_r)＋M＝CQ_s。,,室内発じんMはフィルタの下流で発生する。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？,C＝(M＋PC₀Q₀)/(Q_s−PQ_r)。,,分母はQ₀＋ηQ_rとも書ける。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？,P＝(CQ_s−M)/(C₀Q₀＋CQ_r)。,,最後にη＝1−Pへ戻す。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-16】20人・Q₀500・Q_r1000・M200mg/h・C₀0.05・η0.6ならCは？,約0.191 mg/m³。,,(200＋0.4×0.05×500)/(1500−0.4×1000)。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-17】同じ20人条件でC＝0.15に必要なηは？,約85.7%。,,P＝25/175＝1/7、η＝6/7。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-18】25人・Q₀500・Q_r1500・M250mg/h・C₀0.05・η0.6ならCは？,約0.186 mg/m³。,,260/1400。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-19】同じ25人条件でC＝0.15に必要なηは？,80%。,,P＝50/250＝0.2。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-16】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？,約0.191 mg/m³。,,(200＋0.4×0.05×500)/(1500−0.4×1000)。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-17】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？,約85.7%。,,P＝25/175＝1/7、η＝6/7。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-18】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？,約0.186 mg/m³。,,260/1400。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-19】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？,80%。,,P＝50/250＝0.2。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-20】必要ηの計算結果が1を超えた場合の意味は？,その風量・発生量条件では、そのフィルタだけで目標濃度を達成できない。,,風量増加や発生量削減等が必要。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？,外気の汚染流入量C₀Q₀にプレフィルタ通過率P_fを掛ける。,,循環空気側まで一律にP_fを掛けない。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-22】HEPAのスライド上の捕集性能は？,0.3µm粒子で99.97%以上。,,計数法による性能値。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png

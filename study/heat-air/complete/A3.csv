@@ -13,7 +13,7 @@
 【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？,外気濃度が無視できない場合は扱えない。,,C₀＝0.04%なら差は0.96%と0.06%。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？,約1.19 h⁻¹。,,ln6/1.5。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？,2400 ppm。,,400＋(0.3/150)×10⁶。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
-【A3-16】同じ条件で初期1000ppmなら濃度はどう変化する？,2400−1400e^(−2t) ppm。,,tはh、N＝2 h⁻¹。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
+【A3-16】V＝75m³、Q＝150m³/h、M＝0.3m³/h、C₀＝400ppm、初期1000ppmのC(t)は？,2400−1400e^(−2t) ppm。,,tはh、N＝2 h⁻¹。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-17】定常濃度法の原理は？,一定発生量と定常濃度差からQ＝M/(C−C₀)を求める。,,十分な定常到達を待つ。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-18】濃度減衰法の測定手順は？,トレーサガスを均一に混合し、発生停止後の濃度低下を測る。,,多時点法では時間的に一定の換気を前提とする。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-19】一定濃度法の原理は？,室濃度を一定に保つガス供給量から換気量を求める。,,定常濃度法の単なる別名ではない。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png

@@ -13,7 +13,7 @@
 【A5-13】一定断面の直管で全圧と静圧の線の間隔は？,速度・密度が一定なら動圧分で一定。,,両線は摩擦損失分だけ低下する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-14】風量Qと平均速度Uと断面積Aの関係は？,Q＝UA。,,Qはm³/sで用いるとUはm/s。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-15】5000m³/h、吐出し口0.1m²なら速度は？,約13.89 m/s。,,(5000/3600)/0.1。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-16】同じ条件、ρ＝1.2、送風機全圧750Paなら送風機静圧は？,約634 Pa。,,動圧約115.7Paを差し引く。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
+【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？,約634 Pa。,,動圧約115.7Paを差し引く。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？,W_air＝QP_T [W]。,,m³/minなら60で割ってWへ換算する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-18】送風機効率η_fと軸動力の関係は？,W_shaft＝W_air/η_f。,,効率を掛けずに割る。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？,約3.33 kW。,,(6000/3600)×1000/0.5。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png

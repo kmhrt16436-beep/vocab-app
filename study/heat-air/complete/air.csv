@@ -31,10 +31,10 @@
 【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？,P(C₀Q₀＋CQ_r)＋M＝CQ_s。,,室内発じんMはフィルタの下流で発生する。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？,C＝(M＋PC₀Q₀)/(Q_s−PQ_r)。,,分母はQ₀＋ηQ_rとも書ける。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？,P＝(CQ_s−M)/(C₀Q₀＋CQ_r)。,,最後にη＝1−Pへ戻す。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-16】20人・Q₀500・Q_r1000・M200mg/h・C₀0.05・η0.6ならCは？,約0.191 mg/m³。,,(200＋0.4×0.05×500)/(1500−0.4×1000)。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-17】同じ20人条件でC＝0.15に必要なηは？,約85.7%。,,P＝25/175＝1/7、η＝6/7。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-18】25人・Q₀500・Q_r1500・M250mg/h・C₀0.05・η0.6ならCは？,約0.186 mg/m³。,,260/1400。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
-【A2-19】同じ25人条件でC＝0.15に必要なηは？,80%。,,P＝50/250＝0.2。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-16】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？,約0.191 mg/m³。,,(200＋0.4×0.05×500)/(1500−0.4×1000)。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-17】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？,約85.7%。,,P＝25/175＝1/7、η＝6/7。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-18】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？,約0.186 mg/m³。,,260/1400。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
+【A2-19】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？,80%。,,P＝50/250＝0.2。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-20】必要ηの計算結果が1を超えた場合の意味は？,その風量・発生量条件では、そのフィルタだけで目標濃度を達成できない。,,風量増加や発生量削減等が必要。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？,外気の汚染流入量C₀Q₀にプレフィルタ通過率P_fを掛ける。,,循環空気側まで一律にP_fを掛けない。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
 【A2-22】HEPAのスライド上の捕集性能は？,0.3µm粒子で99.97%以上。,,計数法による性能値。,,根拠：空気PDF p.56-93。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png
@@ -58,7 +58,7 @@
 【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？,外気濃度が無視できない場合は扱えない。,,C₀＝0.04%なら差は0.96%と0.06%。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？,約1.19 h⁻¹。,,ln6/1.5。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？,2400 ppm。,,400＋(0.3/150)×10⁶。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
-【A3-16】同じ条件で初期1000ppmなら濃度はどう変化する？,2400−1400e^(−2t) ppm。,,tはh、N＝2 h⁻¹。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
+【A3-16】V＝75m³、Q＝150m³/h、M＝0.3m³/h、C₀＝400ppm、初期1000ppmのC(t)は？,2400−1400e^(−2t) ppm。,,tはh、N＝2 h⁻¹。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-17】定常濃度法の原理は？,一定発生量と定常濃度差からQ＝M/(C−C₀)を求める。,,十分な定常到達を待つ。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-18】濃度減衰法の測定手順は？,トレーサガスを均一に混合し、発生停止後の濃度低下を測る。,,多時点法では時間的に一定の換気を前提とする。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
 【A3-19】一定濃度法の原理は？,室濃度を一定に保つガス供給量から換気量を求める。,,定常濃度法の単なる別名ではない。,,根拠：空気PDF p.100-131。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png
@@ -106,7 +106,7 @@
 【A5-13】一定断面の直管で全圧と静圧の線の間隔は？,速度・密度が一定なら動圧分で一定。,,両線は摩擦損失分だけ低下する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-14】風量Qと平均速度Uと断面積Aの関係は？,Q＝UA。,,Qはm³/sで用いるとUはm/s。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-15】5000m³/h、吐出し口0.1m²なら速度は？,約13.89 m/s。,,(5000/3600)/0.1。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-16】同じ条件、ρ＝1.2、送風機全圧750Paなら送風機静圧は？,約634 Pa。,,動圧約115.7Paを差し引く。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
+【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？,約634 Pa。,,動圧約115.7Paを差し引く。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？,W_air＝QP_T [W]。,,m³/minなら60で割ってWへ換算する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-18】送風機効率η_fと軸動力の関係は？,W_shaft＝W_air/η_f。,,効率を掛けずに割る。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
 【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？,約3.33 kW。,,(6000/3600)×1000/0.5。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
