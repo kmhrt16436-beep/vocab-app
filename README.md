@@ -2,6 +2,8 @@
 
 CSS・JavaScriptを含む単体の `index.html` です。外部ライブラリ、ビルド、サーバー設定は不要です。
 
+教科ごとのフォルダを使う場合は [フォルダ機能の使い方](README_folders.md) を参照してください。
+
 ## 1. リポジトリを作る
 
 1. GitHubにログインし、右上の「＋」→「New repository」を開きます。

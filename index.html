@@ -90,16 +90,20 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
  .answer-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(100px,.7fr);gap:12px}.answer-text{overflow:auto}.answer-layout .illustration-field{min-height:0}.sidebar .sync-strip{display:none}#study>.toolbar{display:none}#study>.rule{font-size:9px}
 }
 
+
+.folder-switch{display:flex;gap:6px;align-items:center;margin:14px 0 0}.folder-switch select{min-width:0;flex:1;min-height:40px;padding:7px 9px;font-size:13px}.folder-switch button{min-height:40px;padding:6px 9px;font-size:12px}.folder-row .actions{gap:6px}.folder-row button{font-size:12px;padding:8px 10px;min-height:40px}#folderForm{margin-bottom:18px}
+@media(max-width:899px){.sidebar .folder-switch{margin:0 0 5px;gap:6px}.sidebar .folder-switch select{min-height:32px;height:32px;padding:3px 8px;font-size:13px}.sidebar .folder-switch button{min-height:32px;padding:3px 9px;font-size:12px}body[data-view="study"] .sidebar .sync-strip{display:none}.folder-row{align-items:flex-start}.folder-row .actions{flex-direction:column;gap:4px}.folder-row button{min-height:40px}.sidebar header{padding-top:max(5px,env(safe-area-inset-top))}}
+
 </style>
 </head>
 <body data-view="study">
 
-<div class="app-shell"><aside class="sidebar" aria-label="単語帳メニュー"><header><div class="brand">DAILY WORDS / 毎日、ひとつずつ。</div><h1>ことばの積み重ね</h1><div class="stats"><strong id="todayCount"></strong><span id="allCount"></span></div><progress id="progress" max="1" value="0" aria-label="今日の学習の進捗"></progress><div class="sync-strip"><span id="syncSummary" role="status">この端末に保存中 · ログインすると自動同期</span><button id="openSync">同期設定</button></div></header><nav aria-label="メインメニュー"><button data-tab="study" aria-pressed="true">学習する</button><button data-tab="cards" aria-pressed="false">カード管理</button><button data-tab="data" aria-pressed="false">データ</button></nav><div class="side-shortcuts"><button id="sidebarAdd">＋ 単語を登録</button><button id="sidebarCsv">CSVを一括追加</button></div><div class="sidebar-options"><details id="reviewSettings"><summary>復習の設定</summary><div class="scheduler-panel"><label for="schedulerMode">復習の方式</label><select id="schedulerMode"><option value="adaptive">忘却曲線：記憶度に応じて間隔を調整（おすすめ）</option><option value="fixed">従来の固定間隔：忘れやすい順に出題</option></select><p id="schedulerSummary"></p></div></details><details id="reviewHelp"><summary>復習のしくみ</summary><p>忘却曲線モードでは、前回の復習からの日数と○・×の履歴から記憶度を推定します。正解を重ねた単語は間隔を伸ばし、間違えた単語は翌日に戻します。最短1日・最長60日です。</p><p>推定記憶度が約90%になる日を目安に次回を決め、期限が来たカードの中で記憶度が低いものを優先します。新規カードもその日のキューに入ります。記憶度は目安で、実測の正答率ではありません。</p><p>×のカードは通常出題の最後に1枚につきもう一度だけ出題します。同日の再出題で○になっても、忘却曲線モードでは間隔を延ばさず翌日も復習します。残り枚数・全枚数には再出題分も含まれます。</p><p>固定間隔モードは0日 → 1日 → 3日 → 7日 → 14日 → 30日 → 60日です。○で1段階進み、×で0日段階に戻して翌日復習します。切り替えても現在の復習予定は維持し、次の判定から方式を適用します。</p><p>既存カードの次回復習日は引き継ぎます。以前の履歴がない場合は従来の間隔を初期値に使い、これからの判定で更新します。パソコンとスマホの両方でこのページを再読み込みしてご利用ください。</p></details></div></aside><main id="workspace" class="workspace">
+<div class="app-shell"><aside class="sidebar" aria-label="単語帳メニュー"><header><div class="brand">DAILY WORDS / 毎日、ひとつずつ。</div><h1>ことばの積み重ね</h1><div class="folder-switch"><select id="folderSelect" aria-label="学習するフォルダ"></select><button id="manageFolders" aria-label="フォルダを管理">管理</button></div><div class="stats"><strong id="todayCount"></strong><span id="allCount"></span></div><progress id="progress" max="1" value="0" aria-label="今日の学習の進捗"></progress><div class="sync-strip"><span id="syncSummary" role="status">この端末に保存中 · ログインすると自動同期</span><button id="openSync">同期設定</button></div></header><nav aria-label="メインメニュー"><button data-tab="study" aria-pressed="true">学習する</button><button data-tab="cards" aria-pressed="false">カード管理</button><button data-tab="data" aria-pressed="false">データ</button></nav><div class="side-shortcuts"><button id="sidebarAdd">＋ 単語を登録</button><button id="sidebarCsv">CSVを一括追加</button></div><div class="sidebar-options"><details id="reviewSettings"><summary>復習の設定</summary><div class="scheduler-panel"><label for="schedulerMode">復習の方式</label><select id="schedulerMode"><option value="adaptive">忘却曲線：記憶度に応じて間隔を調整（おすすめ）</option><option value="fixed">従来の固定間隔：忘れやすい順に出題</option></select><p id="schedulerSummary"></p></div></details><details id="reviewHelp"><summary>復習のしくみ</summary><p>忘却曲線モードでは、前回の復習からの日数と○・×の履歴から記憶度を推定します。正解を重ねた単語は間隔を伸ばし、間違えた単語は翌日に戻します。最短1日・最長60日です。</p><p>推定記憶度が約90%になる日を目安に次回を決め、期限が来たカードの中で記憶度が低いものを優先します。新規カードもその日のキューに入ります。記憶度は目安で、実測の正答率ではありません。</p><p>×のカードは通常出題の最後に1枚につきもう一度だけ出題します。同日の再出題で○になっても、忘却曲線モードでは間隔を延ばさず翌日も復習します。残り枚数・全枚数には再出題分も含まれます。</p><p>固定間隔モードは0日 → 1日 → 3日 → 7日 → 14日 → 30日 → 60日です。○で1段階進み、×で0日段階に戻して翌日復習します。切り替えても現在の復習予定は維持し、次の判定から方式を適用します。</p><p>既存カードの次回復習日は引き継ぎます。以前の履歴がない場合は従来の間隔を初期値に使い、これからの判定で更新します。パソコンとスマホの両方でこのページを再読み込みしてご利用ください。</p></details></div></aside><main id="workspace" class="workspace">
 <div id="storageNotice" class="notice" role="alert" hidden></div>
 
-<section id="study"><div class="toolbar"><span class="eyebrow">TODAY'S PRACTICE</span><span id="sessionType" class="badge"></span></div><div id="studyContent"></div><p class="rule">○は、①重要な日本語訳と②他の意味を<strong>すべて</strong>言えたときだけ。一部だけ・迷った場合は×にしましょう。</p></section>
-<section id="cards" hidden><div class="toolbar"><h2>カード管理</h2><button id="addCard" class="primary">＋ 追加</button></div><div id="editor" class="panel" hidden><h3 id="editorTitle">カードを追加</h3><form id="cardForm"><div id="formFields"></div><div class="actions"><button type="button" id="cancelEdit">キャンセル</button><button type="submit" class="primary">保存する</button></div></form></div><label for="search">単語・意味で検索</label><input id="search" type="search" placeholder="例：submit ／ 提出"><div id="cardList"></div></section>
-<section id="data" hidden><div id="mobileSettingsHost"></div><div class="panel" id="cloudPanel">
+<section id="study"><div class="toolbar"><span class="eyebrow">TODAY'S PRACTICE</span><span id="sessionType" class="badge"></span></div><div id="studyContent"></div><p class="rule" id="studyRule">○は、①重要な日本語訳と②他の意味を<strong>すべて</strong>言えたときだけ。一部だけ・迷った場合は×にしましょう。</p></section>
+<section id="cards" hidden><div class="toolbar"><h2>カード管理</h2><button id="addCard" class="primary">＋ 追加</button></div><div id="editor" class="panel" hidden><h3 id="editorTitle">カードを追加</h3><form id="cardForm"><label for="cardFolder">保存先フォルダ</label><select id="cardFolder"></select><div id="formFields"></div><div class="actions"><button type="button" id="cancelEdit">キャンセル</button><button type="submit" class="primary">保存する</button></div></form></div><label for="search">単語・意味で検索</label><input id="search" type="search" placeholder="例：submit ／ 提出"><div id="cardList"></div></section>
+<section id="data" hidden><div id="mobileSettingsHost"></div><div class="panel" id="folderPanel"><h2>学習フォルダ</h2><p class="muted">教科ごとにカードを分けられます。今あるカードは「英語」に引き継いでいます。</p><form id="folderForm"><label for="folderName">新しいフォルダ名</label><input id="folderName" maxlength="60" required placeholder="例：世界史・生物・資格試験"><label for="folderKind">カードの種類</label><select id="folderKind"><option value="general">その他の学習（問題・答え）</option><option value="vocabulary">英単語（英語・日本語訳）</option></select><button type="submit" class="primary" style="margin-top:12px">フォルダを作る</button></form><div id="folderList"></div><p class="muted">フォルダを削除した場合、中のカードは最初のフォルダへ移動します。カードと復習履歴は残ります。</p></div><div class="panel" id="cloudPanel">
 <h2>メールでログイン・端末間同期</h2>
 <p class="muted">同じメールアドレスでログインすると、カード・復習予定・今日の進捗を共有できます。</p>
 <details id="cloudSettings"><summary>初回の接続設定</summary><p class="muted">管理者から案内されたSupabaseの接続情報を入力します。この端末に保存されます。</p><label for="cloudUrl">Project URL</label><input id="cloudUrl" type="url" placeholder="https://xxxxx.supabase.co" autocomplete="off"><label for="cloudKey">Publishable key（公開キー）</label><input id="cloudKey" type="text" placeholder="sb_publishable_… または anon キー" autocomplete="off"><p class="muted">公開用キーのみ使用してください。service_role・secretキーは入力しないでください。</p><button id="saveCloudConfig">接続設定を保存</button></details>
@@ -109,27 +113,44 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
 <p class="muted">一度ログインすると、カードの追加と学習結果を自動保存します。PCで登録したカードはスマホへ、スマホの学習結果はPCへ自動で反映します。通常は保存先を選ぶ操作は不要です。ページを開き直したときや再接続時にも同期します。</p>
 <details id="cloudRecovery"><summary>復旧用の操作（通常は不要）</summary><p>自動同期前の端末データは、このブラウザにバックアップしています。</p><button id="downloadRecovery">同期前の端末データをJSONで保存</button><div id="cloudChoice"><p class="muted">以下は全データの置き換えです。通常は自動同期にお任せください。</p><p id="cloudSummary"></p><div class="actions"><button id="useCloud">クラウドから全データを読み直す</button><button id="useDevice" class="negative">この端末の全データでクラウドを置き換える</button></div></div></details>
 </div>
-<div class="panel" id="csvPanel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code>英単語,①重要な日本語訳,②他の意味,③類義語・派生語・対義語,④短い例文,⑤例文の日本語訳,⑥イラスト</code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">この端末・ブラウザのlocalStorageに自動保存します。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
+<div class="panel" id="csvPanel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code id="csvColumnOrder"></code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csvFolder">追加先フォルダ</label><select id="csvFolder"></select><p id="csvColumns" class="muted"></p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">この端末・ブラウザのlocalStorageに自動保存します。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
 </main></div><div id="toast" role="status" hidden></div>
 <script>
 'use strict';
 const KEY='daily-words-v1', INTERVALS=[0,1,3,7,14,30,60];
+const DEFAULT_FOLDER='english',ALL_FOLDERS='*',FOLDER_VIEW_KEY=KEY+':folder-view';
+const generalLabels=['問題・用語','①重要な答え','②補足・別の答え','③関連事項','④例・解説','⑤補足説明','⑥図・イラスト'];
+function defaultFolder(){return {id:DEFAULT_FOLDER,name:'英語',kind:'vocabulary',deleted:false}}
 const labels=['英単語','①重要な日本語訳','②他の意味','③類義語・派生語・対義語','④短い例文','⑤例文の日本語訳','⑥イラスト'];
 const $=id=>document.getElementById(id);
 function today(){const d=new Date();return dateKey(d)}
 function dateKey(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
 function after(days){const d=new Date();d.setDate(d.getDate()+days);return dateKey(d)}
 function uid(){return globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)}
-function card(fields){const c={id:uid(),fields,stage:0,due:today()};c.memory=seedMemory(c);return c}
-function initial(){return {version:2,settings:{scheduler:'adaptive'},cards:[
+function card(fields,folderId=DEFAULT_FOLDER){const c={id:uid(),folderId,fields,stage:0,due:today()};c.memory=seedMemory(c);return c}
+function initial(){return {version:3,folders:[defaultFolder()],settings:{scheduler:'adaptive'},cards:[
 ['submit','動）提出する','動）従う、服従する','類）hand in：提出する\n派）submission：提出、服従\n対）withdraw：撤回する','Please submit your report by Friday.','金曜日までに報告書を提出してください。','📄 担当者が完成した報告書を上司に手渡している。'],
 ['charge','名）料金、請求額','動）請求する、充電する\n名）責任、担当','類）fee：料金\n派）recharge：充電し直す\n対）discharge：放電する（充電するの対義）','There is no extra charge for delivery.','配達の追加料金はかかりません。','🚚 配達員が「追加料金なし」の荷物を届けている。'],
 ['available','形）利用できる、入手できる','形）手が空いている、都合がつく','類）obtainable：入手可能な\n派）availability：利用可能性\n対）unavailable：利用できない','The meeting room is available at two.','その会議室は2時に利用できます。','🚪 予定表の2時の欄が空いている会議室。'],
 ['issue','名）問題、課題','名）発行物、号\n動）発行する、支給する','類）problem：問題\n派）issuance：発行\n関連）resolve an issue：問題を解決する','We need to resolve this issue today.','私たちは今日この問題を解決する必要があります。','🧩 チームが会議で問題の解決策を話し合っている。'],
 ['purchase','動）購入する','名）購入、購入品','類）buy：買う\n派）purchaser：購入者\n対）sell：売る','You can purchase tickets online.','オンラインでチケットを購入できます。','🎟️ スマートフォンでチケットを購入している。']
-].map(card),session:{date:today(),queue:[],done:0}}}
+].map(fields=>card(fields)),session:{date:today(),queue:[],done:0,doneByFolder:{}}}}
 function validDate(v){if(typeof v!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(v))return false;const d=new Date(v+'T12:00:00');return !isNaN(d)&&dateKey(d)===v}
-function validate(raw){if(!raw||![1,2].includes(raw.version)||!Array.isArray(raw.cards)||!raw.session)throw Error('対応するJSON形式ではありません。');const ids=new Set();const cards=raw.cards.map(c=>{if(!c||typeof c.id!=='string'||!c.id||ids.has(c.id)||!Array.isArray(c.fields)||c.fields.length!==7||c.fields.some(f=>typeof f!=='string')||!c.fields[0].trim()||!c.fields[1].trim()||!Number.isInteger(c.stage)||c.stage<0||c.stage>6||!validDate(c.due))throw Error('カードの項目・ID・復習予定が不正です。');ids.add(c.id);return {id:c.id,fields:[...c.fields],stage:c.stage,due:c.due,memory:validateMemory(c)}});const s=raw.session;if(!validDate(s.date)||!Array.isArray(s.queue)||!Number.isSafeInteger(s.done)||s.done<0)throw Error('学習キューが不正です。');const qids=new Set();const queue=s.queue.map(q=>{if(!q||!ids.has(q.id)||qids.has(q.id)||typeof q.retry!=='boolean')throw Error('学習キューのカードが不正です。');qids.add(q.id);return {id:q.id,retry:q.retry}});if(raw.settings!==undefined&&(!raw.settings||!['adaptive','fixed'].includes(raw.settings.scheduler)))throw Error('復習方式が不正です。');return {version:2,settings:{scheduler:raw.settings?.scheduler||'adaptive'},cards,session:{date:s.date,queue,done:s.done}}}
+function validate(raw){
+ if(!raw||![1,2,3].includes(raw.version)||!Array.isArray(raw.cards)||!raw.session||(raw.version===3&&!Array.isArray(raw.folders)))throw Error('対応するJSON形式ではありません。');
+ const folderIds=new Set(),folders=(raw.folders===undefined?[defaultFolder()]:raw.folders);
+ if(!Array.isArray(folders))throw Error('フォルダの形式が不正です。');
+ const normalizedFolders=folders.map(f=>{if(!f||typeof f.id!=='string'||!f.id||f.id===ALL_FOLDERS||['__proto__','constructor','prototype'].includes(f.id)||folderIds.has(f.id)||typeof f.name!=='string'||!f.name.trim()||f.name.length>60||!['vocabulary','general'].includes(f.kind)||typeof f.deleted!=='boolean'||(f.id===DEFAULT_FOLDER&&f.deleted))throw Error('フォルダの項目が不正です。');folderIds.add(f.id);return {id:f.id,name:f.name.trim(),kind:f.kind,deleted:f.deleted}});
+ if(!folderIds.has(DEFAULT_FOLDER))normalizedFolders.unshift(defaultFolder());
+ const live=new Set(normalizedFolders.filter(f=>!f.deleted).map(f=>f.id)),ids=new Set();
+ const cards=raw.cards.map(c=>{if(!c||typeof c.id!=='string'||!c.id||ids.has(c.id)||!Array.isArray(c.fields)||c.fields.length!==7||c.fields.some(f=>typeof f!=='string')||!c.fields[0].trim()||!c.fields[1].trim()||!Number.isInteger(c.stage)||c.stage<0||c.stage>6||!validDate(c.due))throw Error('カードの項目・ID・復習予定が不正です。');ids.add(c.id);return {id:c.id,folderId:live.has(c.folderId)?c.folderId:DEFAULT_FOLDER,fields:[...c.fields],stage:c.stage,due:c.due,memory:validateMemory(c)}});
+ const q=raw.session;if(!validDate(q.date)||!Array.isArray(q.queue)||!Number.isSafeInteger(q.done)||q.done<0)throw Error('学習キューが不正です。');
+ const qids=new Set(),queue=q.queue.map(v=>{if(!v||!ids.has(v.id)||qids.has(v.id)||typeof v.retry!=='boolean')throw Error('学習キューのカードが不正です。');qids.add(v.id);return {id:v.id,retry:v.retry}});
+ const doneByFolder={};if(q.doneByFolder!==undefined){if(!q.doneByFolder||typeof q.doneByFolder!=='object'||Array.isArray(q.doneByFolder))throw Error('フォルダの進捗が不正です。');for(const [id,n] of Object.entries(q.doneByFolder)){if(['__proto__','constructor','prototype'].includes(id)||!Number.isSafeInteger(n)||n<0)throw Error('フォルダの進捗が不正です。');Object.defineProperty(doneByFolder,id,{value:n,enumerable:true,writable:true,configurable:true})}}
+ else doneByFolder[DEFAULT_FOLDER]=q.done;
+ if(raw.settings!==undefined&&(!raw.settings||!['adaptive','fixed'].includes(raw.settings.scheduler)))throw Error('復習方式が不正です。');
+ return {version:3,folders:normalizedFolders,settings:{scheduler:raw.settings?.scheduler||'adaptive'},cards,session:{date:q.date,queue,done:q.done,doneByFolder}};
+}
 // R(t)=0.9^(t/S)。Sは推定記憶度が90%になる日数（個人内の目安）。
 const RETENTION_TARGET=0.9,MAX_REVIEW_DAYS=60;
 function daysBetween(a,b){return Math.max(0,Math.round((Date.parse(b+'T00:00:00Z')-Date.parse(a+'T00:00:00Z'))/86400000))}
@@ -189,36 +210,62 @@ function renderScheduler(){
   $('schedulerSummary').textContent=adaptiveMode()?'忘却曲線に沿い、記憶度が低いカードから復習。○で間隔を調整し、×は翌日へ戻します。':'固定間隔（0→1→3→7→14→30→60日）で、記憶度が低いカードから復習します。';
 }
 
+let activeFolder=DEFAULT_FOLDER;try{activeFolder=localStorage.getItem(FOLDER_VIEW_KEY)||DEFAULT_FOLDER}catch(e){}
 let state,storageBlocked=false,revealed=false,editing=null,activeTab='study',toastTimer;
 try{const saved=localStorage.getItem(KEY);state=saved?validate(JSON.parse(saved)):initial()}catch(e){state=initial();storageBlocked=true;$('storageNotice').hidden=false;$('storageNotice').textContent='保存データを読み込めませんでした。元データを保護するため自動保存を停止しています。JSONから復元するか、現在の内容をJSONで保存してください。 '+e.message}
 function persist(){if(storageBlocked)return;try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='自動保存できません。この画面では学習できますが、閉じる前にJSONをエクスポートしてください。'}}
-function syncDay(){if(state.session.date!==today()){state.session={date:today(),queue:state.cards.filter(c=>c.due<=today()).map(c=>({id:c.id,retry:false})),done:0};revealed=false;orderStudyQueue();persist();return true}return false}
+function syncDay(){if(state.session.date!==today()){state.session={date:today(),queue:state.cards.filter(c=>c.due<=today()).map(c=>({id:c.id,retry:false})),done:0,doneByFolder:{}};revealed=false;orderStudyQueue();persist();return true}return false}
 function addDue(){const ids=new Set(state.session.queue.map(q=>q.id));state.cards.filter(c=>c.due<=today()&&!ids.has(c.id)).forEach(c=>enqueue(c.id))}
 function enqueue(id){const q=state.session.queue;const index=q.findIndex(x=>x.retry);q.splice(index<0?q.length:index,0,{id,retry:false});orderStudyQueue(true)}
 function toast(msg){$('toast').textContent=msg;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3200)}
 function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e}
-function stats(){const remaining=state.session.queue.length,total=remaining+state.session.done;$('todayCount').textContent=`今日の復習：残り${remaining}枚／全${total}枚`;$('allCount').textContent=`全カード数：${state.cards.length}枚`;$('progress').max=total||1;$('progress').value=total?state.session.done:0}
-function render(){syncDay();stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList()}
-function renderStudy(){const root=$('studyContent');root.replaceChildren();const item=state.session.queue[0];$('sessionType').textContent=item?.retry?'最後のもう一度':item?'意味を思い出してからタップ':'';if(!item){const box=el('div','card empty');box.append(el('div','empty-symbol','🌿'),el('h2','',state.cards.length?'今日の学習は完了です':'最初のカードを追加しましょう'),el('p','muted',state.cards.length?'おつかれさまでした。少しずつ、記憶を積み重ねていきましょう。':'「カード管理」または「データ」から追加できます。'));const next=state.cards.map(c=>c.due).sort()[0];if(next)box.append(el('p','badge',`次の復習日：${next}`));root.append(box);return}const c=state.cards.find(c=>c.id===item.id);if(!revealed){const front=el('button','card front');front.type='button';front.setAttribute('aria-label',c.fields[0]+'：タップして裏面を表示');front.append(el('span','eyebrow','ENGLISH'),el('span','word',c.fields[0]),el('span','hint','タップして答えを見る ↗'));front.onclick=()=>{if(syncDay()){render();return}revealed=true;renderStudy()};root.append(front);return}const back=el('div','card back-card'),heading=el('div','card-heading'),layout=el('div','answer-layout'),textSide=el('div','answer-text');heading.append(el('h2','back-word',c.fields[0]),el('p','memory-info',memoryText(c)));layout.append(textSide);back.append(heading,layout);for(let i=1;i<7;i++){const field=el('div',i===6?'field illustration-field':'field');field.append(el('span','field-label',labels[i]));if(i===6&&/^http/i.test(c.fields[i].trim())){const img=el('img','illustration');img.alt=c.fields[0]+' のイラスト';img.referrerPolicy='no-referrer';img.src=c.fields[i].trim();img.onerror=()=>{img.replaceWith(el('p','value','画像を表示できません。URLと通信状況を確認してください。'))};field.append(img)}else field.append(el('div',i===1?'value important':'value',c.fields[i]||'—'));if(i===6)layout.append(field);else textSide.append(field)}const actions=el('div','actions grade');const no=el('button','negative','言えなかった／一部だけ（×）');const yes=el('button','primary','全部言えた（○）');no.onclick=()=>grade(false);yes.onclick=()=>grade(true);actions.append(no,yes);root.append(back,actions)}
+function liveFolders(){return state.folders.filter(f=>!f.deleted)}
+function folderInfo(id){return state.folders.find(f=>f.id===id&&!f.deleted)||state.folders.find(f=>f.id===DEFAULT_FOLDER)}
+function labelsFor(id){return folderInfo(id).kind==='general'?generalLabels:labels}
+function selectedCards(){return state.cards.filter(c=>activeFolder===ALL_FOLDERS||(c.folderId||DEFAULT_FOLDER)===activeFolder)}
+function studyItem(){const ids=new Set(selectedCards().map(c=>c.id));return state.session.queue.find(q=>ids.has(q.id))}
+function folderOptions(select,value,all=false){const actual=(all&&value===ALL_FOLDERS)||liveFolders().some(f=>f.id===value)?value:DEFAULT_FOLDER,signature=JSON.stringify([all,liveFolders().map(f=>[f.id,f.name])]);if(select.dataset.folderSignature!==signature){select.replaceChildren();if(all){const option=el('option','','すべてのフォルダ');option.value=ALL_FOLDERS;select.append(option)}for(const f of liveFolders()){const option=el('option','',f.name);option.value=f.id;select.append(option)}select.dataset.folderSignature=signature}select.value=actual}
+function selectFolder(id){activeFolder=id===ALL_FOLDERS||liveFolders().some(f=>f.id===id)?id:DEFAULT_FOLDER;try{localStorage.setItem(FOLDER_VIEW_KEY,activeFolder)}catch(e){}$('csvFolder').value=activeFolder===ALL_FOLDERS?DEFAULT_FOLDER:activeFolder;revealed=false;render()}
+function updateCsvLabels(){const id=$('csvFolder').value;$('csvColumnOrder').textContent=labelsFor(id).join(',');$('csvColumns').textContent=`「${folderInfo(id).name}」へ追加します。表面と①は必須です。`;$('csv').placeholder=folderInfo(id).kind==='general'?'フランス革命が始まった年は？,1789年,,関連：人権宣言,,,🏰 民衆が牢獄の前に集まっている。':'submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'}
+function renderFolders(){
+ if(activeFolder!==ALL_FOLDERS&&!liveFolders().some(f=>f.id===activeFolder))activeFolder=DEFAULT_FOLDER;
+ folderOptions($('folderSelect'),activeFolder,true);$('sidebarAdd').textContent=activeFolder!==ALL_FOLDERS&&folderInfo(activeFolder).kind==='general'?'＋ カードを登録':'＋ 単語を登録';$('search').placeholder=activeFolder!==ALL_FOLDERS&&folderInfo(activeFolder).kind==='general'?'例：フランス革命 ／ 1789':'例：submit ／ 提出';
+ folderOptions($('csvFolder'),$('csvFolder').value||activeFolder);updateCsvLabels();
+ const list=$('folderList');list.replaceChildren();for(const f of liveFolders()){
+  const row=el('div','list-item folder-row'),info=el('div'),actions=el('div','actions');info.append(el('strong','',f.name),el('p','muted',`${state.cards.filter(c=>c.folderId===f.id).length}枚 · ${f.kind==='general'?'問題・答え':'英単語'}`));
+  const study=el('button','','学習'),rename=el('button','','名前変更');study.onclick=()=>{selectFolder(f.id);tab('study')};rename.onclick=()=>{const name=prompt('フォルダ名を入力してください。',f.name);if(name===null)return;if(!name.trim()||name.trim().length>60){toast('フォルダ名は1〜60文字にしてください。');return}f.name=name.trim();persist();render()};actions.append(study,rename);
+  if(f.id!==DEFAULT_FOLDER){const remove=el('button','','削除');remove.onclick=()=>{if(!confirm(`「${f.name}」を削除しますか？ 中のカードと復習履歴は「${folderInfo(DEFAULT_FOLDER).name}」へ移動します。`))return;f.deleted=true;state.cards.filter(c=>c.folderId===f.id).forEach(c=>c.folderId=DEFAULT_FOLDER);if(activeFolder===f.id)activeFolder=DEFAULT_FOLDER;revealed=false;persist();render();toast('カードを残してフォルダを削除しました。')};actions.append(remove)}row.append(info,actions);list.append(row)
+ }
+ if(editing&&!state.cards.some(c=>c.id===editing)){editing=null;$('editor').hidden=true}
+ if(!$('editor').hidden){folderOptions($('cardFolder'),$('cardFolder').value||DEFAULT_FOLDER);updateEditorLabels()}
+}
+function updateEditorLabels(){const current=labelsFor($('cardFolder').value);current.forEach((name,i)=>document.querySelector(`label[for="f${i}"]`).textContent=name+(i<2?'（必須）':''))}
+$('folderSelect').onchange=e=>{selectFolder(e.target.value);$('csvFolder').value=activeFolder===ALL_FOLDERS?DEFAULT_FOLDER:activeFolder;updateCsvLabels()};
+$('manageFolders').onclick=()=>{tab('data');$('folderPanel').scrollIntoView({block:'start'})};
+$('folderForm').onsubmit=e=>{e.preventDefault();const name=$('folderName').value.trim();if(!name||name.length>60)return;const folder={id:uid(),name,kind:$('folderKind').value,deleted:false};state.folders.push(folder);activeFolder=folder.id;persist();$('folderForm').reset();selectFolder(folder.id);toast('フォルダを作成しました。')};
+$('cardFolder').onchange=updateEditorLabels;$('csvFolder').onchange=()=>{updateCsvLabels()};
+function stats(){const ids=new Set(selectedCards().map(c=>c.id)),remaining=state.session.queue.filter(q=>ids.has(q.id)).length,done=activeFolder===ALL_FOLDERS?state.session.done:(state.session.doneByFolder?.[activeFolder]||0),total=remaining+done;$('todayCount').textContent=`今日の復習：残り${remaining}枚／全${total}枚`;$('allCount').textContent=`全カード数：${state.cards.length}枚`;$('progress').max=total||1;$('progress').value=total?done:0}
+function render(){syncDay();renderFolders();stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList()}
+function renderStudy(){const root=$('studyContent');root.replaceChildren();const item=studyItem(),studyLabels=labelsFor(state.cards.find(c=>c.id===item?.id)?.folderId||activeFolder);$('studyRule').textContent=`○は、${studyLabels[1]}と${studyLabels[2]}をすべて言えたときだけ。一部だけ・迷った場合は×にしましょう。`;$('sessionType').textContent=item?.retry?'最後のもう一度':item?'意味を思い出してからタップ':'';if(!item){const box=el('div','card empty');box.append(el('div','empty-symbol','🌿'),el('h2','',selectedCards().length?'このフォルダの学習は完了です':'最初のカードを追加しましょう'),el('p','muted',selectedCards().length?'おつかれさまでした。少しずつ、記憶を積み重ねていきましょう。':'「カード管理」または「データ」から追加できます。'));const next=selectedCards().map(c=>c.due).sort()[0];if(next)box.append(el('p','badge',`次の復習日：${next}`));root.append(box);return}const c=state.cards.find(c=>c.id===item.id);if(!revealed){const front=el('button','card front');front.type='button';front.setAttribute('aria-label',c.fields[0]+'：タップして裏面を表示');front.append(el('span','eyebrow',folderInfo(c.folderId).kind==='general'?'QUESTION':'ENGLISH'),el('span','word',c.fields[0]),el('span','hint','タップして答えを見る ↗'));front.onclick=()=>{if(syncDay()){render();return}revealed=true;renderStudy()};root.append(front);return}const back=el('div','card back-card'),heading=el('div','card-heading'),layout=el('div','answer-layout'),textSide=el('div','answer-text');heading.append(el('h2','back-word',c.fields[0]),el('p','memory-info',memoryText(c)));layout.append(textSide);back.append(heading,layout);for(let i=1;i<7;i++){const field=el('div',i===6?'field illustration-field':'field');field.append(el('span','field-label',studyLabels[i]));if(i===6&&/^http/i.test(c.fields[i].trim())){const img=el('img','illustration');img.alt=c.fields[0]+' のイラスト';img.referrerPolicy='no-referrer';img.src=c.fields[i].trim();img.onerror=()=>{img.replaceWith(el('p','value','画像を表示できません。URLと通信状況を確認してください。'))};field.append(img)}else field.append(el('div',i===1?'value important':'value',c.fields[i]||'—'));if(i===6)layout.append(field);else textSide.append(field)}const actions=el('div','actions grade');const no=el('button','negative','言えなかった／一部だけ（×）');const yes=el('button','primary','全部言えた（○）');no.onclick=()=>grade(false);yes.onclick=()=>grade(true);actions.append(no,yes);root.append(back,actions)}
 function grade(ok){
-  if(syncDay()){render();return}if(!revealed||!state.session.queue.length)return;
-  const item=state.session.queue.shift(),c=state.cards.find(c=>c.id===item.id),days=updateMemory(c,ok,item.retry);
-  state.session.done++;if(!ok&&!item.retry)state.session.queue.push({id:c.id,retry:true});
+  if(syncDay()){render();return}if(!revealed||!studyItem())return;
+  const item=studyItem();state.session.queue.splice(state.session.queue.indexOf(item),1);const c=state.cards.find(c=>c.id===item.id),days=updateMemory(c,ok,item.retry);
+  state.session.done++;state.session.doneByFolder??={};state.session.doneByFolder[c.folderId]=(state.session.doneByFolder[c.folderId]||0)+1;if(!ok&&!item.retry)state.session.queue.push({id:c.id,retry:true});
   revealed=false;orderStudyQueue();persist();render();toast(ok?`次回の復習：${days}日後（${c.due}）`:item.retry?'明日もう一度復習しましょう。':'最後にもう一度出題します。次回の復習は明日です。');window.scrollTo({top:0,behavior:'smooth'});
 }
 $('schedulerMode').onchange=e=>{state.settings.scheduler=e.target.value;revealed=false;orderStudyQueue();persist();render();toast('次の判定から復習方式を適用します。')};
 function tab(name){activeTab=name;document.body.dataset.view=name;$('workspace').scrollTop=0;window.scrollTo({top:0,behavior:'instant'});document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===name)));['study','cards','data'].forEach(id=>$(id).hidden=id!==name);render()}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
 labels.forEach((label,i)=>{const l=el('label','',label+(i<2?'（必須）':''));l.htmlFor='f'+i;const f=el(i===0?'input':'textarea');f.id='f'+i;f.name='f'+i;f.required=i<2;if(i>0)f.rows=2;if(i===6)f.placeholder='絵文字＋情景の一文、または画像のURL';$('formFields').append(l,f)});
-function edit(id=null){editing=id;const c=state.cards.find(c=>c.id===id);labels.forEach((_,i)=>$('f'+i).value=c?c.fields[i]:'');$('editorTitle').textContent=c?'カードを編集':'カードを追加';$('editor').hidden=false;$('f0').focus()}
+function edit(id=null){editing=id;const c=state.cards.find(c=>c.id===id);folderOptions($('cardFolder'),c?.folderId||(activeFolder===ALL_FOLDERS?DEFAULT_FOLDER:activeFolder));labels.forEach((_,i)=>$('f'+i).value=c?c.fields[i]:'');updateEditorLabels();$('editorTitle').textContent=c?'カードを編集':'カードを追加';$('editor').hidden=false;$('f0').focus()}
 const mobileLayout=window.matchMedia('(max-width:899px)');function placeReviewSettings(){const options=document.querySelector('.sidebar-options');if(options)(mobileLayout.matches?$('mobileSettingsHost'):document.querySelector('.sidebar')).append(options)}placeReviewSettings();mobileLayout.addEventListener('change',placeReviewSettings);
 $('sidebarAdd').onclick=()=>{tab('cards');edit()};$('sidebarCsv').onclick=()=>{tab('data');$('csvPanel').scrollIntoView({behavior:'smooth',block:'start'});$('csv').focus({preventScroll:true})};
 $('addCard').onclick=()=>edit();$('cancelEdit').onclick=()=>{$('editor').hidden=true;editing=null};
-$('cardForm').onsubmit=e=>{e.preventDefault();syncDay();const fields=labels.map((_,i)=>$('f'+i).value.trim());if(!fields[0]||!fields[1]){toast('英単語と重要な日本語訳を入力してください。');return}if(editing){const c=state.cards.find(c=>c.id===editing);if(c)c.fields=fields}else{const c=card(fields);state.cards.push(c);enqueue(c.id)}editing=null;$('editor').hidden=true;revealed=false;persist();render();toast('カードを保存しました。')};
-function renderList(){const list=$('cardList'),query=$('search').value.toLocaleLowerCase();list.replaceChildren();const filtered=state.cards.filter(c=>c.fields.slice(0,3).join(' ').toLocaleLowerCase().includes(query));if(!filtered.length){list.append(el('p','empty muted','該当するカードはありません。'));return}filtered.forEach(c=>{const row=el('div','list-item'),info=el('div');info.append(el('strong','',c.fields[0]),el('p','',c.fields[1]),el('span','badge',`${c.memory.scheduledDays}日間隔 · 次回 ${c.due}${retention(c)===null?'':' · 推定記憶度 '+Math.round(retention(c)*100)+'%'}`));const actions=el('div','actions'),editBtn=el('button','','編集'),del=el('button','','削除');editBtn.setAttribute('aria-label',c.fields[0]+'を編集');del.setAttribute('aria-label',c.fields[0]+'を削除');editBtn.onclick=()=>edit(c.id);del.onclick=()=>{if(!confirm(`「${c.fields[0]}」を削除しますか？`))return;state.cards=state.cards.filter(x=>x.id!==c.id);state.session.queue=state.session.queue.filter(x=>x.id!==c.id);if(editing===c.id){editing=null;$('editor').hidden=true}revealed=false;persist();render();toast('カードを削除しました。')};actions.append(editBtn,del);row.append(info,actions);list.append(row)})}
+$('cardForm').onsubmit=e=>{e.preventDefault();syncDay();const fields=labels.map((_,i)=>$('f'+i).value.trim());if(!fields[0]||!fields[1]){toast('表面と①の答えを入力してください。');return}if(editing){const c=state.cards.find(c=>c.id===editing);if(c){c.fields=fields;c.folderId=$('cardFolder').value}}else{const c=card(fields,$('cardFolder').value);state.cards.push(c);enqueue(c.id)}editing=null;$('editor').hidden=true;revealed=false;persist();render();toast('カードを保存しました。')};
+function renderList(){const list=$('cardList'),query=$('search').value.toLocaleLowerCase();list.replaceChildren();const filtered=selectedCards().filter(c=>c.fields.slice(0,3).join(' ').toLocaleLowerCase().includes(query));if(!filtered.length){list.append(el('p','empty muted','該当するカードはありません。'));return}filtered.forEach(c=>{const row=el('div','list-item'),info=el('div');info.append(el('strong','',c.fields[0]),el('p','',c.fields[1]),el('span','badge',folderInfo(c.folderId).name+' · '),el('span','badge',`${c.memory.scheduledDays}日間隔 · 次回 ${c.due}${retention(c)===null?'':' · 推定記憶度 '+Math.round(retention(c)*100)+'%'}`));const actions=el('div','actions'),editBtn=el('button','','編集'),del=el('button','','削除');editBtn.setAttribute('aria-label',c.fields[0]+'を編集');del.setAttribute('aria-label',c.fields[0]+'を削除');editBtn.onclick=()=>edit(c.id);del.onclick=()=>{if(!confirm(`「${c.fields[0]}」を削除しますか？`))return;state.cards=state.cards.filter(x=>x.id!==c.id);state.session.queue=state.session.queue.filter(x=>x.id!==c.id);if(editing===c.id){editing=null;$('editor').hidden=true}revealed=false;persist();render();toast('カードを削除しました。')};actions.append(editBtn,del);row.append(info,actions);list.append(row)})}
 $('search').oninput=renderList;
-function parseCSV(text){text=text.replace(/^\uFEFF/,'');const rows=[];let row=[],value='',quoted=false,closed=false;const cell=()=>{row.push(value);value='';closed=false};const line=()=>{cell();if(row.some(v=>v.trim()))rows.push(row);row=[]};for(let i=0;i<text.length;i++){const ch=text[i];if(quoted){if(ch==='"'){if(text[i+1]==='"'){value+='"';i++}else{quoted=false;closed=true}}else value+=ch;continue}if(ch===','){cell();continue}if(ch==='\r'||ch==='\n'){if(ch==='\r'&&text[i+1]==='\n')i++;line();continue}if(closed){if(ch===' '||ch==='\t')continue;throw Error('閉じたダブルクォートの後に不正な文字があります。')}if(ch==='"'){if(value.length)throw Error('ダブルクォートは項目の先頭から使用してください。');quoted=true}else value+=ch}if(quoted)throw Error('ダブルクォートが閉じられていません。');line();if(rows[0]?.every((v,i)=>v.trim()===labels[i])&&rows[0].length===7)rows.shift();return rows}
-$('importCsv').onclick=()=>{try{const rows=parseCSV($('csv').value);if(!rows.length)throw Error('CSVを入力してください。');rows.forEach((r,i)=>{if(r.length!==7)throw Error(`${i+1}行目は${r.length}列です。7列にしてください。`);if(!r[0].trim()||!r[1].trim())throw Error(`${i+1}行目の英単語・重要な日本語訳は必須です。`)});syncDay();rows.forEach(r=>{const c=card(r.map(v=>v.trim()));state.cards.push(c);enqueue(c.id)});revealed=false;persist();render();$('csv').value='';$('csvStatus').textContent=`${rows.length}枚を追加しました。`;toast('今日の学習キューに追加しました。')}catch(e){$('csvStatus').textContent='追加できません：'+e.message}};
+function parseCSV(text){text=text.replace(/^\uFEFF/,'');const rows=[];let row=[],value='',quoted=false,closed=false;const cell=()=>{row.push(value);value='';closed=false};const line=()=>{cell();if(row.some(v=>v.trim()))rows.push(row);row=[]};for(let i=0;i<text.length;i++){const ch=text[i];if(quoted){if(ch==='"'){if(text[i+1]==='"'){value+='"';i++}else{quoted=false;closed=true}}else value+=ch;continue}if(ch===','){cell();continue}if(ch==='\r'||ch==='\n'){if(ch==='\r'&&text[i+1]==='\n')i++;line();continue}if(closed){if(ch===' '||ch==='\t')continue;throw Error('閉じたダブルクォートの後に不正な文字があります。')}if(ch==='"'){if(value.length)throw Error('ダブルクォートは項目の先頭から使用してください。');quoted=true}else value+=ch}if(quoted)throw Error('ダブルクォートが閉じられていません。');line();if(rows[0]?.length===7&&[labels,generalLabels].some(names=>rows[0].every((v,i)=>v.trim()===names[i])))rows.shift();return rows}
+$('importCsv').onclick=()=>{try{const rows=parseCSV($('csv').value);if(!rows.length)throw Error('CSVを入力してください。');rows.forEach((r,i)=>{if(r.length!==7)throw Error(`${i+1}行目は${r.length}列です。7列にしてください。`);if(!r[0].trim()||!r[1].trim())throw Error(`${i+1}行目の表面・①の答えは必須です。`)});syncDay();rows.forEach(r=>{const c=card(r.map(v=>v.trim()),$('csvFolder').value);state.cards.push(c);enqueue(c.id)});revealed=false;persist();render();$('csv').value='';$('csvStatus').textContent=`「${folderInfo($('csvFolder').value).name}」に${rows.length}枚を追加しました。`;toast('今日の学習キューに追加しました。')}catch(e){$('csvStatus').textContent='追加できません：'+e.message}};
 $('exportJson').onclick=()=>{syncDay();const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=el('a');a.href=url;a.download=`daily-words-${today()}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);toast('JSONを書き出しました。')};
 $('jsonFile').onchange=async()=>{const file=$('jsonFile').files[0];if(!file)return;try{$('jsonText').value=await file.text();$('jsonStatus').textContent='ファイルを読み込みました。「JSONから復元する」で確定します。'}catch(e){$('jsonStatus').textContent='ファイルを読み込めませんでした。'}};
 $('importJson').onclick=()=>{try{const restored=validate(JSON.parse($('jsonText').value));if(!confirm(`${restored.cards.length}枚のカードと学習進捗で、現在の全データを置き換えますか？`))return;state=restored;storageBlocked=false;$('storageNotice').hidden=true;syncDay();revealed=false;editing=null;$('editor').hidden=true;persist();render();$('jsonStatus').textContent='カードと学習進捗を復元しました。';toast('復元しました。')}catch(e){$('jsonStatus').textContent='復元できません：'+e.message}};
@@ -279,8 +326,8 @@ async function writeCloud(revision,snapshot){
   return data.revision;
 }
 function normalizedSync(input){
-  const value=validate(input);
-  if(value.session.date!==today())value.session={date:today(),queue:value.cards.filter(c=>c.due<=today()).map(c=>({id:c.id,retry:false})),done:0};
+  const value=validate(input);value.folders.sort((a,b)=>a.id.localeCompare(b.id));value.session.doneByFolder=Object.fromEntries(Object.entries(value.session.doneByFolder).sort(([a],[b])=>a.localeCompare(b)));
+  if(value.session.date!==today())value.session={date:today(),queue:value.cards.filter(c=>c.due<=today()).map(c=>({id:c.id,retry:false})),done:0,doneByFolder:{}};
   const cards=new Map(value.cards.map(c=>[c.id,c]));
   value.session.queue.sort((a,b)=>Number(a.retry)-Number(b.retry)||(!a.retry?compareCards(cards.get(a.id),cards.get(b.id)):0)||a.id.localeCompare(b.id));
   return value;
@@ -293,6 +340,10 @@ function chooseReview(a,b){
   const ma=a.memory,mb=b.memory;
   const score=(ma.lastReviewed||'').localeCompare(mb.lastReviewed||'')||ma.reviews-mb.reviews||ma.lapses-mb.lapses||b.due.localeCompare(a.due)||mb.stability-ma.stability;
   return score>0?a:score<0?b:JSON.stringify(reviewPart(a))<=JSON.stringify(reviewPart(b))?a:b;
+}
+function mergeFolders(local,remote,base){
+ const lm=new Map(local.folders.map(f=>[f.id,f])),rm=new Map(remote.folders.map(f=>[f.id,f])),bm=new Map((base?.folders||[]).map(f=>[f.id,f]));
+ return [...new Set([...lm.keys(),...rm.keys()])].map(id=>{const l=lm.get(id),r=rm.get(id),b=bm.get(id);if(!l)return r;if(!r)return l;return {id,name:b&&l.name!==b.name&&r.name===b.name?l.name:r.name,kind:b&&l.kind!==b.kind&&r.kind===b.kind?l.kind:r.kind,deleted:id!==DEFAULT_FOLDER&&(l.deleted||r.deleted)}});
 }
 function mergeStudyData(localInput,remoteInput,baseInput=null){
   const local=normalizedSync(localInput),remote=normalizedSync(remoteInput),base=baseInput?normalizedSync(baseInput):null;
@@ -307,14 +358,14 @@ function mergeStudyData(localInput,remoteInput,baseInput=null){
       const fields=r.fields.map((v,i)=>b?(l.fields[i]===b.fields[i]?v:v===b.fields[i]?l.fields[i]:v):v);
       const lp=reviewPart(l),rp=reviewPart(r),bp=b?reviewPart(b):null;
       const learned=b&&sameValue(lp,bp)?r:b&&sameValue(rp,bp)?l:chooseReview(l,r);
-      out={id:r.id,fields,...reviewPart(learned)};
+      out={id:r.id,folderId:b&&l.folderId!==b.folderId&&r.folderId===b.folderId?l.folderId:r.folderId,fields,...reviewPart(learned)};
     }
-    cards.push(out);words.add(out.fields[0].normalize('NFKC').trim().toLowerCase());
+    cards.push(out);words.add(out.folderId+'\0'+out.fields[0].normalize('NFKC').trim().toLowerCase());
   }
   for(const l of local.cards){
     if(rm.has(l.id))continue;
     if(base&&bm.has(l.id))continue; // 別端末で削除されたカードを復活させない。
-    const word=l.fields[0].normalize('NFKC').trim().toLowerCase();
+    const word=l.folderId+'\0'+l.fields[0].normalize('NFKC').trim().toLowerCase();
     if(!base&&words.has(word))continue; // 初回移行のサンプルや重複カードは増やさない。
     cards.push(l);words.add(word);
   }
@@ -328,10 +379,15 @@ function mergeStudyData(localInput,remoteInput,baseInput=null){
     if(right&&!left&&(lm.get(c.id)?.memory.reviews??-1)>(rm.get(c.id)?.memory.reviews??0))retry=false;
     if(retry)queue.push({id:c.id,retry:true});
   }
-  let done=Math.max(local.session.done,remote.session.done);
-  if(base){let delta=0;for(const c of cards)if(c.memory.lastReviewed===today())delta+=Math.max(0,c.memory.reviews-(bm.get(c.id)?.memory.reviews||0));done=Math.max(done,base.session.done+delta)}
+  const folders=mergeFolders(local,remote,base),doneByFolder={};
+  for(const id of new Set([...Object.keys(local.session.doneByFolder),...Object.keys(remote.session.doneByFolder)])){
+    let done=Math.max(local.session.doneByFolder[id]||0,remote.session.doneByFolder[id]||0);
+    if(base){let delta=0;for(const c of cards)if(c.folderId===id&&c.memory.lastReviewed===today())delta+=Math.max(0,c.memory.reviews-(bm.get(c.id)?.memory.reviews||0));done=Math.max(done,(base.session.doneByFolder[id]||0)+delta)}
+    Object.defineProperty(doneByFolder,id,{value:done,enumerable:true,writable:true,configurable:true});
+  }
+  const done=Math.max(local.session.done,remote.session.done,Object.values(doneByFolder).reduce((a,b)=>a+b,0));
   const settings=base&&!sameValue(local.settings,base.settings)&&sameValue(remote.settings,base.settings)?local.settings:remote.settings;
-  return normalizedSync({version:2,settings,cards,session:{date:today(),queue,done}});
+  return normalizedSync({version:3,folders,settings,cards,session:{date:today(),queue,done,doneByFolder}});
 }
 function cloudMetaKey(){return KEY+':autosync:'+cloudConfig.url+':'+cloudAuth.user.id}
 function recoveryKey(){return KEY+':before-sync:'+cloudConfig.url+':'+cloudAuth.user.id}
@@ -346,12 +402,12 @@ function saveRecovery(snapshot){
   try{const key=recoveryKey();if(!localStorage.getItem(key))localStorage.setItem(key,snapshot)}catch(e){}
 }
 function applySyncedState(next){
-  const oldFirst=state.session.queue[0],oldCard=state.cards.find(c=>c.id===oldFirst?.id),wasRevealed=revealed;
+  const oldFirst=studyItem(),oldCard=state.cards.find(c=>c.id===oldFirst?.id),wasRevealed=revealed;
   state=validate(next);const newCard=state.cards.find(c=>c.id===oldFirst?.id);
   const keep=wasRevealed&&oldCard&&newCard&&sameValue(oldCard,newCard)&&state.session.queue.some(q=>q.id===oldFirst.id);
   if(keep){state.session.queue=[state.session.queue.find(q=>q.id===oldFirst.id),...state.session.queue.filter(q=>q.id!==oldFirst.id)];revealed=true}else revealed=false;
   // カード編集フォームの未保存の入力は消さず、同期後のカードへ保存できるようにする。
-  stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList();
+  renderFolders();stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList();
 }
 function cloudMessage(s){
   $('cloudStatus').textContent=s;
@@ -376,7 +432,7 @@ async function loginCloud(data){
 function guestForSync(input,remoteExists){
   if(!remoteExists||cloudBase)return input;
   const value=validate(input),sampleFields=new Set(initial().cards.map(c=>JSON.stringify(c.fields)));
-  value.cards=value.cards.filter(c=>!(c.memory.reviews===0&&c.stage===0&&sampleFields.has(JSON.stringify(c.fields))));
+  value.cards=value.cards.filter(c=>!(c.folderId===DEFAULT_FOLDER&&c.memory.reviews===0&&c.stage===0&&sampleFields.has(JSON.stringify(c.fields))));
   const ids=new Set(value.cards.map(c=>c.id));value.session.queue=value.session.queue.filter(q=>ids.has(q.id));return value;
 }
 async function syncCloud(force=false){
