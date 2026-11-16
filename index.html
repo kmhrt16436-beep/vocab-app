@@ -57,6 +57,39 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
  .sidebar nav button{font-size:14px;min-height:44px}.workspace{padding-top:12px}.answer-layout{display:flex;flex-direction:column;gap:18px}.illustration-field{margin-bottom:0}.card-heading .back-word{font-size:26px}.card-heading .memory-info{font-size:12px}
 }
 
+/* スマホは下部ナビゲーションと、画面の高さに合わせた学習カード。 */
+@media(max-width:899px){
+ html,body{height:100%;overflow:hidden}
+ .app-shell{height:100vh;height:100dvh;min-height:0;display:grid;grid-template-rows:auto minmax(0,1fr);padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+ .sidebar{display:contents}.sidebar header{padding:8px 12px 6px;padding-top:max(8px,env(safe-area-inset-top));border-bottom:1px solid var(--line)}
+ .sidebar .brand,.sidebar h1{display:none}.sidebar .stats{margin:0;gap:4px 10px;justify-content:space-between;align-items:center;font-size:11px;line-height:1.5}.sidebar .stats strong{font-size:12px}
+ .sidebar progress{height:3px;margin:5px 0 0}.sidebar .sync-strip{margin:3px 0 0;gap:6px;font-size:10px;line-height:1.3}.sidebar .sync-strip button{font-size:10px;min-height:24px;padding:2px 8px;border-radius:6px}
+ .sidebar nav{position:fixed;z-index:5;bottom:0;left:0;right:0;margin:0;gap:6px;padding:6px 10px calc(6px + env(safe-area-inset-bottom));height:calc(64px + env(safe-area-inset-bottom));background:var(--paper);border-top:1px solid var(--line);box-shadow:0 -3px 16px #203c3608}
+ .sidebar nav button{font-size:13px;min-height:48px;padding:8px 4px;border-radius:10px}
+ .workspace{width:100%;max-width:none;height:100%;min-height:0;overflow-y:auto;padding:12px 12px 20px;overscroll-behavior:contain}
+ body[data-view="study"] .workspace{display:flex;flex-direction:column;overflow:hidden;padding:8px 10px}
+ #study{display:flex;flex-direction:column;flex:1;min-height:0;width:100%;max-width:600px;margin:0 auto}
+ #study>.toolbar{display:none}#study .eyebrow{font-size:9px;letter-spacing:.06em}#study .badge{font-size:10px}
+ #studyContent{display:flex;flex-direction:column;flex:1;min-height:0;gap:8px}
+ #studyContent>.card{flex:1;min-height:0;margin:0;padding:12px 14px;border-radius:16px}
+ #studyContent>.front{height:auto;gap:22px;overflow:auto}.front .word{font-size:clamp(28px,8vw,44px)}.front .hint{font-size:12px}
+ .back-card{display:flex;flex-direction:column;min-width:0}.card-heading{flex:none;max-height:20vh;overflow:auto;padding-bottom:6px;margin-bottom:7px}.card-heading .back-word{font-size:22px;line-height:1.2}.card-heading .memory-info{display:none}
+ .answer-layout{--answer-size:14px;display:flex;flex-direction:column;flex:1;min-height:0;gap:8px}
+ .answer-text{flex:0 1 auto;min-height:0;overflow:auto}.answer-layout .field{margin:0 0 6px}.answer-layout .field:last-child{margin:0}.answer-layout .field-label{font-size:10px;line-height:1.3;margin-bottom:2px}.answer-layout .value{font-size:var(--answer-size);line-height:1.4}.answer-layout .important{font-size:calc(var(--answer-size)*1.5);font-weight:700;color:var(--red);line-height:1.3}
+ .answer-layout .illustration-field{flex:1 0 70px;min-height:0;display:flex;flex-direction:column;margin:0;overflow:auto}.illustration-field .field-label{flex:none}.illustration-field .illustration{flex:1;min-height:0;width:100%;height:100%;max-height:100%;object-fit:contain;border-radius:8px}.illustration-field>.value{margin:auto 0}
+ .grade{flex:none;flex-direction:row;flex-wrap:nowrap;gap:8px}.grade button{min-width:0;min-height:48px;padding:8px 5px;font-size:12px;line-height:1.4;border-radius:10px}
+ #study>.rule{flex:none;font-size:10px;line-height:1.4;padding:6px 9px;margin:7px 0 0;border-radius:8px}
+ #studyContent>.empty{display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:auto}.empty h2{font-size:20px}.empty p{font-size:14px}
+ #mobileSettingsHost .sidebar-options{display:block;padding:0;margin-bottom:16px}#mobileSettingsHost details{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:4px 12px;margin-bottom:8px}#mobileSettingsHost summary{font-size:14px}
+ #toast{bottom:calc(130px + env(safe-area-inset-bottom));font-size:12px;padding:8px 12px;pointer-events:none}
+}
+@media(max-width:899px) and (max-height:660px){
+ body[data-view="study"] .workspace{padding:5px 8px}#study>.toolbar{margin-bottom:4px}#studyContent{gap:5px}#studyContent>.card{padding:9px 11px}.answer-layout{--answer-size:13px;gap:5px}.answer-layout .field{margin-bottom:4px}.answer-layout .field-label{font-size:9px;margin-bottom:1px}.card-heading{padding-bottom:4px;margin-bottom:5px}.card-heading .back-word{font-size:20px}.card-heading .memory-info{font-size:9px}.answer-layout .illustration-field{flex-basis:54px}#study>.rule{margin-top:5px;font-size:9px;padding:5px 7px}
+}
+@media(max-width:899px) and (orientation:landscape){
+ .answer-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(100px,.7fr);gap:12px}.answer-text{overflow:auto}.answer-layout .illustration-field{min-height:0}.sidebar .sync-strip{display:none}#study>.toolbar{display:none}#study>.rule{font-size:9px}
+}
+
 </style>
 </head>
 <body data-view="study">
@@ -66,7 +99,7 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
 
 <section id="study"><div class="toolbar"><span class="eyebrow">TODAY'S PRACTICE</span><span id="sessionType" class="badge"></span></div><div id="studyContent"></div><p class="rule">○は、①重要な日本語訳と②他の意味を<strong>すべて</strong>言えたときだけ。一部だけ・迷った場合は×にしましょう。</p></section>
 <section id="cards" hidden><div class="toolbar"><h2>カード管理</h2><button id="addCard" class="primary">＋ 追加</button></div><div id="editor" class="panel" hidden><h3 id="editorTitle">カードを追加</h3><form id="cardForm"><div id="formFields"></div><div class="actions"><button type="button" id="cancelEdit">キャンセル</button><button type="submit" class="primary">保存する</button></div></form></div><label for="search">単語・意味で検索</label><input id="search" type="search" placeholder="例：submit ／ 提出"><div id="cardList"></div></section>
-<section id="data" hidden><div class="panel" id="cloudPanel">
+<section id="data" hidden><div id="mobileSettingsHost"></div><div class="panel" id="cloudPanel">
 <h2>メールでログイン・端末間同期</h2>
 <p class="muted">同じメールアドレスでログインすると、カード・復習予定・今日の進捗を共有できます。</p>
 <details id="cloudSettings"><summary>初回の接続設定</summary><p class="muted">管理者から案内されたSupabaseの接続情報を入力します。この端末に保存されます。</p><label for="cloudUrl">Project URL</label><input id="cloudUrl" type="url" placeholder="https://xxxxx.supabase.co" autocomplete="off"><label for="cloudKey">Publishable key（公開キー）</label><input id="cloudKey" type="text" placeholder="sb_publishable_… または anon キー" autocomplete="off"><p class="muted">公開用キーのみ使用してください。service_role・secretキーは入力しないでください。</p><button id="saveCloudConfig">接続設定を保存</button></details>
@@ -178,6 +211,7 @@ function tab(name){activeTab=name;document.body.dataset.view=name;$('workspace')
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
 labels.forEach((label,i)=>{const l=el('label','',label+(i<2?'（必須）':''));l.htmlFor='f'+i;const f=el(i===0?'input':'textarea');f.id='f'+i;f.name='f'+i;f.required=i<2;if(i>0)f.rows=2;if(i===6)f.placeholder='絵文字＋情景の一文、または画像のURL';$('formFields').append(l,f)});
 function edit(id=null){editing=id;const c=state.cards.find(c=>c.id===id);labels.forEach((_,i)=>$('f'+i).value=c?c.fields[i]:'');$('editorTitle').textContent=c?'カードを編集':'カードを追加';$('editor').hidden=false;$('f0').focus()}
+const mobileLayout=window.matchMedia('(max-width:899px)');function placeReviewSettings(){const options=document.querySelector('.sidebar-options');if(options)(mobileLayout.matches?$('mobileSettingsHost'):document.querySelector('.sidebar')).append(options)}placeReviewSettings();mobileLayout.addEventListener('change',placeReviewSettings);
 $('sidebarAdd').onclick=()=>{tab('cards');edit()};$('sidebarCsv').onclick=()=>{tab('data');$('csvPanel').scrollIntoView({behavior:'smooth',block:'start'});$('csv').focus({preventScroll:true})};
 $('addCard').onclick=()=>edit();$('cancelEdit').onclick=()=>{$('editor').hidden=true;editing=null};
 $('cardForm').onsubmit=e=>{e.preventDefault();syncDay();const fields=labels.map((_,i)=>$('f'+i).value.trim());if(!fields[0]||!fields[1]){toast('英単語と重要な日本語訳を入力してください。');return}if(editing){const c=state.cards.find(c=>c.id===editing);if(c)c.fields=fields}else{const c=card(fields);state.cards.push(c);enqueue(c.id)}editing=null;$('editor').hidden=true;revealed=false;persist();render();toast('カードを保存しました。')};
