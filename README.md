@@ -4,6 +4,8 @@ CSS・JavaScriptを含む単体の `index.html` です。外部ライブラリ�
 
 教科ごとのフォルダを使う場合は [フォルダ機能の使い方](README_folders.md) を参照してください。
 
+ホーム画面からアプリとして使う場合は [PWAの使い方](README_pwa.md) を参照してください。PWAにはマニフェスト・Service Worker・アイコンも公開します。
+
 ## 1. リポジトリを作る
 
 1. GitHubにログインし、右上の「＋」→「New repository」を開きます。
