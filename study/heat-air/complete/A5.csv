@@ -1,32 +1,32 @@
-﻿【A5-01】全圧・静圧・動圧の関係は？,全圧P_T＝静圧P_s＋動圧P_d。,,同じ位置・同じ基準で比較する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-02】動圧の式と単位は？,P_d＝ρU²/2 [Pa]。,,ρ[kg/m³]、U[m/s]。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？,60 Pa。,,0.5×1.2×10²。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-04】全圧100Pa、動圧60Paなら静圧は？,40 Pa。,,P_s＝P_T−P_d。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-05】送風機全圧の定義は？,送風機吐出し側全圧−吸込み側全圧。,,単なる吐出し側の全圧ではない。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-06】送風機静圧の定義は？,送風機全圧−吐出し口動圧。,,前後の静圧差と一般に同じではない。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-07】送風機のない実在ダクトで全圧はどう変化する？,流れに沿って圧力損失分だけ低下する。,,摩擦・局部損失による。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-08】理想流体のベルヌーイ関係で一定なのは？,高さの差を無視すれば静圧＋動圧。,,実在流体では全圧損失を加えて考える。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？,負圧になる。,,動圧は速度二乗なので負にならない。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-10】良好なベルマウス入口で加速すると圧力は？,静圧が低下し動圧が増えるが、全圧損失は小さい。,,スライドでは入口局部損失係数ζ≒0。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？,静圧は大気圧、出口動圧は下流で散逸して損失になる。,,出口損失係数ζ≒1。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-12】ダクト圧力線図を描く手順は？,大気圧線→全圧の損失と送風機上昇→各位置で動圧を引いて静圧。,,管径が変われば速度・動圧も変わる。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-13】一定断面の直管で全圧と静圧の線の間隔は？,速度・密度が一定なら動圧分で一定。,,両線は摩擦損失分だけ低下する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-14】風量Qと平均速度Uと断面積Aの関係は？,Q＝UA。,,Qはm³/sで用いるとUはm/s。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-15】5000m³/h、吐出し口0.1m²なら速度は？,約13.89 m/s。,,(5000/3600)/0.1。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？,約634 Pa。,,動圧約115.7Paを差し引く。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？,W_air＝QP_T [W]。,,m³/minなら60で割ってWへ換算する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-18】送風機効率η_fと軸動力の関係は？,W_shaft＝W_air/η_f。,,効率を掛けずに割る。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？,約3.33 kW。,,(6000/3600)×1000/0.5。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？,風量k倍、圧力k²倍、動力k³倍。,,相似則が適用できる条件での関係。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-21】同じ回転数で相似な羽根車径をk倍にすると？,風量k³倍、圧力k²倍、動力k⁵倍。,,相似則の前提下。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？,直列は同風量で圧力を加算、並列は同圧力で風量を加算。,,実風量は系の抵抗曲線との交点で決まる。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-23】直管部の摩擦圧力損失の式は？,ΔP＝λ(l/d)ρU²/2。,,λは摩擦損失係数。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-24】局部圧力損失の式は？,ΔP＝ζρU²/2。,,ζは曲がり・分岐等の局部損失係数。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-25】直管と曲がり等を含む経路の全損失は？,Σλ(l/d)P_d＋ΣζP_d。,,各区間の速度に対応する動圧を用いる。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？,4倍。,,係数を一定とみなすとΔP∝Q²。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？,60 Pa。,,0.02×(10/0.2)×60。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-28】送風機の動作点とは？,送風機特性曲線とダクト系抵抗曲線の交点。,,ファンの最大風量だけで設計風量を判断しない。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-29】シロッコファンとターボファンの羽根の違いは？,シロッコは前向き羽根、ターボは後向き羽根。,,授業ではターボの高効率等を比較。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-30】等摩擦法とは？,ダクトの単位長さ当たりの圧力損失を揃える設計法。,,等速法と区別する。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-31】等速法と静圧再取得法の違いは？,等速法は風速を揃え、静圧再取得法は減速による静圧回復を利用する。,,全圧が増えるという意味ではない。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
-【A5-32】ダクトの急拡大・急縮小を避ける理由は？,乱れ・剥離による局部損失や騒音を抑えるため。,,授業目安は拡大15°以下、縮小30°以下。,,根拠：空気PDF p.211-245。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png
+﻿"【A5-01】全圧・静圧・動圧の関係は？","全圧P_T＝静圧P_s＋動圧P_d。","","同じ位置・同じ基準で比較する。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-02】動圧の式と単位は？","P_d＝ρU²/2 [Pa]。","","ρ[kg/m³]、U[m/s]。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？","60 Pa。","","0.5×1.2×10²。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-04】全圧100Pa、動圧60Paなら静圧は？","40 Pa。","","P_s＝P_T−P_d。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-05】送風機全圧の定義は？","送風機吐出し側全圧−吸込み側全圧。","","単なる吐出し側の全圧ではない。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-06】送風機静圧の定義は？","送風機全圧−吐出し口動圧。","","前後の静圧差と一般に同じではない。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-07】送風機のない実在ダクトで全圧はどう変化する？","流れに沿って圧力損失分だけ低下する。","","摩擦・局部損失による。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-08】理想流体のベルヌーイ関係で一定なのは？","高さの差を無視すれば静圧＋動圧。","","実在流体では全圧損失を加えて考える。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？","負圧になる。","","動圧は速度二乗なので負にならない。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-10】良好なベルマウス入口で加速すると圧力は？","静圧が低下し動圧が増えるが、全圧損失は小さい。","","スライドでは入口局部損失係数ζ≒0。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+"【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？","静圧は大気圧、出口動圧は下流で散逸して損失になる。","","出口損失係数ζ≒1。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+"【A5-12】ダクト圧力線図を描く手順は？","大気圧線→全圧の損失と送風機上昇→各位置で動圧を引いて静圧。","","管径が変われば速度・動圧も変わる。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-13】一定断面の直管で全圧と静圧の線の間隔は？","速度・密度が一定なら動圧分で一定。","","両線は摩擦損失分だけ低下する。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+"【A5-14】風量Qと平均速度Uと断面積Aの関係は？","Q＝UA。","","Qはm³/sで用いるとUはm/s。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-15】5000m³/h、吐出し口0.1m²なら速度は？","約13.89 m/s。","","(5000/3600)/0.1。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？","約634 Pa。","","動圧約115.7Paを差し引く。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+"【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？","W_air＝QP_T [W]。","","m³/minなら60で割ってWへ換算する。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+"【A5-18】送風機効率η_fと軸動力の関係は？","W_shaft＝W_air/η_f。","","効率を掛けずに割る。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+"【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？","約3.33 kW。","","(6000/3600)×1000/0.5。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+"【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？","風量k倍、圧力k²倍、動力k³倍。","","相似則が適用できる条件での関係。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+"【A5-21】同じ回転数で相似な羽根車径をk倍にすると？","風量k³倍、圧力k²倍、動力k⁵倍。","","相似則の前提下。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+"【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？","直列は同風量で圧力を加算、並列は同圧力で風量を加算。","","実風量は系の抵抗曲線との交点で決まる。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+"【A5-23】直管部の摩擦圧力損失の式は？","ΔP＝λ(l/d)ρU²/2。","","λは摩擦損失係数。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-24】局部圧力損失の式は？","ΔP＝ζρU²/2。","","ζは曲がり・分岐等の局部損失係数。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-25】直管と曲がり等を含む経路の全損失は？","Σλ(l/d)P_d＋ΣζP_d。","","各区間の速度に対応する動圧を用いる。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？","4倍。","","係数を一定とみなすとΔP∝Q²。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？","60 Pa。","","0.02×(10/0.2)×60。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-28】送風機の動作点とは？","送風機特性曲線とダクト系抵抗曲線の交点。","","ファンの最大風量だけで設計風量を判断しない。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+"【A5-29】シロッコファンとターボファンの羽根の違いは？","シロッコは前向き羽根、ターボは後向き羽根。","","授業ではターボの高効率等を比較。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a25-fanblades.png"
+"【A5-30】等摩擦法とは？","ダクトの単位長さ当たりの圧力損失を揃える設計法。","","等速法と区別する。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-31】等速法と静圧再取得法の違いは？","等速法は風速を揃え、静圧再取得法は減速による静圧回復を利用する。","","全圧が増えるという意味ではない。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+"【A5-32】ダクトの急拡大・急縮小を避ける理由は？","乱れ・剥離による局部損失や騒音を抑えるため。","","授業目安は拡大15°以下、縮小30°以下。","","根拠：空気PDF p.211-245。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"

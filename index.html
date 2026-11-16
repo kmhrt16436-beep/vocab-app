@@ -286,6 +286,7 @@ persist=function(){
   if(storageBlocked)return;
   try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末へ保存できません。閉じる前にJSONをエクスポートしてください。'}
   if(cloudReady){rememberCloud();if(!cloudBase||syncString(state)!==cloudBase)cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+  queueMicrotask(refreshStudyIllustrations);
 };
 function cloudLocalKey(id){return KEY+':account:'+id}
 function configValid(c){return c && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(c.url)&&typeof c.key==='string'&&c.key.length>20}
@@ -413,6 +414,41 @@ function applySyncedState(next){
   if(keep){state.session.queue=[state.session.queue.find(q=>q.id===oldFirst.id),...state.session.queue.filter(q=>q.id!==oldFirst.id)];revealed=true}else revealed=false;
   // カード編集フォームの未保存の入力は消さず、同期後のカードへ保存できるようにする。
   renderFolders();stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList();
+  refreshStudyIllustrations();
+}
+// Public illustration corrections only: card text, IDs, folders and review history stay intact.
+let studyIllustrationMap=null,studyIllustrationJob=null;
+const LEGACY_STUDY_IMAGE=/^https:\/\/kmhrt16436-beep\.github\.io\/vocab-app\/study\/heat-air\/(?:complete\/(?:diagrams\/)?|sample-01\/)heat-air-\d{3}\.png(?:\?[^#]*)?$/;
+async function refreshStudyIllustrations(){
+  if(storageBlocked||!state.cards.some(c=>LEGACY_STUDY_IMAGE.test(c.fields[6].trim())))return;
+  if(studyIllustrationJob){try{await studyIllustrationJob}catch(e){}return}
+  studyIllustrationJob=(async()=>{
+    if(!studyIllustrationMap){
+      const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
+      try{
+        const response=await fetch('./study/heat-air/complete/image-updates.json',{cache:'no-cache',signal:controller.signal});
+        if(!response.ok)throw Error('Illustration catalog unavailable');
+        const data=await response.json();
+        if(data.version!==2||!Array.isArray(data.updates))throw Error('Invalid illustration catalog');
+        const map=new Map();
+        for(const row of data.updates){
+          if(!Array.isArray(row)||row.length!==3||row.some(v=>typeof v!=='string')||!LEGACY_STUDY_IMAGE.test(row[1])||!/^https:\/\/kmhrt16436-beep\.github\.io\/vocab-app\/study\/heat-air\/complete\/diagrams-v2\/[a-z0-9-]+\.png$/.test(row[2]))throw Error('Invalid illustration update');
+          map.set(row[0]+'\0'+row[1],row[2]);
+        }
+        studyIllustrationMap=map;
+      }finally{clearTimeout(timeout)}
+    }
+    let changed=0;
+    // Look at the current state after fetching: login, edits or reviews may have happened meanwhile.
+    for(const c of state.cards){
+      const old=c.fields[6].trim();if(!LEGACY_STUDY_IMAGE.test(old))continue;
+      const next=studyIllustrationMap.get(c.fields[0]+'\0'+old.split('?')[0]);
+      if(next&&c.fields[6]!==next){c.fields[6]=next;changed++}
+    }
+    if(changed){persist();renderStudy();if(activeTab==='cards')renderList();toast('熱・空気の図を更新しました。学習進捗はそのままです。')}
+  })();
+  try{await studyIllustrationJob}catch(e){/* Offline: keep the existing images and retry on reconnect or the next sync. */}
+  finally{studyIllustrationJob=null}
 }
 function cloudMessage(s){
   $('cloudStatus').textContent=s;
@@ -531,10 +567,11 @@ async function initCloud(){
   }catch(e){cloudMessage('接続できません：'+e.message+' 端末のデータは保持しています。');cloudAccountUI()}
 }
 window.addEventListener('hashchange',()=>{const h=new URLSearchParams(location.hash.slice(1));if(h.has('access_token')||h.has('error_description'))initCloud()});
-window.addEventListener('online',()=>{if(pendingCloudLink&&!cloudAuth?.user?.id)initCloud();else syncCloud()});
+window.addEventListener('online',()=>{if(pendingCloudLink&&!cloudAuth?.user?.id)initCloud();else syncCloud();refreshStudyIllustrations()});
 setInterval(()=>{if(!document.hidden)syncCloud()},20000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncCloud()});
 initCloud();
+refreshStudyIllustrations();
 
 // Home-screen installation is optional. Do not reload during a study session automatically.
 let installPrompt=null,pwaRegistration=null,pwaReloadRequested=false;

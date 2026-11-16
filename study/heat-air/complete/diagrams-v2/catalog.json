@@ -1,0 +1,320 @@
+[
+  {
+    "id": "h01-wall",
+    "title": "壁の断面と熱抵抗",
+    "source": "熱 PDF p.4–20",
+    "file": "h01-wall.png"
+  },
+  {
+    "id": "h02-radiation",
+    "title": "気温と平均放射温度 MRT",
+    "source": "熱 PDF p.4・108–112・130",
+    "file": "h02-radiation.png"
+  },
+  {
+    "id": "h03-room",
+    "title": "単室の熱収支と自然室温",
+    "source": "熱 PDF p.21–26・69",
+    "file": "h03-room.png"
+  },
+  {
+    "id": "h04-multizone",
+    "title": "多数室：内壁と空気移動",
+    "source": "熱 PDF p.28–41",
+    "file": "h04-multizone.png"
+  },
+  {
+    "id": "h05-sat",
+    "title": "外壁表面と相当外気温度 SAT",
+    "source": "熱 PDF p.45–54",
+    "file": "h05-sat.png"
+  },
+  {
+    "id": "h06-glass",
+    "title": "ガラスに入射した日射の行き先",
+    "source": "熱 PDF p.57–60",
+    "file": "h06-glass.png"
+  },
+  {
+    "id": "h07-shading",
+    "title": "内ブラインドと外ブラインド",
+    "source": "熱 PDF p.61–62",
+    "file": "h07-shading.png"
+  },
+  {
+    "id": "h08-eaves",
+    "title": "南面の水平庇と太陽高度",
+    "source": "熱 PDF p.45・61–66",
+    "file": "h08-eaves.png"
+  },
+  {
+    "id": "h09-lowe",
+    "title": "Low-E複層ガラスの膜位置",
+    "source": "熱 PDF p.63–67",
+    "file": "h09-lowe.png"
+  },
+  {
+    "id": "h10-neutral",
+    "title": "日射取得がある室の冷暖房負荷",
+    "source": "熱 PDF p.69・過去問 問4",
+    "file": "h10-neutral.png"
+  },
+  {
+    "id": "h11-capacity",
+    "title": "断熱性・熱容量と室温変動",
+    "source": "熱 PDF p.81–83・99",
+    "file": "h11-capacity.png"
+  },
+  {
+    "id": "h12-conduction",
+    "title": "壁内の小領域の熱収支",
+    "source": "熱 PDF p.89–97",
+    "file": "h12-conduction.png"
+  },
+  {
+    "id": "h13-response",
+    "title": "集中熱容量モデルのステップ応答",
+    "source": "熱 PDF p.99–106",
+    "file": "h13-response.png"
+  },
+  {
+    "id": "h14-human",
+    "title": "人体の熱収支と温熱環境6要素",
+    "source": "熱 PDF p.108–117",
+    "file": "h14-human.png"
+  },
+  {
+    "id": "h15-pmv",
+    "title": "PMVとPPDの対応",
+    "source": "熱 PDF p.117–129",
+    "file": "h15-pmv.png"
+  },
+  {
+    "id": "h16-globe",
+    "title": "グローブ温度計の熱収支",
+    "source": "熱 PDF p.130–132",
+    "file": "h16-globe.png"
+  },
+  {
+    "id": "h17-psychrometric",
+    "title": "空気線図：加熱・冷却と露点",
+    "source": "熱 PDF p.136・142–147",
+    "file": "h17-psychrometric.png"
+  },
+  {
+    "id": "h18-coil",
+    "title": "冷却・除湿コイルとドレン",
+    "source": "熱 PDF p.135–137",
+    "file": "h18-coil.png"
+  },
+  {
+    "id": "h19-mixing",
+    "title": "混合空気と加湿の状態変化",
+    "source": "熱 PDF p.135–138",
+    "file": "h19-mixing.png"
+  },
+  {
+    "id": "h20-degreedays",
+    "title": "暖房デグリーデーと参照温度",
+    "source": "熱 PDF p.149–159",
+    "file": "h20-degreedays.png"
+  },
+  {
+    "id": "a01-combustion",
+    "title": "燃焼器具の給気元と排気先",
+    "source": "空気 PDF p.11–14",
+    "file": "a01-combustion.png"
+  },
+  {
+    "id": "a02-oxygen",
+    "title": "開放型器具の酸素収支",
+    "source": "空気 PDF p.26–28",
+    "file": "a02-oxygen.png"
+  },
+  {
+    "id": "a03-hood",
+    "title": "排気フードの捕集と測定",
+    "source": "空気 PDF p.43–50",
+    "file": "a03-hood.png"
+  },
+  {
+    "id": "a04-contaminant",
+    "title": "室内汚染の定常・非定常収支",
+    "source": "空気 PDF p.56–76・101–106",
+    "file": "a04-contaminant.png"
+  },
+  {
+    "id": "a05-recirculation",
+    "title": "外気・循環空気とフィルタの配置",
+    "source": "空気 PDF p.82–93",
+    "file": "a05-recirculation.png"
+  },
+  {
+    "id": "a06-filter",
+    "title": "粒子の捕集：濾材と電気集じん",
+    "source": "空気 PDF p.79–87",
+    "file": "a06-filter.png"
+  },
+  {
+    "id": "a07-isolation",
+    "title": "汚染源隔離と室間の気流方向",
+    "source": "空気 PDF p.61–63",
+    "file": "a07-isolation.png"
+  },
+  {
+    "id": "a08-tracer",
+    "title": "トレーサガスで換気量を測る",
+    "source": "空気 PDF p.115–131",
+    "file": "a08-tracer.png"
+  },
+  {
+    "id": "a09-decay",
+    "title": "濃度減衰と片対数表示",
+    "source": "空気 PDF p.103–113・119–123",
+    "file": "a09-decay.png"
+  },
+  {
+    "id": "a10-ventpatterns",
+    "title": "室内の流れと空気交換効率",
+    "source": "空気 PDF p.198・AIJ公開講習資料 p.7",
+    "file": "a10-ventpatterns.png"
+  },
+  {
+    "id": "a11-agecurves",
+    "title": "ステップ法で空気齢を測る",
+    "source": "空気 PDF p.168–173",
+    "file": "a11-agecurves.png"
+  },
+  {
+    "id": "a12-airage",
+    "title": "局所平均空気齢と室平均空気齢",
+    "source": "空気 PDF p.158–162・182–191",
+    "file": "a12-airage.png"
+  },
+  {
+    "id": "a13-pressure",
+    "title": "送風系の全圧・静圧・動圧",
+    "source": "空気 PDF p.211–215",
+    "file": "a13-pressure.png"
+  },
+  {
+    "id": "a14-pressuremeasure",
+    "title": "流れる空気の圧力を測る",
+    "source": "空気 PDF p.211–215・三菱電機 技術資料",
+    "file": "a14-pressuremeasure.png"
+  },
+  {
+    "id": "a15-operating",
+    "title": "送風機の動作点と系の抵抗",
+    "source": "空気 PDF p.218–231",
+    "file": "a15-operating.png"
+  },
+  {
+    "id": "a16-fans",
+    "title": "送風機の直列・並列運転",
+    "source": "空気 PDF p.224–231",
+    "file": "a16-fans.png"
+  },
+  {
+    "id": "a17-duct",
+    "title": "直管・曲がり・拡大部の損失",
+    "source": "空気 PDF p.233–245",
+    "file": "a17-duct.png"
+  },
+  {
+    "id": "a18-jet",
+    "title": "噴流の広がりと周囲空気の誘引",
+    "source": "空気 PDF p.275–282",
+    "file": "a18-jet.png"
+  },
+  {
+    "id": "a19-jetdecay",
+    "title": "噴流の4領域と到達距離",
+    "source": "空気 PDF p.278–283",
+    "file": "a19-jetdecay.png"
+  },
+  {
+    "id": "a20-anemo",
+    "title": "アネモ型吹出し口の断面",
+    "source": "空気 PDF p.287",
+    "file": "a20-anemo.png"
+  },
+  {
+    "id": "a21-outlets",
+    "title": "吹出し口の形状と噴流",
+    "source": "空気 PDF p.284–296",
+    "file": "a21-outlets.png"
+  },
+  {
+    "id": "a22-draft",
+    "title": "窓の冷下降流と暖房時の成層",
+    "source": "空気 PDF p.260–274",
+    "file": "a22-draft.png"
+  },
+  {
+    "id": "a23-cfd",
+    "title": "室内気流の予測とタスク領域",
+    "source": "空気 PDF p.297–307",
+    "file": "a23-cfd.png"
+  },
+  {
+    "id": "h21-solar",
+    "title": "面に入射する日射の3成分",
+    "source": "熱 PDF p.45–46",
+    "file": "h21-solar.png"
+  },
+  {
+    "id": "h22-airprocess",
+    "title": "空気線図上の混合と加湿",
+    "source": "熱 PDF p.135–138",
+    "file": "h22-airprocess.png"
+  },
+  {
+    "id": "h23-moisture",
+    "title": "絶対湿度と相対湿度を区別する",
+    "source": "熱 PDF p.133–134・142–147",
+    "file": "h23-moisture.png"
+  },
+  {
+    "id": "h24-wbgt",
+    "title": "WBGTで用いる3つの温度",
+    "source": "熱 PDF p.130–132",
+    "file": "h24-wbgt.png"
+  },
+  {
+    "id": "a24-removal",
+    "title": "汚染質の発生源と除去の指標",
+    "source": "空気 PDF p.143–156",
+    "file": "a24-removal.png"
+  },
+  {
+    "id": "a25-fanblades",
+    "title": "シロッコとターボの羽根",
+    "source": "空気 PDF p.216–225",
+    "file": "a25-fanblades.png"
+  },
+  {
+    "id": "a26-ductends",
+    "title": "ベルマウス入口と大気開放出口",
+    "source": "空気 PDF p.237–238",
+    "file": "a26-ductends.png"
+  },
+  {
+    "id": "a27-draftindex",
+    "title": "局所的な気流の不快感とDR",
+    "source": "空気 PDF p.251–259",
+    "file": "a27-draftindex.png"
+  },
+  {
+    "id": "h25-shf",
+    "title": "顕熱・潜熱と室内の状態変化",
+    "source": "熱 PDF p.137–138",
+    "file": "h25-shf.png"
+  },
+  {
+    "id": "h26-solarload",
+    "title": "窓1面＋換気の定常熱負荷",
+    "source": "熱 PDF p.69・過去問 問4",
+    "file": "h26-solarload.png"
+  }
+]

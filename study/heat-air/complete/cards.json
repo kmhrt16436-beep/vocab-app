@@ -110,8 +110,9 @@
         "壁内部と表面の伝熱を区別する。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-02",
@@ -125,8 +126,9 @@
         "同じ熱流が順に通る経路の合成。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-03",
@@ -140,8 +142,9 @@
         "δ：厚さ[m]、λ：熱伝導率[W/(mK)]。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-04",
@@ -155,8 +158,9 @@
         "表面熱伝達抵抗も含める。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-05",
@@ -170,8 +174,9 @@
         "Uの単位はW/(m²K)。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-06",
@@ -185,8 +190,9 @@
         "λ[W/(mK)]とU[W/(m²K)]を区別。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-07",
@@ -200,8 +206,9 @@
         "qはW/m²、QはW。室内流入を正とする。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-08",
@@ -215,8 +222,9 @@
         "対流と放射を合成する。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-09",
@@ -230,8 +238,9 @@
         "常温での近似。F_iは形態係数、ΣF_i＝1。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      ],
+      "illustration": "h02-radiation"
     },
     {
       "id": "H1-10",
@@ -245,8 +254,9 @@
         "気温だけで放射の影響を置き換えない。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      ],
+      "illustration": "h02-radiation"
     },
     {
       "id": "H1-11",
@@ -260,8 +270,9 @@
         "Vはm³/s、C_pρは約1200 J/(m³K)。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-12",
@@ -275,8 +286,9 @@
         "180 m³/h＝0.05 m³/s。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-13",
@@ -290,8 +302,9 @@
         "1200×(180/3600)×10。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-14",
@@ -305,8 +318,9 @@
         "スライドのUAに相当。換気を含む場合の式。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-15",
@@ -320,8 +334,9 @@
         "Gは各部位UAと換気熱容量流量の合計。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-16",
@@ -335,8 +350,9 @@
         "スライドで用いる定義。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-17",
@@ -350,8 +366,9 @@
         "冷房側が正、暖房側が負。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-18",
@@ -365,8 +382,9 @@
         "Q_C＝270(10−24)＋1000＝−2780W。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-19",
@@ -380,8 +398,9 @@
         "定常収支でQ_C＝0とする。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-20",
@@ -395,8 +414,9 @@
         "空気層の抵抗を厚さ/空気の熱伝導率だけで決めない。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      ],
+      "illustration": "h01-wall"
     },
     {
       "id": "H1-21",
@@ -410,8 +430,9 @@
         "必要な換気は計画換気で確保する。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      ],
+      "illustration": "h03-room"
     },
     {
       "id": "H1-22",
@@ -425,8 +446,9 @@
         "隣室との伝熱・空気移動を追加する。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-23",
@@ -440,8 +462,9 @@
         "室iへの流入を正とする。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-24",
@@ -455,8 +478,9 @@
         "定常の風量保存を用いて流出項を整理した形。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-25",
@@ -470,8 +494,9 @@
         "流出を無視するのではなく、風量保存で整理する。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-26",
@@ -485,8 +510,9 @@
         "流出空気が隣室温になるわけではない。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-27",
@@ -500,8 +526,9 @@
         "空調室は設定室温を既知量にする。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H1-28",
@@ -515,8 +542,9 @@
         "全体収支の検算になる。",
         "",
         "根拠：熱PDF p.4-41。基礎。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      ],
+      "illustration": "h04-multizone"
     },
     {
       "id": "H2-01",
@@ -530,8 +558,9 @@
         "J＝J_d＋J_s＋J_r。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      ],
+      "illustration": "h21-solar"
     },
     {
       "id": "H2-02",
@@ -545,8 +574,9 @@
         "夜間放射は大気等との正味長波放射の補正量。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      ],
+      "illustration": "h21-solar"
     },
     {
       "id": "H2-03",
@@ -560,8 +590,9 @@
         "同じ気象条件でも面ごとにJが異なる。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      ],
+      "illustration": "h21-solar"
     },
     {
       "id": "H2-04",
@@ -575,8 +606,9 @@
         "J_nを外表面からの正味放熱に対応する量として用いる。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-05",
@@ -590,8 +622,9 @@
         "壁の熱流をq＝U(SAT−θ_R)で計算できる。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-06",
@@ -605,8 +638,9 @@
         "日射による外表面加熱が増える。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-07",
@@ -620,8 +654,9 @@
         "SATの式で夜間放射項は負。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-08",
@@ -635,8 +670,9 @@
         "30＋700/23−90/23。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-09",
@@ -650,8 +686,9 @@
         "0.5(56.5−25)。スライドは途中の丸めで約15.7。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H2-10",
@@ -665,8 +702,9 @@
         "直接透過だけでなく、吸収後に室内側へ流れる分も含む。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      ],
+      "illustration": "h06-glass"
     },
     {
       "id": "H2-11",
@@ -680,8 +718,9 @@
         "ηは無次元。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      ],
+      "illustration": "h06-glass"
     },
     {
       "id": "H2-12",
@@ -695,8 +734,9 @@
         "ηそのものと同一の数値ではない。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      ],
+      "illustration": "h06-glass"
     },
     {
       "id": "H2-13",
@@ -710,8 +750,9 @@
         "一般にη・SCが小さくなる。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png"
+      ],
+      "illustration": "h07-shading"
     },
     {
       "id": "H2-14",
@@ -725,8 +766,9 @@
         "形状・配置・材料に応じた評価が必要。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      ],
+      "illustration": "h08-eaves"
     },
     {
       "id": "H2-15",
@@ -740,8 +782,9 @@
         "窓のη・U・面積、気象・室内条件も確認する。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      ],
+      "illustration": "h08-eaves"
     },
     {
       "id": "H2-16",
@@ -755,8 +798,9 @@
         "南面を想定。方位・緯度・庇寸法に依存する。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      ],
+      "illustration": "h08-eaves"
     },
     {
       "id": "H2-17",
@@ -770,8 +814,9 @@
         "単にガラスを厚くする仕組みではない。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+      ],
+      "illustration": "h09-lowe"
     },
     {
       "id": "H2-18",
@@ -785,8 +830,9 @@
         "スライドの構成例に従う。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+      ],
+      "illustration": "h09-lowe"
     },
     {
       "id": "H2-19",
@@ -800,8 +846,9 @@
         "Uだけでは日射遮蔽を評価できない。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      ],
+      "illustration": "h06-glass"
     },
     {
       "id": "H2-20",
@@ -815,8 +862,9 @@
         "他の面・室内発熱・夜間放射を無視する過去問の条件。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      ],
+      "illustration": "h26-solarload"
     },
     {
       "id": "H2-21",
@@ -830,8 +878,9 @@
         "4×10＋1200×0.005。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      ],
+      "illustration": "h26-solarload"
     },
     {
       "id": "H2-22",
@@ -845,8 +894,9 @@
         "0.2×10×100。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      ],
+      "illustration": "h26-solarload"
     },
     {
       "id": "H2-23",
@@ -860,8 +910,9 @@
         "室温を固定する場合の直線の傾きは46 W/K。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      ],
+      "illustration": "h26-solarload"
     },
     {
       "id": "H2-24",
@@ -875,8 +926,9 @@
         "冷暖房なしでQ_C＝0と置く。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-25",
@@ -890,8 +942,9 @@
         "22−200/46≦θ_o≦27−200/46。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-26",
@@ -905,8 +958,9 @@
         "室温の範囲と外気温の範囲を区別する。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-27",
@@ -920,8 +974,9 @@
         "室温を22℃に保つ。負の値は暖房。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-28",
@@ -935,8 +990,9 @@
         "室温を27℃に保つ。正の値は冷房。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-29",
@@ -950,8 +1006,9 @@
         "22〜27℃内なのでQ_C＝0。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-30",
@@ -965,8 +1022,9 @@
         "Q_C＝46×10−812＝−352W。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-31",
@@ -980,8 +1038,9 @@
         "Q_C＝46×30−1042。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-32",
@@ -995,8 +1054,9 @@
         "G＞0、S一定の単室定常モデル。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-33",
@@ -1010,8 +1070,9 @@
         "S/Gが小さくなり、境界θ_set−S/Gが上がる。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H2-34",
@@ -1025,8 +1086,9 @@
         "単位・傾き・自然室温の範囲も検算する。",
         "",
         "根拠：熱PDF p.45-70。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      ],
+      "illustration": "h10-neutral"
     },
     {
       "id": "H3-01",
@@ -1040,8 +1102,9 @@
         "定常でも場所ごとに温度が異なる場合がある。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      ],
+      "illustration": "h11-capacity"
     },
     {
       "id": "H3-02",
@@ -1055,8 +1118,9 @@
         "ρ：密度、c：比熱、V_body：部材体積。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      ],
+      "illustration": "h11-capacity"
     },
     {
       "id": "H3-03",
@@ -1070,8 +1134,9 @@
         "単位はJ/(m³K)とJ/K。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      ],
+      "illustration": "h11-capacity"
     },
     {
       "id": "H3-04",
@@ -1085,8 +1150,9 @@
         "定常到達温度とは区別する。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      ],
+      "illustration": "h11-capacity"
     },
     {
       "id": "H3-05",
@@ -1100,8 +1166,9 @@
         "物体全体が瞬時に同じ温度になるとは限らない。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      ],
+      "illustration": "h11-capacity"
     },
     {
       "id": "H3-06",
@@ -1115,8 +1182,9 @@
         "熱は高温側から低温側へ流れる。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-07",
@@ -1130,8 +1198,9 @@
         "物性一定・内部発熱なしのモデル。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-08",
@@ -1145,8 +1214,9 @@
         "熱が温度変化として伝わる速さを表す量。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-09",
@@ -1160,8 +1230,9 @@
         "熱伝導方程式を導く出発点。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-10",
@@ -1175,8 +1246,9 @@
         "p＝λΔt/(ρcΔx²)。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-11",
@@ -1190,8 +1262,9 @@
         "標準的な内部節点の条件。表面境界の条件は別途確認。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      ],
+      "illustration": "h12-conduction"
     },
     {
       "id": "H3-12",
@@ -1205,8 +1278,9 @@
         "壁全体の熱容量と必ずしも同じではない。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-13",
@@ -1220,8 +1294,9 @@
         "G[W/K]、C[J/K]、t[s]。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-14",
@@ -1235,8 +1310,9 @@
         "θ_∞＝θ_o＋H/G、τ＝C/G。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-15",
@@ -1250,8 +1326,9 @@
         "ステップ応答が最終変化の約63.2%になる時間。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-16",
@@ -1265,8 +1342,9 @@
         "3時定数後は約95.0%。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-17",
@@ -1280,8 +1358,9 @@
         "外気一定、H＝0の集中モデル。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-18",
@@ -1295,8 +1374,9 @@
         "δの単位はs⁻¹。",
         "",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H3-19",
@@ -1310,8 +1390,9 @@
         "C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.78-106。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      ],
+      "illustration": "h13-response"
     },
     {
       "id": "H4-01",
@@ -1325,8 +1406,9 @@
         "人体側2要素と合わせ6要素。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-02",
@@ -1340,8 +1422,9 @@
         "環境が同じでも体感が変わる。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-03",
@@ -1355,8 +1438,9 @@
         "スライドの体温調節モデル。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-04",
@@ -1370,8 +1454,9 @@
         "温冷感と生理的調節を対応させる。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-05",
@@ -1385,8 +1470,9 @@
         "定常、外部仕事等を簡略化した表現。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-06",
@@ -1400,8 +1486,9 @@
         "体表面積1.7m²なら約99W。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-07",
@@ -1415,8 +1502,9 @@
         "cloが大きいほど熱を逃がしにくい。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-08",
@@ -1430,8 +1518,9 @@
         "対流と放射の熱交換を統合する。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      ],
+      "illustration": "h02-radiation"
     },
     {
       "id": "H4-09",
@@ -1445,8 +1534,9 @@
         "OT≒(θ_a＋MRT)/2。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      ],
+      "illustration": "h02-radiation"
     },
     {
       "id": "H4-10",
@@ -1460,8 +1550,9 @@
         "気温だけの評価と区別する。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      ],
+      "illustration": "h02-radiation"
     },
     {
       "id": "H4-11",
@@ -1475,8 +1566,9 @@
         "スライドでは相対湿度50%の等価環境へ置き換える。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-12",
@@ -1490,8 +1582,9 @@
         "標準条件への等価温度として表す。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-13",
@@ -1505,8 +1598,9 @@
         "温度そのものではなく温冷感の尺度。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      ],
+      "illustration": "h15-pmv"
     },
     {
       "id": "H4-14",
@@ -1520,8 +1614,9 @@
         "一般に−3〜＋3の7段階を用いる。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      ],
+      "illustration": "h15-pmv"
     },
     {
       "id": "H4-15",
@@ -1535,8 +1630,9 @@
         "PMVと対応して集団の不満足を予測する。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      ],
+      "illustration": "h15-pmv"
     },
     {
       "id": "H4-16",
@@ -1550,8 +1646,9 @@
         "資料上の目安。個人差は残る。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      ],
+      "illustration": "h15-pmv"
     },
     {
       "id": "H4-17",
@@ -1565,8 +1662,9 @@
         "全員が同じ温冷感になるとは限らない。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      ],
+      "illustration": "h15-pmv"
     },
     {
       "id": "H4-18",
@@ -1580,8 +1678,9 @@
         "高温環境では単純に同じ効果とはいえない。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-19",
@@ -1595,8 +1694,9 @@
         "湿度と温度の作用を区別する。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-20",
@@ -1610,8 +1710,9 @@
         "6要素の定性的説明に使う。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      ],
+      "illustration": "h14-human"
     },
     {
       "id": "H4-21",
@@ -1625,8 +1726,9 @@
         "湿球温度・グローブ温度・気温を使用する。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      ],
+      "illustration": "h24-wbgt"
     },
     {
       "id": "H4-22",
@@ -1640,8 +1742,9 @@
         "授業資料の式。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      ],
+      "illustration": "h24-wbgt"
     },
     {
       "id": "H4-23",
@@ -1655,8 +1758,9 @@
         "17.5＋7＋3。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      ],
+      "illustration": "h24-wbgt"
     },
     {
       "id": "H4-24",
@@ -1670,8 +1774,9 @@
         "気流によって対流熱伝達率も変わる。",
         "",
         "根拠：熱PDF p.108-132。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h16-globe.png"
+      ],
+      "illustration": "h16-globe"
     },
     {
       "id": "H5-01",
@@ -1685,8 +1790,9 @@
         "乾き空気質量を基準に状態量を表す。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      ],
+      "illustration": "h23-moisture"
     },
     {
       "id": "H5-02",
@@ -1700,8 +1806,9 @@
         "g/kg(DA)表示との1000倍の違いに注意。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      ],
+      "illustration": "h23-moisture"
     },
     {
       "id": "H5-03",
@@ -1715,8 +1822,9 @@
         "f：水蒸気分圧、f_s：その温度の飽和水蒸気圧。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      ],
+      "illustration": "h23-moisture"
     },
     {
       "id": "H5-04",
@@ -1730,8 +1838,9 @@
         "全圧Pとfの圧力単位を揃える。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      ],
+      "illustration": "h23-moisture"
     },
     {
       "id": "H5-05",
@@ -1745,8 +1854,9 @@
         "飽和水蒸気圧が上昇するため。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      ],
+      "illustration": "h23-moisture"
     },
     {
       "id": "H5-06",
@@ -1760,8 +1870,9 @@
         "表面温度が露点以下になると表面結露の可能性。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-07",
@@ -1775,8 +1886,9 @@
         "水蒸気分圧約1.4kPa、飽和分圧約2.3kPa。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-08",
@@ -1790,8 +1902,9 @@
         "xはkg/kg(DA)、tは℃。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-09",
@@ -1805,8 +1918,9 @@
         "例：乾球温度と相対湿度。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-10",
@@ -1820,8 +1934,9 @@
         "Gは乾き空気質量流量。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      ],
+      "illustration": "h19-mixing"
     },
     {
       "id": "H5-11",
@@ -1835,8 +1950,9 @@
         "状態1の量が多いほど状態1に近い。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      ],
+      "illustration": "h19-mixing"
     },
     {
       "id": "H5-12",
@@ -1850,8 +1966,9 @@
         "比熱の湿度依存性を無視すれば温度加重平均は近似。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      ],
+      "illustration": "h19-mixing"
     },
     {
       "id": "H5-13",
@@ -1865,8 +1982,9 @@
         "(2×30＋60)/3。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      ],
+      "illustration": "h19-mixing"
     },
     {
       "id": "H5-14",
@@ -1880,8 +1998,9 @@
         "乾球温度とhは上昇、相対湿度は低下。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-15",
@@ -1895,8 +2014,9 @@
         "Gはkg(DA)/s、hはkJ/kg(DA)。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      ],
+      "illustration": "h17-psychrometric"
     },
     {
       "id": "H5-16",
@@ -1910,8 +2030,9 @@
         "顕熱だけでなく潜熱も含む。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      ],
+      "illustration": "h18-coil"
     },
     {
       "id": "H5-17",
@@ -1925,8 +2046,9 @@
         "凝縮水がドレンとして除かれる。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      ],
+      "illustration": "h18-coil"
     },
     {
       "id": "H5-18",
@@ -1940,8 +2062,9 @@
         "湿度差をg/kgのまま使わない。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      ],
+      "illustration": "h18-coil"
     },
     {
       "id": "H5-19",
@@ -1955,8 +2078,9 @@
         "0.003×3600。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      ],
+      "illustration": "h18-coil"
     },
     {
       "id": "H5-20",
@@ -1970,8 +2094,9 @@
         "噴霧水の顕熱を無視する近似。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+      ],
+      "illustration": "h22-airprocess"
     },
     {
       "id": "H5-21",
@@ -1985,8 +2110,9 @@
         "乾球温度一定とするのは近似。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+      ],
+      "illustration": "h22-airprocess"
     },
     {
       "id": "H5-22",
@@ -2000,8 +2126,9 @@
         "線図上の状態変化の方向を決める。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      ],
+      "illustration": "h25-shf"
     },
     {
       "id": "H5-23",
@@ -2015,8 +2142,9 @@
         "顕熱÷全熱。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      ],
+      "illustration": "h25-shf"
     },
     {
       "id": "H5-24",
@@ -2030,8 +2158,9 @@
         "全熱は4kW。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      ],
+      "illustration": "h25-shf"
     },
     {
       "id": "H5-25",
@@ -2045,8 +2174,9 @@
         "温度差だけでは除湿負荷を処理できない。",
         "",
         "根拠：熱PDF p.133-147。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      ],
+      "illustration": "h25-shf"
     },
     {
       "id": "H6-01",
@@ -2060,8 +2190,9 @@
         "温度差が正の日だけ集計する。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-02",
@@ -2075,8 +2206,9 @@
         "対象地域の気候の指標。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-03",
@@ -2090,8 +2222,9 @@
         "8＋3＋0。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-04",
@@ -2105,8 +2238,9 @@
         "24時間連続・定常近似。スライドでは0.086に丸める。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-05",
@@ -2120,8 +2254,9 @@
         "24 h/日÷1000。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-06",
@@ -2135,8 +2270,9 @@
         "熱需要と機器効率を分ける。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-07",
@@ -2150,8 +2286,9 @@
         "無負荷となる等価外気温の境界。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-08",
@@ -2165,8 +2302,9 @@
         "寒い外気でも冷房が必要になる場合がある。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-09",
@@ -2180,8 +2318,9 @@
         "断熱を強めれば常に全負荷が減るとは限らない。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-10",
@@ -2195,8 +2334,9 @@
         "スライドのモデルでは外皮方位等を単純化。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "H6-11",
@@ -2210,8 +2350,9 @@
         "SATによる日射熱取得の式から導く。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      ],
+      "illustration": "h05-sat"
     },
     {
       "id": "H6-12",
@@ -2225,8 +2366,9 @@
         "間欠空調等の影響は補正が必要。",
         "",
         "根拠：熱PDF p.149-159。重要補完。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      ],
+      "illustration": "h20-degreedays"
     },
     {
       "id": "A1-01",
@@ -2240,8 +2382,9 @@
         "ガスコンロ・石油ストーブなど。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      ],
+      "illustration": "a01-combustion"
     },
     {
       "id": "A1-02",
@@ -2255,8 +2398,9 @@
         "CF・FE型など。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      ],
+      "illustration": "a01-combustion"
     },
     {
       "id": "A1-03",
@@ -2270,8 +2414,9 @@
         "BF・FF型など。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      ],
+      "illustration": "a01-combustion"
     },
     {
       "id": "A1-04",
@@ -2285,8 +2430,9 @@
         "どちらも半密閉型。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      ],
+      "illustration": "a01-combustion"
     },
     {
       "id": "A1-05",
@@ -2300,8 +2446,9 @@
         "どちらも密閉型。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      ],
+      "illustration": "a01-combustion"
     },
     {
       "id": "A1-06",
@@ -2315,8 +2462,9 @@
         "室内酸素が減ることとCO発生をつなげて説明する。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-07",
@@ -2330,8 +2478,9 @@
         "外気濃度21%＝0.21との差を用いる。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-08",
@@ -2345,8 +2494,9 @@
         "発生を正、消費を負とする。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-09",
@@ -2360,8 +2510,9 @@
         "スライドの簡略化した燃焼モデル。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-10",
@@ -2375,8 +2526,9 @@
         "0.21A_th/(0.21−0.205)。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-11",
@@ -2390,8 +2542,9 @@
         "室内に放出される分が1−η。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      ],
+      "illustration": "a03-hood"
     },
     {
       "id": "A1-12",
@@ -2405,8 +2558,9 @@
         "同じ燃焼量と濃度条件での比較。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      ],
+      "illustration": "a03-hood"
     },
     {
       "id": "A1-13",
@@ -2420,8 +2574,9 @@
         "Kは単位燃料当たり理論廃ガス量、Q_fは燃料消費量。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-14",
@@ -2435,8 +2590,9 @@
         "KQ_fの単位がm³/hになるよう揃える。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-15",
@@ -2450,8 +2606,9 @@
         "開放型の40倍と混同しない。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-16",
@@ -2465,8 +2622,9 @@
         "Mは発生量、Qは排気量、C_Eは排気濃度、C_Bは背景濃度。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      ],
+      "illustration": "a03-hood"
     },
     {
       "id": "A1-17",
@@ -2480,8 +2638,9 @@
         "40×2。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A1-18",
@@ -2495,8 +2654,9 @@
         "問題ごとに定義と単位を確認する。",
         "",
         "根拠：空気PDF p.8-51。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      ],
+      "illustration": "a02-oxygen"
     },
     {
       "id": "A2-01",
@@ -2510,8 +2670,9 @@
         "完全混合、定常、沈着等を無視。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-02",
@@ -2525,8 +2686,9 @@
         "C・C₀とMの単位を整合させる。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-03",
@@ -2540,8 +2702,9 @@
         "C_lim＞C₀が必要。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-04",
@@ -2555,8 +2718,9 @@
         "発生源対策や適切な浄化等も必要。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-05",
@@ -2570,8 +2734,9 @@
         "400ppm＝0.0004＝0.04%。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-06",
@@ -2585,8 +2750,9 @@
         "人数を掛ける。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-07",
@@ -2600,8 +2766,9 @@
         "400＋(0.4/500)×10⁶。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-08",
@@ -2615,8 +2782,9 @@
         "400＋(0.5/500)×10⁶。元の解答例の140ppmを訂正。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A2-09",
@@ -2630,8 +2798,9 @@
         "CO₂の収支は外気量Q₀で計算する。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-10",
@@ -2645,8 +2814,9 @@
         "60%捕集ならP＝0.4。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-11",
@@ -2660,8 +2830,9 @@
         "C[mg/m³]×Q[m³/h]＝mg/h。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-12",
@@ -2675,8 +2846,9 @@
         "室外へ排気する量は定常でQ₀。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-13",
@@ -2690,8 +2862,9 @@
         "室内発じんMはフィルタの下流で発生する。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-14",
@@ -2705,8 +2878,9 @@
         "分母はQ₀＋ηQ_rとも書ける。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-15",
@@ -2720,8 +2894,9 @@
         "最後にη＝1−Pへ戻す。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-16",
@@ -2735,8 +2910,9 @@
         "(200＋0.4×0.05×500)/(1500−0.4×1000)。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-17",
@@ -2750,8 +2926,9 @@
         "P＝25/175＝1/7、η＝6/7。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-18",
@@ -2765,8 +2942,9 @@
         "260/1400。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-19",
@@ -2780,8 +2958,9 @@
         "P＝50/250＝0.2。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-20",
@@ -2795,8 +2974,9 @@
         "風量増加や発生量削減等が必要。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-21",
@@ -2810,8 +2990,9 @@
         "循環空気側まで一律にP_fを掛けない。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      ],
+      "illustration": "a05-recirculation"
     },
     {
       "id": "A2-22",
@@ -2825,8 +3006,9 @@
         "計数法による性能値。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-23",
@@ -2840,8 +3022,9 @@
         "HEPAの粒径・割合と区別する。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-24",
@@ -2855,8 +3038,9 @@
         "電離部と集じん部から成る。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-25",
@@ -2870,8 +3054,9 @@
         "粒子質量を測るか個数を測るかが異なる。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      ],
+      "illustration": "a06-filter"
     },
     {
       "id": "A2-26",
@@ -2885,8 +3070,9 @@
         "授業資料の例は境界で0.2m/s以上。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png"
+      ],
+      "illustration": "a07-isolation"
     },
     {
       "id": "A2-27",
@@ -2900,8 +3086,9 @@
         "発生源隔離と屋外排気の考え方を押さえる。",
         "",
         "根拠：空気PDF p.56-93。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png"
+      ],
+      "illustration": "a07-isolation"
     },
     {
       "id": "A3-01",
@@ -2915,8 +3102,9 @@
         "Vは室容積、Qは換気量。沈着・反応等を無視。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-02",
@@ -2930,8 +3118,9 @@
         "C_sは初期濃度。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-03",
@@ -2945,8 +3134,9 @@
         "指数の符号は負。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-04",
@@ -2960,8 +3150,9 @@
         "Q[m³/h]とV[m³]を使う場合。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-05",
@@ -2975,8 +3166,9 @@
         "同じ時間単位で計算する。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-06",
@@ -2990,8 +3182,9 @@
         "室濃度そのものではなく外気との差が減衰する。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-07",
@@ -3005,8 +3198,9 @@
         "1回分の室容積を換気しても汚染が全部消えるわけではない。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-08",
@@ -3020,8 +3214,9 @@
         "e⁻¹。約63.2%減少。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-09",
@@ -3035,8 +3230,9 @@
         "e⁻³。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-10",
@@ -3050,8 +3246,9 @@
         "濃度単位を揃え、時間をhにするとh⁻¹。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-11",
@@ -3065,8 +3262,9 @@
         "t_0.1は濃度差の減衰時間。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-12",
@@ -3080,8 +3278,9 @@
         "400をそのまま%の値から引かない。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-13",
@@ -3095,8 +3294,9 @@
         "C₀＝0.04%なら差は0.96%と0.06%。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-14",
@@ -3110,8 +3310,9 @@
         "ln6/1.5。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-15",
@@ -3125,8 +3326,9 @@
         "400＋(0.3/150)×10⁶。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-16",
@@ -3140,8 +3342,9 @@
         "tはh、N＝2 h⁻¹。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-17",
@@ -3155,8 +3358,9 @@
         "十分な定常到達を待つ。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      ],
+      "illustration": "a08-tracer"
     },
     {
       "id": "A3-18",
@@ -3170,8 +3374,9 @@
         "多時点法では時間的に一定の換気を前提とする。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      ],
+      "illustration": "a08-tracer"
     },
     {
       "id": "A3-19",
@@ -3185,8 +3390,9 @@
         "定常濃度法の単なる別名ではない。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      ],
+      "illustration": "a08-tracer"
     },
     {
       "id": "A3-20",
@@ -3200,8 +3406,9 @@
         "自然対数なら傾きは−N。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-21",
@@ -3215,8 +3422,9 @@
         "室内完全混合等の前提は必要。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A3-22",
@@ -3230,8 +3438,9 @@
         "ゼロからではなく外気濃度から上昇。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      ],
+      "illustration": "a04-contaminant"
     },
     {
       "id": "A3-23",
@@ -3245,8 +3454,9 @@
         "h⁻¹と分をそのまま掛けない。",
         "",
         "根拠：空気PDF p.100-131。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      ],
+      "illustration": "a09-decay"
     },
     {
       "id": "A4-01",
@@ -3260,8 +3470,9 @@
         "換気効率と換気量を区別する。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-02",
@@ -3275,8 +3486,9 @@
         "若い空気ほど新鮮外気が早く届いている。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-03",
@@ -3290,8 +3502,9 @@
         "空気齢の起点。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-04",
@@ -3305,8 +3518,9 @@
         "一つの粒子の所要時間ではない。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-05",
@@ -3320,8 +3534,9 @@
         "定常・授業モデルでは排気口の局所平均空気齢に等しい。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-06",
@@ -3335,8 +3550,9 @@
         "大きいほど、その地点に新鮮空気が早く届く。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-07",
@@ -3350,8 +3566,9 @@
         "排気口の値と室平均を混同しない。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      ],
+      "illustration": "a12-airage"
     },
     {
       "id": "A4-08",
@@ -3365,8 +3582,9 @@
         "理論上最小の室平均空気齢を実際の室平均空気齢で割る。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-09",
@@ -3380,8 +3598,9 @@
         "完全混合が効率1になる定義ではない。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-10",
@@ -3395,8 +3614,9 @@
         "入口0から出口τ_nまで一方向に進む理想モデル。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-11",
@@ -3410,8 +3630,9 @@
         "滞留域を生み、εᵃが0.5未満になる場合がある。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-12",
@@ -3425,8 +3646,9 @@
         "τ_n＝0.5h、0.5/0.25＝2。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-13",
@@ -3440,8 +3662,9 @@
         "0.5/(2×0.4)。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-14",
@@ -3455,8 +3678,9 @@
         "給気口へ短時間注入し、その地点の応答を測る。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-15",
@@ -3470,8 +3694,9 @@
         "ゼロから給気トレーサ濃度C_sへ上昇させる理想条件。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-16",
@@ -3485,8 +3710,9 @@
         "室内を一様濃度C_sにした後、供給停止して減衰を測る。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-17",
@@ -3500,8 +3726,9 @@
         "生の濃度をそのままゼロ基準の式へ入れない。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-18",
@@ -3515,8 +3742,9 @@
         "積分には十分長い測定が必要。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-19",
@@ -3530,8 +3758,9 @@
         "局所平均の式と積分の重みが違う。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      ],
+      "illustration": "a11-agecurves"
     },
     {
       "id": "A4-20",
@@ -3545,8 +3774,9 @@
         "発生源既知、給気汚染をゼロ基準にした授業の定義。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      ],
+      "illustration": "a24-removal"
     },
     {
       "id": "A4-21",
@@ -3560,8 +3790,9 @@
         "局所濃度ではなく室平均濃度を用いる。背景濃度は補正する。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      ],
+      "illustration": "a24-removal"
     },
     {
       "id": "A4-22",
@@ -3575,8 +3806,9 @@
         "濃度の意味と発生条件を確認する。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      ],
+      "illustration": "a24-removal"
     },
     {
       "id": "A4-23",
@@ -3590,8 +3822,9 @@
         "指定発生源の定常後、供給停止した排気濃度の積分から求める。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      ],
+      "illustration": "a24-removal"
     },
     {
       "id": "A4-24",
@@ -3605,8 +3838,9 @@
         "完全なピストンフローと同一視しない。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      ],
+      "illustration": "a10-ventpatterns"
     },
     {
       "id": "A4-25",
@@ -3620,8 +3854,9 @@
         "点の評価か室全体の評価かも区別する。",
         "",
         "根拠：空気PDF p.136-207。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      ],
+      "illustration": "a24-removal"
     },
     {
       "id": "A5-01",
@@ -3635,8 +3870,9 @@
         "同じ位置・同じ基準で比較する。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-02",
@@ -3650,8 +3886,9 @@
         "ρ[kg/m³]、U[m/s]。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-03",
@@ -3665,8 +3902,9 @@
         "0.5×1.2×10²。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-04",
@@ -3680,8 +3918,9 @@
         "P_s＝P_T−P_d。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-05",
@@ -3695,8 +3934,9 @@
         "単なる吐出し側の全圧ではない。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-06",
@@ -3710,8 +3950,9 @@
         "前後の静圧差と一般に同じではない。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-07",
@@ -3725,8 +3966,9 @@
         "摩擦・局部損失による。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-08",
@@ -3740,8 +3982,9 @@
         "実在流体では全圧損失を加えて考える。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-09",
@@ -3755,8 +3998,9 @@
         "動圧は速度二乗なので負にならない。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-10",
@@ -3770,8 +4014,9 @@
         "スライドでは入口局部損失係数ζ≒0。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+      ],
+      "illustration": "a26-ductends"
     },
     {
       "id": "A5-11",
@@ -3785,8 +4030,9 @@
         "出口損失係数ζ≒1。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+      ],
+      "illustration": "a26-ductends"
     },
     {
       "id": "A5-12",
@@ -3800,8 +4046,9 @@
         "管径が変われば速度・動圧も変わる。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-13",
@@ -3815,8 +4062,9 @@
         "両線は摩擦損失分だけ低下する。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      ],
+      "illustration": "a13-pressure"
     },
     {
       "id": "A5-14",
@@ -3830,8 +4078,9 @@
         "Qはm³/sで用いるとUはm/s。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-15",
@@ -3845,8 +4094,9 @@
         "(5000/3600)/0.1。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-16",
@@ -3860,8 +4110,9 @@
         "動圧約115.7Paを差し引く。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      ],
+      "illustration": "a14-pressuremeasure"
     },
     {
       "id": "A5-17",
@@ -3875,8 +4126,9 @@
         "m³/minなら60で割ってWへ換算する。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      ],
+      "illustration": "a15-operating"
     },
     {
       "id": "A5-18",
@@ -3890,8 +4142,9 @@
         "効率を掛けずに割る。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      ],
+      "illustration": "a15-operating"
     },
     {
       "id": "A5-19",
@@ -3905,8 +4158,9 @@
         "(6000/3600)×1000/0.5。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      ],
+      "illustration": "a15-operating"
     },
     {
       "id": "A5-20",
@@ -3920,8 +4174,9 @@
         "相似則が適用できる条件での関係。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      ],
+      "illustration": "a16-fans"
     },
     {
       "id": "A5-21",
@@ -3935,8 +4190,9 @@
         "相似則の前提下。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      ],
+      "illustration": "a16-fans"
     },
     {
       "id": "A5-22",
@@ -3950,8 +4206,9 @@
         "実風量は系の抵抗曲線との交点で決まる。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      ],
+      "illustration": "a16-fans"
     },
     {
       "id": "A5-23",
@@ -3965,8 +4222,9 @@
         "λは摩擦損失係数。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-24",
@@ -3980,8 +4238,9 @@
         "ζは曲がり・分岐等の局部損失係数。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-25",
@@ -3995,8 +4254,9 @@
         "各区間の速度に対応する動圧を用いる。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-26",
@@ -4010,8 +4270,9 @@
         "係数を一定とみなすとΔP∝Q²。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-27",
@@ -4025,8 +4286,9 @@
         "0.02×(10/0.2)×60。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-28",
@@ -4040,8 +4302,9 @@
         "ファンの最大風量だけで設計風量を判断しない。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      ],
+      "illustration": "a15-operating"
     },
     {
       "id": "A5-29",
@@ -4055,8 +4318,9 @@
         "授業ではターボの高効率等を比較。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a25-fanblades.png"
+      ],
+      "illustration": "a25-fanblades"
     },
     {
       "id": "A5-30",
@@ -4070,8 +4334,9 @@
         "等速法と区別する。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-31",
@@ -4085,8 +4350,9 @@
         "全圧が増えるという意味ではない。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A5-32",
@@ -4100,8 +4366,9 @@
         "授業目安は拡大15°以下、縮小30°以下。",
         "",
         "根拠：空気PDF p.211-245。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      ],
+      "illustration": "a17-duct"
     },
     {
       "id": "A6-01",
@@ -4115,8 +4382,9 @@
         "この範囲の温度・湿度・気流を整える。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-02",
@@ -4130,8 +4398,9 @@
         "平均室温だけでは評価できない。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-03",
@@ -4145,8 +4414,9 @@
         "スライドの式の適用範囲内で比較。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-04",
@@ -4160,8 +4430,9 @@
         "温度℃、速度m/s。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-05",
@@ -4175,8 +4446,9 @@
         "授業資料の基準。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-06",
@@ -4190,8 +4462,9 @@
         "100%に近いほど空気分布が良好。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      ],
+      "illustration": "a27-draftindex"
     },
     {
       "id": "A6-07",
@@ -4205,8 +4478,9 @@
         "ペリメータは外気に面する窓周り等の部分。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      ],
+      "illustration": "a22-draft"
     },
     {
       "id": "A6-08",
@@ -4220,8 +4494,9 @@
         "冷気が居住域へ広がるのを抑える。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      ],
+      "illustration": "a22-draft"
     },
     {
       "id": "A6-09",
@@ -4235,8 +4510,9 @@
         "吹出し口形状が減衰特性を変える。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-10",
@@ -4250,8 +4526,9 @@
         "授業ではおよそ吹出し径D₀の2〜6倍程度。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      ],
+      "illustration": "a19-jetdecay"
     },
     {
       "id": "A6-11",
@@ -4265,8 +4542,9 @@
         "平面噴流ではこの減衰傾向が持続する。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      ],
+      "illustration": "a19-jetdecay"
     },
     {
       "id": "A6-12",
@@ -4280,8 +4558,9 @@
         "軸対称噴流の主要な減衰領域。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      ],
+      "illustration": "a19-jetdecay"
     },
     {
       "id": "A6-13",
@@ -4295,8 +4574,9 @@
         "スライドの目安はV_x＜0.25m/s。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      ],
+      "illustration": "a19-jetdecay"
     },
     {
       "id": "A6-14",
@@ -4310,8 +4590,9 @@
         "Kは吹出し口定数、適用域に注意。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-15",
@@ -4325,8 +4606,9 @@
         "5×4×0.1/4。",
         "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-16",
@@ -4340,8 +4622,9 @@
         "授業では通常0.25m/sを用いる。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-17",
@@ -4355,8 +4638,9 @@
         "基準速度V_tと適用域を確認する。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-18",
@@ -4370,8 +4654,9 @@
         "4×0.1×5/0.25。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-19",
@@ -4385,8 +4670,9 @@
         "同じ条件での理想化した比較。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      ],
+      "illustration": "a18-jet"
     },
     {
       "id": "A6-20",
@@ -4400,8 +4686,9 @@
         "丸型・角型がある。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png"
+      ],
+      "illustration": "a20-anemo"
     },
     {
       "id": "A6-21",
@@ -4415,8 +4702,9 @@
         "空気PDF p.287の表現に揃える。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png"
+      ],
+      "illustration": "a20-anemo"
     },
     {
       "id": "A6-22",
@@ -4430,8 +4718,9 @@
         "構造・特性の比較問題に対応。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-23",
@@ -4445,8 +4734,9 @@
         "構造が簡単で到達距離が長い。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-24",
@@ -4460,8 +4750,9 @@
         "工場・厨房など。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-25",
@@ -4475,8 +4766,9 @@
         "羽根角度で方向・到達距離を調整。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-26",
@@ -4490,8 +4782,9 @@
         "ラインディフューザともいう。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      ],
+      "illustration": "a21-outlets"
     },
     {
       "id": "A6-27",
@@ -4505,8 +4798,9 @@
         "下向き成分を増やす調整が有効。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      ],
+      "illustration": "a22-draft"
     },
     {
       "id": "A6-28",
@@ -4520,8 +4814,9 @@
         "強すぎる場合も過大風速に注意。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      ],
+      "illustration": "a22-draft"
     },
     {
       "id": "A6-29",
@@ -4535,8 +4830,9 @@
         "吹出し方向だけでなく到達距離も確認。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      ],
+      "illustration": "a22-draft"
     },
     {
       "id": "A6-30",
@@ -4550,8 +4846,9 @@
         "室全体を同一条件にする方式との比較。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png"
+      ],
+      "illustration": "a23-cfd"
     },
     {
       "id": "A6-31",
@@ -4565,8 +4862,9 @@
         "計算結果を実測で検証することも重要。",
         "",
         "根拠：空気PDF p.251-307。過去問直結。",
-        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
-      ]
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png"
+      ],
+      "illustration": "a23-cfd"
     }
   ],
   "sets": {
@@ -4586,5 +4884,326 @@
     "A4": 25,
     "A5": 32,
     "A6": 31
-  }
+  },
+  "illustrationRevision": 2,
+  "illustrations": [
+    {
+      "id": "h01-wall",
+      "title": "壁の断面と熱抵抗",
+      "source": "熱 PDF p.4–20",
+      "file": "h01-wall.png"
+    },
+    {
+      "id": "h02-radiation",
+      "title": "気温と平均放射温度 MRT",
+      "source": "熱 PDF p.4・108–112・130",
+      "file": "h02-radiation.png"
+    },
+    {
+      "id": "h03-room",
+      "title": "単室の熱収支と自然室温",
+      "source": "熱 PDF p.21–26・69",
+      "file": "h03-room.png"
+    },
+    {
+      "id": "h04-multizone",
+      "title": "多数室：内壁と空気移動",
+      "source": "熱 PDF p.28–41",
+      "file": "h04-multizone.png"
+    },
+    {
+      "id": "h05-sat",
+      "title": "外壁表面と相当外気温度 SAT",
+      "source": "熱 PDF p.45–54",
+      "file": "h05-sat.png"
+    },
+    {
+      "id": "h06-glass",
+      "title": "ガラスに入射した日射の行き先",
+      "source": "熱 PDF p.57–60",
+      "file": "h06-glass.png"
+    },
+    {
+      "id": "h07-shading",
+      "title": "内ブラインドと外ブラインド",
+      "source": "熱 PDF p.61–62",
+      "file": "h07-shading.png"
+    },
+    {
+      "id": "h08-eaves",
+      "title": "南面の水平庇と太陽高度",
+      "source": "熱 PDF p.45・61–66",
+      "file": "h08-eaves.png"
+    },
+    {
+      "id": "h09-lowe",
+      "title": "Low-E複層ガラスの膜位置",
+      "source": "熱 PDF p.63–67",
+      "file": "h09-lowe.png"
+    },
+    {
+      "id": "h10-neutral",
+      "title": "日射取得がある室の冷暖房負荷",
+      "source": "熱 PDF p.69・過去問 問4",
+      "file": "h10-neutral.png"
+    },
+    {
+      "id": "h11-capacity",
+      "title": "断熱性・熱容量と室温変動",
+      "source": "熱 PDF p.81–83・99",
+      "file": "h11-capacity.png"
+    },
+    {
+      "id": "h12-conduction",
+      "title": "壁内の小領域の熱収支",
+      "source": "熱 PDF p.89–97",
+      "file": "h12-conduction.png"
+    },
+    {
+      "id": "h13-response",
+      "title": "集中熱容量モデルのステップ応答",
+      "source": "熱 PDF p.99–106",
+      "file": "h13-response.png"
+    },
+    {
+      "id": "h14-human",
+      "title": "人体の熱収支と温熱環境6要素",
+      "source": "熱 PDF p.108–117",
+      "file": "h14-human.png"
+    },
+    {
+      "id": "h15-pmv",
+      "title": "PMVとPPDの対応",
+      "source": "熱 PDF p.117–129",
+      "file": "h15-pmv.png"
+    },
+    {
+      "id": "h16-globe",
+      "title": "グローブ温度計の熱収支",
+      "source": "熱 PDF p.130–132",
+      "file": "h16-globe.png"
+    },
+    {
+      "id": "h17-psychrometric",
+      "title": "空気線図：加熱・冷却と露点",
+      "source": "熱 PDF p.136・142–147",
+      "file": "h17-psychrometric.png"
+    },
+    {
+      "id": "h18-coil",
+      "title": "冷却・除湿コイルとドレン",
+      "source": "熱 PDF p.135–137",
+      "file": "h18-coil.png"
+    },
+    {
+      "id": "h19-mixing",
+      "title": "混合空気と加湿の状態変化",
+      "source": "熱 PDF p.135–138",
+      "file": "h19-mixing.png"
+    },
+    {
+      "id": "h20-degreedays",
+      "title": "暖房デグリーデーと参照温度",
+      "source": "熱 PDF p.149–159",
+      "file": "h20-degreedays.png"
+    },
+    {
+      "id": "a01-combustion",
+      "title": "燃焼器具の給気元と排気先",
+      "source": "空気 PDF p.11–14",
+      "file": "a01-combustion.png"
+    },
+    {
+      "id": "a02-oxygen",
+      "title": "開放型器具の酸素収支",
+      "source": "空気 PDF p.26–28",
+      "file": "a02-oxygen.png"
+    },
+    {
+      "id": "a03-hood",
+      "title": "排気フードの捕集と測定",
+      "source": "空気 PDF p.43–50",
+      "file": "a03-hood.png"
+    },
+    {
+      "id": "a04-contaminant",
+      "title": "室内汚染の定常・非定常収支",
+      "source": "空気 PDF p.56–76・101–106",
+      "file": "a04-contaminant.png"
+    },
+    {
+      "id": "a05-recirculation",
+      "title": "外気・循環空気とフィルタの配置",
+      "source": "空気 PDF p.82–93",
+      "file": "a05-recirculation.png"
+    },
+    {
+      "id": "a06-filter",
+      "title": "粒子の捕集：濾材と電気集じん",
+      "source": "空気 PDF p.79–87",
+      "file": "a06-filter.png"
+    },
+    {
+      "id": "a07-isolation",
+      "title": "汚染源隔離と室間の気流方向",
+      "source": "空気 PDF p.61–63",
+      "file": "a07-isolation.png"
+    },
+    {
+      "id": "a08-tracer",
+      "title": "トレーサガスで換気量を測る",
+      "source": "空気 PDF p.115–131",
+      "file": "a08-tracer.png"
+    },
+    {
+      "id": "a09-decay",
+      "title": "濃度減衰と片対数表示",
+      "source": "空気 PDF p.103–113・119–123",
+      "file": "a09-decay.png"
+    },
+    {
+      "id": "a10-ventpatterns",
+      "title": "室内の流れと空気交換効率",
+      "source": "空気 PDF p.198・AIJ公開講習資料 p.7",
+      "file": "a10-ventpatterns.png"
+    },
+    {
+      "id": "a11-agecurves",
+      "title": "ステップ法で空気齢を測る",
+      "source": "空気 PDF p.168–173",
+      "file": "a11-agecurves.png"
+    },
+    {
+      "id": "a12-airage",
+      "title": "局所平均空気齢と室平均空気齢",
+      "source": "空気 PDF p.158–162・182–191",
+      "file": "a12-airage.png"
+    },
+    {
+      "id": "a13-pressure",
+      "title": "送風系の全圧・静圧・動圧",
+      "source": "空気 PDF p.211–215",
+      "file": "a13-pressure.png"
+    },
+    {
+      "id": "a14-pressuremeasure",
+      "title": "流れる空気の圧力を測る",
+      "source": "空気 PDF p.211–215・三菱電機 技術資料",
+      "file": "a14-pressuremeasure.png"
+    },
+    {
+      "id": "a15-operating",
+      "title": "送風機の動作点と系の抵抗",
+      "source": "空気 PDF p.218–231",
+      "file": "a15-operating.png"
+    },
+    {
+      "id": "a16-fans",
+      "title": "送風機の直列・並列運転",
+      "source": "空気 PDF p.224–231",
+      "file": "a16-fans.png"
+    },
+    {
+      "id": "a17-duct",
+      "title": "直管・曲がり・拡大部の損失",
+      "source": "空気 PDF p.233–245",
+      "file": "a17-duct.png"
+    },
+    {
+      "id": "a18-jet",
+      "title": "噴流の広がりと周囲空気の誘引",
+      "source": "空気 PDF p.275–282",
+      "file": "a18-jet.png"
+    },
+    {
+      "id": "a19-jetdecay",
+      "title": "噴流の4領域と到達距離",
+      "source": "空気 PDF p.278–283",
+      "file": "a19-jetdecay.png"
+    },
+    {
+      "id": "a20-anemo",
+      "title": "アネモ型吹出し口の断面",
+      "source": "空気 PDF p.287",
+      "file": "a20-anemo.png"
+    },
+    {
+      "id": "a21-outlets",
+      "title": "吹出し口の形状と噴流",
+      "source": "空気 PDF p.284–296",
+      "file": "a21-outlets.png"
+    },
+    {
+      "id": "a22-draft",
+      "title": "窓の冷下降流と暖房時の成層",
+      "source": "空気 PDF p.260–274",
+      "file": "a22-draft.png"
+    },
+    {
+      "id": "a23-cfd",
+      "title": "室内気流の予測とタスク領域",
+      "source": "空気 PDF p.297–307",
+      "file": "a23-cfd.png"
+    },
+    {
+      "id": "h21-solar",
+      "title": "面に入射する日射の3成分",
+      "source": "熱 PDF p.45–46",
+      "file": "h21-solar.png"
+    },
+    {
+      "id": "h22-airprocess",
+      "title": "空気線図上の混合と加湿",
+      "source": "熱 PDF p.135–138",
+      "file": "h22-airprocess.png"
+    },
+    {
+      "id": "h23-moisture",
+      "title": "絶対湿度と相対湿度を区別する",
+      "source": "熱 PDF p.133–134・142–147",
+      "file": "h23-moisture.png"
+    },
+    {
+      "id": "h24-wbgt",
+      "title": "WBGTで用いる3つの温度",
+      "source": "熱 PDF p.130–132",
+      "file": "h24-wbgt.png"
+    },
+    {
+      "id": "a24-removal",
+      "title": "汚染質の発生源と除去の指標",
+      "source": "空気 PDF p.143–156",
+      "file": "a24-removal.png"
+    },
+    {
+      "id": "a25-fanblades",
+      "title": "シロッコとターボの羽根",
+      "source": "空気 PDF p.216–225",
+      "file": "a25-fanblades.png"
+    },
+    {
+      "id": "a26-ductends",
+      "title": "ベルマウス入口と大気開放出口",
+      "source": "空気 PDF p.237–238",
+      "file": "a26-ductends.png"
+    },
+    {
+      "id": "a27-draftindex",
+      "title": "局所的な気流の不快感とDR",
+      "source": "空気 PDF p.251–259",
+      "file": "a27-draftindex.png"
+    },
+    {
+      "id": "h25-shf",
+      "title": "顕熱・潜熱と室内の状態変化",
+      "source": "熱 PDF p.137–138",
+      "file": "h25-shf.png"
+    },
+    {
+      "id": "h26-solarload",
+      "title": "窓1面＋換気の定常熱負荷",
+      "source": "熱 PDF p.69・過去問 問4",
+      "file": "h26-solarload.png"
+    }
+  ]
 }

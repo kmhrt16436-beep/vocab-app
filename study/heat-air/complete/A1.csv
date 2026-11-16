@@ -1,18 +1,18 @@
-﻿【A1-01】開放型の給気元と排気先は？,給気も排気も室内。,,ガスコンロ・石油ストーブなど。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-02】半密閉型の給気元と排気先は？,室内から給気し、屋外へ排気。,,CF・FE型など。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-03】密閉型の給気元と排気先は？,屋外から給気し、屋外へ排気。,,BF・FF型など。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-04】CF型とFE型の違いは？,CFは自然排気、FEは強制排気。,,どちらも半密閉型。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-05】BF型とFF型の違いは？,BFは自然給排気、FFは強制給排気。,,どちらも密閉型。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？,酸素濃度低下で不完全燃焼が起こり、CO発生が増えるため。,,室内酸素が減ることとCO発生をつなげて説明する。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？,授業資料では20.5%＝0.205。,,外気濃度21%＝0.21との差を用いる。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-08】酸素消費量をM＜0で表した定常収支は？,CQ＝C₀Q＋M。,,発生を正、消費を負とする。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？,M＝−0.21A_th。,,スライドの簡略化した燃焼モデル。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？,Q＝42A_th。,,0.21A_th/(0.21−0.205)。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-11】排気捕集率ηを考慮すると必要換気量は？,Q＝42(1−η)A_th。,,室内に放出される分が1−η。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？,室内に放出される燃焼廃ガスを減らすから。,,同じ燃焼量と濃度条件での比較。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-13】授業資料の開放型の必要換気量Vの簡便式は？,V＝40KQ_f。,,Kは単位燃料当たり理論廃ガス量、Q_fは燃料消費量。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-14】授業資料の排気フードI型・II型の簡便式は？,I型は30KQ_f、II型は20KQ_f。,,KQ_fの単位がm³/hになるよう揃える。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-15】授業資料の煙突の必要換気量の簡便式は？,V＝2KQ_f。,,開放型の40倍と混同しない。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-16】排気捕集率をトレーサガスで測る式は？,η＝Q(C_E−C_B)/M。,,Mは発生量、Qは排気量、C_Eは排気濃度、C_Bは背景濃度。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？,80 m³/h。,,40×2。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
-【A1-18】必要換気量の式で文字Qに注意する理由は？,換気量と燃料消費量の両方に使われるため。,,問題ごとに定義と単位を確認する。,,根拠：空気PDF p.8-51。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png
+﻿"【A1-01】開放型の給気元と排気先は？","給気も排気も室内。","","ガスコンロ・石油ストーブなど。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+"【A1-02】半密閉型の給気元と排気先は？","室内から給気し、屋外へ排気。","","CF・FE型など。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+"【A1-03】密閉型の給気元と排気先は？","屋外から給気し、屋外へ排気。","","BF・FF型など。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+"【A1-04】CF型とFE型の違いは？","CFは自然排気、FEは強制排気。","","どちらも半密閉型。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+"【A1-05】BF型とFF型の違いは？","BFは自然給排気、FFは強制給排気。","","どちらも密閉型。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+"【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？","酸素濃度低下で不完全燃焼が起こり、CO発生が増えるため。","","室内酸素が減ることとCO発生をつなげて説明する。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？","授業資料では20.5%＝0.205。","","外気濃度21%＝0.21との差を用いる。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-08】酸素消費量をM＜0で表した定常収支は？","CQ＝C₀Q＋M。","","発生を正、消費を負とする。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？","M＝−0.21A_th。","","スライドの簡略化した燃焼モデル。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？","Q＝42A_th。","","0.21A_th/(0.21−0.205)。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-11】排気捕集率ηを考慮すると必要換気量は？","Q＝42(1−η)A_th。","","室内に放出される分が1−η。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+"【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？","室内に放出される燃焼廃ガスを減らすから。","","同じ燃焼量と濃度条件での比較。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+"【A1-13】授業資料の開放型の必要換気量Vの簡便式は？","V＝40KQ_f。","","Kは単位燃料当たり理論廃ガス量、Q_fは燃料消費量。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-14】授業資料の排気フードI型・II型の簡便式は？","I型は30KQ_f、II型は20KQ_f。","","KQ_fの単位がm³/hになるよう揃える。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-15】授業資料の煙突の必要換気量の簡便式は？","V＝2KQ_f。","","開放型の40倍と混同しない。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-16】排気捕集率をトレーサガスで測る式は？","η＝Q(C_E−C_B)/M。","","Mは発生量、Qは排気量、C_Eは排気濃度、C_Bは背景濃度。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+"【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？","80 m³/h。","","40×2。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+"【A1-18】必要換気量の式で文字Qに注意する理由は？","換気量と燃料消費量の両方に使われるため。","","問題ごとに定義と単位を確認する。","","根拠：空気PDF p.8-51。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"

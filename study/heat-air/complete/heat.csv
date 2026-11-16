@@ -1,142 +1,142 @@
-﻿【H1-01】熱伝導・対流・放射の違いは？,伝導は物体内部、対流は流体運動、放射は電磁波による熱移動。,,壁内部と表面の伝熱を区別する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-02】熱抵抗を直列に重ねると合成抵抗は？,各熱抵抗を足し合わせる。,,同じ熱流が順に通る経路の合成。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-03】均質材料の単位面積当たりの熱抵抗は？,R＝δ/λ [m²K/W]。,,δ：厚さ[m]、λ：熱伝導率[W/(mK)]。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-04】熱貫流率Uを熱抵抗から求める式は？,U＝1/(1/α_o＋Σδ_i/λ_i＋R_中空層＋1/α_i)。,,表面熱伝達抵抗も含める。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？,Uは抵抗の逆数。Uが小さいほど熱を通しにくい。,,Uの単位はW/(m²K)。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-06】熱伝導率と熱貫流率の違いは？,熱伝導率は材料の性質、熱貫流率は表面抵抗も含む部位全体の性能。,,λ[W/(mK)]とU[W/(m²K)]を区別。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-07】熱流密度qと部位全体の熱流Qの関係は？,Q＝qA＝UA(θ_o−θ_R)。,,qはW/m²、QはW。室内流入を正とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-08】室内表面の総合熱伝達率は？,α_t＝α_c＋α_r。,,対流と放射を合成する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-09】平均放射温度MRTの近似式は？,MRT≒ΣF_iθ_i。,,常温での近似。F_iは形態係数、ΣF_i＝1。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-10】環境温度を気温とMRTで表す式は？,θ_e＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。,,気温だけで放射の影響を置き換えない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-11】換気の顕熱負荷を室内流入正で表すと？,Q_v＝C_pρV(θ_o−θ_R)。,,Vはm³/s、C_pρは約1200 J/(m³K)。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？,3600で割ってm³/sに換算する。,,180 m³/h＝0.05 m³/s。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？,600 W。,,1200×(180/3600)×10。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-14】建物全体の総合熱貫流率[W/K]は？,G＝ΣU_iA_i＋C_pρV。,,スライドのUAに相当。換気を含む場合の式。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-15】部位のUと建物全体のGを区別する単位は？,UはW/(m²K)、GはW/K。,,Gは各部位UAと換気熱容量流量の合計。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？,G/A_F [W/(m²K)]。,,スライドで用いる定義。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-17】内部発熱Hのある室の定常冷房負荷は？,Q_C＝G(θ_o−θ_R)＋H。,,冷房側が正、暖房側が負。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？,2780 Wの暖房。,,Q_C＝270(10−24)＋1000＝−2780W。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-19】冷暖房がないときの自然室温は？,θ_R＝θ_o＋H/G。,,定常収支でQ_C＝0とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-20】中空層で生じる熱移動は伝導だけか？,対流と放射も生じる。,,空気層の抵抗を厚さ/空気の熱伝導率だけで決めない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-21】高断熱化と高気密化を組み合わせる理由は？,隙間からの空気移動による熱損失を抑えるため。,,必要な換気は計画換気で確保する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-22】異なる温度の複数室を計算する基本手順は？,室ごとに熱収支式を立て、連立して解く。,,隣室との伝熱・空気移動を追加する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-23】隣室jから室iへの貫流熱は？,U_ijA_ij(θ_j−θ_i)。,,室iへの流入を正とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-24】室jから室iへの流入空気による正味流入熱は？,C_pρV_j→i(θ_j−θ_i)。,,定常の風量保存を用いて流出項を整理した形。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？,流入量＝流出量を使い、流出空気の熱量を室温差の式へまとめられるから。,,流出を無視するのではなく、風量保存で整理する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-26】多数室で空気が運ぶ熱を決める温度は？,その空気の上流側の室温。,,流出空気が隣室温になるわけではない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？,その室のQ_Cを0にする。,,空調室は設定室温を既知量にする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H1-28】室間の貫流熱を全室で足し合わせると？,同じ内壁を通る熱は正負が逆で相殺する。,,全体収支の検算になる。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
-【H2-01】入射日射量を3成分に分けると？,直達日射＋天空日射＋地物反射日射。,,J＝J_d＋J_s＋J_r。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-02】日射と夜間放射の波長領域の違いは？,日射は短波、夜間放射は長波。,,夜間放射は大気等との正味長波放射の補正量。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-03】日射の入射量を左右する幾何条件は？,面の方位・傾斜角、太陽の位置、周囲の遮蔽物。,,同じ気象条件でも面ごとにJが異なる。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-04】不透明部位の相当外気温度SATは？,SAT＝θ_o＋a_sJ/α_o−εJ_n/α_o。,,J_nを外表面からの正味放熱に対応する量として用いる。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-05】SATを使う目的は？,日射・夜間放射の効果を、等価な外気温度にまとめるため。,,壁の熱流をq＝U(SAT−θ_R)で計算できる。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-06】日射吸収率a_sが大きくなるとSATは？,ほかの条件が同じなら上昇する。,,日射による外表面加熱が増える。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-07】夜間放射量J_nが大きくなるとSATは？,ほかの条件が同じなら低下する。,,SATの式で夜間放射項は負。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？,約56.5℃。,,30＋700/23−90/23。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？,約15.8 W/m²。,,0.5(56.5−25)。スライドは途中の丸めで約15.7。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-10】日射熱取得率ηの定義は？,窓に入射する日射のうち、室内への熱取得となる割合。,,直接透過だけでなく、吸収後に室内側へ流れる分も含む。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？,ηA_wJ [W]。,,ηは無次元。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-12】日射遮蔽係数SCの基準は？,3mm透明ガラスの日射熱取得を1とする比較指標。,,ηそのものと同一の数値ではない。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png
-【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？,窓の外側で日射を遮り、吸収した熱を屋外へ放出しやすいから。,,一般にη・SCが小さくなる。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png
-【H2-14】庇・ルーバーの光環境上の利点と注意点は？,直射日光・まぶしさを抑えられる一方、採光や眺望を妨げる場合がある。,,形状・配置・材料に応じた評価が必要。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png
-【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？,方位・太陽位置・遮蔽部材の形状と位置・材料の光熱特性。,,窓のη・U・面積、気象・室内条件も確認する。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png
-【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？,夏は太陽高度が高く、冬は低いため日射の遮られ方が変わる。,,南面を想定。方位・緯度・庇寸法に依存する。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png
-【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？,中空層に面する低放射膜で、ガラス間の放射伝熱を抑える。,,単にガラスを厚くする仕組みではない。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？,遮熱タイプは外側ガラスの中空層側、断熱タイプは内側ガラスの中空層側。,,スライドの構成例に従う。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？,別の性能。Uは温度差による伝熱、ηは日射による熱取得を表す。,,Uだけでは日射遮蔽を評価できない。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-20】窓1面＋換気の室の定常冷房負荷は？,Q_C＝(UA_w＋C_pρV)(θ_o−θ_R)＋ηA_wJ。,,他の面・室内発熱・夜間放射を無視する過去問の条件。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？,46 W/K。,,4×10＋1200×0.005。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？,200 W。,,0.2×10×100。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-23】熱損失係数46W/K、日射取得200Wの室で、外気θ_o・室温θ_RならQ_Cは？,Q_C＝46(θ_o−θ_R)＋200 [W]。,,室温を固定する場合の直線の傾きは46 W/K。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-24】熱損失係数46W/K、取得熱200Wの室で、自然室温と外気温の関係は？,"θ_R,nat＝θ_o＋200/46≒θ_o＋4.35℃。",,冷暖房なしでQ_C＝0と置く。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-25】G＝46W/K、取得熱200W、許容室温22〜27℃なら無負荷帯の外気温は？,約17.65〜22.65℃。,,22−200/46≦θ_o≦27−200/46。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png
-【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？,日射取得により自然室温が外気温より約4.35℃高くなるから。,,室温の範囲と外気温の範囲を区別する。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png
-【H2-27】G＝46W/K、取得熱200W、暖房設定22℃で、低温側のQ_C(θ_o)は？,Q_C＝46θ_o−812 [W]。,,室温を22℃に保つ。負の値は暖房。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-28】G＝46W/K、取得熱200W、冷房設定27℃で、高温側のQ_C(θ_o)は？,Q_C＝46θ_o−1042 [W]。,,室温を27℃に保つ。正の値は冷房。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-29】G＝46W/K、取得熱200W、許容室温22〜27℃。外気20℃で冷暖房は必要？,不要。自然室温が約24.35℃だから。,,22〜27℃内なのでQ_C＝0。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-30】G＝46W/K、取得熱200W、暖房設定22℃、外気10℃なら暖房負荷は？,352 W。,,Q_C＝46×10−812＝−352W。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-31】G＝46W/K、取得熱200W、冷房設定27℃、外気30℃なら冷房負荷は？,338 W。,,Q_C＝46×30−1042。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png
-【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？,θ_min−S/G≦θ_o≦θ_max−S/G。,,G＞0、S一定の単室定常モデル。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png
-【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？,高温側へ動く。,,S/Gが小さくなり、境界θ_set−S/Gが上がる。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png
-【H2-34】熱負荷の折れ線グラフの検算方法は？,各境界でQ_C＝0になり、低温側は負、高温側は正になるか確認する。,,単位・傾き・自然室温の範囲も検算する。,,根拠：熱PDF p.45-70。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png
-【H3-01】定常伝熱と非定常伝熱の違いは？,定常では温度分布・熱流が時間変化せず、非定常では時間変化する。,,定常でも場所ごとに温度が異なる場合がある。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-02】部材の熱容量Cは？,C＝ρcV_body [J/K]。,,ρ：密度、c：比熱、V_body：部材体積。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-03】容積比熱と熱容量の違いは？,容積比熱は単位体積当たり、熱容量は対象全体の蓄熱能力。,,単位はJ/(m³K)とJ/K。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-04】同じ断熱性なら熱容量が大きい室の応答は？,室温変化が緩やかになる。,,定常到達温度とは区別する。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？,室内へ露出する表面積・厚さ・熱容量の配置。,,物体全体が瞬時に同じ温度になるとは限らない。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-06】フーリエの法則を温度勾配で表すと？,q＝−λ∂θ/∂x。,,熱は高温側から低温側へ流れる。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-07】一次元熱伝導方程式は？,ρc∂θ/∂t＝λ∂²θ/∂x²。,,物性一定・内部発熱なしのモデル。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-08】熱拡散率aの定義と単位は？,a＝λ/(ρc) [m²/s]。,,熱が温度変化として伝わる速さを表す量。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-09】壁内の小領域の熱収支の基本形は？,蓄熱量の変化＝流入熱−流出熱。,,熱伝導方程式を導く出発点。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-10】陽解法の内部節点の更新式は？,θ_iⁿ＝pθ_(i−1)ⁿ⁻¹＋(1−2p)θ_iⁿ⁻¹＋pθ_(i＋1)ⁿ⁻¹。,,p＝λΔt/(ρcΔx²)。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-11】一次元等間隔内部節点の陽解法での安定条件は？,0≦p≦1/2。,,標準的な内部節点の条件。表面境界の条件は別途確認。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-12】相当熱容量とは？,室温変動に実効的に寄与する熱容量を室内の一様温度体へ置き換えた量。,,壁全体の熱容量と必ずしも同じではない。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-13】単室の集中熱容量モデルの収支式は？,C dθ_i/dt＝G(θ_o−θ_i)＋H。,,G[W/K]、C[J/K]、t[s]。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-14】外気・発熱が一定のとき集中モデルの室温解は？,θ_i(t)＝θ_∞＋(θ_i(0)−θ_∞)e^(−t/τ)。,,θ_∞＝θ_o＋H/G、τ＝C/G。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-15】熱時定数τの定義は？,τ＝C/G [s]。,,ステップ応答が最終変化の約63.2%になる時間。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-16】ステップ加熱開始から1時定数後の応答率は？,1−e⁻¹≒63.2%。,,3時定数後は約95.0%。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-17】加熱停止後の温度差はどう変化する？,外気温との差がe^(−t/τ)に比例して減衰する。,,外気一定、H＝0の集中モデル。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-18】室温変動率δと時定数τの関係は？,δ＝G/C＝1/τ。,,δの単位はs⁻¹。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？,約46667 s（約13.0 h）。,,"C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。",計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H4-01】温熱環境の環境側4要素は？,気温・平均放射温度・相対湿度・気流速度。,,人体側2要素と合わせ6要素。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-02】温熱環境の人体側2要素は？,代謝量・着衣量。,,環境が同じでも体感が変わる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-03】人体のコア温度はおよそ何℃か？,約37℃。,,スライドの体温調節モデル。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-04】中性温域と恒温適応域の違いは？,中性温域は主にコア領域の調節、恒温適応域は発汗・ふるえ等でも体温を維持する範囲。,,温冷感と生理的調節を対応させる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？,Mは産熱、Cは対流放熱、Rは放射放熱、Eは蒸発放熱。,,定常、外部仕事等を簡略化した表現。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-06】1metの意味と値は？,椅座位安静時相当の代謝率で58.2 W/m²。,,体表面積1.7m²なら約99W。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-07】1cloの値と物理的意味は？,0.155 m²K/Wの着衣熱抵抗。,,cloが大きいほど熱を逃がしにくい。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-08】作用温度OTの一般式は？,OT＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。,,対流と放射の熱交換を統合する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-09】OTを気温とMRTの平均で近似できる条件は？,対流・放射の熱伝達率がほぼ等しい場合。,,OT≒(θ_a＋MRT)/2。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？,27℃。,,気温だけの評価と区別する。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-11】ET*がOTに加えて考慮する要素は？,湿度。,,スライドでは相対湿度50%の等価環境へ置き換える。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-12】SET*が統合して評価する要素は？,気温・放射温度・湿度・気流・着衣量・代謝量の6要素。,,標準条件への等価温度として表す。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-13】PMVとは？,6要素から予測する平均温冷感申告。,,温度そのものではなく温冷感の尺度。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-14】PMVの0・正・負の意味は？,0が中立、正が暑い側、負が寒い側。,,一般に−3〜＋3の7段階を用いる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-15】PPDとは？,予測不満足者率。,,PMVと対応して集団の不満足を予測する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-16】スライドでのPMVの快適範囲は？,およそ−0.5≦PMV≦0.5、PPDは約10%以下。,,資料上の目安。個人差は残る。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-17】PMVが0ならPPDも0になるか？,ならない。最小でも約5%。,,全員が同じ温冷感になるとは限らない。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？,対流熱伝達が増え、人体からの放熱が増えるから。,,高温環境では単純に同じ効果とはいえない。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？,汗が蒸発しにくくなり、蒸発放熱が減るから。,,湿度と温度の作用を区別する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？,着衣増加は放熱を抑え、代謝増加は産熱を増やすから。,,6要素の定性的説明に使う。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-21】WBGTの日射ありの式は？,WBGT＝0.7θ_wb＋0.2θ_g＋0.1θ_a。,,湿球温度・グローブ温度・気温を使用する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-22】WBGTの日射なしの式は？,WBGT＝0.7θ_wb＋0.3θ_g。,,授業資料の式。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？,27.5℃。,,17.5＋7＋3。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H4-24】グローブ温度計で対流と放射が釣り合う式は？,α_c(θ_a−θ_g)＝α_r(θ_g−MRT)。,,気流によって対流熱伝達率も変わる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
-【H5-01】湿り空気を分けて扱う2成分は？,乾き空気と水蒸気。,,乾き空気質量を基準に状態量を表す。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-02】絶対湿度xの定義と単位は？,乾き空気1kg当たりの水蒸気質量、kg/kg(DA)。,,g/kg(DA)表示との1000倍の違いに注意。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-03】相対湿度φの定義式は？,φ＝f/f_s×100 [%]。,,f：水蒸気分圧、f_s：その温度の飽和水蒸気圧。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-04】絶対湿度xと水蒸気分圧fの関係は？,x＝0.622f/(P−f)。,,全圧Pとfの圧力単位を揃える。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？,低下する。,,飽和水蒸気圧が上昇するため。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-06】露点温度とは？,水蒸気量一定で冷却し、飽和して結露し始める温度。,,表面温度が露点以下になると表面結露の可能性。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-07】20℃・60%のスライドの状態点での絶対湿度は？,約8.7 g/kg(DA)。,,水蒸気分圧約1.4kPa、飽和分圧約2.3kPa。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-08】湿り空気の比エンタルピーhの近似式は？,h＝1.01t＋x(2500＋1.81t) [kJ/kg(DA)]。,,xはkg/kg(DA)、tは℃。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-09】空気線図の状態点を決める基本手順は？,独立な2つの状態量の線の交点を求め、他の状態量を読む。,,例：乾球温度と相対湿度。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-10】2種の空気を断熱混合した後のhとxは？,h₃＝(G₁h₁＋G₂h₂)/(G₁＋G₂)、x₃＝(G₁x₁＋G₂x₂)/(G₁＋G₂)。,,Gは乾き空気質量流量。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-11】混合空気の線図上の位置は？,2つの状態点を結ぶ線分上で、反対側の質量流量比で内分する。,,状態1の量が多いほど状態1に近い。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？,厳密には求まらない。hとxを保存して求める。,,比熱の湿度依存性を無視すれば温度加重平均は近似。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？,40 kJ/kg(DA)。,,(2×30＋60)/3。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-14】加湿しない加熱で一定の状態量は？,絶対湿度x。,,乾球温度とhは上昇、相対湿度は低下。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-15】加熱コイルの熱量q_hは？,q_h＝G(h₂−h₁) [kW]。,,Gはkg(DA)/s、hはkJ/kg(DA)。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-16】冷却・除湿コイルの除去熱量q_cは？,q_c＝G(h₁−h₂) [kW]。,,顕熱だけでなく潜熱も含む。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-17】冷却コイルで除湿が生じる条件は？,コイル表面温度が通過空気の露点温度以下になること。,,凝縮水がドレンとして除かれる。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-18】除湿量Lを求める式は？,L＝G(x₁−x₂) [kg/s]。,,湿度差をg/kgのまま使わない。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？,0.003 kg/s＝10.8 kg/h。,,0.003×3600。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？,ほぼ等エンタルピーで、絶対湿度が増え乾球温度が下がる。,,噴霧水の顕熱を無視する近似。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？,蒸気が持つ熱も加わるため、絶対湿度とエンタルピーが増加する。,,乾球温度一定とするのは近似。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-22】熱水分比uとは？,u＝Δh/Δx [kJ/kg]。,,線図上の状態変化の方向を決める。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-23】顕熱比SHFの式は？,SHF＝q_s/(q_s＋q_l)。,,顕熱÷全熱。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-24】顕熱3kW、潜熱1kWならSHFは？,0.75。,,全熱は4kW。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？,室内状態点を通る、所定SHFの方向の線上に吹出し点を取る。,,温度差だけでは除湿負荷を処理できない。,,根拠：熱PDF p.133-147。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png
-【H6-01】暖房デグリーデーの定義は？,"Σmax(θ_set−日平均外気温,0) [K・日]。",,温度差が正の日だけ集計する。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-02】冷房デグリーデーの定義は？,"Σmax(日平均外気温−θ_set,0) [K・日]。",,対象地域の気候の指標。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？,11 K・日。,,8＋3＋0。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？,"Q_H,total＝0.0864G×DD_H。",,24時間連続・定常近似。スライドでは0.086に丸める。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-05】年間熱負荷をkWhで求める換算係数は？,Q_total＝0.024G×DD [kWh]。,,24 h/日÷1000。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？,同じではない。消費電力にはCOPや運転条件も必要。,,熱需要と機器効率を分ける。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-07】内部発熱Hを考慮した参照温度は？,θ_ref＝θ_set−H/G。,,無負荷となる等価外気温の境界。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-08】内部発熱が大きい建物では参照温度はどうなる？,低くなる。,,寒い外気でも冷房が必要になる場合がある。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-09】住宅と大型内部発熱建物の熱計画の違いは？,住宅は暖房損失抑制、大型建物は内部発熱に応じた冷房・排熱も重視。,,断熱を強めれば常に全負荷が減るとは限らない。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？,内部発熱による参照温度と、日射・夜間放射による相当外気温度。,,スライドのモデルでは外皮方位等を単純化。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？,η＝a_sU/α_o。,,SATによる日射熱取得の式から導く。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
-【H6-12】DD法を使うときの主な近似条件は？,日平均温度、定常熱収支、一定の建物特性・設定温度を使う。,,間欠空調等の影響は補正が必要。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+﻿"【H1-01】熱伝導・対流・放射の違いは？","伝導は物体内部、対流は流体運動、放射は電磁波による熱移動。","","壁内部と表面の伝熱を区別する。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-02】熱抵抗を直列に重ねると合成抵抗は？","各熱抵抗を足し合わせる。","","同じ熱流が順に通る経路の合成。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-03】均質材料の単位面積当たりの熱抵抗は？","R＝δ/λ [m²K/W]。","","δ：厚さ[m]、λ：熱伝導率[W/(mK)]。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-04】熱貫流率Uを熱抵抗から求める式は？","U＝1/(1/α_o＋Σδ_i/λ_i＋R_中空層＋1/α_i)。","","表面熱伝達抵抗も含める。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？","Uは抵抗の逆数。Uが小さいほど熱を通しにくい。","","Uの単位はW/(m²K)。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-06】熱伝導率と熱貫流率の違いは？","熱伝導率は材料の性質、熱貫流率は表面抵抗も含む部位全体の性能。","","λ[W/(mK)]とU[W/(m²K)]を区別。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-07】熱流密度qと部位全体の熱流Qの関係は？","Q＝qA＝UA(θ_o−θ_R)。","","qはW/m²、QはW。室内流入を正とする。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-08】室内表面の総合熱伝達率は？","α_t＝α_c＋α_r。","","対流と放射を合成する。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-09】平均放射温度MRTの近似式は？","MRT≒ΣF_iθ_i。","","常温での近似。F_iは形態係数、ΣF_i＝1。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+"【H1-10】環境温度を気温とMRTで表す式は？","θ_e＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。","","気温だけで放射の影響を置き換えない。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+"【H1-11】換気の顕熱負荷を室内流入正で表すと？","Q_v＝C_pρV(θ_o−θ_R)。","","Vはm³/s、C_pρは約1200 J/(m³K)。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？","3600で割ってm³/sに換算する。","","180 m³/h＝0.05 m³/s。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？","600 W。","","1200×(180/3600)×10。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-14】建物全体の総合熱貫流率[W/K]は？","G＝ΣU_iA_i＋C_pρV。","","スライドのUAに相当。換気を含む場合の式。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-15】部位のUと建物全体のGを区別する単位は？","UはW/(m²K)、GはW/K。","","Gは各部位UAと換気熱容量流量の合計。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？","G/A_F [W/(m²K)]。","","スライドで用いる定義。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-17】内部発熱Hのある室の定常冷房負荷は？","Q_C＝G(θ_o−θ_R)＋H。","","冷房側が正、暖房側が負。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？","2780 Wの暖房。","","Q_C＝270(10−24)＋1000＝−2780W。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-19】冷暖房がないときの自然室温は？","θ_R＝θ_o＋H/G。","","定常収支でQ_C＝0とする。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-20】中空層で生じる熱移動は伝導だけか？","対流と放射も生じる。","","空気層の抵抗を厚さ/空気の熱伝導率だけで決めない。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+"【H1-21】高断熱化と高気密化を組み合わせる理由は？","隙間からの空気移動による熱損失を抑えるため。","","必要な換気は計画換気で確保する。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+"【H1-22】異なる温度の複数室を計算する基本手順は？","室ごとに熱収支式を立て、連立して解く。","","隣室との伝熱・空気移動を追加する。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-23】隣室jから室iへの貫流熱は？","U_ijA_ij(θ_j−θ_i)。","","室iへの流入を正とする。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-24】室jから室iへの流入空気による正味流入熱は？","C_pρV_j→i(θ_j−θ_i)。","","定常の風量保存を用いて流出項を整理した形。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？","流入量＝流出量を使い、流出空気の熱量を室温差の式へまとめられるから。","","流出を無視するのではなく、風量保存で整理する。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-26】多数室で空気が運ぶ熱を決める温度は？","その空気の上流側の室温。","","流出空気が隣室温になるわけではない。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？","その室のQ_Cを0にする。","","空調室は設定室温を既知量にする。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H1-28】室間の貫流熱を全室で足し合わせると？","同じ内壁を通る熱は正負が逆で相殺する。","","全体収支の検算になる。","","根拠：熱PDF p.4-41。基礎。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+"【H2-01】入射日射量を3成分に分けると？","直達日射＋天空日射＋地物反射日射。","","J＝J_d＋J_s＋J_r。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+"【H2-02】日射と夜間放射の波長領域の違いは？","日射は短波、夜間放射は長波。","","夜間放射は大気等との正味長波放射の補正量。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+"【H2-03】日射の入射量を左右する幾何条件は？","面の方位・傾斜角、太陽の位置、周囲の遮蔽物。","","同じ気象条件でも面ごとにJが異なる。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+"【H2-04】不透明部位の相当外気温度SATは？","SAT＝θ_o＋a_sJ/α_o−εJ_n/α_o。","","J_nを外表面からの正味放熱に対応する量として用いる。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-05】SATを使う目的は？","日射・夜間放射の効果を、等価な外気温度にまとめるため。","","壁の熱流をq＝U(SAT−θ_R)で計算できる。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-06】日射吸収率a_sが大きくなるとSATは？","ほかの条件が同じなら上昇する。","","日射による外表面加熱が増える。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-07】夜間放射量J_nが大きくなるとSATは？","ほかの条件が同じなら低下する。","","SATの式で夜間放射項は負。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？","約56.5℃。","","30＋700/23−90/23。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？","約15.8 W/m²。","","0.5(56.5−25)。スライドは途中の丸めで約15.7。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H2-10】日射熱取得率ηの定義は？","窓に入射する日射のうち、室内への熱取得となる割合。","","直接透過だけでなく、吸収後に室内側へ流れる分も含む。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+"【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？","ηA_wJ [W]。","","ηは無次元。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+"【H2-12】日射遮蔽係数SCの基準は？","3mm透明ガラスの日射熱取得を1とする比較指標。","","ηそのものと同一の数値ではない。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+"【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？","窓の外側で日射を遮り、吸収した熱を屋外へ放出しやすいから。","","一般にη・SCが小さくなる。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png"
+"【H2-14】庇・ルーバーの光環境上の利点と注意点は？","直射日光・まぶしさを抑えられる一方、採光や眺望を妨げる場合がある。","","形状・配置・材料に応じた評価が必要。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+"【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？","方位・太陽位置・遮蔽部材の形状と位置・材料の光熱特性。","","窓のη・U・面積、気象・室内条件も確認する。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+"【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？","夏は太陽高度が高く、冬は低いため日射の遮られ方が変わる。","","南面を想定。方位・緯度・庇寸法に依存する。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+"【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？","中空層に面する低放射膜で、ガラス間の放射伝熱を抑える。","","単にガラスを厚くする仕組みではない。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+"【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？","遮熱タイプは外側ガラスの中空層側、断熱タイプは内側ガラスの中空層側。","","スライドの構成例に従う。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+"【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？","別の性能。Uは温度差による伝熱、ηは日射による熱取得を表す。","","Uだけでは日射遮蔽を評価できない。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+"【H2-20】窓1面＋換気の室の定常冷房負荷は？","Q_C＝(UA_w＋C_pρV)(θ_o−θ_R)＋ηA_wJ。","","他の面・室内発熱・夜間放射を無視する過去問の条件。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+"【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？","46 W/K。","","4×10＋1200×0.005。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+"【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？","200 W。","","0.2×10×100。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+"【H2-23】熱損失係数46W/K、日射取得200Wの室で、外気θ_o・室温θ_RならQ_Cは？","Q_C＝46(θ_o−θ_R)＋200 [W]。","","室温を固定する場合の直線の傾きは46 W/K。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+"【H2-24】熱損失係数46W/K、取得熱200Wの室で、自然室温と外気温の関係は？","θ_R,nat＝θ_o＋200/46≒θ_o＋4.35℃。","","冷暖房なしでQ_C＝0と置く。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-25】G＝46W/K、取得熱200W、許容室温22〜27℃なら無負荷帯の外気温は？","約17.65〜22.65℃。","","22−200/46≦θ_o≦27−200/46。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？","日射取得により自然室温が外気温より約4.35℃高くなるから。","","室温の範囲と外気温の範囲を区別する。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-27】G＝46W/K、取得熱200W、暖房設定22℃で、低温側のQ_C(θ_o)は？","Q_C＝46θ_o−812 [W]。","","室温を22℃に保つ。負の値は暖房。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-28】G＝46W/K、取得熱200W、冷房設定27℃で、高温側のQ_C(θ_o)は？","Q_C＝46θ_o−1042 [W]。","","室温を27℃に保つ。正の値は冷房。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-29】G＝46W/K、取得熱200W、許容室温22〜27℃。外気20℃で冷暖房は必要？","不要。自然室温が約24.35℃だから。","","22〜27℃内なのでQ_C＝0。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-30】G＝46W/K、取得熱200W、暖房設定22℃、外気10℃なら暖房負荷は？","352 W。","","Q_C＝46×10−812＝−352W。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-31】G＝46W/K、取得熱200W、冷房設定27℃、外気30℃なら冷房負荷は？","338 W。","","Q_C＝46×30−1042。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？","θ_min−S/G≦θ_o≦θ_max−S/G。","","G＞0、S一定の単室定常モデル。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？","高温側へ動く。","","S/Gが小さくなり、境界θ_set−S/Gが上がる。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H2-34】熱負荷の折れ線グラフの検算方法は？","各境界でQ_C＝0になり、低温側は負、高温側は正になるか確認する。","","単位・傾き・自然室温の範囲も検算する。","","根拠：熱PDF p.45-70。過去問直結。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+"【H3-01】定常伝熱と非定常伝熱の違いは？","定常では温度分布・熱流が時間変化せず、非定常では時間変化する。","","定常でも場所ごとに温度が異なる場合がある。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-02】部材の熱容量Cは？","C＝ρcV_body [J/K]。","","ρ：密度、c：比熱、V_body：部材体積。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-03】容積比熱と熱容量の違いは？","容積比熱は単位体積当たり、熱容量は対象全体の蓄熱能力。","","単位はJ/(m³K)とJ/K。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-04】同じ断熱性なら熱容量が大きい室の応答は？","室温変化が緩やかになる。","","定常到達温度とは区別する。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？","室内へ露出する表面積・厚さ・熱容量の配置。","","物体全体が瞬時に同じ温度になるとは限らない。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-06】フーリエの法則を温度勾配で表すと？","q＝−λ∂θ/∂x。","","熱は高温側から低温側へ流れる。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-07】一次元熱伝導方程式は？","ρc∂θ/∂t＝λ∂²θ/∂x²。","","物性一定・内部発熱なしのモデル。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-08】熱拡散率aの定義と単位は？","a＝λ/(ρc) [m²/s]。","","熱が温度変化として伝わる速さを表す量。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-09】壁内の小領域の熱収支の基本形は？","蓄熱量の変化＝流入熱−流出熱。","","熱伝導方程式を導く出発点。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-10】陽解法の内部節点の更新式は？","θ_iⁿ＝pθ_(i−1)ⁿ⁻¹＋(1−2p)θ_iⁿ⁻¹＋pθ_(i＋1)ⁿ⁻¹。","","p＝λΔt/(ρcΔx²)。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-11】一次元等間隔内部節点の陽解法での安定条件は？","0≦p≦1/2。","","標準的な内部節点の条件。表面境界の条件は別途確認。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-12】相当熱容量とは？","室温変動に実効的に寄与する熱容量を室内の一様温度体へ置き換えた量。","","壁全体の熱容量と必ずしも同じではない。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-13】単室の集中熱容量モデルの収支式は？","C dθ_i/dt＝G(θ_o−θ_i)＋H。","","G[W/K]、C[J/K]、t[s]。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-14】外気・発熱が一定のとき集中モデルの室温解は？","θ_i(t)＝θ_∞＋(θ_i(0)−θ_∞)e^(−t/τ)。","","θ_∞＝θ_o＋H/G、τ＝C/G。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-15】熱時定数τの定義は？","τ＝C/G [s]。","","ステップ応答が最終変化の約63.2%になる時間。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-16】ステップ加熱開始から1時定数後の応答率は？","1−e⁻¹≒63.2%。","","3時定数後は約95.0%。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-17】加熱停止後の温度差はどう変化する？","外気温との差がe^(−t/τ)に比例して減衰する。","","外気一定、H＝0の集中モデル。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-18】室温変動率δと時定数τの関係は？","δ＝G/C＝1/τ。","","δの単位はs⁻¹。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？","約46667 s（約13.0 h）。","","C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H4-01】温熱環境の環境側4要素は？","気温・平均放射温度・相対湿度・気流速度。","","人体側2要素と合わせ6要素。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-02】温熱環境の人体側2要素は？","代謝量・着衣量。","","環境が同じでも体感が変わる。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-03】人体のコア温度はおよそ何℃か？","約37℃。","","スライドの体温調節モデル。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-04】中性温域と恒温適応域の違いは？","中性温域は主にコア領域の調節、恒温適応域は発汗・ふるえ等でも体温を維持する範囲。","","温冷感と生理的調節を対応させる。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？","Mは産熱、Cは対流放熱、Rは放射放熱、Eは蒸発放熱。","","定常、外部仕事等を簡略化した表現。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-06】1metの意味と値は？","椅座位安静時相当の代謝率で58.2 W/m²。","","体表面積1.7m²なら約99W。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-07】1cloの値と物理的意味は？","0.155 m²K/Wの着衣熱抵抗。","","cloが大きいほど熱を逃がしにくい。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-08】作用温度OTの一般式は？","OT＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。","","対流と放射の熱交換を統合する。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+"【H4-09】OTを気温とMRTの平均で近似できる条件は？","対流・放射の熱伝達率がほぼ等しい場合。","","OT≒(θ_a＋MRT)/2。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+"【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？","27℃。","","気温だけの評価と区別する。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+"【H4-11】ET*がOTに加えて考慮する要素は？","湿度。","","スライドでは相対湿度50%の等価環境へ置き換える。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-12】SET*が統合して評価する要素は？","気温・放射温度・湿度・気流・着衣量・代謝量の6要素。","","標準条件への等価温度として表す。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-13】PMVとは？","6要素から予測する平均温冷感申告。","","温度そのものではなく温冷感の尺度。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+"【H4-14】PMVの0・正・負の意味は？","0が中立、正が暑い側、負が寒い側。","","一般に−3〜＋3の7段階を用いる。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+"【H4-15】PPDとは？","予測不満足者率。","","PMVと対応して集団の不満足を予測する。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+"【H4-16】スライドでのPMVの快適範囲は？","およそ−0.5≦PMV≦0.5、PPDは約10%以下。","","資料上の目安。個人差は残る。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+"【H4-17】PMVが0ならPPDも0になるか？","ならない。最小でも約5%。","","全員が同じ温冷感になるとは限らない。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+"【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？","対流熱伝達が増え、人体からの放熱が増えるから。","","高温環境では単純に同じ効果とはいえない。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？","汗が蒸発しにくくなり、蒸発放熱が減るから。","","湿度と温度の作用を区別する。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？","着衣増加は放熱を抑え、代謝増加は産熱を増やすから。","","6要素の定性的説明に使う。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+"【H4-21】WBGTの日射ありの式は？","WBGT＝0.7θ_wb＋0.2θ_g＋0.1θ_a。","","湿球温度・グローブ温度・気温を使用する。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+"【H4-22】WBGTの日射なしの式は？","WBGT＝0.7θ_wb＋0.3θ_g。","","授業資料の式。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+"【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？","27.5℃。","","17.5＋7＋3。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+"【H4-24】グローブ温度計で対流と放射が釣り合う式は？","α_c(θ_a−θ_g)＝α_r(θ_g−MRT)。","","気流によって対流熱伝達率も変わる。","","根拠：熱PDF p.108-132。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h16-globe.png"
+"【H5-01】湿り空気を分けて扱う2成分は？","乾き空気と水蒸気。","","乾き空気質量を基準に状態量を表す。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+"【H5-02】絶対湿度xの定義と単位は？","乾き空気1kg当たりの水蒸気質量、kg/kg(DA)。","","g/kg(DA)表示との1000倍の違いに注意。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+"【H5-03】相対湿度φの定義式は？","φ＝f/f_s×100 [%]。","","f：水蒸気分圧、f_s：その温度の飽和水蒸気圧。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+"【H5-04】絶対湿度xと水蒸気分圧fの関係は？","x＝0.622f/(P−f)。","","全圧Pとfの圧力単位を揃える。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+"【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？","低下する。","","飽和水蒸気圧が上昇するため。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+"【H5-06】露点温度とは？","水蒸気量一定で冷却し、飽和して結露し始める温度。","","表面温度が露点以下になると表面結露の可能性。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-07】20℃・60%のスライドの状態点での絶対湿度は？","約8.7 g/kg(DA)。","","水蒸気分圧約1.4kPa、飽和分圧約2.3kPa。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-08】湿り空気の比エンタルピーhの近似式は？","h＝1.01t＋x(2500＋1.81t) [kJ/kg(DA)]。","","xはkg/kg(DA)、tは℃。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-09】空気線図の状態点を決める基本手順は？","独立な2つの状態量の線の交点を求め、他の状態量を読む。","","例：乾球温度と相対湿度。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-10】2種の空気を断熱混合した後のhとxは？","h₃＝(G₁h₁＋G₂h₂)/(G₁＋G₂)、x₃＝(G₁x₁＋G₂x₂)/(G₁＋G₂)。","","Gは乾き空気質量流量。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+"【H5-11】混合空気の線図上の位置は？","2つの状態点を結ぶ線分上で、反対側の質量流量比で内分する。","","状態1の量が多いほど状態1に近い。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+"【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？","厳密には求まらない。hとxを保存して求める。","","比熱の湿度依存性を無視すれば温度加重平均は近似。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+"【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？","40 kJ/kg(DA)。","","(2×30＋60)/3。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+"【H5-14】加湿しない加熱で一定の状態量は？","絶対湿度x。","","乾球温度とhは上昇、相対湿度は低下。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-15】加熱コイルの熱量q_hは？","q_h＝G(h₂−h₁) [kW]。","","Gはkg(DA)/s、hはkJ/kg(DA)。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+"【H5-16】冷却・除湿コイルの除去熱量q_cは？","q_c＝G(h₁−h₂) [kW]。","","顕熱だけでなく潜熱も含む。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+"【H5-17】冷却コイルで除湿が生じる条件は？","コイル表面温度が通過空気の露点温度以下になること。","","凝縮水がドレンとして除かれる。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+"【H5-18】除湿量Lを求める式は？","L＝G(x₁−x₂) [kg/s]。","","湿度差をg/kgのまま使わない。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+"【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？","0.003 kg/s＝10.8 kg/h。","","0.003×3600。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+"【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？","ほぼ等エンタルピーで、絶対湿度が増え乾球温度が下がる。","","噴霧水の顕熱を無視する近似。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+"【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？","蒸気が持つ熱も加わるため、絶対湿度とエンタルピーが増加する。","","乾球温度一定とするのは近似。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+"【H5-22】熱水分比uとは？","u＝Δh/Δx [kJ/kg]。","","線図上の状態変化の方向を決める。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+"【H5-23】顕熱比SHFの式は？","SHF＝q_s/(q_s＋q_l)。","","顕熱÷全熱。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+"【H5-24】顕熱3kW、潜熱1kWならSHFは？","0.75。","","全熱は4kW。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+"【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？","室内状態点を通る、所定SHFの方向の線上に吹出し点を取る。","","温度差だけでは除湿負荷を処理できない。","","根拠：熱PDF p.133-147。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+"【H6-01】暖房デグリーデーの定義は？","Σmax(θ_set−日平均外気温,0) [K・日]。","","温度差が正の日だけ集計する。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-02】冷房デグリーデーの定義は？","Σmax(日平均外気温−θ_set,0) [K・日]。","","対象地域の気候の指標。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？","11 K・日。","","8＋3＋0。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？","Q_H,total＝0.0864G×DD_H。","","24時間連続・定常近似。スライドでは0.086に丸める。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-05】年間熱負荷をkWhで求める換算係数は？","Q_total＝0.024G×DD [kWh]。","","24 h/日÷1000。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？","同じではない。消費電力にはCOPや運転条件も必要。","","熱需要と機器効率を分ける。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-07】内部発熱Hを考慮した参照温度は？","θ_ref＝θ_set−H/G。","","無負荷となる等価外気温の境界。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-08】内部発熱が大きい建物では参照温度はどうなる？","低くなる。","","寒い外気でも冷房が必要になる場合がある。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-09】住宅と大型内部発熱建物の熱計画の違いは？","住宅は暖房損失抑制、大型建物は内部発熱に応じた冷房・排熱も重視。","","断熱を強めれば常に全負荷が減るとは限らない。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？","内部発熱による参照温度と、日射・夜間放射による相当外気温度。","","スライドのモデルでは外皮方位等を単純化。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+"【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？","η＝a_sU/α_o。","","SATによる日射熱取得の式から導く。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+"【H6-12】DD法を使うときの主な近似条件は？","日平均温度、定常熱収支、一定の建物特性・設定温度を使う。","","間欠空調等の影響は補正が必要。","","根拠：熱PDF p.149-159。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"

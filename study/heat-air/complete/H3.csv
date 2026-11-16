@@ -1,19 +1,19 @@
-﻿【H3-01】定常伝熱と非定常伝熱の違いは？,定常では温度分布・熱流が時間変化せず、非定常では時間変化する。,,定常でも場所ごとに温度が異なる場合がある。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-02】部材の熱容量Cは？,C＝ρcV_body [J/K]。,,ρ：密度、c：比熱、V_body：部材体積。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-03】容積比熱と熱容量の違いは？,容積比熱は単位体積当たり、熱容量は対象全体の蓄熱能力。,,単位はJ/(m³K)とJ/K。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-04】同じ断熱性なら熱容量が大きい室の応答は？,室温変化が緩やかになる。,,定常到達温度とは区別する。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？,室内へ露出する表面積・厚さ・熱容量の配置。,,物体全体が瞬時に同じ温度になるとは限らない。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-06】フーリエの法則を温度勾配で表すと？,q＝−λ∂θ/∂x。,,熱は高温側から低温側へ流れる。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-07】一次元熱伝導方程式は？,ρc∂θ/∂t＝λ∂²θ/∂x²。,,物性一定・内部発熱なしのモデル。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-08】熱拡散率aの定義と単位は？,a＝λ/(ρc) [m²/s]。,,熱が温度変化として伝わる速さを表す量。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-09】壁内の小領域の熱収支の基本形は？,蓄熱量の変化＝流入熱−流出熱。,,熱伝導方程式を導く出発点。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-10】陽解法の内部節点の更新式は？,θ_iⁿ＝pθ_(i−1)ⁿ⁻¹＋(1−2p)θ_iⁿ⁻¹＋pθ_(i＋1)ⁿ⁻¹。,,p＝λΔt/(ρcΔx²)。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-11】一次元等間隔内部節点の陽解法での安定条件は？,0≦p≦1/2。,,標準的な内部節点の条件。表面境界の条件は別途確認。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-12】相当熱容量とは？,室温変動に実効的に寄与する熱容量を室内の一様温度体へ置き換えた量。,,壁全体の熱容量と必ずしも同じではない。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-13】単室の集中熱容量モデルの収支式は？,C dθ_i/dt＝G(θ_o−θ_i)＋H。,,G[W/K]、C[J/K]、t[s]。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-14】外気・発熱が一定のとき集中モデルの室温解は？,θ_i(t)＝θ_∞＋(θ_i(0)−θ_∞)e^(−t/τ)。,,θ_∞＝θ_o＋H/G、τ＝C/G。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-15】熱時定数τの定義は？,τ＝C/G [s]。,,ステップ応答が最終変化の約63.2%になる時間。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-16】ステップ加熱開始から1時定数後の応答率は？,1−e⁻¹≒63.2%。,,3時定数後は約95.0%。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-17】加熱停止後の温度差はどう変化する？,外気温との差がe^(−t/τ)に比例して減衰する。,,外気一定、H＝0の集中モデル。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-18】室温変動率δと時定数τの関係は？,δ＝G/C＝1/τ。,,δの単位はs⁻¹。,,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
-【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？,約46667 s（約13.0 h）。,,"C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。",計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.78-106。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png
+﻿"【H3-01】定常伝熱と非定常伝熱の違いは？","定常では温度分布・熱流が時間変化せず、非定常では時間変化する。","","定常でも場所ごとに温度が異なる場合がある。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-02】部材の熱容量Cは？","C＝ρcV_body [J/K]。","","ρ：密度、c：比熱、V_body：部材体積。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-03】容積比熱と熱容量の違いは？","容積比熱は単位体積当たり、熱容量は対象全体の蓄熱能力。","","単位はJ/(m³K)とJ/K。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-04】同じ断熱性なら熱容量が大きい室の応答は？","室温変化が緩やかになる。","","定常到達温度とは区別する。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？","室内へ露出する表面積・厚さ・熱容量の配置。","","物体全体が瞬時に同じ温度になるとは限らない。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+"【H3-06】フーリエの法則を温度勾配で表すと？","q＝−λ∂θ/∂x。","","熱は高温側から低温側へ流れる。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-07】一次元熱伝導方程式は？","ρc∂θ/∂t＝λ∂²θ/∂x²。","","物性一定・内部発熱なしのモデル。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-08】熱拡散率aの定義と単位は？","a＝λ/(ρc) [m²/s]。","","熱が温度変化として伝わる速さを表す量。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-09】壁内の小領域の熱収支の基本形は？","蓄熱量の変化＝流入熱−流出熱。","","熱伝導方程式を導く出発点。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-10】陽解法の内部節点の更新式は？","θ_iⁿ＝pθ_(i−1)ⁿ⁻¹＋(1−2p)θ_iⁿ⁻¹＋pθ_(i＋1)ⁿ⁻¹。","","p＝λΔt/(ρcΔx²)。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-11】一次元等間隔内部節点の陽解法での安定条件は？","0≦p≦1/2。","","標準的な内部節点の条件。表面境界の条件は別途確認。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+"【H3-12】相当熱容量とは？","室温変動に実効的に寄与する熱容量を室内の一様温度体へ置き換えた量。","","壁全体の熱容量と必ずしも同じではない。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-13】単室の集中熱容量モデルの収支式は？","C dθ_i/dt＝G(θ_o−θ_i)＋H。","","G[W/K]、C[J/K]、t[s]。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-14】外気・発熱が一定のとき集中モデルの室温解は？","θ_i(t)＝θ_∞＋(θ_i(0)−θ_∞)e^(−t/τ)。","","θ_∞＝θ_o＋H/G、τ＝C/G。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-15】熱時定数τの定義は？","τ＝C/G [s]。","","ステップ応答が最終変化の約63.2%になる時間。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-16】ステップ加熱開始から1時定数後の応答率は？","1−e⁻¹≒63.2%。","","3時定数後は約95.0%。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-17】加熱停止後の温度差はどう変化する？","外気温との差がe^(−t/τ)に比例して減衰する。","","外気一定、H＝0の集中モデル。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-18】室温変動率δと時定数τの関係は？","δ＝G/C＝1/τ。","","δの単位はs⁻¹。","","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+"【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？","約46667 s（約13.0 h）。","","C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。","計算結果の単位と、条件を変えた場合の大小関係も確認する。","根拠：熱PDF p.78-106。重要補完。","https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
