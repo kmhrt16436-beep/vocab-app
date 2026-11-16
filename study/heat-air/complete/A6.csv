@@ -1,0 +1,31 @@
+﻿【A6-01】居住域のスライド上の一般的な高さは？,通常、床から1.8mまで。,,この範囲の温度・湿度・気流を整える。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-02】ドラフトとは？,不快な局所的気流感。,,平均室温だけでは評価できない。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-03】DRを大きくする3つの条件は？,低い空気温度、大きい平均風速、大きい乱れの強さ。,,スライドの式の適用範囲内で比較。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-04】スライドの有効ドラフト温度EDTの式は？,EDT＝(t_x−t_c)−8(V_x−0.15)。,,温度℃、速度m/s。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-05】スライドのEDTによる快適範囲は？,−1.7〜1.1℃、かつ気流速度0.35m/s以下。,,授業資料の基準。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-06】ADPIとは？,居住域の測定点のうち、所定の快適気流条件を満たす点の割合。,,100%に近いほど空気分布が良好。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-07】コールドドラフトが窓周りで起こる理由は？,窓付近で冷却された空気が下降するため。,,ペリメータは外気に面する窓周り等の部分。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-08】コールドドラフトの代表的な対策は？,窓下暖房、空調気流との混合、窓下吸込み、窓の断熱改善。,,冷気が居住域へ広がるのを抑える。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-09】軸対称噴流・平面噴流・放射状噴流の代表的吹出しは？,軸流ノズル、細長いスロット、ふく流吹出し口。,,吹出し口形状が減衰特性を変える。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-10】噴流の第1域は？,定速域。中心軸速度V_x≒V₀。,,授業ではおよそ吹出し径D₀の2〜6倍程度。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-11】噴流の第2域は？,遷移域。V_x∝1/√X。,,平面噴流ではこの減衰傾向が持続する。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-12】噴流の第3域は？,主流域。V_x∝1/X。,,軸対称噴流の主要な減衰領域。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-13】噴流の第4域は？,消滅域。周壁等の影響で急減衰し、周囲の静穏気流と区別しにくくなる。,,スライドの目安はV_x＜0.25m/s。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-14】第3域の軸対称噴流の中心速度の式は？,V_x/V₀＝KD₀/X。,,Kは吹出し口定数、適用域に注意。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-15】吹出しV₀＝5m/s、K＝4、D₀＝0.1m、X＝4mならV_xは？,0.5 m/s。,,5×4×0.1/4。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-16】噴流の到達距離とは？,中心速度が所定の基準値まで低下する距離。,,授業では通常0.25m/sを用いる。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-17】第3域の式から到達距離X_tを求めると？,X_t＝KD₀V₀/V_t。,,基準速度V_tと適用域を確認する。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-18】K＝4、D₀＝0.1、V₀＝5、V_t＝0.25の到達距離は？,8 m。,,4×0.1×5/0.25。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-19】壁面噴流の到達距離は自由噴流と比べてどうなるか？,スライドの比較モデルでは約√2倍。,,同じ条件での理想化した比較。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-20】アネモ型吹出し口の特徴は？,誘引性・混合拡散性がよく、比較的大風量を処理できる。,,丸型・角型がある。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-21】アネモ型の冷房・暖房時の中コーン位置と方向は？,冷房は中コーンを下げ水平吹出し、暖房は上げて下向き吹出し。,,空気PDF p.287の表現に揃える。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-22】パン型とアネモ型の違いは？,パン型は誘引作用が小さく、到達距離が長い。,,構造・特性の比較問題に対応。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-23】ノズル型が適する空間は？,劇場・ホール・工場などの大空間。,,構造が簡単で到達距離が長い。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-24】パンカルーバの特徴と注意点は？,風向・風量を調整しやすく、局所冷房に使うが騒音が大きい。,,工場・厨房など。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-25】グリルとレジスタの区別は？,風量調整シャッタがないものをグリルという。,,羽根角度で方向・到達距離を調整。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-26】スロット型の特徴と注意点は？,意匠的に目立たずペリメータにも使えるが、風向調整がない場合はドラフトに注意。,,ラインディフューザともいう。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-27】天井からの水平吹出しを暖房に使うときの注意点は？,室中央や下部に停滞域が生じ、上下温度差が大きくなりやすい。,,下向き成分を増やす調整が有効。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-28】側壁上部の冷風吹出しで速度が弱すぎると？,天井から冷気が剥離し、ドラフトを生じる場合がある。,,強すぎる場合も過大風速に注意。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-29】天井からの下向き暖房で気流が床に届かないと？,上下温度分布が大きくなる。,,吹出し方向だけでなく到達距離も確認。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-30】タスク・アンビエント空調の考え方は？,人の周囲のタスク領域と背景のアンビエント領域を分けて空調する。,,室全体を同一条件にする方式との比較。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png
+【A6-31】CFDで室内気流を予測するときに必要な基本設定は？,形状・メッシュ、給排気条件、温度・発熱等の境界条件。,,計算結果を実測で検証することも重要。,,根拠：空気PDF p.251-307。過去問直結。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png

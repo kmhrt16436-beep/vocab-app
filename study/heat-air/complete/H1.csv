@@ -1,0 +1,28 @@
+﻿【H1-01】熱伝導・対流・放射の違いは？,伝導は物体内部、対流は流体運動、放射は電磁波による熱移動。,,壁内部と表面の伝熱を区別する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-02】熱抵抗を直列に重ねると合成抵抗は？,各熱抵抗を足し合わせる。,,同じ熱流が順に通る経路の合成。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-03】均質材料の単位面積当たりの熱抵抗は？,R＝δ/λ [m²K/W]。,,δ：厚さ[m]、λ：熱伝導率[W/(mK)]。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-04】熱貫流率Uを熱抵抗から求める式は？,U＝1/(1/α_o＋Σδ_i/λ_i＋R_中空層＋1/α_i)。,,表面熱伝達抵抗も含める。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？,Uは抵抗の逆数。Uが小さいほど熱を通しにくい。,,Uの単位はW/(m²K)。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-06】熱伝導率と熱貫流率の違いは？,熱伝導率は材料の性質、熱貫流率は表面抵抗も含む部位全体の性能。,,λ[W/(mK)]とU[W/(m²K)]を区別。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-07】熱流密度qと部位全体の熱流Qの関係は？,Q＝qA＝UA(θ_o−θ_R)。,,qはW/m²、QはW。室内流入を正とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-08】室内表面の総合熱伝達率は？,α_t＝α_c＋α_r。,,対流と放射を合成する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-09】平均放射温度MRTの近似式は？,MRT≒ΣF_iθ_i。,,常温での近似。F_iは形態係数、ΣF_i＝1。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-10】環境温度を気温とMRTで表す式は？,θ_e＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。,,気温だけで放射の影響を置き換えない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-11】換気の顕熱負荷を室内流入正で表すと？,Q_v＝C_pρV(θ_o−θ_R)。,,Vはm³/s、C_pρは約1200 J/(m³K)。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？,3600で割ってm³/sに換算する。,,180 m³/h＝0.05 m³/s。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？,600 W。,,1200×(180/3600)×10。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-14】建物全体の総合熱貫流率[W/K]は？,G＝ΣU_iA_i＋C_pρV。,,スライドのUAに相当。換気を含む場合の式。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-15】部位のUと建物全体のGを区別する単位は？,UはW/(m²K)、GはW/K。,,Gは各部位UAと換気熱容量流量の合計。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？,G/A_F [W/(m²K)]。,,スライドで用いる定義。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-17】内部発熱Hのある室の定常冷房負荷は？,Q_C＝G(θ_o−θ_R)＋H。,,冷房側が正、暖房側が負。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？,2780 Wの暖房。,,Q_C＝270(10−24)＋1000＝−2780W。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-19】冷暖房がないときの自然室温は？,θ_R＝θ_o＋H/G。,,定常収支でQ_C＝0とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-20】中空層で生じる熱移動は伝導だけか？,対流と放射も生じる。,,空気層の抵抗を厚さ/空気の熱伝導率だけで決めない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-21】高断熱化と高気密化を組み合わせる理由は？,隙間からの空気移動による熱損失を抑えるため。,,必要な換気は計画換気で確保する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-22】異なる温度の複数室を計算する基本手順は？,室ごとに熱収支式を立て、連立して解く。,,隣室との伝熱・空気移動を追加する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-23】隣室jから室iへの貫流熱は？,U_ijA_ij(θ_j−θ_i)。,,室iへの流入を正とする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-24】室jから室iへの流入空気による正味流入熱は？,C_pρV_j→i(θ_j−θ_i)。,,定常の風量保存を用いて流出項を整理した形。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？,流入量＝流出量を使い、流出空気の熱量を室温差の式へまとめられるから。,,流出を無視するのではなく、風量保存で整理する。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-26】多数室で空気が運ぶ熱を決める温度は？,その空気の上流側の室温。,,流出空気が隣室温になるわけではない。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？,その室のQ_Cを0にする。,,空調室は設定室温を既知量にする。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png
+【H1-28】室間の貫流熱を全室で足し合わせると？,同じ内壁を通る熱は正負が逆で相殺する。,,全体収支の検算になる。,,根拠：熱PDF p.4-41。基礎。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png

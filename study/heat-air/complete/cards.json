@@ -1,0 +1,4590 @@
+{
+  "chapters": [
+    {
+      "id": "H1",
+      "name": "熱の基礎・多数室",
+      "subject": "熱",
+      "pages": "4-41",
+      "rank": "基礎",
+      "count": 28
+    },
+    {
+      "id": "H2",
+      "name": "日射・遮蔽・過去問熱負荷",
+      "subject": "熱",
+      "pages": "45-70",
+      "rank": "過去問直結",
+      "count": 34
+    },
+    {
+      "id": "H3",
+      "name": "非定常伝熱・熱容量",
+      "subject": "熱",
+      "pages": "78-106",
+      "rank": "重要補完",
+      "count": 19
+    },
+    {
+      "id": "H4",
+      "name": "人体・温熱指標",
+      "subject": "熱",
+      "pages": "108-132",
+      "rank": "重要補完",
+      "count": 24
+    },
+    {
+      "id": "H5",
+      "name": "湿り空気・空気線図",
+      "subject": "熱",
+      "pages": "133-147",
+      "rank": "重要補完",
+      "count": 25
+    },
+    {
+      "id": "H6",
+      "name": "デグリーデー・熱計画",
+      "subject": "熱",
+      "pages": "149-159",
+      "rank": "重要補完",
+      "count": 12
+    },
+    {
+      "id": "A1",
+      "name": "燃焼器具・必要換気量",
+      "subject": "空気",
+      "pages": "8-51",
+      "rank": "過去問直結",
+      "count": 18
+    },
+    {
+      "id": "A2",
+      "name": "汚染物質収支・フィルタ",
+      "subject": "空気",
+      "pages": "56-93",
+      "rank": "過去問直結",
+      "count": 27
+    },
+    {
+      "id": "A3",
+      "name": "非定常濃度・換気量測定",
+      "subject": "空気",
+      "pages": "100-131",
+      "rank": "過去問直結",
+      "count": 23
+    },
+    {
+      "id": "A4",
+      "name": "換気効率・空気齢",
+      "subject": "空気",
+      "pages": "136-207",
+      "rank": "過去問直結",
+      "count": 25
+    },
+    {
+      "id": "A5",
+      "name": "圧力・送風機・ダクト",
+      "subject": "空気",
+      "pages": "211-245",
+      "rank": "過去問直結",
+      "count": 32
+    },
+    {
+      "id": "A6",
+      "name": "噴流・吹出口・ドラフト",
+      "subject": "空気",
+      "pages": "251-307",
+      "rank": "過去問直結",
+      "count": 31
+    }
+  ],
+  "cards": [
+    {
+      "id": "H1-01",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-01】熱伝導・対流・放射の違いは？",
+        "伝導は物体内部、対流は流体運動、放射は電磁波による熱移動。",
+        "",
+        "壁内部と表面の伝熱を区別する。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-02",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-02】熱抵抗を直列に重ねると合成抵抗は？",
+        "各熱抵抗を足し合わせる。",
+        "",
+        "同じ熱流が順に通る経路の合成。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-03",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-03】均質材料の単位面積当たりの熱抵抗は？",
+        "R＝δ/λ [m²K/W]。",
+        "",
+        "δ：厚さ[m]、λ：熱伝導率[W/(mK)]。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-04",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-04】熱貫流率Uを熱抵抗から求める式は？",
+        "U＝1/(1/α_o＋Σδ_i/λ_i＋R_中空層＋1/α_i)。",
+        "",
+        "表面熱伝達抵抗も含める。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-05",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？",
+        "Uは抵抗の逆数。Uが小さいほど熱を通しにくい。",
+        "",
+        "Uの単位はW/(m²K)。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-06",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-06】熱伝導率と熱貫流率の違いは？",
+        "熱伝導率は材料の性質、熱貫流率は表面抵抗も含む部位全体の性能。",
+        "",
+        "λ[W/(mK)]とU[W/(m²K)]を区別。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-07",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-07】熱流密度qと部位全体の熱流Qの関係は？",
+        "Q＝qA＝UA(θ_o−θ_R)。",
+        "",
+        "qはW/m²、QはW。室内流入を正とする。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-08",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-08】室内表面の総合熱伝達率は？",
+        "α_t＝α_c＋α_r。",
+        "",
+        "対流と放射を合成する。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-09",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-09】平均放射温度MRTの近似式は？",
+        "MRT≒ΣF_iθ_i。",
+        "",
+        "常温での近似。F_iは形態係数、ΣF_i＝1。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-10",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-10】環境温度を気温とMRTで表す式は？",
+        "θ_e＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。",
+        "",
+        "気温だけで放射の影響を置き換えない。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-11",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-11】換気の顕熱負荷を室内流入正で表すと？",
+        "Q_v＝C_pρV(θ_o−θ_R)。",
+        "",
+        "Vはm³/s、C_pρは約1200 J/(m³K)。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-12",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？",
+        "3600で割ってm³/sに換算する。",
+        "",
+        "180 m³/h＝0.05 m³/s。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-13",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？",
+        "600 W。",
+        "",
+        "1200×(180/3600)×10。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-14",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-14】建物全体の総合熱貫流率[W/K]は？",
+        "G＝ΣU_iA_i＋C_pρV。",
+        "",
+        "スライドのUAに相当。換気を含む場合の式。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-15",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-15】部位のUと建物全体のGを区別する単位は？",
+        "UはW/(m²K)、GはW/K。",
+        "",
+        "Gは各部位UAと換気熱容量流量の合計。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-16",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？",
+        "G/A_F [W/(m²K)]。",
+        "",
+        "スライドで用いる定義。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-17",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-17】内部発熱Hのある室の定常冷房負荷は？",
+        "Q_C＝G(θ_o−θ_R)＋H。",
+        "",
+        "冷房側が正、暖房側が負。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-18",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？",
+        "2780 Wの暖房。",
+        "",
+        "Q_C＝270(10−24)＋1000＝−2780W。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-19",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-19】冷暖房がないときの自然室温は？",
+        "θ_R＝θ_o＋H/G。",
+        "",
+        "定常収支でQ_C＝0とする。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-20",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-20】中空層で生じる熱移動は伝導だけか？",
+        "対流と放射も生じる。",
+        "",
+        "空気層の抵抗を厚さ/空気の熱伝導率だけで決めない。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-21",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-21】高断熱化と高気密化を組み合わせる理由は？",
+        "隙間からの空気移動による熱損失を抑えるため。",
+        "",
+        "必要な換気は計画換気で確保する。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-22",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-22】異なる温度の複数室を計算する基本手順は？",
+        "室ごとに熱収支式を立て、連立して解く。",
+        "",
+        "隣室との伝熱・空気移動を追加する。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-23",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-23】隣室jから室iへの貫流熱は？",
+        "U_ijA_ij(θ_j−θ_i)。",
+        "",
+        "室iへの流入を正とする。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-24",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-24】室jから室iへの流入空気による正味流入熱は？",
+        "C_pρV_j→i(θ_j−θ_i)。",
+        "",
+        "定常の風量保存を用いて流出項を整理した形。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-25",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？",
+        "流入量＝流出量を使い、流出空気の熱量を室温差の式へまとめられるから。",
+        "",
+        "流出を無視するのではなく、風量保存で整理する。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-26",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-26】多数室で空気が運ぶ熱を決める温度は？",
+        "その空気の上流側の室温。",
+        "",
+        "流出空気が隣室温になるわけではない。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-27",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？",
+        "その室のQ_Cを0にする。",
+        "",
+        "空調室は設定室温を既知量にする。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H1-28",
+      "chapter": "H1",
+      "rank": "基礎",
+      "subject": "熱",
+      "fields": [
+        "【H1-28】室間の貫流熱を全室で足し合わせると？",
+        "同じ内壁を通る熱は正負が逆で相殺する。",
+        "",
+        "全体収支の検算になる。",
+        "",
+        "根拠：熱PDF p.4-41。基礎。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png"
+      ]
+    },
+    {
+      "id": "H2-01",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-01】入射日射量を3成分に分けると？",
+        "直達日射＋天空日射＋地物反射日射。",
+        "",
+        "J＝J_d＋J_s＋J_r。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-02",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-02】日射と夜間放射の波長領域の違いは？",
+        "日射は短波、夜間放射は長波。",
+        "",
+        "夜間放射は大気等との正味長波放射の補正量。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-03",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-03】日射の入射量を左右する幾何条件は？",
+        "面の方位・傾斜角、太陽の位置、周囲の遮蔽物。",
+        "",
+        "同じ気象条件でも面ごとにJが異なる。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-04",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-04】不透明部位の相当外気温度SATは？",
+        "SAT＝θ_o＋a_sJ/α_o−εJ_n/α_o。",
+        "",
+        "J_nを外表面からの正味放熱に対応する量として用いる。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-05",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-05】SATを使う目的は？",
+        "日射・夜間放射の効果を、等価な外気温度にまとめるため。",
+        "",
+        "壁の熱流をq＝U(SAT−θ_R)で計算できる。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-06",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-06】日射吸収率a_sが大きくなるとSATは？",
+        "ほかの条件が同じなら上昇する。",
+        "",
+        "日射による外表面加熱が増える。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-07",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-07】夜間放射量J_nが大きくなるとSATは？",
+        "ほかの条件が同じなら低下する。",
+        "",
+        "SATの式で夜間放射項は負。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-08",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？",
+        "約56.5℃。",
+        "",
+        "30＋700/23−90/23。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-09",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？",
+        "約15.8 W/m²。",
+        "",
+        "0.5(56.5−25)。スライドは途中の丸めで約15.7。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-10",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-10】日射熱取得率ηの定義は？",
+        "窓に入射する日射のうち、室内への熱取得となる割合。",
+        "",
+        "直接透過だけでなく、吸収後に室内側へ流れる分も含む。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-11",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？",
+        "ηA_wJ [W]。",
+        "",
+        "ηは無次元。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-12",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-12】日射遮蔽係数SCの基準は？",
+        "3mm透明ガラスの日射熱取得を1とする比較指標。",
+        "",
+        "ηそのものと同一の数値ではない。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
+      ]
+    },
+    {
+      "id": "H2-13",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？",
+        "窓の外側で日射を遮り、吸収した熱を屋外へ放出しやすいから。",
+        "",
+        "一般にη・SCが小さくなる。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
+      ]
+    },
+    {
+      "id": "H2-14",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-14】庇・ルーバーの光環境上の利点と注意点は？",
+        "直射日光・まぶしさを抑えられる一方、採光や眺望を妨げる場合がある。",
+        "",
+        "形状・配置・材料に応じた評価が必要。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
+      ]
+    },
+    {
+      "id": "H2-15",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？",
+        "方位・太陽位置・遮蔽部材の形状と位置・材料の光熱特性。",
+        "",
+        "窓のη・U・面積、気象・室内条件も確認する。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
+      ]
+    },
+    {
+      "id": "H2-16",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？",
+        "夏は太陽高度が高く、冬は低いため日射の遮られ方が変わる。",
+        "",
+        "南面を想定。方位・緯度・庇寸法に依存する。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png"
+      ]
+    },
+    {
+      "id": "H2-17",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？",
+        "中空層に面する低放射膜で、ガラス間の放射伝熱を抑える。",
+        "",
+        "単にガラスを厚くする仕組みではない。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-18",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？",
+        "遮熱タイプは外側ガラスの中空層側、断熱タイプは内側ガラスの中空層側。",
+        "",
+        "スライドの構成例に従う。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-19",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？",
+        "別の性能。Uは温度差による伝熱、ηは日射による熱取得を表す。",
+        "",
+        "Uだけでは日射遮蔽を評価できない。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-20",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-20】窓1面＋換気の室の定常冷房負荷は？",
+        "Q_C＝(UA_w＋C_pρV)(θ_o−θ_R)＋ηA_wJ。",
+        "",
+        "他の面・室内発熱・夜間放射を無視する過去問の条件。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-21",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？",
+        "46 W/K。",
+        "",
+        "4×10＋1200×0.005。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-22",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？",
+        "200 W。",
+        "",
+        "0.2×10×100。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-23",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-23】過去問の熱負荷式を数値化すると？",
+        "Q_C＝46(θ_o−θ_R)＋200 [W]。",
+        "",
+        "室温を固定する場合の直線の傾きは46 W/K。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-24",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-24】過去問の自然室温と外気温の関係は？",
+        "θ_R,nat＝θ_o＋200/46≒θ_o＋4.35℃。",
+        "",
+        "冷暖房なしでQ_C＝0と置く。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-25",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-25】室温の許容範囲22〜27℃から無負荷帯の外気温を求めると？",
+        "約17.65〜22.65℃。",
+        "",
+        "22−200/46≦θ_o≦27−200/46。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-26",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？",
+        "日射取得により自然室温が外気温より約4.35℃高くなるから。",
+        "",
+        "室温の範囲と外気温の範囲を区別する。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-27",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-27】過去問で外気温が17.65℃未満の熱負荷式は？",
+        "Q_C＝46θ_o−812 [W]。",
+        "",
+        "室温を22℃に保つ。負の値は暖房。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-28",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-28】過去問で外気温が22.65℃超の熱負荷式は？",
+        "Q_C＝46θ_o−1042 [W]。",
+        "",
+        "室温を27℃に保つ。正の値は冷房。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png"
+      ]
+    },
+    {
+      "id": "H2-29",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-29】過去問の外気温20℃で冷暖房は必要か？",
+        "不要。自然室温が約24.35℃だから。",
+        "",
+        "22〜27℃内なのでQ_C＝0。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-30",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-30】過去問の外気温10℃で必要な暖房負荷の大きさは？",
+        "352 W。",
+        "",
+        "Q_C＝46×10−812＝−352W。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-31",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-31】過去問の外気温30℃で冷房負荷は？",
+        "338 W。",
+        "",
+        "Q_C＝46×30−1042。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-32",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？",
+        "θ_min−S/G≦θ_o≦θ_max−S/G。",
+        "",
+        "G＞0、S一定の単室定常モデル。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-33",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？",
+        "高温側へ動く。",
+        "",
+        "S/Gが小さくなり、境界θ_set−S/Gが上がる。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H2-34",
+      "chapter": "H2",
+      "rank": "過去問直結",
+      "subject": "熱",
+      "fields": [
+        "【H2-34】熱負荷の折れ線グラフの検算方法は？",
+        "各境界でQ_C＝0になり、低温側は負、高温側は正になるか確認する。",
+        "",
+        "単位・傾き・自然室温の範囲も検算する。",
+        "",
+        "根拠：熱PDF p.45-70。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png"
+      ]
+    },
+    {
+      "id": "H3-01",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-01】定常伝熱と非定常伝熱の違いは？",
+        "定常では温度分布・熱流が時間変化せず、非定常では時間変化する。",
+        "",
+        "定常でも場所ごとに温度が異なる場合がある。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-02",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-02】部材の熱容量Cは？",
+        "C＝ρcV_body [J/K]。",
+        "",
+        "ρ：密度、c：比熱、V_body：部材体積。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-03",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-03】容積比熱と熱容量の違いは？",
+        "容積比熱は単位体積当たり、熱容量は対象全体の蓄熱能力。",
+        "",
+        "単位はJ/(m³K)とJ/K。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-04",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-04】同じ断熱性なら熱容量が大きい室の応答は？",
+        "室温変化が緩やかになる。",
+        "",
+        "定常到達温度とは区別する。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-05",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？",
+        "室内へ露出する表面積・厚さ・熱容量の配置。",
+        "",
+        "物体全体が瞬時に同じ温度になるとは限らない。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-06",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-06】フーリエの法則を温度勾配で表すと？",
+        "q＝−λ∂θ/∂x。",
+        "",
+        "熱は高温側から低温側へ流れる。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-07",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-07】一次元熱伝導方程式は？",
+        "ρc∂θ/∂t＝λ∂²θ/∂x²。",
+        "",
+        "物性一定・内部発熱なしのモデル。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-08",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-08】熱拡散率aの定義と単位は？",
+        "a＝λ/(ρc) [m²/s]。",
+        "",
+        "熱が温度変化として伝わる速さを表す量。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-09",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-09】壁内の小領域の熱収支の基本形は？",
+        "蓄熱量の変化＝流入熱−流出熱。",
+        "",
+        "熱伝導方程式を導く出発点。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-10",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-10】陽解法の内部節点の更新式は？",
+        "θ_iⁿ＝pθ_(i−1)ⁿ⁻¹＋(1−2p)θ_iⁿ⁻¹＋pθ_(i＋1)ⁿ⁻¹。",
+        "",
+        "p＝λΔt/(ρcΔx²)。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-11",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-11】一次元等間隔内部節点の陽解法での安定条件は？",
+        "0≦p≦1/2。",
+        "",
+        "標準的な内部節点の条件。表面境界の条件は別途確認。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-12",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-12】相当熱容量とは？",
+        "室温変動に実効的に寄与する熱容量を室内の一様温度体へ置き換えた量。",
+        "",
+        "壁全体の熱容量と必ずしも同じではない。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-13",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-13】単室の集中熱容量モデルの収支式は？",
+        "C dθ_i/dt＝G(θ_o−θ_i)＋H。",
+        "",
+        "G[W/K]、C[J/K]、t[s]。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-14",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-14】外気・発熱が一定のとき集中モデルの室温解は？",
+        "θ_i(t)＝θ_∞＋(θ_i(0)−θ_∞)e^(−t/τ)。",
+        "",
+        "θ_∞＝θ_o＋H/G、τ＝C/G。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-15",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-15】熱時定数τの定義は？",
+        "τ＝C/G [s]。",
+        "",
+        "ステップ応答が最終変化の約63.2%になる時間。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-16",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-16】ステップ加熱開始から1時定数後の応答率は？",
+        "1−e⁻¹≒63.2%。",
+        "",
+        "3時定数後は約95.0%。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-17",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-17】加熱停止後の温度差はどう変化する？",
+        "外気温との差がe^(−t/τ)に比例して減衰する。",
+        "",
+        "外気一定、H＝0の集中モデル。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-18",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-18】室温変動率δと時定数τの関係は？",
+        "δ＝G/C＝1/τ。",
+        "",
+        "δの単位はs⁻¹。",
+        "",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H3-19",
+      "chapter": "H3",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？",
+        "約46667 s（約13.0 h）。",
+        "",
+        "C＝0.5×2,000,000×0.14A、G＝3A。面積Aは相殺。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.78-106。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png"
+      ]
+    },
+    {
+      "id": "H4-01",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-01】温熱環境の環境側4要素は？",
+        "気温・平均放射温度・相対湿度・気流速度。",
+        "",
+        "人体側2要素と合わせ6要素。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-02",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-02】温熱環境の人体側2要素は？",
+        "代謝量・着衣量。",
+        "",
+        "環境が同じでも体感が変わる。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-03",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-03】人体のコア温度はおよそ何℃か？",
+        "約37℃。",
+        "",
+        "スライドの体温調節モデル。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-04",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-04】中性温域と恒温適応域の違いは？",
+        "中性温域は主にコア領域の調節、恒温適応域は発汗・ふるえ等でも体温を維持する範囲。",
+        "",
+        "温冷感と生理的調節を対応させる。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-05",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？",
+        "Mは産熱、Cは対流放熱、Rは放射放熱、Eは蒸発放熱。",
+        "",
+        "定常、外部仕事等を簡略化した表現。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-06",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-06】1metの意味と値は？",
+        "椅座位安静時相当の代謝率で58.2 W/m²。",
+        "",
+        "体表面積1.7m²なら約99W。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-07",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-07】1cloの値と物理的意味は？",
+        "0.155 m²K/Wの着衣熱抵抗。",
+        "",
+        "cloが大きいほど熱を逃がしにくい。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-08",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-08】作用温度OTの一般式は？",
+        "OT＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。",
+        "",
+        "対流と放射の熱交換を統合する。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-09",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-09】OTを気温とMRTの平均で近似できる条件は？",
+        "対流・放射の熱伝達率がほぼ等しい場合。",
+        "",
+        "OT≒(θ_a＋MRT)/2。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-10",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？",
+        "27℃。",
+        "",
+        "気温だけの評価と区別する。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-11",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-11】ET*がOTに加えて考慮する要素は？",
+        "湿度。",
+        "",
+        "スライドでは相対湿度50%の等価環境へ置き換える。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-12",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-12】SET*が統合して評価する要素は？",
+        "気温・放射温度・湿度・気流・着衣量・代謝量の6要素。",
+        "",
+        "標準条件への等価温度として表す。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-13",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-13】PMVとは？",
+        "6要素から予測する平均温冷感申告。",
+        "",
+        "温度そのものではなく温冷感の尺度。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-14",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-14】PMVの0・正・負の意味は？",
+        "0が中立、正が暑い側、負が寒い側。",
+        "",
+        "一般に−3〜＋3の7段階を用いる。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-15",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-15】PPDとは？",
+        "予測不満足者率。",
+        "",
+        "PMVと対応して集団の不満足を予測する。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-16",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-16】スライドでのPMVの快適範囲は？",
+        "およそ−0.5≦PMV≦0.5、PPDは約10%以下。",
+        "",
+        "資料上の目安。個人差は残る。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-17",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-17】PMVが0ならPPDも0になるか？",
+        "ならない。最小でも約5%。",
+        "",
+        "全員が同じ温冷感になるとは限らない。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-18",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？",
+        "対流熱伝達が増え、人体からの放熱が増えるから。",
+        "",
+        "高温環境では単純に同じ効果とはいえない。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-19",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？",
+        "汗が蒸発しにくくなり、蒸発放熱が減るから。",
+        "",
+        "湿度と温度の作用を区別する。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-20",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？",
+        "着衣増加は放熱を抑え、代謝増加は産熱を増やすから。",
+        "",
+        "6要素の定性的説明に使う。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-21",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-21】WBGTの日射ありの式は？",
+        "WBGT＝0.7θ_wb＋0.2θ_g＋0.1θ_a。",
+        "",
+        "湿球温度・グローブ温度・気温を使用する。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-22",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-22】WBGTの日射なしの式は？",
+        "WBGT＝0.7θ_wb＋0.3θ_g。",
+        "",
+        "授業資料の式。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-23",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？",
+        "27.5℃。",
+        "",
+        "17.5＋7＋3。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H4-24",
+      "chapter": "H4",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H4-24】グローブ温度計で対流と放射が釣り合う式は？",
+        "α_c(θ_a−θ_g)＝α_r(θ_g−MRT)。",
+        "",
+        "気流によって対流熱伝達率も変わる。",
+        "",
+        "根拠：熱PDF p.108-132。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png"
+      ]
+    },
+    {
+      "id": "H5-01",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-01】湿り空気を分けて扱う2成分は？",
+        "乾き空気と水蒸気。",
+        "",
+        "乾き空気質量を基準に状態量を表す。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-02",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-02】絶対湿度xの定義と単位は？",
+        "乾き空気1kg当たりの水蒸気質量、kg/kg(DA)。",
+        "",
+        "g/kg(DA)表示との1000倍の違いに注意。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-03",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-03】相対湿度φの定義式は？",
+        "φ＝f/f_s×100 [%]。",
+        "",
+        "f：水蒸気分圧、f_s：その温度の飽和水蒸気圧。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-04",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-04】絶対湿度xと水蒸気分圧fの関係は？",
+        "x＝0.622f/(P−f)。",
+        "",
+        "全圧Pとfの圧力単位を揃える。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-05",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？",
+        "低下する。",
+        "",
+        "飽和水蒸気圧が上昇するため。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-06",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-06】露点温度とは？",
+        "水蒸気量一定で冷却し、飽和して結露し始める温度。",
+        "",
+        "表面温度が露点以下になると表面結露の可能性。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-07",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-07】20℃・60%のスライドの状態点での絶対湿度は？",
+        "約8.7 g/kg(DA)。",
+        "",
+        "水蒸気分圧約1.4kPa、飽和分圧約2.3kPa。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-08",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-08】湿り空気の比エンタルピーhの近似式は？",
+        "h＝1.01t＋x(2500＋1.81t) [kJ/kg(DA)]。",
+        "",
+        "xはkg/kg(DA)、tは℃。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-09",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-09】空気線図の状態点を決める基本手順は？",
+        "独立な2つの状態量の線の交点を求め、他の状態量を読む。",
+        "",
+        "例：乾球温度と相対湿度。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-10",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-10】2種の空気を断熱混合した後のhとxは？",
+        "h₃＝(G₁h₁＋G₂h₂)/(G₁＋G₂)、x₃＝(G₁x₁＋G₂x₂)/(G₁＋G₂)。",
+        "",
+        "Gは乾き空気質量流量。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-11",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-11】混合空気の線図上の位置は？",
+        "2つの状態点を結ぶ線分上で、反対側の質量流量比で内分する。",
+        "",
+        "状態1の量が多いほど状態1に近い。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-12",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？",
+        "厳密には求まらない。hとxを保存して求める。",
+        "",
+        "比熱の湿度依存性を無視すれば温度加重平均は近似。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-13",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？",
+        "40 kJ/kg(DA)。",
+        "",
+        "(2×30＋60)/3。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-14",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-14】加湿しない加熱で一定の状態量は？",
+        "絶対湿度x。",
+        "",
+        "乾球温度とhは上昇、相対湿度は低下。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-15",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-15】加熱コイルの熱量q_hは？",
+        "q_h＝G(h₂−h₁) [kW]。",
+        "",
+        "Gはkg(DA)/s、hはkJ/kg(DA)。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-16",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-16】冷却・除湿コイルの除去熱量q_cは？",
+        "q_c＝G(h₁−h₂) [kW]。",
+        "",
+        "顕熱だけでなく潜熱も含む。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-17",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-17】冷却コイルで除湿が生じる条件は？",
+        "コイル表面温度が通過空気の露点温度以下になること。",
+        "",
+        "凝縮水がドレンとして除かれる。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-18",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-18】除湿量Lを求める式は？",
+        "L＝G(x₁−x₂) [kg/s]。",
+        "",
+        "湿度差をg/kgのまま使わない。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-19",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？",
+        "0.003 kg/s＝10.8 kg/h。",
+        "",
+        "0.003×3600。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-20",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？",
+        "ほぼ等エンタルピーで、絶対湿度が増え乾球温度が下がる。",
+        "",
+        "噴霧水の顕熱を無視する近似。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-21",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？",
+        "蒸気が持つ熱も加わるため、絶対湿度とエンタルピーが増加する。",
+        "",
+        "乾球温度一定とするのは近似。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-22",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-22】熱水分比uとは？",
+        "u＝Δh/Δx [kJ/kg]。",
+        "",
+        "線図上の状態変化の方向を決める。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-23",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-23】顕熱比SHFの式は？",
+        "SHF＝q_s/(q_s＋q_l)。",
+        "",
+        "顕熱÷全熱。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-24",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-24】顕熱3kW、潜熱1kWならSHFは？",
+        "0.75。",
+        "",
+        "全熱は4kW。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H5-25",
+      "chapter": "H5",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？",
+        "室内状態点を通る、所定SHFの方向の線上に吹出し点を取る。",
+        "",
+        "温度差だけでは除湿負荷を処理できない。",
+        "",
+        "根拠：熱PDF p.133-147。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png"
+      ]
+    },
+    {
+      "id": "H6-01",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-01】暖房デグリーデーの定義は？",
+        "Σmax(θ_set−日平均外気温,0) [K・日]。",
+        "",
+        "温度差が正の日だけ集計する。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-02",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-02】冷房デグリーデーの定義は？",
+        "Σmax(日平均外気温−θ_set,0) [K・日]。",
+        "",
+        "対象地域の気候の指標。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-03",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？",
+        "11 K・日。",
+        "",
+        "8＋3＋0。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-04",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？",
+        "Q_H,total＝0.0864G×DD_H。",
+        "",
+        "24時間連続・定常近似。スライドでは0.086に丸める。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-05",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-05】年間熱負荷をkWhで求める換算係数は？",
+        "Q_total＝0.024G×DD [kWh]。",
+        "",
+        "24 h/日÷1000。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-06",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？",
+        "同じではない。消費電力にはCOPや運転条件も必要。",
+        "",
+        "熱需要と機器効率を分ける。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-07",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-07】内部発熱Hを考慮した参照温度は？",
+        "θ_ref＝θ_set−H/G。",
+        "",
+        "無負荷となる等価外気温の境界。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-08",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-08】内部発熱が大きい建物では参照温度はどうなる？",
+        "低くなる。",
+        "",
+        "寒い外気でも冷房が必要になる場合がある。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-09",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-09】住宅と大型内部発熱建物の熱計画の違いは？",
+        "住宅は暖房損失抑制、大型建物は内部発熱に応じた冷房・排熱も重視。",
+        "",
+        "断熱を強めれば常に全負荷が減るとは限らない。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-10",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？",
+        "内部発熱による参照温度と、日射・夜間放射による相当外気温度。",
+        "",
+        "スライドのモデルでは外皮方位等を単純化。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-11",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？",
+        "η＝a_sU/α_o。",
+        "",
+        "SATによる日射熱取得の式から導く。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "H6-12",
+      "chapter": "H6",
+      "rank": "重要補完",
+      "subject": "熱",
+      "fields": [
+        "【H6-12】DD法を使うときの主な近似条件は？",
+        "日平均温度、定常熱収支、一定の建物特性・設定温度を使う。",
+        "",
+        "間欠空調等の影響は補正が必要。",
+        "",
+        "根拠：熱PDF p.149-159。重要補完。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png"
+      ]
+    },
+    {
+      "id": "A1-01",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-01】開放型の給気元と排気先は？",
+        "給気も排気も室内。",
+        "",
+        "ガスコンロ・石油ストーブなど。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-02",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-02】半密閉型の給気元と排気先は？",
+        "室内から給気し、屋外へ排気。",
+        "",
+        "CF・FE型など。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-03",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-03】密閉型の給気元と排気先は？",
+        "屋外から給気し、屋外へ排気。",
+        "",
+        "BF・FF型など。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-04",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-04】CF型とFE型の違いは？",
+        "CFは自然排気、FEは強制排気。",
+        "",
+        "どちらも半密閉型。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-05",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-05】BF型とFF型の違いは？",
+        "BFは自然給排気、FFは強制給排気。",
+        "",
+        "どちらも密閉型。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-06",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？",
+        "酸素濃度低下で不完全燃焼が起こり、CO発生が増えるため。",
+        "",
+        "室内酸素が減ることとCO発生をつなげて説明する。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-07",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？",
+        "授業資料では20.5%＝0.205。",
+        "",
+        "外気濃度21%＝0.21との差を用いる。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-08",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-08】酸素消費量をM＜0で表した定常収支は？",
+        "CQ＝C₀Q＋M。",
+        "",
+        "発生を正、消費を負とする。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-09",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？",
+        "M＝−0.21A_th。",
+        "",
+        "スライドの簡略化した燃焼モデル。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-10",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？",
+        "Q＝42A_th。",
+        "",
+        "0.21A_th/(0.21−0.205)。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-11",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-11】排気捕集率ηを考慮すると必要換気量は？",
+        "Q＝42(1−η)A_th。",
+        "",
+        "室内に放出される分が1−η。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-12",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？",
+        "室内に放出される燃焼廃ガスを減らすから。",
+        "",
+        "同じ燃焼量と濃度条件での比較。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-13",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-13】授業資料の開放型の必要換気量Vの簡便式は？",
+        "V＝40KQ_f。",
+        "",
+        "Kは単位燃料当たり理論廃ガス量、Q_fは燃料消費量。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-14",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-14】授業資料の排気フードI型・II型の簡便式は？",
+        "I型は30KQ_f、II型は20KQ_f。",
+        "",
+        "KQ_fの単位がm³/hになるよう揃える。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-15",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-15】授業資料の煙突の必要換気量の簡便式は？",
+        "V＝2KQ_f。",
+        "",
+        "開放型の40倍と混同しない。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-16",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-16】排気捕集率をトレーサガスで測る式は？",
+        "η＝Q(C_E−C_B)/M。",
+        "",
+        "Mは発生量、Qは排気量、C_Eは排気濃度、C_Bは背景濃度。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-17",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？",
+        "80 m³/h。",
+        "",
+        "40×2。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A1-18",
+      "chapter": "A1",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A1-18】必要換気量の式で文字Qに注意する理由は？",
+        "換気量と燃料消費量の両方に使われるため。",
+        "",
+        "問題ごとに定義と単位を確認する。",
+        "",
+        "根拠：空気PDF p.8-51。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png"
+      ]
+    },
+    {
+      "id": "A2-01",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-01】室内定常濃度を求める基本収支は？",
+        "流入汚染量＋発生量＝流出汚染量。",
+        "",
+        "完全混合、定常、沈着等を無視。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-02",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-02】外気濃度C₀、発生量M、換気量Qの室の定常濃度は？",
+        "C＝C₀＋M/Q。",
+        "",
+        "C・C₀とMの単位を整合させる。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-03",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-03】許容濃度C_limを満たす必要換気量は？",
+        "Q＝M/(C_lim−C₀)。",
+        "",
+        "C_lim＞C₀が必要。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-04",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-04】外気濃度が許容濃度以上のとき換気量だけで解決できるか？",
+        "同じ外気を入れるだけでは解決できない。",
+        "",
+        "発生源対策や適切な浄化等も必要。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-05",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-05】ppmを体積分率に換算する方法は？",
+        "10⁶で割る。",
+        "",
+        "400ppm＝0.0004＝0.04%。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-06",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-06】1人0.02m³/hを20人が発生すると総CO₂発生量は？",
+        "0.4 m³/h。",
+        "",
+        "人数を掛ける。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-07",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-07】過去問20人・外気500m³/h・外気400ppmのCO₂濃度は？",
+        "1200 ppm。",
+        "",
+        "400＋(0.4/500)×10⁶。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-08",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-08】過去問25人・外気500m³/h・外気400ppmのCO₂濃度は？",
+        "1400 ppm。",
+        "",
+        "400＋(0.5/500)×10⁶。元の解答例の140ppmを訂正。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-09",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-09】粉じん用フィルタを循環空気に置くとCO₂も除去できるか？",
+        "この過去問の粒子フィルタではCO₂除去を見込まない。",
+        "",
+        "CO₂の収支は外気量Q₀で計算する。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-10",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-10】粉じん捕集率ηと通過率Pの関係は？",
+        "P＝1−η。",
+        "",
+        "60%捕集ならP＝0.4。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-11",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-11】フィルタ通過後の濃度と通過汚染量は？",
+        "濃度はPC、汚染量はPCQ。",
+        "",
+        "C[mg/m³]×Q[m³/h]＝mg/h。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-12",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-12】外気Q₀と循環Q_rから給気量Q_sを求めると？",
+        "Q_s＝Q₀＋Q_r。",
+        "",
+        "室外へ排気する量は定常でQ₀。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-13",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？",
+        "P(C₀Q₀＋CQ_r)＋M＝CQ_s。",
+        "",
+        "室内発じんMはフィルタの下流で発生する。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-14",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？",
+        "C＝(M＋PC₀Q₀)/(Q_s−PQ_r)。",
+        "",
+        "分母はQ₀＋ηQ_rとも書ける。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-15",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？",
+        "P＝(CQ_s−M)/(C₀Q₀＋CQ_r)。",
+        "",
+        "最後にη＝1−Pへ戻す。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-16",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-16】20人・Q₀500・Q_r1000・M200mg/h・C₀0.05・η0.6ならCは？",
+        "約0.191 mg/m³。",
+        "",
+        "(200＋0.4×0.05×500)/(1500−0.4×1000)。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-17",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-17】同じ20人条件でC＝0.15に必要なηは？",
+        "約85.7%。",
+        "",
+        "P＝25/175＝1/7、η＝6/7。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-18",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-18】25人・Q₀500・Q_r1500・M250mg/h・C₀0.05・η0.6ならCは？",
+        "約0.186 mg/m³。",
+        "",
+        "260/1400。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-19",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-19】同じ25人条件でC＝0.15に必要なηは？",
+        "80%。",
+        "",
+        "P＝50/250＝0.2。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-20",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-20】必要ηの計算結果が1を超えた場合の意味は？",
+        "その風量・発生量条件では、そのフィルタだけで目標濃度を達成できない。",
+        "",
+        "風量増加や発生量削減等が必要。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-21",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？",
+        "外気の汚染流入量C₀Q₀にプレフィルタ通過率P_fを掛ける。",
+        "",
+        "循環空気側まで一律にP_fを掛けない。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-22",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-22】HEPAのスライド上の捕集性能は？",
+        "0.3µm粒子で99.97%以上。",
+        "",
+        "計数法による性能値。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-23",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-23】ULPAのスライド上の捕集性能は？",
+        "0.15µm粒子で99.9995%以上。",
+        "",
+        "HEPAの粒径・割合と区別する。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-24",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-24】電気集じん器の原理は？",
+        "粒子を帯電させ、電極へ引き寄せて捕集する。",
+        "",
+        "電離部と集じん部から成る。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-25",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-25】フィルタの質量法と計数法は同じ捕集率になるか？",
+        "一般に一致しない。",
+        "",
+        "粒子質量を測るか個数を測るかが異なる。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-26",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-26】喫煙室から非喫煙側への漏れを抑える気流方向は？",
+        "非喫煙側から喫煙室へ流す。",
+        "",
+        "授業資料の例は境界で0.2m/s以上。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A2-27",
+      "chapter": "A2",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A2-27】粒子用空気清浄機だけで煙の全成分を対策できない理由は？",
+        "ガス状成分まで同じように除去できるとは限らないから。",
+        "",
+        "発生源隔離と屋外排気の考え方を押さえる。",
+        "",
+        "根拠：空気PDF p.56-93。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png"
+      ]
+    },
+    {
+      "id": "A3-01",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-01】室内濃度の非定常収支式は？",
+        "V dC/dt＝Q(C₀−C)＋M。",
+        "",
+        "Vは室容積、Qは換気量。沈着・反応等を無視。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-02",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-02】一定Q・M・C₀での濃度変化の一般解は？",
+        "C(t)＝C₀＋M/Q＋(C_s−C₀−M/Q)e^(−Qt/V)。",
+        "",
+        "C_sは初期濃度。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-03",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-03】非定常濃度式を初期・定常・過渡で検算する方法は？",
+        "t＝0でC_s、t→∞でC₀＋M/Qになるか確認する。",
+        "",
+        "指数の符号は負。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-04",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-04】換気回数Nの定義と単位は？",
+        "N＝Q/V [h⁻¹]。",
+        "",
+        "Q[m³/h]とV[m³]を使う場合。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-05",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-05】換気の名目時定数は？",
+        "τ_n＝V/Q＝1/N。",
+        "",
+        "同じ時間単位で計算する。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-06",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-06】発生停止後M＝0の濃度減衰式は？",
+        "C(t)−C₀＝(C_s−C₀)e^(−Nt)。",
+        "",
+        "室濃度そのものではなく外気との差が減衰する。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-07",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-07】濃度差が1/eになるまでの時間は？",
+        "1/N。",
+        "",
+        "1回分の室容積を換気しても汚染が全部消えるわけではない。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-08",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-08】完全混合でNt＝1のとき初期濃度差は何%残る？",
+        "約36.8%。",
+        "",
+        "e⁻¹。約63.2%減少。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-09",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-09】完全混合でNt＝3のとき初期濃度差は何%残る？",
+        "約5.0%。",
+        "",
+        "e⁻³。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-10",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-10】2時点の濃度から換気回数を求める式は？",
+        "N＝ln[(C₁−C₀)/(C₂−C₀)]/(t₂−t₁)。",
+        "",
+        "濃度単位を揃え、時間をhにするとh⁻¹。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-11",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-11】濃度差が1/10になる時間t_0.1からNを求める式は？",
+        "N＝ln10/t_0.1≒2.303/t_0.1。",
+        "",
+        "t_0.1は濃度差の減衰時間。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-12",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-12】外気400ppmを%で測った室濃度から引く場合の値は？",
+        "0.04%。",
+        "",
+        "400をそのまま%の値から引かない。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-13",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？",
+        "外気濃度が無視できない場合は扱えない。",
+        "",
+        "C₀＝0.04%なら差は0.96%と0.06%。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-14",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？",
+        "約1.19 h⁻¹。",
+        "",
+        "ln6/1.5。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-15",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？",
+        "2400 ppm。",
+        "",
+        "400＋(0.3/150)×10⁶。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-16",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-16】同じ条件で初期1000ppmなら濃度はどう変化する？",
+        "2400−1400e^(−2t) ppm。",
+        "",
+        "tはh、N＝2 h⁻¹。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-17",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-17】定常濃度法の原理は？",
+        "一定発生量と定常濃度差からQ＝M/(C−C₀)を求める。",
+        "",
+        "十分な定常到達を待つ。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-18",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-18】濃度減衰法の測定手順は？",
+        "トレーサガスを均一に混合し、発生停止後の濃度低下を測る。",
+        "",
+        "多時点法では時間的に一定の換気を前提とする。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-19",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-19】一定濃度法の原理は？",
+        "室濃度を一定に保つガス供給量から換気量を求める。",
+        "",
+        "定常濃度法の単なる別名ではない。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-20",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-20】濃度減衰を片対数グラフに描いたときの特徴は？",
+        "一定Nならln(C−C₀)と時刻が直線になる。",
+        "",
+        "自然対数なら傾きは−N。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-21",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-21】換気回数が時間変化する二時点法で求まるものは？",
+        "2時点間の平均換気回数。",
+        "",
+        "室内完全混合等の前提は必要。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-22",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-22】外気と同じ初期濃度から発生を始めたときの式は？",
+        "C(t)＝C₀＋(M/Q)(1−e^(−Nt))。",
+        "",
+        "ゼロからではなく外気濃度から上昇。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A3-23",
+      "chapter": "A3",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A3-23】非定常濃度の式で指数が無次元になる条件は？",
+        "Q/Vとtの時間単位が互いに逆で揃っていること。",
+        "",
+        "h⁻¹と分をそのまま掛けない。",
+        "",
+        "根拠：空気PDF p.100-131。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png"
+      ]
+    },
+    {
+      "id": "A4-01",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-01】換気回数だけで室内の空気分配を評価できない理由は？",
+        "同じ換気量でも滞留や短絡で新鮮空気の届き方が違うから。",
+        "",
+        "換気効率と換気量を区別する。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-02",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-02】空気齢とは？",
+        "給気が室内に入ってから、ある地点に到達するまでの経過時間。",
+        "",
+        "若い空気ほど新鮮外気が早く届いている。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-03",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-03】給気吹出し口の空気齢は？",
+        "0。",
+        "",
+        "空気齢の起点。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-04",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-04】局所平均空気齢τ_Pとは？",
+        "ある地点に届く空気の到達時間の平均。",
+        "",
+        "一つの粒子の所要時間ではない。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-05",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-05】名目換気時間τ_nは？",
+        "V/Q。",
+        "",
+        "定常・授業モデルでは排気口の局所平均空気齢に等しい。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-06",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-06】局所空気交換指数の空気齢による式は？",
+        "ε_Pᵃ＝τ_n/τ_P。",
+        "",
+        "大きいほど、その地点に新鮮空気が早く届く。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-07",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-07】室平均空気齢と局所平均空気齢の違いは？",
+        "室平均は室内全体の空間平均、局所平均は特定地点での値。",
+        "",
+        "排気口の値と室平均を混同しない。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-08",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-08】空気交換効率εᵃの定義式は？",
+        "εᵃ＝(τ_n/2)/⟨τ⟩。",
+        "",
+        "理論上最小の室平均空気齢を実際の室平均空気齢で割る。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-09",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-09】完全混合の室平均空気齢と空気交換効率は？",
+        "⟨τ⟩＝τ_n、εᵃ＝0.5。",
+        "",
+        "完全混合が効率1になる定義ではない。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-10",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-10】ピストンフローの室平均空気齢と空気交換効率は？",
+        "⟨τ⟩＝τ_n/2、εᵃ＝1。",
+        "",
+        "入口0から出口τ_nまで一方向に進む理想モデル。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-11",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-11】ショートサーキットとは？",
+        "給気が居住域へ十分届かず排気口へ抜ける短絡流。",
+        "",
+        "滞留域を生み、εᵃが0.5未満になる場合がある。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-12",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-12】V＝100m³、Q＝200m³/h、τ_P＝0.25hの局所空気交換指数は？",
+        "2。",
+        "",
+        "τ_n＝0.5h、0.5/0.25＝2。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-13",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-13】τ_n＝0.5h、室平均空気齢0.4hならεᵃは？",
+        "0.625。",
+        "",
+        "0.5/(2×0.4)。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-14",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-14】パルス法で局所平均空気齢を求める式は？",
+        "τ_P＝∫tC_P(t)dt/∫C_P(t)dt。",
+        "",
+        "給気口へ短時間注入し、その地点の応答を測る。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-15",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-15】ステップアップ法の局所平均空気齢は？",
+        "τ_P＝∫[1−C_up(t)/C_s]dt。",
+        "",
+        "ゼロから給気トレーサ濃度C_sへ上昇させる理想条件。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-16",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-16】ステップダウン法の局所平均空気齢は？",
+        "τ_P＝∫C_dn(t)/C_s dt。",
+        "",
+        "室内を一様濃度C_sにした後、供給停止して減衰を測る。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-17",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-17】ステップ法で背景濃度がゼロでない場合の扱いは？",
+        "背景との差を取り、初期・定常濃度差で正規化する。",
+        "",
+        "生の濃度をそのままゼロ基準の式へ入れない。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-18",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-18】ステップアップ・ダウン法がパルス法より扱いやすい点は？",
+        "注入時間の調整や測定器の高速応答への要求を緩めやすい。",
+        "",
+        "積分には十分長い測定が必要。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-19",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-19】排気口のステップダウンから室平均空気齢を求める式は？",
+        "⟨τ⟩＝[∫tC_e(t)dt]/(τ_nC_s)。",
+        "",
+        "局所平均の式と積分の重みが違う。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-20",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-20】空気清浄度指数の式と前提は？",
+        "ε_Pᶜ＝C_e/C_P。",
+        "",
+        "発生源既知、給気汚染をゼロ基準にした授業の定義。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-21",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-21】汚染質除去効率の式は？",
+        "εᶜ＝C_e/⟨C⟩。",
+        "",
+        "局所濃度ではなく室平均濃度を用いる。背景濃度は補正する。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-22",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-22】空気清浄度指数と局所空気交換指数が同じ形でも異なる理由は？",
+        "前者は既知発生源の汚染除去、後者は一様発生等を仮定した空気分配を評価するから。",
+        "",
+        "濃度の意味と発生条件を確認する。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-23",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-23】ターンオーバー時間と汚染質除去効率の関係は？",
+        "εᶜ＝τ_n/τ_to。",
+        "",
+        "指定発生源の定常後、供給停止した排気濃度の積分から求める。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-24",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-24】置換換気で居住域の空気を良好にしやすい仕組みは？",
+        "床付近から低温・低速で給気し、発熱による上昇流と上部排気を利用する。",
+        "",
+        "完全なピストンフローと同一視しない。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A4-25",
+      "chapter": "A4",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A4-25】換気効率の指標を選ぶとき最初に区別することは？",
+        "汚染源の位置が既知か、空気分配自体を評価したいか。",
+        "",
+        "点の評価か室全体の評価かも区別する。",
+        "",
+        "根拠：空気PDF p.136-207。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png"
+      ]
+    },
+    {
+      "id": "A5-01",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-01】全圧・静圧・動圧の関係は？",
+        "全圧P_T＝静圧P_s＋動圧P_d。",
+        "",
+        "同じ位置・同じ基準で比較する。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-02",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-02】動圧の式と単位は？",
+        "P_d＝ρU²/2 [Pa]。",
+        "",
+        "ρ[kg/m³]、U[m/s]。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-03",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？",
+        "60 Pa。",
+        "",
+        "0.5×1.2×10²。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-04",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-04】全圧100Pa、動圧60Paなら静圧は？",
+        "40 Pa。",
+        "",
+        "P_s＝P_T−P_d。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-05",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-05】送風機全圧の定義は？",
+        "送風機吐出し側全圧−吸込み側全圧。",
+        "",
+        "単なる吐出し側の全圧ではない。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-06",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-06】送風機静圧の定義は？",
+        "送風機全圧−吐出し口動圧。",
+        "",
+        "前後の静圧差と一般に同じではない。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-07",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-07】送風機のない実在ダクトで全圧はどう変化する？",
+        "流れに沿って圧力損失分だけ低下する。",
+        "",
+        "摩擦・局部損失による。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-08",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-08】理想流体のベルヌーイ関係で一定なのは？",
+        "高さの差を無視すれば静圧＋動圧。",
+        "",
+        "実在流体では全圧損失を加えて考える。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-09",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？",
+        "負圧になる。",
+        "",
+        "動圧は速度二乗なので負にならない。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-10",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-10】良好なベルマウス入口で加速すると圧力は？",
+        "静圧が低下し動圧が増えるが、全圧損失は小さい。",
+        "",
+        "スライドでは入口局部損失係数ζ≒0。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-11",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？",
+        "静圧は大気圧、出口動圧は下流で散逸して損失になる。",
+        "",
+        "出口損失係数ζ≒1。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-12",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-12】ダクト圧力線図を描く手順は？",
+        "大気圧線→全圧の損失と送風機上昇→各位置で動圧を引いて静圧。",
+        "",
+        "管径が変われば速度・動圧も変わる。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-13",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-13】一定断面の直管で全圧と静圧の線の間隔は？",
+        "速度・密度が一定なら動圧分で一定。",
+        "",
+        "両線は摩擦損失分だけ低下する。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-14",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-14】風量Qと平均速度Uと断面積Aの関係は？",
+        "Q＝UA。",
+        "",
+        "Qはm³/sで用いるとUはm/s。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-15",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-15】5000m³/h、吐出し口0.1m²なら速度は？",
+        "約13.89 m/s。",
+        "",
+        "(5000/3600)/0.1。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-16",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-16】同じ条件、ρ＝1.2、送風機全圧750Paなら送風機静圧は？",
+        "約634 Pa。",
+        "",
+        "動圧約115.7Paを差し引く。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-17",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？",
+        "W_air＝QP_T [W]。",
+        "",
+        "m³/minなら60で割ってWへ換算する。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-18",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-18】送風機効率η_fと軸動力の関係は？",
+        "W_shaft＝W_air/η_f。",
+        "",
+        "効率を掛けずに割る。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-19",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？",
+        "約3.33 kW。",
+        "",
+        "(6000/3600)×1000/0.5。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-20",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？",
+        "風量k倍、圧力k²倍、動力k³倍。",
+        "",
+        "相似則が適用できる条件での関係。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-21",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-21】同じ回転数で相似な羽根車径をk倍にすると？",
+        "風量k³倍、圧力k²倍、動力k⁵倍。",
+        "",
+        "相似則の前提下。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-22",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？",
+        "直列は同風量で圧力を加算、並列は同圧力で風量を加算。",
+        "",
+        "実風量は系の抵抗曲線との交点で決まる。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-23",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-23】直管部の摩擦圧力損失の式は？",
+        "ΔP＝λ(l/d)ρU²/2。",
+        "",
+        "λは摩擦損失係数。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-24",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-24】局部圧力損失の式は？",
+        "ΔP＝ζρU²/2。",
+        "",
+        "ζは曲がり・分岐等の局部損失係数。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-25",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-25】直管と曲がり等を含む経路の全損失は？",
+        "Σλ(l/d)P_d＋ΣζP_d。",
+        "",
+        "各区間の速度に対応する動圧を用いる。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-26",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？",
+        "4倍。",
+        "",
+        "係数を一定とみなすとΔP∝Q²。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-27",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？",
+        "60 Pa。",
+        "",
+        "0.02×(10/0.2)×60。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-28",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-28】送風機の動作点とは？",
+        "送風機特性曲線とダクト系抵抗曲線の交点。",
+        "",
+        "ファンの最大風量だけで設計風量を判断しない。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-29",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-29】シロッコファンとターボファンの羽根の違いは？",
+        "シロッコは前向き羽根、ターボは後向き羽根。",
+        "",
+        "授業ではターボの高効率等を比較。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-30",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-30】等摩擦法とは？",
+        "ダクトの単位長さ当たりの圧力損失を揃える設計法。",
+        "",
+        "等速法と区別する。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-31",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-31】等速法と静圧再取得法の違いは？",
+        "等速法は風速を揃え、静圧再取得法は減速による静圧回復を利用する。",
+        "",
+        "全圧が増えるという意味ではない。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A5-32",
+      "chapter": "A5",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A5-32】ダクトの急拡大・急縮小を避ける理由は？",
+        "乱れ・剥離による局部損失や騒音を抑えるため。",
+        "",
+        "授業目安は拡大15°以下、縮小30°以下。",
+        "",
+        "根拠：空気PDF p.211-245。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png"
+      ]
+    },
+    {
+      "id": "A6-01",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-01】居住域のスライド上の一般的な高さは？",
+        "通常、床から1.8mまで。",
+        "",
+        "この範囲の温度・湿度・気流を整える。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-02",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-02】ドラフトとは？",
+        "不快な局所的気流感。",
+        "",
+        "平均室温だけでは評価できない。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-03",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-03】DRを大きくする3つの条件は？",
+        "低い空気温度、大きい平均風速、大きい乱れの強さ。",
+        "",
+        "スライドの式の適用範囲内で比較。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-04",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-04】スライドの有効ドラフト温度EDTの式は？",
+        "EDT＝(t_x−t_c)−8(V_x−0.15)。",
+        "",
+        "温度℃、速度m/s。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-05",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-05】スライドのEDTによる快適範囲は？",
+        "−1.7〜1.1℃、かつ気流速度0.35m/s以下。",
+        "",
+        "授業資料の基準。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-06",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-06】ADPIとは？",
+        "居住域の測定点のうち、所定の快適気流条件を満たす点の割合。",
+        "",
+        "100%に近いほど空気分布が良好。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-07",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-07】コールドドラフトが窓周りで起こる理由は？",
+        "窓付近で冷却された空気が下降するため。",
+        "",
+        "ペリメータは外気に面する窓周り等の部分。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-08",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-08】コールドドラフトの代表的な対策は？",
+        "窓下暖房、空調気流との混合、窓下吸込み、窓の断熱改善。",
+        "",
+        "冷気が居住域へ広がるのを抑える。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-09",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-09】軸対称噴流・平面噴流・放射状噴流の代表的吹出しは？",
+        "軸流ノズル、細長いスロット、ふく流吹出し口。",
+        "",
+        "吹出し口形状が減衰特性を変える。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-10",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-10】噴流の第1域は？",
+        "定速域。中心軸速度V_x≒V₀。",
+        "",
+        "授業ではおよそ吹出し径D₀の2〜6倍程度。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-11",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-11】噴流の第2域は？",
+        "遷移域。V_x∝1/√X。",
+        "",
+        "平面噴流ではこの減衰傾向が持続する。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-12",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-12】噴流の第3域は？",
+        "主流域。V_x∝1/X。",
+        "",
+        "軸対称噴流の主要な減衰領域。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-13",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-13】噴流の第4域は？",
+        "消滅域。周壁等の影響で急減衰し、周囲の静穏気流と区別しにくくなる。",
+        "",
+        "スライドの目安はV_x＜0.25m/s。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-14",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-14】第3域の軸対称噴流の中心速度の式は？",
+        "V_x/V₀＝KD₀/X。",
+        "",
+        "Kは吹出し口定数、適用域に注意。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-15",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-15】吹出しV₀＝5m/s、K＝4、D₀＝0.1m、X＝4mならV_xは？",
+        "0.5 m/s。",
+        "",
+        "5×4×0.1/4。",
+        "計算結果の単位と、条件を変えた場合の大小関係も確認する。",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-16",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-16】噴流の到達距離とは？",
+        "中心速度が所定の基準値まで低下する距離。",
+        "",
+        "授業では通常0.25m/sを用いる。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-17",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-17】第3域の式から到達距離X_tを求めると？",
+        "X_t＝KD₀V₀/V_t。",
+        "",
+        "基準速度V_tと適用域を確認する。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-18",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-18】K＝4、D₀＝0.1、V₀＝5、V_t＝0.25の到達距離は？",
+        "8 m。",
+        "",
+        "4×0.1×5/0.25。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-19",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-19】壁面噴流の到達距離は自由噴流と比べてどうなるか？",
+        "スライドの比較モデルでは約√2倍。",
+        "",
+        "同じ条件での理想化した比較。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-20",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-20】アネモ型吹出し口の特徴は？",
+        "誘引性・混合拡散性がよく、比較的大風量を処理できる。",
+        "",
+        "丸型・角型がある。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-21",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-21】アネモ型の冷房・暖房時の中コーン位置と方向は？",
+        "冷房は中コーンを下げ水平吹出し、暖房は上げて下向き吹出し。",
+        "",
+        "空気PDF p.287の表現に揃える。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-22",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-22】パン型とアネモ型の違いは？",
+        "パン型は誘引作用が小さく、到達距離が長い。",
+        "",
+        "構造・特性の比較問題に対応。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-23",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-23】ノズル型が適する空間は？",
+        "劇場・ホール・工場などの大空間。",
+        "",
+        "構造が簡単で到達距離が長い。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-24",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-24】パンカルーバの特徴と注意点は？",
+        "風向・風量を調整しやすく、局所冷房に使うが騒音が大きい。",
+        "",
+        "工場・厨房など。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-25",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-25】グリルとレジスタの区別は？",
+        "風量調整シャッタがないものをグリルという。",
+        "",
+        "羽根角度で方向・到達距離を調整。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-26",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-26】スロット型の特徴と注意点は？",
+        "意匠的に目立たずペリメータにも使えるが、風向調整がない場合はドラフトに注意。",
+        "",
+        "ラインディフューザともいう。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-27",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-27】天井からの水平吹出しを暖房に使うときの注意点は？",
+        "室中央や下部に停滞域が生じ、上下温度差が大きくなりやすい。",
+        "",
+        "下向き成分を増やす調整が有効。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-28",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-28】側壁上部の冷風吹出しで速度が弱すぎると？",
+        "天井から冷気が剥離し、ドラフトを生じる場合がある。",
+        "",
+        "強すぎる場合も過大風速に注意。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-29",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-29】天井からの下向き暖房で気流が床に届かないと？",
+        "上下温度分布が大きくなる。",
+        "",
+        "吹出し方向だけでなく到達距離も確認。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-30",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-30】タスク・アンビエント空調の考え方は？",
+        "人の周囲のタスク領域と背景のアンビエント領域を分けて空調する。",
+        "",
+        "室全体を同一条件にする方式との比較。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    },
+    {
+      "id": "A6-31",
+      "chapter": "A6",
+      "rank": "過去問直結",
+      "subject": "空気",
+      "fields": [
+        "【A6-31】CFDで室内気流を予測するときに必要な基本設定は？",
+        "形状・メッシュ、給排気条件、温度・発熱等の境界条件。",
+        "",
+        "計算結果を実測で検証することも重要。",
+        "",
+        "根拠：空気PDF p.251-307。過去問直結。",
+        "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png"
+      ]
+    }
+  ],
+  "sets": {
+    "all": 298,
+    "heat": 142,
+    "air": 156,
+    "priority": 218,
+    "H1": 28,
+    "H2": 34,
+    "H3": 19,
+    "H4": 24,
+    "H5": 25,
+    "H6": 12,
+    "A1": 18,
+    "A2": 27,
+    "A3": 23,
+    "A4": 25,
+    "A5": 32,
+    "A6": 31
+  }
+}

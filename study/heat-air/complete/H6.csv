@@ -1,0 +1,12 @@
+﻿【H6-01】暖房デグリーデーの定義は？,"Σmax(θ_set−日平均外気温,0) [K・日]。",,温度差が正の日だけ集計する。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-02】冷房デグリーデーの定義は？,"Σmax(日平均外気温−θ_set,0) [K・日]。",,対象地域の気候の指標。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？,11 K・日。,,8＋3＋0。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？,"Q_H,total＝0.0864G×DD_H。",,24時間連続・定常近似。スライドでは0.086に丸める。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-05】年間熱負荷をkWhで求める換算係数は？,Q_total＝0.024G×DD [kWh]。,,24 h/日÷1000。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？,同じではない。消費電力にはCOPや運転条件も必要。,,熱需要と機器効率を分ける。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-07】内部発熱Hを考慮した参照温度は？,θ_ref＝θ_set−H/G。,,無負荷となる等価外気温の境界。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-08】内部発熱が大きい建物では参照温度はどうなる？,低くなる。,,寒い外気でも冷房が必要になる場合がある。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-09】住宅と大型内部発熱建物の熱計画の違いは？,住宅は暖房損失抑制、大型建物は内部発熱に応じた冷房・排熱も重視。,,断熱を強めれば常に全負荷が減るとは限らない。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？,内部発熱による参照温度と、日射・夜間放射による相当外気温度。,,スライドのモデルでは外皮方位等を単純化。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？,η＝a_sU/α_o。,,SATによる日射熱取得の式から導く。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png
+【H6-12】DD法を使うときの主な近似条件は？,日平均温度、定常熱収支、一定の建物特性・設定温度を使う。,,間欠空調等の影響は補正が必要。,,根拠：熱PDF p.149-159。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png

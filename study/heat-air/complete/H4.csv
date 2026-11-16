@@ -1,0 +1,24 @@
+﻿【H4-01】温熱環境の環境側4要素は？,気温・平均放射温度・相対湿度・気流速度。,,人体側2要素と合わせ6要素。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-02】温熱環境の人体側2要素は？,代謝量・着衣量。,,環境が同じでも体感が変わる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-03】人体のコア温度はおよそ何℃か？,約37℃。,,スライドの体温調節モデル。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-04】中性温域と恒温適応域の違いは？,中性温域は主にコア領域の調節、恒温適応域は発汗・ふるえ等でも体温を維持する範囲。,,温冷感と生理的調節を対応させる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？,Mは産熱、Cは対流放熱、Rは放射放熱、Eは蒸発放熱。,,定常、外部仕事等を簡略化した表現。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-06】1metの意味と値は？,椅座位安静時相当の代謝率で58.2 W/m²。,,体表面積1.7m²なら約99W。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-07】1cloの値と物理的意味は？,0.155 m²K/Wの着衣熱抵抗。,,cloが大きいほど熱を逃がしにくい。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-08】作用温度OTの一般式は？,OT＝(α_cθ_a＋α_rMRT)/(α_c＋α_r)。,,対流と放射の熱交換を統合する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-09】OTを気温とMRTの平均で近似できる条件は？,対流・放射の熱伝達率がほぼ等しい場合。,,OT≒(θ_a＋MRT)/2。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？,27℃。,,気温だけの評価と区別する。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-11】ET*がOTに加えて考慮する要素は？,湿度。,,スライドでは相対湿度50%の等価環境へ置き換える。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-12】SET*が統合して評価する要素は？,気温・放射温度・湿度・気流・着衣量・代謝量の6要素。,,標準条件への等価温度として表す。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-13】PMVとは？,6要素から予測する平均温冷感申告。,,温度そのものではなく温冷感の尺度。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-14】PMVの0・正・負の意味は？,0が中立、正が暑い側、負が寒い側。,,一般に−3〜＋3の7段階を用いる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-15】PPDとは？,予測不満足者率。,,PMVと対応して集団の不満足を予測する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-16】スライドでのPMVの快適範囲は？,およそ−0.5≦PMV≦0.5、PPDは約10%以下。,,資料上の目安。個人差は残る。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-17】PMVが0ならPPDも0になるか？,ならない。最小でも約5%。,,全員が同じ温冷感になるとは限らない。,計算結果の単位と、条件を変えた場合の大小関係も確認する。,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？,対流熱伝達が増え、人体からの放熱が増えるから。,,高温環境では単純に同じ効果とはいえない。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？,汗が蒸発しにくくなり、蒸発放熱が減るから。,,湿度と温度の作用を区別する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？,着衣増加は放熱を抑え、代謝増加は産熱を増やすから。,,6要素の定性的説明に使う。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-21】WBGTの日射ありの式は？,WBGT＝0.7θ_wb＋0.2θ_g＋0.1θ_a。,,湿球温度・グローブ温度・気温を使用する。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-22】WBGTの日射なしの式は？,WBGT＝0.7θ_wb＋0.3θ_g。,,授業資料の式。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？,27.5℃。,,17.5＋7＋3。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
+【H4-24】グローブ温度計で対流と放射が釣り合う式は？,α_c(θ_a−θ_g)＝α_r(θ_g−MRT)。,,気流によって対流熱伝達率も変わる。,,根拠：熱PDF p.108-132。重要補完。,https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png
