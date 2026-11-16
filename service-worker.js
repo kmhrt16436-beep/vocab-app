@@ -1,7 +1,7 @@
 'use strict';
 // Cache only this app's static files. Authentication and study data stay out of CacheStorage.
 const CACHE_PREFIX='study-cards:'+self.registration.scope+':';
-const SHELL_CACHE=CACHE_PREFIX+'shell-v1',IMAGE_CACHE=CACHE_PREFIX+'images-v1';
+const SHELL_CACHE=CACHE_PREFIX+'shell-v2',IMAGE_CACHE=CACHE_PREFIX+'images-v1';
 const APP_URL=new URL('index.html',self.registration.scope).href;
 const STATIC_PATHS=['index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png'];
 const STATIC_URLS=new Set(STATIC_PATHS.map(path=>new URL(path,self.registration.scope).href));
