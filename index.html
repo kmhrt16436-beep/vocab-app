@@ -7,10 +7,12 @@
 :root{color-scheme:light;--ink:#203c36;--muted:#63736d;--green:#174d43;--line:#d8dfd7;--paper:#fffefa;--red:#bd2929}*{box-sizing:border-box}body{margin:0;background:#f3f4ee;color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;font-size:16px;line-height:1.65}button,input,textarea{font:inherit}button{min-height:48px;padding:12px 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);cursor:pointer;touch-action:manipulation}button:hover{background:#eaf0e8}button:disabled{opacity:.45;cursor:default}button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #d39b3f;outline-offset:3px}h1,h2,h3,p{margin-top:0}h1{font-size:22px;margin-bottom:2px;letter-spacing:.04em}h2{font-size:22px}h3{font-size:17px}header{border-bottom:1px solid var(--line);background:var(--paper);padding:24px max(20px,calc((100% - 860px)/2)) 20px}.brand{font-size:11px;letter-spacing:.2em;color:var(--muted);margin-bottom:6px}.stats{display:flex;gap:10px 24px;flex-wrap:wrap;margin-top:18px;font-size:14px}.stats strong{color:var(--green)}progress{display:block;width:100%;height:6px;margin-top:14px;accent-color:var(--green)}main{max-width:900px;margin:auto;padding:24px 20px 60px}nav{display:flex;gap:8px;margin-bottom:26px}nav button{flex:1;border:0;background:transparent;padding:12px 6px}nav button[aria-pressed=true]{background:var(--green);color:white}.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--muted)}.muted,small{color:var(--muted)}.card{width:100%;background:var(--paper);border:1px solid var(--line);border-radius:22px;box-shadow:0 8px 30px #203c3606;padding:30px;margin-bottom:20px}.front{min-height:310px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px}.word{font-size:clamp(32px,7vw,52px);font-weight:650;line-height:1.2;overflow-wrap:anywhere}.hint{font-size:14px;color:var(--muted)}.back-word{font-size:28px;overflow-wrap:anywhere;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}.field{margin-bottom:22px}.field:last-child{margin-bottom:0}.field-label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.value{font-size:16px;font-weight:400;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}.important{font-size:24px;font-weight:700;color:var(--red)}.illustration{max-width:100%;max-height:260px;border-radius:12px;display:block;object-fit:contain}.rule{background:#e7eee4;border-radius:12px;padding:14px 18px;font-size:14px}.actions{display:flex;gap:12px;flex-wrap:wrap}.actions button{flex:1}.primary{background:var(--green);border-color:var(--green);color:white}.primary:hover{background:#286355}.negative{border-color:#cbb4a3;background:#fcf5ed}.panel{background:var(--paper);border:1px solid var(--line);padding:24px;border-radius:18px;margin-bottom:20px}label{display:block;margin:16px 0 6px;font-size:14px;font-weight:600}input:not([type=file]),textarea{display:block;width:100%;padding:12px;border:1px solid #b7c5ba;border-radius:9px;background:white;color:var(--ink)}textarea{resize:vertical;min-height:80px}input[type=file]{max-width:100%;margin:10px 0 16px}form .actions{margin-top:22px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.toolbar h2{margin:0}.list-item{border-top:1px solid var(--line);padding:18px 0;display:flex;gap:12px;align-items:center}.list-item>div:first-child{min-width:0;flex:1;overflow-wrap:anywhere}.list-item strong{font-size:19px}.list-item p{margin:2px 0;font-size:14px}.list-item button{padding:10px 14px}.badge{font-size:12px;color:var(--muted)}.empty{text-align:center;padding:46px 20px}.empty-symbol{font-size:44px;margin-bottom:16px}.notice{padding:12px 16px;border-radius:10px;background:#fff1ce;margin-bottom:16px;white-space:pre-wrap}#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);max-width:calc(100% - 32px);width:max-content;background:var(--green);color:white;padding:12px 20px;border-radius:12px;z-index:10;box-shadow:0 4px 18px #0002}summary{cursor:pointer;min-height:48px;padding:10px 0}details p{font-size:14px}code{overflow-wrap:anywhere;font-size:13px}[hidden]{display:none!important}@media(max-width:480px){header{padding-top:20px}main{padding:18px 16px 40px}.card{padding:24px 20px}.panel{padding:20px 16px}.grade{flex-direction:column}.list-item{align-items:flex-start}.list-item .actions{flex-direction:column;gap:6px}.front{min-height:290px}}
 
 select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;border:1px solid #b7c5ba;border-radius:10px;background:var(--paper);color:var(--ink)}.scheduler-panel{padding:16px 18px;border:1px solid var(--line);border-radius:14px;margin-bottom:22px;background:#edf2e9}.scheduler-panel label{margin:0 0 8px}.scheduler-panel p{font-size:13px;margin:10px 0 0}.memory-info{font-size:13px;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+
+.sync-strip{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;font-size:13px}.sync-strip button{min-height:44px;padding:8px 12px;flex-shrink:0}.sync-strip span{overflow-wrap:anywhere}
 </style>
 </head>
 <body>
-<header><div class="brand">DAILY WORDS / 毎日、ひとつずつ。</div><h1>ことばの積み重ね</h1><div class="stats"><strong id="todayCount"></strong><span id="allCount"></span></div><progress id="progress" max="1" value="0" aria-label="今日の学習の進捗"></progress></header>
+<header><div class="brand">DAILY WORDS / 毎日、ひとつずつ。</div><h1>ことばの積み重ね</h1><div class="stats"><strong id="todayCount"></strong><span id="allCount"></span></div><progress id="progress" max="1" value="0" aria-label="今日の学習の進捗"></progress><div class="sync-strip"><span id="syncSummary" role="status">この端末に保存中 · ログインすると自動同期</span><button id="openSync">同期設定</button></div></header>
 <main>
 <div id="storageNotice" class="notice" role="alert" hidden></div>
 <nav aria-label="メインメニュー"><button data-tab="study" aria-pressed="true">学習する</button><button data-tab="cards" aria-pressed="false">カード管理</button><button data-tab="data" aria-pressed="false">データ</button></nav>
@@ -23,8 +25,8 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
 <div id="cloudLogin"><label for="cloudEmail">メールアドレス</label><input id="cloudEmail" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com"><button id="sendCloudCode" style="margin-top:12px">ログインリンクを送る</button><p class="muted">この端末のメールでリンクを開いてください。メールアプリ内ではなく、このアプリを使う同じChromeで開きます。</p></div>
 <div id="cloudAccount" hidden><p id="cloudIdentity"></p><div class="actions"><button id="cloudSync" class="primary">今すぐ同期</button><button id="cloudLogout">ログアウト</button></div></div>
 <p id="cloudStatus" role="status" aria-live="polite">未ログイン：この端末に保存しています。</p>
-<div id="cloudChoice" hidden><p class="notice">どちらのデータを使うか選んでください。初回は自動で上書きしません。変更が競合した場合もここで選べます。必要なら先に下のJSONエクスポートでバックアップしてください。</p><p id="cloudSummary"></p><div class="actions"><button id="useCloud">クラウドのデータを使う</button><button id="useDevice" class="negative">この端末のデータをクラウドへ保存</button></div></div>
-<p class="muted">ログイン後、最初に使うデータを選ぶと自動同期が始まります。通信できない間も端末に保存し、再接続時に同期します。ログアウトするとログイン前の端末データに戻ります。</p>
+<p class="muted">一度ログインすると、カードの追加と学習結果を自動保存します。PCで登録したカードはスマホへ、スマホの学習結果はPCへ自動で反映します。通常は保存先を選ぶ操作は不要です。ページを開き直したときや再接続時にも同期します。</p>
+<details id="cloudRecovery"><summary>復旧用の操作（通常は不要）</summary><p>自動同期前の端末データは、このブラウザにバックアップしています。</p><button id="downloadRecovery">同期前の端末データをJSONで保存</button><div id="cloudChoice"><p class="muted">以下は全データの置き換えです。通常は自動同期にお任せください。</p><p id="cloudSummary"></p><div class="actions"><button id="useCloud">クラウドから全データを読み直す</button><button id="useDevice" class="negative">この端末の全データでクラウドを置き換える</button></div></div></details>
 </div>
 <div class="panel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code>英単語,①重要な日本語訳,②他の意味,③類義語・派生語・対義語,④短い例文,⑤例文の日本語訳,⑥イラスト</code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">この端末・ブラウザのlocalStorageに自動保存します。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
 </main><div id="toast" role="status" hidden></div>
@@ -145,14 +147,11 @@ const CONFIG_KEY=KEY+':cloud-config', AUTH_KEY=KEY+':cloud-auth';
 let cloudConfig=null, cloudAuth=null, cloudReady=false, cloudRevision=0, cloudBase='', cloudTimer;
 let cloudBusy=false, cloudEpoch=0, cloudRefresh=null, cloudRequestBusy=false;
 let activeStorageKey=KEY, pendingCloudLink=null;
-const localPersist=persist;
 persist=function(){
   if(storageBlocked)return;
-  if(activeStorageKey===KEY)localPersist();
-  else try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末に保存できません。JSONでバックアップしてください。'}
-  if(cloudReady){clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+  try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末へ保存できません。閉じる前にJSONをエクスポートしてください。'}
+  if(cloudReady){rememberCloud();clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
 };
-function cloudMessage(s){$('cloudStatus').textContent=s}
 function cloudLocalKey(id){return KEY+':account:'+id}
 function configValid(c){return c && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(c.url)&&typeof c.key==='string'&&c.key.length>20}
 function checkPublicKey(key){
@@ -179,7 +178,11 @@ async function refreshCloudAuth(){
   if(!cloudRefresh)cloudRefresh=cloudFetch('/auth/v1/token?grant_type=refresh_token',{refresh_token:cloudAuth.refresh_token}).then(saveCloudAuth).finally(()=>{cloudRefresh=null});
   return cloudRefresh;
 }
-async function cloudAction(fn){if(cloudRequestBusy)return;if(cloudBusy){cloudMessage('同期の完了を待ってから、もう一度操作してください。');return;}cloudRequestBusy=true;const buttons=['saveCloudConfig','sendCloudCode','useDevice','useCloud','cloudLogout','cloudSync'];buttons.forEach(id=>$(id).disabled=true);try{await fn()}catch(e){cloudMessage('操作できません：'+e.message)}finally{cloudRequestBusy=false;buttons.forEach(id=>$(id).disabled=false)}}
+async function cloudAction(fn){
+  if(cloudRequestBusy)return;if(cloudBusy){cloudMessage('同期完了後に、もう一度操作してください。');return}
+  cloudRequestBusy=true;const buttons=['saveCloudConfig','sendCloudCode','useDevice','useCloud','cloudLogout','cloudSync'];buttons.forEach(id=>$(id).disabled=true);
+  try{await fn()}catch(e){cloudMessage('操作できません：'+e.message)}finally{cloudRequestBusy=false;buttons.forEach(id=>$(id).disabled=false);cloudAccountUI()}
+}
 async function readCloud(){
   const rows=await cloudFetch('/rest/v1/word_progress?select=revision,payload&user_id=eq.'+encodeURIComponent(cloudAuth.user.id),undefined,true,'GET');
   if(!Array.isArray(rows))throw Error('保存先の応答が不正です。');
@@ -192,65 +195,148 @@ async function writeCloud(revision,snapshot){
   if(!Number.isSafeInteger(data?.revision)||data.revision!==revision+1)throw Error('保存先の応答が不正です。');
   return data.revision;
 }
-function replaceStudyState(next){state=validate(next);revealed=false;editing=null;$('editor').hidden=true;syncDay();render()}
-function cloudAccountUI(){const logged=!!cloudAuth;$('cloudLogin').hidden=logged;$('cloudAccount').hidden=!logged;$('cloudIdentity').textContent=logged?`ログイン中：${cloudAuth.user.email||''}`:'';$('cloudSettings').open=!cloudConfig;$('cloudSync').disabled=!cloudReady}
-async function showCloudChoice(){
-  cloudReady=false;clearTimeout(cloudTimer);$('cloudChoice').hidden=false;cloudMessage('同期は停止中です。使うデータを選んでください。');
-  const remote=await readCloud();
-  $('cloudSummary').textContent=`この端末：${state.cards.length}枚 ／ クラウド：${remote?remote.payload.cards.length+'枚':'まだデータがありません'}`;
-  $('useCloud').disabled=!remote;
+function normalizedSync(input){
+  const value=validate(input);
+  if(value.session.date!==today())value.session={date:today(),queue:value.cards.filter(c=>c.due<=today()).map(c=>({id:c.id,retry:false})),done:0};
+  const cards=new Map(value.cards.map(c=>[c.id,c]));
+  value.session.queue.sort((a,b)=>Number(a.retry)-Number(b.retry)||(!a.retry?compareCards(cards.get(a.id),cards.get(b.id)):0)||a.id.localeCompare(b.id));
+  return value;
+}
+function syncString(input){return JSON.stringify(normalizedSync(input))}
+function sameValue(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function reviewPart(c){return {stage:c.stage,due:c.due,memory:c.memory}}
+function chooseReview(a,b){
+  // 同じカードの履歴はひとまとまりで扱い、別々の判定を混ぜて架空の履歴を作らない。
+  const ma=a.memory,mb=b.memory;
+  const score=(ma.lastReviewed||'').localeCompare(mb.lastReviewed||'')||ma.reviews-mb.reviews||ma.lapses-mb.lapses||b.due.localeCompare(a.due)||mb.stability-ma.stability;
+  return score>0?a:score<0?b:JSON.stringify(reviewPart(a))<=JSON.stringify(reviewPart(b))?a:b;
+}
+function mergeStudyData(localInput,remoteInput,baseInput=null){
+  const local=normalizedSync(localInput),remote=normalizedSync(remoteInput),base=baseInput?normalizedSync(baseInput):null;
+  if(sameValue(local,remote))return remote;
+  const lm=new Map(local.cards.map(c=>[c.id,c])),rm=new Map(remote.cards.map(c=>[c.id,c])),bm=new Map((base?.cards||[]).map(c=>[c.id,c]));
+  const cards=[],words=new Set();
+  for(const r of remote.cards){
+    const l=lm.get(r.id),b=bm.get(r.id);
+    if(base&&b&&!l)continue; // この端末で削除したカードを復活させない。
+    let out=r;
+    if(l){
+      const fields=r.fields.map((v,i)=>b?(l.fields[i]===b.fields[i]?v:v===b.fields[i]?l.fields[i]:v):v);
+      const lp=reviewPart(l),rp=reviewPart(r),bp=b?reviewPart(b):null;
+      const learned=b&&sameValue(lp,bp)?r:b&&sameValue(rp,bp)?l:chooseReview(l,r);
+      out={id:r.id,fields,...reviewPart(learned)};
+    }
+    cards.push(out);words.add(out.fields[0].normalize('NFKC').trim().toLowerCase());
+  }
+  for(const l of local.cards){
+    if(rm.has(l.id))continue;
+    if(base&&bm.has(l.id))continue; // 別端末で削除されたカードを復活させない。
+    const word=l.fields[0].normalize('NFKC').trim().toLowerCase();
+    if(!base&&words.has(word))continue; // 初回移行のサンプルや重複カードは増やさない。
+    cards.push(l);words.add(word);
+  }
+  const lq=new Map(local.session.queue.map(q=>[q.id,q])),rq=new Map(remote.session.queue.map(q=>[q.id,q])),queue=[];
+  for(const c of cards){
+    if(c.due<=today()){queue.push({id:c.id,retry:false});continue}
+    const left=lq.get(c.id)?.retry===true,right=rq.get(c.id)?.retry===true;
+    let retry=left||right;
+    // より後の判定で終えた再出題は、古い端末のキューから復活させない。
+    if(left&&!right&&(rm.get(c.id)?.memory.reviews??-1)>(lm.get(c.id)?.memory.reviews??0))retry=false;
+    if(right&&!left&&(lm.get(c.id)?.memory.reviews??-1)>(rm.get(c.id)?.memory.reviews??0))retry=false;
+    if(retry)queue.push({id:c.id,retry:true});
+  }
+  let done=Math.max(local.session.done,remote.session.done);
+  if(base){let delta=0;for(const c of cards)if(c.memory.lastReviewed===today())delta+=Math.max(0,c.memory.reviews-(bm.get(c.id)?.memory.reviews||0));done=Math.max(done,base.session.done+delta)}
+  const settings=base&&!sameValue(local.settings,base.settings)&&sameValue(remote.settings,base.settings)?local.settings:remote.settings;
+  return normalizedSync({version:2,settings,cards,session:{date:today(),queue,done}});
+}
+function cloudMetaKey(){return KEY+':autosync:'+cloudConfig.url+':'+cloudAuth.user.id}
+function recoveryKey(){return KEY+':before-sync:'+cloudConfig.url+':'+cloudAuth.user.id}
+function rememberCloud(){
+  if(!cloudAuth?.user?.id||activeStorageKey!==cloudLocalKey(cloudAuth.user.id))return;
+  try{
+    localStorage.setItem(activeStorageKey,JSON.stringify(state));
+    if(cloudBase)localStorage.setItem(cloudMetaKey(),JSON.stringify({revision:cloudRevision,base:JSON.parse(cloudBase)}));
+  }catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末への保存ができません。JSONをエクスポートしてバックアップしてください。'}
+}
+function saveRecovery(snapshot){
+  try{const key=recoveryKey();if(!localStorage.getItem(key))localStorage.setItem(key,snapshot)}catch(e){}
+}
+function applySyncedState(next){
+  const oldFirst=state.session.queue[0],oldCard=state.cards.find(c=>c.id===oldFirst?.id),wasRevealed=revealed;
+  state=validate(next);const newCard=state.cards.find(c=>c.id===oldFirst?.id);
+  const keep=wasRevealed&&oldCard&&newCard&&sameValue(oldCard,newCard)&&state.session.queue.some(q=>q.id===oldFirst.id);
+  if(keep){state.session.queue=[state.session.queue.find(q=>q.id===oldFirst.id),...state.session.queue.filter(q=>q.id!==oldFirst.id)];revealed=true}else revealed=false;
+  // カード編集フォームの未保存の入力は消さず、同期後のカードへ保存できるようにする。
+  stats();renderScheduler();renderStudy();if(activeTab==='cards')renderList();
+}
+function cloudMessage(s){
+  $('cloudStatus').textContent=s;
+  $('syncSummary').textContent=!cloudAuth?.user?.id?'この端末に保存中 · ログインすると自動同期':s.startsWith('同期済み')?s:s.startsWith('未同期')?'未同期の変更あり · 端末に保存しています':'クラウドと自動同期中…';
+}
+$('openSync').onclick=()=>{tab('data');$('cloudPanel').scrollIntoView({behavior:'smooth',block:'start'})};
+function cloudAccountUI(){
+  const logged=!!cloudAuth?.user?.id;$('cloudLogin').hidden=logged;$('cloudAccount').hidden=!logged;$('cloudIdentity').textContent=logged?`自動同期中：${cloudAuth.user.email||''}`:'';
+  $('cloudSettings').open=!cloudConfig;$('cloudSync').disabled=!cloudReady;
 }
 async function loginCloud(data){
-  if(storageBlocked)throw Error('端末データを読み込めていません。JSONで復元してからログインしてください。');
-  saveCloudAuth(data);cloudEpoch++;cloudAccountUI();
-  const saved=localStorage.getItem(cloudLocalKey(cloudAuth.user.id));
-  if(saved){const next=validate(JSON.parse(saved));activeStorageKey=cloudLocalKey(cloudAuth.user.id);replaceStudyState(next)}
-  await showCloudChoice();
+  if(storageBlocked)throw Error('保存データを読み込めていません。JSONで復元してからログインしてください。');
+  cloudReady=false;clearTimeout(cloudTimer);const target=cloudLocalKey(data.user.id);
+  if(activeStorageKey!==KEY&&activeStorageKey!==target){localStorage.setItem(activeStorageKey,JSON.stringify(state));activeStorageKey=KEY;state=validate(JSON.parse(localStorage.getItem(KEY)||JSON.stringify(initial())))}
+  saveCloudAuth(data);cloudEpoch++;cloudRevision=0;cloudBase='';
+  const saved=localStorage.getItem(target);
+  if(saved)state=validate(JSON.parse(saved));
+  activeStorageKey=target;saveRecovery(JSON.stringify(state));
+  try{const meta=JSON.parse(localStorage.getItem(cloudMetaKey())||'null');if(meta&&Number.isSafeInteger(meta.revision)&&meta.revision>0){cloudRevision=meta.revision;cloudBase=syncString(meta.base)}}catch(e){}
+  cloudReady=true;cloudAccountUI();applySyncedState(normalizedSync(state));rememberCloud();cloudMessage('自動同期を開始しています。');await syncCloud(true);
 }
-async function chooseCloud(mode){
-  if(!cloudAuth)throw Error('ログインしてください。');
-  const remote=await readCloud(),original=JSON.stringify(state);
-  if(mode==='remote'){
-    if(!remote)throw Error('クラウドにデータがありません。端末のデータを保存してください。');
-    if(!confirm('この端末の表示をクラウドのカード・進捗に置き換えますか？ 必要なら先にJSONを保存してください。'))return;
-    // 通信中の編集を取り消さないよう、確定前に比較します。
-    if(JSON.stringify(state)!==original)throw Error('端末のデータが変わりました。もう一度選んでください。');
-    activeStorageKey=cloudLocalKey(cloudAuth.user.id);cloudRevision=remote.revision;cloudBase=JSON.stringify(remote.payload);replaceStudyState(remote.payload);
-  }else{
-    if(!confirm('この端末のカード・進捗でクラウドを置き換えますか？ 他の端末にも反映されます。'))return;
-    const snapshot=JSON.stringify(state),revision=await writeCloud(remote?.revision||0,snapshot);
-    activeStorageKey=cloudLocalKey(cloudAuth.user.id);cloudRevision=revision;cloudBase=snapshot;
-  }
-  cloudReady=true;$('cloudChoice').hidden=true;persist();cloudAccountUI();cloudMessage('同期を開始しました。');
+function guestForSync(input,remoteExists){
+  if(!remoteExists||cloudBase)return input;
+  const value=validate(input),sampleFields=new Set(initial().cards.map(c=>JSON.stringify(c.fields)));
+  value.cards=value.cards.filter(c=>!(c.memory.reviews===0&&c.stage===0&&sampleFields.has(JSON.stringify(c.fields))));
+  const ids=new Set(value.cards.map(c=>c.id));value.session.queue=value.session.queue.filter(q=>ids.has(q.id));return value;
 }
-async function syncCloud(){
-  if(!cloudAuth||!cloudReady||cloudBusy||cloudRequestBusy)return;
+async function syncCloud(force=false){
+  if(!cloudAuth?.user?.id||!cloudReady||cloudBusy||(cloudRequestBusy&&!force))return;
   cloudBusy=true;const epoch=cloudEpoch;
   try{
-    const snapshot=JSON.stringify(state);
-    if(snapshot!==cloudBase){
-      const revision=await writeCloud(cloudRevision,snapshot);
-      if(epoch!==cloudEpoch)return;
-      cloudRevision=revision;cloudBase=snapshot;
-    }else{
-      const remote=await readCloud();
-      if(epoch!==cloudEpoch)return;
-      if(remote&&remote.revision!==cloudRevision){
-        if(JSON.stringify(state)!==snapshot){await showCloudChoice();return}
-        cloudRevision=remote.revision;cloudBase=JSON.stringify(remote.payload);
-        // 未保存の編集フォームがある場合はユーザーの選択を待ちます。
-        if(!$('editor').hidden){await showCloudChoice();return}
-        replaceStudyState(remote.payload);persist();
+    for(let attempt=0;attempt<4;attempt++){
+      const remote=await readCloud();if(epoch!==cloudEpoch)return;
+      const before=JSON.stringify(state),local=guestForSync(state,!!remote),base=cloudBase?JSON.parse(cloudBase):null;
+      const candidate=remote?mergeStudyData(local,remote.payload,base):normalizedSync(local),snapshot=syncString(candidate);
+      let revision=remote?.revision||0;
+      if(!remote||snapshot!==syncString(remote.payload)){
+        try{revision=await writeCloud(revision,snapshot)}catch(e){if(e.conflict)continue;throw e}
       }
+      if(epoch!==cloudEpoch)return;
+      // 保存中に追加・判定した内容も、保存済みの結果と合わせて次の送信に残す。
+      const next=JSON.stringify(state)===before?candidate:mergeStudyData(state,candidate,JSON.parse(before));
+      cloudRevision=revision;cloudBase=snapshot;applySyncedState(next);rememberCloud();
+      if(syncString(state)!==cloudBase){cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+      else cloudMessage('同期済み：'+new Date().toLocaleTimeString('ja-JP'));
+      return;
     }
-    cloudMessage('同期済み：'+new Date().toLocaleTimeString('ja-JP'));
-    if(JSON.stringify(state)!==cloudBase){clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
-  }catch(e){
-    if(epoch!==cloudEpoch)return;
-    if(e.conflict){cloudReady=false;$('cloudChoice').hidden=false;cloudMessage('別の端末にも変更があります。使うデータを選んでください。')}
-    else cloudMessage('未同期：'+e.message+' 端末のデータは保持しています。再接続後に再試行します。');
-  }finally{cloudBusy=false}
+    cloudMessage('未同期：別の端末の更新と調整しています。自動で再試行します。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),2000);
+  }catch(e){if(epoch===cloudEpoch)cloudMessage('未同期：'+e.message+' 変更は端末に保存しています。接続が戻ると再試行します。')}
+  finally{cloudBusy=false}
 }
+// 以下は復旧用。通常の保存・読み込みは自動同期が行う。
+async function chooseCloud(mode){
+  if(!cloudAuth?.user?.id)throw Error('ログインしてください。');
+  const remote=await readCloud(),before=JSON.stringify(state);
+  if(mode==='remote'&&!remote)throw Error('クラウドにデータがありません。');
+  if(!confirm(mode==='remote'?'この端末の表示をクラウドの内容に置き換えますか？':'この端末の全データでクラウドを置き換えますか？ 他の端末にも反映されます。'))return;
+  const candidate=normalizedSync(mode==='remote'?remote.payload:state),snapshot=syncString(candidate);
+  const revision=mode==='remote'?remote.revision:await writeCloud(remote?.revision||0,snapshot);
+  if(JSON.stringify(state)!==before)throw Error('操作中に変更がありました。もう一度実行してください。');
+  activeStorageKey=cloudLocalKey(cloudAuth.user.id);cloudRevision=revision;cloudBase=snapshot;cloudReady=true;applySyncedState(candidate);rememberCloud();cloudMessage('同期済み：復旧しました。');
+}
+$('downloadRecovery').onclick=()=>{
+  if(!cloudAuth?.user?.id){toast('ログインしてください。');return}
+  const textData=localStorage.getItem(recoveryKey());if(!textData){toast('同期前のバックアップはありません。');return}
+  const url=URL.createObjectURL(new Blob([textData],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='before-auto-sync.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+};
+
 $('saveCloudConfig').onclick=()=>cloudAction(async()=>{
   if(cloudAuth)throw Error('接続先を変更する前にログアウトしてください。');
   const c={url:$('cloudUrl').value.trim().replace(/\/$/,''),key:$('cloudKey').value.trim()};
@@ -271,8 +357,8 @@ $('cloudLogout').onclick=()=>cloudAction(async()=>{
   const oldAuth=cloudAuth;cloudReady=false;cloudEpoch++;clearTimeout(cloudTimer);
   // 端末からログイン情報を消去。アカウントの学習データは専用キーに保持します。
   cloudAuth=null;localStorage.removeItem(AUTH_KEY);activeStorageKey=KEY;
-  const anonymous=localStorage.getItem(KEY);replaceStudyState(anonymous?JSON.parse(anonymous):initial());
-  $('cloudChoice').hidden=true;cloudAccountUI();persist();cloudMessage('ログアウトしました。ログイン前の端末データを表示しています。');
+  const anonymous=localStorage.getItem(KEY);state=validate(anonymous?JSON.parse(anonymous):initial());revealed=false;editing=null;$('editor').hidden=true;syncDay();render();
+  $('cloudRecovery').open=false;cloudAccountUI();persist();cloudMessage('ログアウトしました。ログイン前の端末データを表示しています。');
   if(oldAuth&&cloudConfig)fetch(cloudConfig.url+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:cloudConfig.key,Authorization:'Bearer '+oldAuth.access_token}}).catch(()=>{});
 });
 async function initCloud(){
@@ -301,7 +387,7 @@ async function initCloud(){
   }catch(e){cloudMessage('接続できません：'+e.message+' 端末のデータは保持しています。');cloudAccountUI()}
 }
 window.addEventListener('hashchange',()=>{const h=new URLSearchParams(location.hash.slice(1));if(h.has('access_token')||h.has('error_description'))initCloud()});
-window.addEventListener('online',()=>syncCloud());
+window.addEventListener('online',()=>{if(pendingCloudLink&&!cloudAuth?.user?.id)initCloud();else syncCloud()});
 setInterval(()=>{if(!document.hidden)syncCloud()},20000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncCloud()});
 initCloud();
