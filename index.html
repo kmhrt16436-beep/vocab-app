@@ -150,7 +150,7 @@ let activeStorageKey=KEY, pendingCloudLink=null;
 persist=function(){
   if(storageBlocked)return;
   try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末へ保存できません。閉じる前にJSONをエクスポートしてください。'}
-  if(cloudReady){rememberCloud();clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+  if(cloudReady){rememberCloud();if(!cloudBase||syncString(state)!==cloudBase)cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
 };
 function cloudLocalKey(id){return KEY+':account:'+id}
 function configValid(c){return c && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(c.url)&&typeof c.key==='string'&&c.key.length>20}
