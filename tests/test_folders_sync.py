@@ -71,7 +71,7 @@ with sync_playwright() as pw:
  history=make_folder(pc,'世界史');hist_card=add_to(pc,history,'革命');sync(pc);sync(phone);assert phone.evaluate('(id)=>state.folders.some(f=>f.id===id&&!f.deleted)',history);assert phone.evaluate('activeFolder')=='english'
  phone.evaluate('id=>selectFolder(id)',history);review(phone,False);sync(phone);sync(pc);assert next(c for c in backend['user-a']['payload']['cards'] if c['id']==hist_card)['memory']['lapses']==1
  # Concurrent additions of different folders and cards survive.
- math=make_folder(pc,'数学');bio=make_folder(phone,'生物');math_card=add_to(pc,math,'共通の用語');bio_card=add_to(phone,bio,'共通の用語');sync(pc);sync(phone);sync(pc);assert len([c for c in backend['user-a']['payload']['cards'] if c['fields'][0]=='共通の用語'])==2
+ math=make_folder(pc,'数学');bio=make_folder(phone,'生物');math_card=add_to(pc,math,'共通の用語');bio_card=add_to(phone,bio,'共通の用語');phone.evaluate("id=>{state.cards.find(c=>c.id===id).fields[1]='生物の答え';persist();clearTimeout(cloudTimer)}",bio_card);sync(pc);sync(phone);sync(pc);assert len([c for c in backend['user-a']['payload']['cards'] if c['fields'][0]=='共通の用語'])==2
  assert all(pc.evaluate('(id)=>state.folders.some(f=>f.id===id)',f) for f in [history,math,bio])
  # Rename one folder while the other device reviews a card in it.
  sync(phone);pc.evaluate("id=>{state.folders.find(f=>f.id===id).name='歴史';persist();clearTimeout(cloudTimer)}",history);phone.evaluate('id=>selectFolder(id)',history);review(phone,True);sync(phone);sync(pc);sync(phone);assert phone.evaluate('(id)=>folderInfo(id).name',history)=='歴史';assert next(c for c in backend['user-a']['payload']['cards'] if c['id']==hist_card)['memory']['reviews']==2
