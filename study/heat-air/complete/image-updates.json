@@ -1,1520 +1,3035 @@
 {
-  "version": 2,
+  "version": 3,
   "updates": [
     [
       "【H1-01】熱伝導・対流・放射の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h004-wall.png"
+    ],
+    [
+      "【H1-01】熱伝導・対流・放射の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h004-wall.png"
     ],
     [
       "【H1-02】熱抵抗を直列に重ねると合成抵抗は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
+    ],
+    [
+      "【H1-02】熱抵抗を直列に重ねると合成抵抗は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
     ],
     [
       "【H1-03】均質材料の単位面積当たりの熱抵抗は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h019-resistance.png"
+    ],
+    [
+      "【H1-03】均質材料の単位面積当たりの熱抵抗は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h019-resistance.png"
     ],
     [
       "【H1-04】熱貫流率Uを熱抵抗から求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
+    ],
+    [
+      "【H1-04】熱貫流率Uを熱抵抗から求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
     ],
     [
       "【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
+    ],
+    [
+      "【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
     ],
     [
       "【H1-06】熱伝導率と熱貫流率の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h019-resistance.png"
+    ],
+    [
+      "【H1-06】熱伝導率と熱貫流率の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h019-resistance.png"
     ],
     [
       "【H1-07】熱流密度qと部位全体の熱流Qの関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
+    ],
+    [
+      "【H1-07】熱流密度qと部位全体の熱流Qの関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h006-series.png"
     ],
     [
       "【H1-08】室内表面の総合熱伝達率は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
+    ],
+    [
+      "【H1-08】室内表面の総合熱伝達率は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
     ],
     [
       "【H1-09】平均放射温度MRTの近似式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h004-mrt.png"
+    ],
+    [
+      "【H1-09】平均放射温度MRTの近似式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h004-mrt.png"
     ],
     [
       "【H1-10】環境温度を気温とMRTで表す式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
+    ],
+    [
+      "【H1-10】環境温度を気温とMRTで表す式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
     ],
     [
       "【H1-11】換気の顕熱負荷を室内流入正で表すと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
+    ],
+    [
+      "【H1-11】換気の顕熱負荷を室内流入正で表すと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
     ],
     [
       "【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
+    ],
+    [
+      "【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
     ],
     [
       "【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
+    ],
+    [
+      "【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-ventilation.png"
     ],
     [
       "【H1-14】建物全体の総合熱貫流率[W/K]は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
+    ],
+    [
+      "【H1-14】建物全体の総合熱貫流率[W/K]は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
     ],
     [
       "【H1-15】部位のUと建物全体のGを区別する単位は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
+    ],
+    [
+      "【H1-15】部位のUと建物全体のGを区別する単位は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
     ],
     [
       "【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
+    ],
+    [
+      "【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h014-total.png"
     ],
     [
       "【H1-17】内部発熱Hのある室の定常冷房負荷は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
+    ],
+    [
+      "【H1-17】内部発熱Hのある室の定常冷房負荷は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
     ],
     [
       "【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
+    ],
+    [
+      "【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
     ],
     [
       "【H1-19】冷暖房がないときの自然室温は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
+    ],
+    [
+      "【H1-19】冷暖房がないときの自然室温は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h015-balance.png"
     ],
     [
       "【H1-20】中空層で生じる熱移動は伝導だけか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h022-airlayer.png"
+    ],
+    [
+      "【H1-20】中空層で生じる熱移動は伝導だけか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h01-wall.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h022-airlayer.png"
     ],
     [
       "【H1-21】高断熱化と高気密化を組み合わせる理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h025-airtight.png"
+    ],
+    [
+      "【H1-21】高断熱化と高気密化を組み合わせる理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h03-room.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h025-airtight.png"
     ],
     [
       "【H1-22】異なる温度の複数室を計算する基本手順は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
+    ],
+    [
+      "【H1-22】異なる温度の複数室を計算する基本手順は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
     ],
     [
       "【H1-23】隣室jから室iへの貫流熱は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h029-interroom.png"
+    ],
+    [
+      "【H1-23】隣室jから室iへの貫流熱は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h029-interroom.png"
     ],
     [
       "【H1-24】室jから室iへの流入空気による正味流入熱は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h035-airflow.png"
+    ],
+    [
+      "【H1-24】室jから室iへの流入空気による正味流入熱は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h035-airflow.png"
     ],
     [
       "【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h035-airflow.png"
+    ],
+    [
+      "【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h035-airflow.png"
     ],
     [
       "【H1-26】多数室で空気が運ぶ熱を決める温度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h030-upstream.png"
+    ],
+    [
+      "【H1-26】多数室で空気が運ぶ熱を決める温度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h030-upstream.png"
     ],
     [
       "【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
+    ],
+    [
+      "【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
     ],
     [
       "【H1-28】室間の貫流熱を全室で足し合わせると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-010.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
+    ],
+    [
+      "【H1-28】室間の貫流熱を全室で足し合わせると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h04-multizone.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h038-natural.png"
     ],
     [
       "【H2-01】入射日射量を3成分に分けると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
+    ],
+    [
+      "【H2-01】入射日射量を3成分に分けると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
     ],
     [
       "【H2-02】日射と夜間放射の波長領域の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
+    ],
+    [
+      "【H2-02】日射と夜間放射の波長領域の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
     ],
     [
       "【H2-03】日射の入射量を左右する幾何条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
+    ],
+    [
+      "【H2-03】日射の入射量を左右する幾何条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h21-solar.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h045-solar.png"
     ],
     [
       "【H2-04】不透明部位の相当外気温度SATは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
+    ],
+    [
+      "【H2-04】不透明部位の相当外気温度SATは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
     ],
     [
       "【H2-05】SATを使う目的は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
+    ],
+    [
+      "【H2-05】SATを使う目的は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
     ],
     [
       "【H2-06】日射吸収率a_sが大きくなるとSATは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
+    ],
+    [
+      "【H2-06】日射吸収率a_sが大きくなるとSATは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
     ],
     [
       "【H2-07】夜間放射量J_nが大きくなるとSATは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
+    ],
+    [
+      "【H2-07】夜間放射量J_nが大きくなるとSATは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat.png"
     ],
     [
       "【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat-example.png"
+    ],
+    [
+      "【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h050-sat-example.png"
     ],
     [
       "【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h051-flux.png"
+    ],
+    [
+      "【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h051-flux.png"
     ],
     [
       "【H2-10】日射熱取得率ηの定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h057-window.png"
+    ],
+    [
+      "【H2-10】日射熱取得率ηの定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h057-window.png"
     ],
     [
       "【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h057-window.png"
+    ],
+    [
+      "【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h057-window.png"
     ],
     [
       "【H2-12】日射遮蔽係数SCの基準は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h059-sc.png"
+    ],
+    [
+      "【H2-12】日射遮蔽係数SCの基準は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h059-sc.png"
     ],
     [
       "【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h062-blinds.png"
+    ],
+    [
+      "【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h062-blinds.png"
     ],
     [
       "【H2-14】庇・ルーバーの光環境上の利点と注意点は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
+    ],
+    [
+      "【H2-14】庇・ルーバーの光環境上の利点と注意点は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
     ],
     [
       "【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
+    ],
+    [
+      "【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
     ],
     [
       "【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
+    ],
+    [
+      "【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h08-eaves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h026-eaves.png"
     ],
     [
       "【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h064-lowe.png"
+    ],
+    [
+      "【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h064-lowe.png"
     ],
     [
       "【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h064-lowe.png"
+    ],
+    [
+      "【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h09-lowe.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h064-lowe.png"
     ],
     [
       "【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h063-u-eta.png"
+    ],
+    [
+      "【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h06-glass.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h063-u-eta.png"
     ],
     [
       "【H2-20】窓1面＋換気の室の定常冷房負荷は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
+    ],
+    [
+      "【H2-20】窓1面＋換気の室の定常冷房負荷は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
     ],
     [
       "【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
+    ],
+    [
+      "【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
     ],
     [
       "【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
+    ],
+    [
+      "【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
     ],
     [
       "【H2-23】熱損失係数46W/K、日射取得200Wの室で、外気θ_o・室温θ_RならQ_Cは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
+    ],
+    [
+      "【H2-23】熱損失係数46W/K、日射取得200Wの室で、外気θ_o・室温θ_RならQ_Cは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-windowbalance.png"
     ],
     [
       "【H2-24】熱損失係数46W/K、取得熱200Wの室で、自然室温と外気温の関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-24】熱損失係数46W/K、取得熱200Wの室で、自然室温と外気温の関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-25】G＝46W/K、取得熱200W、許容室温22〜27℃なら無負荷帯の外気温は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-25】G＝46W/K、取得熱200W、許容室温22〜27℃なら無負荷帯の外気温は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-27】G＝46W/K、取得熱200W、暖房設定22℃で、低温側のQ_C(θ_o)は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-27】G＝46W/K、取得熱200W、暖房設定22℃で、低温側のQ_C(θ_o)は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-28】G＝46W/K、取得熱200W、冷房設定27℃で、高温側のQ_C(θ_o)は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-28】G＝46W/K、取得熱200W、冷房設定27℃で、高温側のQ_C(θ_o)は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-29】G＝46W/K、取得熱200W、許容室温22〜27℃。外気20℃で冷暖房は必要？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-29】G＝46W/K、取得熱200W、許容室温22〜27℃。外気20℃で冷暖房は必要？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-30】G＝46W/K、取得熱200W、暖房設定22℃、外気10℃なら暖房負荷は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-30】G＝46W/K、取得熱200W、暖房設定22℃、外気10℃なら暖房負荷は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-31】G＝46W/K、取得熱200W、冷房設定27℃、外気30℃なら冷房負荷は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-31】G＝46W/K、取得熱200W、冷房設定27℃、外気30℃なら冷房負荷は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H2-34】熱負荷の折れ線グラフの検算方法は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-008.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【H2-34】熱負荷の折れ線グラフの検算方法は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h10-neutral.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ],
     [
       "【H3-01】定常伝熱と非定常伝熱の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h078-steady.png"
+    ],
+    [
+      "【H3-01】定常伝熱と非定常伝熱の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h078-steady.png"
     ],
     [
       "【H3-02】部材の熱容量Cは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h079-capacity.png"
+    ],
+    [
+      "【H3-02】部材の熱容量Cは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h079-capacity.png"
     ],
     [
       "【H3-03】容積比熱と熱容量の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h079-capacity.png"
+    ],
+    [
+      "【H3-03】容積比熱と熱容量の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h079-capacity.png"
     ],
     [
       "【H3-04】同じ断熱性なら熱容量が大きい室の応答は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h081-heavy.png"
+    ],
+    [
+      "【H3-04】同じ断熱性なら熱容量が大きい室の応答は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h081-heavy.png"
     ],
     [
       "【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h081-heavy.png"
+    ],
+    [
+      "【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h11-capacity.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h081-heavy.png"
     ],
     [
       "【H3-06】フーリエの法則を温度勾配で表すと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h087-fourier.png"
+    ],
+    [
+      "【H3-06】フーリエの法則を温度勾配で表すと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h087-fourier.png"
     ],
     [
       "【H3-07】一次元熱伝導方程式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h092-heat-equation.png"
+    ],
+    [
+      "【H3-07】一次元熱伝導方程式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h092-heat-equation.png"
     ],
     [
       "【H3-08】熱拡散率aの定義と単位は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h087-fourier.png"
+    ],
+    [
+      "【H3-08】熱拡散率aの定義と単位は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h087-fourier.png"
     ],
     [
       "【H3-09】壁内の小領域の熱収支の基本形は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h090-controlvolume.png"
+    ],
+    [
+      "【H3-09】壁内の小領域の熱収支の基本形は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h090-controlvolume.png"
     ],
     [
       "【H3-10】陽解法の内部節点の更新式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h095-finite.png"
+    ],
+    [
+      "【H3-10】陽解法の内部節点の更新式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h095-finite.png"
     ],
     [
       "【H3-11】一次元等間隔内部節点の陽解法での安定条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h095-finite.png"
+    ],
+    [
+      "【H3-11】一次元等間隔内部節点の陽解法での安定条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h12-conduction.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h095-finite.png"
     ],
     [
       "【H3-12】相当熱容量とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h099-lumped.png"
+    ],
+    [
+      "【H3-12】相当熱容量とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h099-lumped.png"
     ],
     [
       "【H3-13】単室の集中熱容量モデルの収支式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h100-capacity-balance.png"
+    ],
+    [
+      "【H3-13】単室の集中熱容量モデルの収支式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h100-capacity-balance.png"
     ],
     [
       "【H3-14】外気・発熱が一定のとき集中モデルの室温解は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
+    ],
+    [
+      "【H3-14】外気・発熱が一定のとき集中モデルの室温解は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
     ],
     [
       "【H3-15】熱時定数τの定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
+    ],
+    [
+      "【H3-15】熱時定数τの定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
     ],
     [
       "【H3-16】ステップ加熱開始から1時定数後の応答率は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
+    ],
+    [
+      "【H3-16】ステップ加熱開始から1時定数後の応答率は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
     ],
     [
       "【H3-17】加熱停止後の温度差はどう変化する？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
+    ],
+    [
+      "【H3-17】加熱停止後の温度差はどう変化する？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
     ],
     [
       "【H3-18】室温変動率δと時定数τの関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
+    ],
+    [
+      "【H3-18】室温変動率δと時定数τの関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h104-response.png"
     ],
     [
       "【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-006.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h106-timeconstant.png"
+    ],
+    [
+      "【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h13-response.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h106-timeconstant.png"
     ],
     [
       "【H4-01】温熱環境の環境側4要素は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-01】温熱環境の環境側4要素は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-02】温熱環境の人体側2要素は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-02】温熱環境の人体側2要素は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-03】人体のコア温度はおよそ何℃か？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h108-core.png"
+    ],
+    [
+      "【H4-03】人体のコア温度はおよそ何℃か？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h108-core.png"
     ],
     [
       "【H4-04】中性温域と恒温適応域の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h109-neutral.png"
+    ],
+    [
+      "【H4-04】中性温域と恒温適応域の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h109-neutral.png"
     ],
     [
       "【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-06】1metの意味と値は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h114-met.png"
+    ],
+    [
+      "【H4-06】1metの意味と値は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h114-met.png"
     ],
     [
       "【H4-07】1cloの値と物理的意味は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h115-clo.png"
+    ],
+    [
+      "【H4-07】1cloの値と物理的意味は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h115-clo.png"
     ],
     [
       "【H4-08】作用温度OTの一般式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
+    ],
+    [
+      "【H4-08】作用温度OTの一般式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h005-surface.png"
     ],
     [
       "【H4-09】OTを気温とMRTの平均で近似できる条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h117-ot.png"
+    ],
+    [
+      "【H4-09】OTを気温とMRTの平均で近似できる条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h117-ot.png"
     ],
     [
       "【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h117-ot.png"
+    ],
+    [
+      "【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h02-radiation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h117-ot.png"
     ],
     [
       "【H4-11】ET*がOTに加えて考慮する要素は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h120-et.png"
+    ],
+    [
+      "【H4-11】ET*がOTに加えて考慮する要素は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h120-et.png"
     ],
     [
       "【H4-12】SET*が統合して評価する要素は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h122-set.png"
+    ],
+    [
+      "【H4-12】SET*が統合して評価する要素は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h122-set.png"
     ],
     [
       "【H4-13】PMVとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
+    ],
+    [
+      "【H4-13】PMVとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
     ],
     [
       "【H4-14】PMVの0・正・負の意味は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
+    ],
+    [
+      "【H4-14】PMVの0・正・負の意味は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
     ],
     [
       "【H4-15】PPDとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
+    ],
+    [
+      "【H4-15】PPDとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h123-pmv.png"
     ],
     [
       "【H4-16】スライドでのPMVの快適範囲は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h125-ppd.png"
+    ],
+    [
+      "【H4-16】スライドでのPMVの快適範囲は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h125-ppd.png"
     ],
     [
       "【H4-17】PMVが0ならPPDも0になるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h125-ppd.png"
+    ],
+    [
+      "【H4-17】PMVが0ならPPDも0になるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h15-pmv.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h125-ppd.png"
     ],
     [
       "【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
+    ],
+    [
+      "【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h14-human.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h112-environment.png"
     ],
     [
       "【H4-21】WBGTの日射ありの式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
+    ],
+    [
+      "【H4-21】WBGTの日射ありの式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
     ],
     [
       "【H4-22】WBGTの日射なしの式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
+    ],
+    [
+      "【H4-22】WBGTの日射なしの式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
     ],
     [
       "【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
+    ],
+    [
+      "【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h24-wbgt.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h129-wbgt.png"
     ],
     [
       "【H4-24】グローブ温度計で対流と放射が釣り合う式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-012.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h16-globe.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h130-globe.png"
+    ],
+    [
+      "【H4-24】グローブ温度計で対流と放射が釣り合う式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h16-globe.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h130-globe.png"
     ],
     [
       "【H5-01】湿り空気を分けて扱う2成分は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h141-moistair.png"
+    ],
+    [
+      "【H5-01】湿り空気を分けて扱う2成分は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h141-moistair.png"
     ],
     [
       "【H5-02】絶対湿度xの定義と単位は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h141-moistair.png"
+    ],
+    [
+      "【H5-02】絶対湿度xの定義と単位は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h141-moistair.png"
     ],
     [
       "【H5-03】相対湿度φの定義式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h142-relative.png"
+    ],
+    [
+      "【H5-03】相対湿度φの定義式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h142-relative.png"
     ],
     [
       "【H5-04】絶対湿度xと水蒸気分圧fの関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h145-humidity.png"
+    ],
+    [
+      "【H5-04】絶対湿度xと水蒸気分圧fの関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h145-humidity.png"
     ],
     [
       "【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h142-relative.png"
+    ],
+    [
+      "【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h23-moisture.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h142-relative.png"
     ],
     [
       "【H5-06】露点温度とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h143-dewpoint.png"
+    ],
+    [
+      "【H5-06】露点温度とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h143-dewpoint.png"
     ],
     [
       "【H5-07】20℃・60%のスライドの状態点での絶対湿度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h145-humidity.png"
+    ],
+    [
+      "【H5-07】20℃・60%のスライドの状態点での絶対湿度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h145-humidity.png"
     ],
     [
       "【H5-08】湿り空気の比エンタルピーhの近似式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h147-enthalpy.png"
+    ],
+    [
+      "【H5-08】湿り空気の比エンタルピーhの近似式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h147-enthalpy.png"
     ],
     [
       "【H5-09】空気線図の状態点を決める基本手順は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h144-chart.png"
+    ],
+    [
+      "【H5-09】空気線図の状態点を決める基本手順は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h144-chart.png"
     ],
     [
       "【H5-10】2種の空気を断熱混合した後のhとxは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
+    ],
+    [
+      "【H5-10】2種の空気を断熱混合した後のhとxは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
     ],
     [
       "【H5-11】混合空気の線図上の位置は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
+    ],
+    [
+      "【H5-11】混合空気の線図上の位置は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
     ],
     [
       "【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
+    ],
+    [
+      "【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
     ],
     [
       "【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
+    ],
+    [
+      "【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h19-mixing.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-mixing.png"
     ],
     [
       "【H5-14】加湿しない加熱で一定の状態量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-heating.png"
+    ],
+    [
+      "【H5-14】加湿しない加熱で一定の状態量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-heating.png"
     ],
     [
       "【H5-15】加熱コイルの熱量q_hは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-heating.png"
+    ],
+    [
+      "【H5-15】加熱コイルの熱量q_hは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h17-psychrometric.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-heating.png"
     ],
     [
       "【H5-16】冷却・除湿コイルの除去熱量q_cは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-coolingcoil.png"
+    ],
+    [
+      "【H5-16】冷却・除湿コイルの除去熱量q_cは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-coolingcoil.png"
     ],
     [
       "【H5-17】冷却コイルで除湿が生じる条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-coolingcoil.png"
+    ],
+    [
+      "【H5-17】冷却コイルで除湿が生じる条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h135-coolingcoil.png"
     ],
     [
       "【H5-18】除湿量Lを求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-dehumidify.png"
+    ],
+    [
+      "【H5-18】除湿量Lを求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-dehumidify.png"
     ],
     [
       "【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-dehumidify.png"
+    ],
+    [
+      "【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h18-coil.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h136-dehumidify.png"
     ],
     [
       "【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h137-humidification.png"
+    ],
+    [
+      "【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h137-humidification.png"
     ],
     [
       "【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h137-humidification.png"
+    ],
+    [
+      "【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h22-airprocess.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h137-humidification.png"
     ],
     [
       "【H5-22】熱水分比uとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h134-ratio.png"
+    ],
+    [
+      "【H5-22】熱水分比uとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h134-ratio.png"
     ],
     [
       "【H5-23】顕熱比SHFの式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
+    ],
+    [
+      "【H5-23】顕熱比SHFの式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
     ],
     [
       "【H5-24】顕熱3kW、潜熱1kWならSHFは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
+    ],
+    [
+      "【H5-24】顕熱3kW、潜熱1kWならSHFは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
     ],
     [
       "【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-013.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
+    ],
+    [
+      "【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h25-shf.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h138-shf.png"
     ],
     [
       "【H6-01】暖房デグリーデーの定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
+    ],
+    [
+      "【H6-01】暖房デグリーデーの定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
     ],
     [
       "【H6-02】冷房デグリーデーの定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
+    ],
+    [
+      "【H6-02】冷房デグリーデーの定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
     ],
     [
       "【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
+    ],
+    [
+      "【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h150-degreedays.png"
     ],
     [
       "【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
+    ],
+    [
+      "【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
     ],
     [
       "【H6-05】年間熱負荷をkWhで求める換算係数は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
+    ],
+    [
+      "【H6-05】年間熱負荷をkWhで求める換算係数は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
     ],
     [
       "【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
+    ],
+    [
+      "【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
     ],
     [
       "【H6-07】内部発熱Hを考慮した参照温度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h154-reference.png"
+    ],
+    [
+      "【H6-07】内部発熱Hを考慮した参照温度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h154-reference.png"
     ],
     [
       "【H6-08】内部発熱が大きい建物では参照温度はどうなる？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h154-reference.png"
+    ],
+    [
+      "【H6-08】内部発熱が大きい建物では参照温度はどうなる？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h154-reference.png"
     ],
     [
       "【H6-09】住宅と大型内部発熱建物の熱計画の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h156-building.png"
+    ],
+    [
+      "【H6-09】住宅と大型内部発熱建物の熱計画の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h156-building.png"
     ],
     [
       "【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h155-extended.png"
+    ],
+    [
+      "【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h155-extended.png"
     ],
     [
       "【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h158-opaque.png"
+    ],
+    [
+      "【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h05-sat.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h158-opaque.png"
     ],
     [
       "【H6-12】DD法を使うときの主な近似条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-014.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
+    ],
+    [
+      "【H6-12】DD法を使うときの主な近似条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h20-degreedays.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h151-annualheat.png"
     ],
     [
       "【A1-01】開放型の給気元と排気先は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a011-open.png"
+    ],
+    [
+      "【A1-01】開放型の給気元と排気先は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a011-open.png"
     ],
     [
       "【A1-02】半密閉型の給気元と排気先は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a012-semi.png"
+    ],
+    [
+      "【A1-02】半密閉型の給気元と排気先は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a012-semi.png"
     ],
     [
       "【A1-03】密閉型の給気元と排気先は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a013-sealed.png"
+    ],
+    [
+      "【A1-03】密閉型の給気元と排気先は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a013-sealed.png"
     ],
     [
       "【A1-04】CF型とFE型の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a012-semi.png"
+    ],
+    [
+      "【A1-04】CF型とFE型の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a012-semi.png"
     ],
     [
       "【A1-05】BF型とFF型の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a013-sealed.png"
+    ],
+    [
+      "【A1-05】BF型とFF型の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a013-sealed.png"
     ],
     [
       "【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a020-co.png"
+    ],
+    [
+      "【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a020-co.png"
     ],
     [
       "【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a029-oxygen.png"
+    ],
+    [
+      "【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a029-oxygen.png"
     ],
     [
       "【A1-08】酸素消費量をM＜0で表した定常収支は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a028-oxygenbalance.png"
+    ],
+    [
+      "【A1-08】酸素消費量をM＜0で表した定常収支は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a028-oxygenbalance.png"
     ],
     [
       "【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a028-oxygenbalance.png"
+    ],
+    [
+      "【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a028-oxygenbalance.png"
     ],
     [
       "【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a029-oxygen.png"
+    ],
+    [
+      "【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a029-oxygen.png"
     ],
     [
       "【A1-11】排気捕集率ηを考慮すると必要換気量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a030-hoodcapture.png"
+    ],
+    [
+      "【A1-11】排気捕集率ηを考慮すると必要換気量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a030-hoodcapture.png"
     ],
     [
       "【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a030-hoodcapture.png"
+    ],
+    [
+      "【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a030-hoodcapture.png"
     ],
     [
       "【A1-13】授業資料の開放型の必要換気量Vの簡便式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
+    ],
+    [
+      "【A1-13】授業資料の開放型の必要換気量Vの簡便式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
     ],
     [
       "【A1-14】授業資料の排気フードI型・II型の簡便式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a043-rangehood.png"
+    ],
+    [
+      "【A1-14】授業資料の排気フードI型・II型の簡便式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a043-rangehood.png"
     ],
     [
       "【A1-15】授業資料の煙突の必要換気量の簡便式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a044-chimney.png"
+    ],
+    [
+      "【A1-15】授業資料の煙突の必要換気量の簡便式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a044-chimney.png"
     ],
     [
       "【A1-16】排気捕集率をトレーサガスで測る式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a048-capturetest.png"
+    ],
+    [
+      "【A1-16】排気捕集率をトレーサガスで測る式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a03-hood.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a048-capturetest.png"
     ],
     [
       "【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
+    ],
+    [
+      "【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
     ],
     [
       "【A1-18】必要換気量の式で文字Qに注意する理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
+    ],
+    [
+      "【A1-18】必要換気量の式で文字Qに注意する理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a02-oxygen.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a042-openflow.png"
     ],
     [
       "【A2-01】室内定常濃度を求める基本収支は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a073-dustbalance.png"
+    ],
+    [
+      "【A2-01】室内定常濃度を求める基本収支は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a073-dustbalance.png"
     ],
     [
       "【A2-02】外気濃度C₀、発生量M、換気量Qの室の定常濃度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-02】外気濃度C₀、発生量M、換気量Qの室の定常濃度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-03】許容濃度C_limを満たす必要換気量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-03】許容濃度C_limを満たす必要換気量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-04】外気濃度が許容濃度以上のとき換気量だけで解決できるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-04】外気濃度が許容濃度以上のとき換気量だけで解決できるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-05】ppmを体積分率に換算する方法は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a099-concentration.png"
+    ],
+    [
+      "【A2-05】ppmを体積分率に換算する方法は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a099-concentration.png"
     ],
     [
       "【A2-06】1人0.02m³/hを20人が発生すると総CO₂発生量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-06】1人0.02m³/hを20人が発生すると総CO₂発生量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-07】過去問20人・外気500m³/h・外気400ppmのCO₂濃度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-07】過去問20人・外気500m³/h・外気400ppmのCO₂濃度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-08】過去問25人・外気500m³/h・外気400ppmのCO₂濃度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
+    ],
+    [
+      "【A2-08】過去問25人・外気500m³/h・外気400ppmのCO₂濃度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a075-steady.png"
     ],
     [
       "【A2-09】粉じん用フィルタを循環空気に置くとCO₂も除去できるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a079-filtration.png"
+    ],
+    [
+      "【A2-09】粉じん用フィルタを循環空気に置くとCO₂も除去できるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a079-filtration.png"
     ],
     [
       "【A2-10】粉じん捕集率ηと通過率Pの関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a080-penetration.png"
+    ],
+    [
+      "【A2-10】粉じん捕集率ηと通過率Pの関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a080-penetration.png"
     ],
     [
       "【A2-11】フィルタ通過後の濃度と通過汚染量は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a079-filtration.png"
+    ],
+    [
+      "【A2-11】フィルタ通過後の濃度と通過汚染量は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a079-filtration.png"
     ],
     [
       "【A2-12】外気Q₀と循環Q_rから給気量Q_sを求めると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a088-recirculation.png"
+    ],
+    [
+      "【A2-12】外気Q₀と循環Q_rから給気量Q_sを求めると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a088-recirculation.png"
     ],
     [
       "【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a088-recirculation.png"
+    ],
+    [
+      "【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a088-recirculation.png"
     ],
     [
       "【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
+    ],
+    [
+      "【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
     ],
     [
       "【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
+    ],
+    [
+      "【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
     ],
     [
       "【A2-16】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
+    ],
+    [
+      "【A2-16】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
     ],
     [
       "【A2-17】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
+    ],
+    [
+      "【A2-17】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
     ],
     [
       "【A2-18】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
+    ],
+    [
+      "【A2-18】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
     ],
     [
       "【A2-19】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
+    ],
+    [
+      "【A2-19】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-filterinverse.png"
     ],
     [
       "【A2-20】必要ηの計算結果が1を超えた場合の意味は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
+    ],
+    [
+      "【A2-20】必要ηの計算結果が1を超えた場合の意味は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a091-roomconcentration.png"
     ],
     [
       "【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a089-prefilter.png"
+    ],
+    [
+      "【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a05-recirculation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a089-prefilter.png"
     ],
     [
       "【A2-22】HEPAのスライド上の捕集性能は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a085-hepa.png"
+    ],
+    [
+      "【A2-22】HEPAのスライド上の捕集性能は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a085-hepa.png"
     ],
     [
       "【A2-23】ULPAのスライド上の捕集性能は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a085-ulpa.png"
+    ],
+    [
+      "【A2-23】ULPAのスライド上の捕集性能は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a085-ulpa.png"
     ],
     [
       "【A2-24】電気集じん器の原理は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a084-electrostatic.png"
+    ],
+    [
+      "【A2-24】電気集じん器の原理は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a084-electrostatic.png"
     ],
     [
       "【A2-25】フィルタの質量法と計数法は同じ捕集率になるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a087-testmethod.png"
+    ],
+    [
+      "【A2-25】フィルタの質量法と計数法は同じ捕集率になるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a06-filter.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a087-testmethod.png"
     ],
     [
       "【A2-26】喫煙室から非喫煙側への漏れを抑える気流方向は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a063-smoking.png"
+    ],
+    [
+      "【A2-26】喫煙室から非喫煙側への漏れを抑える気流方向は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a063-smoking.png"
     ],
     [
       "【A2-27】粒子用空気清浄機だけで煙の全成分を対策できない理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-011.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a063-smoking.png"
+    ],
+    [
+      "【A2-27】粒子用空気清浄機だけで煙の全成分を対策できない理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a07-isolation.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a063-smoking.png"
     ],
     [
       "【A3-01】室内濃度の非定常収支式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a101-transient.png"
+    ],
+    [
+      "【A3-01】室内濃度の非定常収支式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a101-transient.png"
     ],
     [
       "【A3-02】一定Q・M・C₀での濃度変化の一般解は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
+    ],
+    [
+      "【A3-02】一定Q・M・C₀での濃度変化の一般解は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
     ],
     [
       "【A3-03】非定常濃度式を初期・定常・過渡で検算する方法は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
+    ],
+    [
+      "【A3-03】非定常濃度式を初期・定常・過渡で検算する方法は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
     ],
     [
       "【A3-04】換気回数Nの定義と単位は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
+    ],
+    [
+      "【A3-04】換気回数Nの定義と単位は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
     ],
     [
       "【A3-05】換気の名目時定数は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
+    ],
+    [
+      "【A3-05】換気の名目時定数は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
     ],
     [
       "【A3-06】発生停止後M＝0の濃度減衰式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
+    ],
+    [
+      "【A3-06】発生停止後M＝0の濃度減衰式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
     ],
     [
       "【A3-07】濃度差が1/eになるまでの時間は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
+    ],
+    [
+      "【A3-07】濃度差が1/eになるまでの時間は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
     ],
     [
       "【A3-08】完全混合でNt＝1のとき初期濃度差は何%残る？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a110-residual.png"
+    ],
+    [
+      "【A3-08】完全混合でNt＝1のとき初期濃度差は何%残る？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a110-residual.png"
     ],
     [
       "【A3-09】完全混合でNt＝3のとき初期濃度差は何%残る？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a110-residual.png"
+    ],
+    [
+      "【A3-09】完全混合でNt＝3のとき初期濃度差は何%残る？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a110-residual.png"
     ],
     [
       "【A3-10】2時点の濃度から換気回数を求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
+    ],
+    [
+      "【A3-10】2時点の濃度から換気回数を求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
     ],
     [
       "【A3-11】濃度差が1/10になる時間t_0.1からNを求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a122-tenth.png"
+    ],
+    [
+      "【A3-11】濃度差が1/10になる時間t_0.1からNを求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a122-tenth.png"
     ],
     [
       "【A3-12】外気400ppmを%で測った室濃度から引く場合の値は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
+    ],
+    [
+      "【A3-12】外気400ppmを%で測った室濃度から引く場合の値は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
     ],
     [
       "【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
+    ],
+    [
+      "【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
     ],
     [
       "【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
+    ],
+    [
+      "【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
     ],
     [
       "【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a108-co2example.png"
+    ],
+    [
+      "【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a108-co2example.png"
     ],
     [
       "【A3-16】V＝75m³、Q＝150m³/h、M＝0.3m³/h、C₀＝400ppm、初期1000ppmのC(t)は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a108-co2example.png"
+    ],
+    [
+      "【A3-16】V＝75m³、Q＝150m³/h、M＝0.3m³/h、C₀＝400ppm、初期1000ppmのC(t)は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a108-co2example.png"
     ],
     [
       "【A3-17】定常濃度法の原理は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a116-steadytest.png"
+    ],
+    [
+      "【A3-17】定常濃度法の原理は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a116-steadytest.png"
     ],
     [
       "【A3-18】濃度減衰法の測定手順は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a119-decaysetup.png"
+    ],
+    [
+      "【A3-18】濃度減衰法の測定手順は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a119-decaysetup.png"
     ],
     [
       "【A3-19】一定濃度法の原理は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a129-constanttest.png"
+    ],
+    [
+      "【A3-19】一定濃度法の原理は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a08-tracer.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a129-constanttest.png"
     ],
     [
       "【A3-20】濃度減衰を片対数グラフに描いたときの特徴は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a123-semilog.png"
+    ],
+    [
+      "【A3-20】濃度減衰を片対数グラフに描いたときの特徴は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a123-semilog.png"
     ],
     [
       "【A3-21】換気回数が時間変化する二時点法で求まるものは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
+    ],
+    [
+      "【A3-21】換気回数が時間変化する二時点法で求まるものは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a128-twopoint.png"
     ],
     [
       "【A3-22】外気と同じ初期濃度から発生を始めたときの式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
+    ],
+    [
+      "【A3-22】外気と同じ初期濃度から発生を始めたときの式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a04-contaminant.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a104-transientcurve.png"
     ],
     [
       "【A3-23】非定常濃度の式で指数が無次元になる条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-007.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
+    ],
+    [
+      "【A3-23】非定常濃度の式で指数が無次元になる条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a09-decay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a121-decay.png"
     ],
     [
       "【A4-01】換気回数だけで室内の空気分配を評価できない理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a140-stagnation.png"
+    ],
+    [
+      "【A4-01】換気回数だけで室内の空気分配を評価できない理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a140-stagnation.png"
     ],
     [
       "【A4-02】空気齢とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a158-airage.png"
+    ],
+    [
+      "【A4-02】空気齢とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a158-airage.png"
     ],
     [
       "【A4-03】給気吹出し口の空気齢は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a158-airage.png"
+    ],
+    [
+      "【A4-03】給気吹出し口の空気齢は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a158-airage.png"
     ],
     [
       "【A4-04】局所平均空気齢τ_Pとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a164-pulse.png"
+    ],
+    [
+      "【A4-04】局所平均空気齢τ_Pとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a164-pulse.png"
     ],
     [
       "【A4-05】名目換気時間τ_nは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
+    ],
+    [
+      "【A4-05】名目換気時間τ_nは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a182-nominal.png"
     ],
     [
       "【A4-06】局所空気交換指数の空気齢による式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a183-localindex.png"
+    ],
+    [
+      "【A4-06】局所空気交換指数の空気齢による式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a183-localindex.png"
     ],
     [
       "【A4-07】室平均空気齢と局所平均空気齢の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a188-meanage.png"
+    ],
+    [
+      "【A4-07】室平均空気齢と局所平均空気齢の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a12-airage.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a188-meanage.png"
     ],
     [
       "【A4-08】空気交換効率εᵃの定義式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
+    ],
+    [
+      "【A4-08】空気交換効率εᵃの定義式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
     ],
     [
       "【A4-09】完全混合の室平均空気齢と空気交換効率は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-mixing.png"
+    ],
+    [
+      "【A4-09】完全混合の室平均空気齢と空気交換効率は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-mixing.png"
     ],
     [
       "【A4-10】ピストンフローの室平均空気齢と空気交換効率は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-piston.png"
+    ],
+    [
+      "【A4-10】ピストンフローの室平均空気齢と空気交換効率は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-piston.png"
     ],
     [
       "【A4-11】ショートサーキットとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-short.png"
+    ],
+    [
+      "【A4-11】ショートサーキットとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a198-short.png"
     ],
     [
       "【A4-12】V＝100m³、Q＝200m³/h、τ_P＝0.25hの局所空気交換指数は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a183-localindex.png"
+    ],
+    [
+      "【A4-12】V＝100m³、Q＝200m³/h、τ_P＝0.25hの局所空気交換指数は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a183-localindex.png"
     ],
     [
       "【A4-13】τ_n＝0.5h、室平均空気齢0.4hならεᵃは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
+    ],
+    [
+      "【A4-13】τ_n＝0.5h、室平均空気齢0.4hならεᵃは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
     ],
     [
       "【A4-14】パルス法で局所平均空気齢を求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a164-pulse.png"
+    ],
+    [
+      "【A4-14】パルス法で局所平均空気齢を求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a164-pulse.png"
     ],
     [
       "【A4-15】ステップアップ法の局所平均空気齢は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a168-stepup.png"
+    ],
+    [
+      "【A4-15】ステップアップ法の局所平均空気齢は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a168-stepup.png"
     ],
     [
       "【A4-16】ステップダウン法の局所平均空気齢は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a170-stepdown.png"
+    ],
+    [
+      "【A4-16】ステップダウン法の局所平均空気齢は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a170-stepdown.png"
     ],
     [
       "【A4-17】ステップ法で背景濃度がゼロでない場合の扱いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a170-stepdown.png"
+    ],
+    [
+      "【A4-17】ステップ法で背景濃度がゼロでない場合の扱いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a170-stepdown.png"
     ],
     [
       "【A4-18】ステップアップ・ダウン法がパルス法より扱いやすい点は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a166-measurement.png"
+    ],
+    [
+      "【A4-18】ステップアップ・ダウン法がパルス法より扱いやすい点は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a166-measurement.png"
     ],
     [
       "【A4-19】排気口のステップダウンから室平均空気齢を求める式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a190-roommean.png"
+    ],
+    [
+      "【A4-19】排気口のステップダウンから室平均空気齢を求める式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a11-agecurves.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a190-roommean.png"
     ],
     [
       "【A4-20】空気清浄度指数の式と前提は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a193-airquality.png"
+    ],
+    [
+      "【A4-20】空気清浄度指数の式と前提は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a193-airquality.png"
     ],
     [
       "【A4-21】汚染質除去効率の式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a194-removal.png"
+    ],
+    [
+      "【A4-21】汚染質除去効率の式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a194-removal.png"
     ],
     [
       "【A4-22】空気清浄度指数と局所空気交換指数が同じ形でも異なる理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a145-knownsource.png"
+    ],
+    [
+      "【A4-22】空気清浄度指数と局所空気交換指数が同じ形でも異なる理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a145-knownsource.png"
     ],
     [
       "【A4-23】ターンオーバー時間と汚染質除去効率の関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a195-turnover.png"
+    ],
+    [
+      "【A4-23】ターンオーバー時間と汚染質除去効率の関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a195-turnover.png"
     ],
     [
       "【A4-24】置換換気で居住域の空気を良好にしやすい仕組みは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a252-displacement.png"
+    ],
+    [
+      "【A4-24】置換換気で居住域の空気を良好にしやすい仕組みは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a252-displacement.png"
     ],
     [
       "【A4-25】換気効率の指標を選ぶとき最初に区別することは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a143-indices.png"
+    ],
+    [
+      "【A4-25】換気効率の指標を選ぶとき最初に区別することは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a24-removal.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a143-indices.png"
     ],
     [
       "【A5-01】全圧・静圧・動圧の関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-totalpressure.png"
+    ],
+    [
+      "【A5-01】全圧・静圧・動圧の関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-totalpressure.png"
     ],
     [
       "【A5-02】動圧の式と単位は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a215-dynamic.png"
+    ],
+    [
+      "【A5-02】動圧の式と単位は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a215-dynamic.png"
     ],
     [
       "【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a215-dynamic.png"
+    ],
+    [
+      "【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a215-dynamic.png"
     ],
     [
       "【A5-04】全圧100Pa、動圧60Paなら静圧は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-totalpressure.png"
+    ],
+    [
+      "【A5-04】全圧100Pa、動圧60Paなら静圧は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-totalpressure.png"
     ],
     [
       "【A5-05】送風機全圧の定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a214-fanpressure.png"
+    ],
+    [
+      "【A5-05】送風機全圧の定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a214-fanpressure.png"
     ],
     [
       "【A5-06】送風機静圧の定義は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a214-fanpressure.png"
+    ],
+    [
+      "【A5-06】送風機静圧の定義は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a214-fanpressure.png"
     ],
     [
       "【A5-07】送風機のない実在ダクトで全圧はどう変化する？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
+    ],
+    [
+      "【A5-07】送風機のない実在ダクトで全圧はどう変化する？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
     ],
     [
       "【A5-08】理想流体のベルヌーイ関係で一定なのは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a211-bernoulli.png"
+    ],
+    [
+      "【A5-08】理想流体のベルヌーイ関係で一定なのは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a211-bernoulli.png"
     ],
     [
       "【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
+    ],
+    [
+      "【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
     ],
     [
       "【A5-10】良好なベルマウス入口で加速すると圧力は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a237-bellmouth.png"
+    ],
+    [
+      "【A5-10】良好なベルマウス入口で加速すると圧力は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a237-bellmouth.png"
     ],
     [
       "【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a238-ductexit.png"
+    ],
+    [
+      "【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a26-ductends.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a238-ductexit.png"
     ],
     [
       "【A5-12】ダクト圧力線図を描く手順は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
+    ],
+    [
+      "【A5-12】ダクト圧力線図を描く手順は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
     ],
     [
       "【A5-13】一定断面の直管で全圧と静圧の線の間隔は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
+    ],
+    [
+      "【A5-13】一定断面の直管で全圧と静圧の線の間隔は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
     ],
     [
       "【A5-14】風量Qと平均速度Uと断面積Aの関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-velocity.png"
+    ],
+    [
+      "【A5-14】風量Qと平均速度Uと断面積Aの関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-velocity.png"
     ],
     [
       "【A5-15】5000m³/h、吐出し口0.1m²なら速度は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-velocity.png"
+    ],
+    [
+      "【A5-15】5000m³/h、吐出し口0.1m²なら速度は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-velocity.png"
     ],
     [
       "【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-staticcalc.png"
+    ],
+    [
+      "【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a14-pressuremeasure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a217-staticcalc.png"
     ],
     [
       "【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a218-power.png"
+    ],
+    [
+      "【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a218-power.png"
     ],
     [
       "【A5-18】送風機効率η_fと軸動力の関係は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a218-power.png"
+    ],
+    [
+      "【A5-18】送風機効率η_fと軸動力の関係は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a218-power.png"
     ],
     [
       "【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a220-powercalc.png"
+    ],
+    [
+      "【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a220-powercalc.png"
     ],
     [
       "【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a222-similarity.png"
+    ],
+    [
+      "【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a222-similarity.png"
     ],
     [
       "【A5-21】同じ回転数で相似な羽根車径をk倍にすると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a229-fanstructure.png"
+    ],
+    [
+      "【A5-21】同じ回転数で相似な羽根車径をk倍にすると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a229-fanstructure.png"
     ],
     [
       "【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a230-seriesparallel.png"
+    ],
+    [
+      "【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a16-fans.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a230-seriesparallel.png"
     ],
     [
       "【A5-23】直管部の摩擦圧力損失の式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
+    ],
+    [
+      "【A5-23】直管部の摩擦圧力損失の式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
     ],
     [
       "【A5-24】局部圧力損失の式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a235-localloss.png"
+    ],
+    [
+      "【A5-24】局部圧力損失の式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a235-localloss.png"
     ],
     [
       "【A5-25】直管と曲がり等を含む経路の全損失は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a235-localloss.png"
+    ],
+    [
+      "【A5-25】直管と曲がり等を含む経路の全損失は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a235-localloss.png"
     ],
     [
       "【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
+    ],
+    [
+      "【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
     ],
     [
       "【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
+    ],
+    [
+      "【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a231-friction.png"
     ],
     [
       "【A5-28】送風機の動作点とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a230-operatingpoint.png"
+    ],
+    [
+      "【A5-28】送風機の動作点とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a15-operating.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a230-operatingpoint.png"
     ],
     [
       "【A5-29】シロッコファンとターボファンの羽根の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a25-fanblades.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a227-blades.png"
+    ],
+    [
+      "【A5-29】シロッコファンとターボファンの羽根の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a25-fanblades.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a227-blades.png"
     ],
     [
       "【A5-30】等摩擦法とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a242-equalfriction.png"
+    ],
+    [
+      "【A5-30】等摩擦法とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a242-equalfriction.png"
     ],
     [
       "【A5-31】等速法と静圧再取得法の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a242-ductmethods.png"
+    ],
+    [
+      "【A5-31】等速法と静圧再取得法の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a242-ductmethods.png"
     ],
     [
       "【A5-32】ダクトの急拡大・急縮小を避ける理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a239-expansion.png"
+    ],
+    [
+      "【A5-32】ダクトの急拡大・急縮小を避ける理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a17-duct.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a239-expansion.png"
     ],
     [
       "【A6-01】居住域のスライド上の一般的な高さは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a251-occupied.png"
+    ],
+    [
+      "【A6-01】居住域のスライド上の一般的な高さは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a251-occupied.png"
     ],
     [
       "【A6-02】ドラフトとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a255-draft.png"
+    ],
+    [
+      "【A6-02】ドラフトとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a255-draft.png"
     ],
     [
       "【A6-03】DRを大きくする3つの条件は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a257-dr.png"
+    ],
+    [
+      "【A6-03】DRを大きくする3つの条件は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a257-dr.png"
     ],
     [
       "【A6-04】スライドの有効ドラフト温度EDTの式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a259-edt.png"
+    ],
+    [
+      "【A6-04】スライドの有効ドラフト温度EDTの式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a259-edt.png"
     ],
     [
       "【A6-05】スライドのEDTによる快適範囲は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a259-edt.png"
+    ],
+    [
+      "【A6-05】スライドのEDTによる快適範囲は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a259-edt.png"
     ],
     [
       "【A6-06】ADPIとは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a260-adpi.png"
+    ],
+    [
+      "【A6-06】ADPIとは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a27-draftindex.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a260-adpi.png"
     ],
     [
       "【A6-07】コールドドラフトが窓周りで起こる理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a263-colddraft.png"
+    ],
+    [
+      "【A6-07】コールドドラフトが窓周りで起こる理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a263-colddraft.png"
     ],
     [
       "【A6-08】コールドドラフトの代表的な対策は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a264-draftheating.png"
+    ],
+    [
+      "【A6-08】コールドドラフトの代表的な対策は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a264-draftheating.png"
     ],
     [
       "【A6-09】軸対称噴流・平面噴流・放射状噴流の代表的吹出しは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a276-jettypes.png"
+    ],
+    [
+      "【A6-09】軸対称噴流・平面噴流・放射状噴流の代表的吹出しは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a276-jettypes.png"
     ],
     [
       "【A6-10】噴流の第1域は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a278-region1.png"
+    ],
+    [
+      "【A6-10】噴流の第1域は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a278-region1.png"
     ],
     [
       "【A6-11】噴流の第2域は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a279-region2.png"
+    ],
+    [
+      "【A6-11】噴流の第2域は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a279-region2.png"
     ],
     [
       "【A6-12】噴流の第3域は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a280-region3.png"
+    ],
+    [
+      "【A6-12】噴流の第3域は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a280-region3.png"
     ],
     [
       "【A6-13】噴流の第4域は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a281-region4.png"
+    ],
+    [
+      "【A6-13】噴流の第4域は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a19-jetdecay.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a281-region4.png"
     ],
     [
       "【A6-14】第3域の軸対称噴流の中心速度の式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
+    ],
+    [
+      "【A6-14】第3域の軸対称噴流の中心速度の式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
     ],
     [
       "【A6-15】吹出しV₀＝5m/s、K＝4、D₀＝0.1m、X＝4mならV_xは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
+    ],
+    [
+      "【A6-15】吹出しV₀＝5m/s、K＝4、D₀＝0.1m、X＝4mならV_xは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
     ],
     [
       "【A6-16】噴流の到達距離とは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a283-throw.png"
+    ],
+    [
+      "【A6-16】噴流の到達距離とは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a283-throw.png"
     ],
     [
       "【A6-17】第3域の式から到達距離X_tを求めると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
+    ],
+    [
+      "【A6-17】第3域の式から到達距離X_tを求めると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
     ],
     [
       "【A6-18】K＝4、D₀＝0.1、V₀＝5、V_t＝0.25の到達距離は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
+    ],
+    [
+      "【A6-18】K＝4、D₀＝0.1、V₀＝5、V_t＝0.25の到達距離は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a282-outletconstant.png"
     ],
     [
       "【A6-19】壁面噴流の到達距離は自由噴流と比べてどうなるか？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a284-walljet.png"
+    ],
+    [
+      "【A6-19】壁面噴流の到達距離は自由噴流と比べてどうなるか？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a18-jet.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a284-walljet.png"
     ],
     [
       "【A6-20】アネモ型吹出し口の特徴は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a287-anemophoto.png"
+    ],
+    [
+      "【A6-20】アネモ型吹出し口の特徴は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a287-anemophoto.png"
     ],
     [
       "【A6-21】アネモ型の冷房・暖房時の中コーン位置と方向は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a288-anemocone.png"
+    ],
+    [
+      "【A6-21】アネモ型の冷房・暖房時の中コーン位置と方向は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a20-anemo.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a288-anemocone.png"
     ],
     [
       "【A6-22】パン型とアネモ型の違いは？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a289-pan.png"
+    ],
+    [
+      "【A6-22】パン型とアネモ型の違いは？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a289-pan.png"
     ],
     [
       "【A6-23】ノズル型が適する空間は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a290-nozzle.png"
+    ],
+    [
+      "【A6-23】ノズル型が適する空間は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a290-nozzle.png"
     ],
     [
       "【A6-24】パンカルーバの特徴と注意点は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a291-punkah.png"
+    ],
+    [
+      "【A6-24】パンカルーバの特徴と注意点は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a291-punkah.png"
     ],
     [
       "【A6-25】グリルとレジスタの区別は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a292-grille.png"
+    ],
+    [
+      "【A6-25】グリルとレジスタの区別は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a292-grille.png"
     ],
     [
       "【A6-26】スロット型の特徴と注意点は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a294-slot.png"
+    ],
+    [
+      "【A6-26】スロット型の特徴と注意点は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a21-outlets.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a294-slot.png"
     ],
     [
       "【A6-27】天井からの水平吹出しを暖房に使うときの注意点は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a272-ceilingheat.png"
+    ],
+    [
+      "【A6-27】天井からの水平吹出しを暖房に使うときの注意点は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a272-ceilingheat.png"
     ],
     [
       "【A6-28】側壁上部の冷風吹出しで速度が弱すぎると？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a270-wallcool.png"
+    ],
+    [
+      "【A6-28】側壁上部の冷風吹出しで速度が弱すぎると？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a270-wallcool.png"
     ],
     [
       "【A6-29】天井からの下向き暖房で気流が床に届かないと？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a273-downheat.png"
+    ],
+    [
+      "【A6-29】天井からの下向き暖房で気流が床に届かないと？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a22-draft.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a273-downheat.png"
     ],
     [
       "【A6-30】タスク・アンビエント空調の考え方は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a297-task.png"
+    ],
+    [
+      "【A6-30】タスク・アンビエント空調の考え方は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a297-task.png"
     ],
     [
       "【A6-31】CFDで室内気流を予測するときに必要な基本設定は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams/heat-air-009.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a298-cfdmesh.png"
+    ],
+    [
+      "【A6-31】CFDで室内気流を予測するときに必要な基本設定は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a23-cfd.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a298-cfdmesh.png"
     ],
     [
       "【空気】開放型・半密閉型・密閉型の給気元と排気先は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-001.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a010-combustion-types.png"
+    ],
+    [
+      "【空気】開放型・半密閉型・密閉型の給気元と排気先は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a01-combustion.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a010-combustion-types.png"
     ],
     [
       "【空気】空気交換効率 εᵃ の定義式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-002.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
+    ],
+    [
+      "【空気】空気交換効率 εᵃ の定義式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a10-ventpatterns.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
     ],
     [
       "【空気】全圧・静圧・動圧の関係と、動圧の式は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-003.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
+    ],
+    [
+      "【空気】全圧・静圧・動圧の関係と、動圧の式は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/a13-pressure.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
     ],
     [
       "【熱】内ブラインドより外ブラインドが日射遮蔽に有利な理由は？",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-004.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h062-blinds.png"
+    ],
+    [
+      "【熱】内ブラインドより外ブラインドが日射遮蔽に有利な理由は？",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h07-shading.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h062-blinds.png"
     ],
     [
       "【熱】窓1面＋換気の定常熱負荷を、冷房側を正として表せ。",
       "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-005.png",
-      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png"
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
+    ],
+    [
+      "【熱】窓1面＋換気の定常熱負荷を、冷房側を正として表せ。",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/diagrams-v2/h26-solarload.png",
+      "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
     ]
   ]
 }

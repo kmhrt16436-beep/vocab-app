@@ -6,7 +6,7 @@
     "CF・FE＝半密閉型／BF・FF＝密閉型。",
     "ガスコンロは開放型。給気・排気ともに室内。",
     "出題：過去問 p.3・問1(1)。根拠：空気 p.11–14。",
-    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-001.png"
+    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a010-combustion-types.png"
   ],
   [
     "【空気】空気交換効率 εᵃ の定義式は？",
@@ -15,7 +15,7 @@
     "τₙ＝V/Q：名目換気時間。⟨τ⟩：室平均空気齢。",
     "完全混合なら εᵃ＝0.5（⟨τ⟩＝τₙ）。",
     "換気回数 N＝Q/V とは別の指標。［空気PDF p.182・191・198］",
-    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-002.png"
+    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a191-efficiency.png"
   ],
   [
     "【空気】全圧・静圧・動圧の関係と、動圧の式は？",
@@ -24,7 +24,7 @@
     "送風機全圧＝吐出し側と吸込み側の全圧差。送風機静圧＝送風機全圧−吐出し口動圧。",
     "ρ＝1.2 kg/m³、U＝10 m/sなら、動圧は60 Pa。",
     "送風機以外では全圧は流れに沿って低下。［空気PDF p.211–215］",
-    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-003.png"
+    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/a213-pressureprofile.png"
   ],
   [
     "【熱】内ブラインドより外ブラインドが日射遮蔽に有利な理由は？",
@@ -33,7 +33,7 @@
     "一般に外ブラインドの方が日射熱取得率η・日射遮蔽係数SCが小さい。",
     "スライドの組合せ例では、ηは内0.50、外0.13。数値は製品・条件による。",
     "庇の評価には方位・太陽位置・形状・材料も必要。［熱PDF p.45・61–62］",
-    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-004.png"
+    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h062-blinds.png"
   ],
   [
     "【熱】窓1面＋換気の定常熱負荷を、冷房側を正として表せ。",
@@ -42,6 +42,6 @@
     "貫流＋換気＋日射。室内発熱・他の面・夜間放射は無視。",
     "過去問の条件では Q_C＝46(θ_o−θ_R)＋200 [W]。",
     "冷房は正、暖房は負。［熱 p.69／過去問 p.2・問4］",
-    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/sample-01/heat-air-005.png"
+    "https://kmhrt16436-beep.github.io/vocab-app/study/heat-air/complete/slide-crops/h069-room-balance.png"
   ]
 ]

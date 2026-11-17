@@ -1,320 +1,1501 @@
 [
   {
     "id": "h01-wall",
-    "title": "壁の断面と熱抵抗",
-    "source": "熱 PDF p.4–20",
-    "file": "h01-wall.png"
+    "source": "heat",
+    "page": 4,
+    "rect": [
+      0.1,
+      0.16,
+      0.9,
+      0.73
+    ],
+    "title": "壁体内部の伝導・表面の対流と放射",
+    "cards": [],
+    "file": "h01-wall.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 958,
+    "scale": 2.8210343957112616,
+    "rectPoints": [
+      84.18897705078126,
+      95.244091796875,
+      757.7007934570313,
+      434.55116882324216
+    ],
+    "sha256": "ac66d957c2aed7ae735f45977b451dbb99eadf705d4f887917d5dfce51e84fcc",
+    "credits": [],
+    "originalCrop": "h004-wall"
   },
   {
     "id": "h02-radiation",
-    "title": "気温と平均放射温度 MRT",
-    "source": "熱 PDF p.4・108–112・130",
-    "file": "h02-radiation.png"
+    "source": "heat",
+    "page": 5,
+    "rect": [
+      0.1,
+      0.16,
+      0.95,
+      0.82
+    ],
+    "title": "対流と放射の合成・環境温度",
+    "cards": [],
+    "file": "h02-radiation.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1045,
+    "scale": 2.655091195963541,
+    "rectPoints": [
+      84.18897705078126,
+      95.244091796875,
+      799.7952819824218,
+      488.12597045898434
+    ],
+    "sha256": "f9762cd80c81faa236da3544f903f0648c58bc9b883e9836333da8f91cca8f0c",
+    "credits": [],
+    "originalCrop": "h005-surface"
   },
   {
     "id": "h03-room",
-    "title": "単室の熱収支と自然室温",
-    "source": "熱 PDF p.21–26・69",
-    "file": "h03-room.png"
+    "source": "heat",
+    "page": 15,
+    "rect": [
+      0.48,
+      0.19,
+      0.94,
+      0.94
+    ],
+    "title": "取得熱と内部発熱を含む室の熱収支",
+    "cards": [],
+    "file": "h03-room.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1550,
+    "height": 1787,
+    "scale": 4.0,
+    "rectPoints": [
+      404.10708984375,
+      113.10235900878907,
+      791.3763842773437,
+      559.5590393066406
+    ],
+    "sha256": "7bfede83b3a3a8b5ce747ce0751e18e8c3806c58acf4eba394a0df2ea5984d3e",
+    "credits": [],
+    "originalCrop": "h015-balance"
   },
   {
     "id": "h04-multizone",
-    "title": "多数室：内壁と空気移動",
-    "source": "熱 PDF p.28–41",
-    "file": "h04-multizone.png"
+    "source": "heat",
+    "page": 35,
+    "rect": [
+      0.07,
+      0.16,
+      0.89,
+      0.895
+    ],
+    "title": "室間の空気移動と流入風量による収支",
+    "cards": [],
+    "file": "h04-multizone.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1205,
+    "scale": 2.752228678742695,
+    "rectPoints": [
+      58.93228393554688,
+      95.244091796875,
+      749.2818957519531,
+      532.7716384887696
+    ],
+    "sha256": "9cf74ad904a4192f94f05b73fcce924858f0371e9cb94fc6232aec347feb420c",
+    "credits": [],
+    "originalCrop": "h035-airflow"
   },
   {
     "id": "h05-sat",
-    "title": "外壁表面と相当外気温度 SAT",
-    "source": "熱 PDF p.45–54",
-    "file": "h05-sat.png"
+    "source": "heat",
+    "page": 50,
+    "rect": [
+      0.06,
+      0.125,
+      0.92,
+      0.665
+    ],
+    "title": "日射・夜間放射と相当外気温度SAT",
+    "cards": [],
+    "file": "h05-sat.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 895,
+    "scale": 3.068475452196383,
+    "rectPoints": [
+      43.199999999999996,
+      67.5,
+      662.4,
+      359.1
+    ],
+    "sha256": "9a1351c2cefb03de12e018dc2bd6e4b8d83169f243d7f85fc419302388f210bf",
+    "credits": [],
+    "originalCrop": "h050-sat"
   },
   {
     "id": "h06-glass",
-    "title": "ガラスに入射した日射の行き先",
-    "source": "熱 PDF p.57–60",
-    "file": "h06-glass.png"
+    "source": "heat",
+    "page": 57,
+    "rect": [
+      0.11,
+      0.24,
+      0.97,
+      0.84
+    ],
+    "title": "窓の透過・吸収・反射と日射熱取得率η",
+    "cards": [],
+    "file": "h06-glass.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 995,
+    "scale": 3.068475452196383,
+    "rectPoints": [
+      79.2,
+      129.6,
+      698.4,
+      453.59999999999997
+    ],
+    "sha256": "ac34ef6fb5c41581f95f4e1529f4b914e6666be2d7ed54e96aed49abc0efb2a8",
+    "credits": [],
+    "originalCrop": "h057-window"
   },
   {
     "id": "h07-shading",
-    "title": "内ブラインドと外ブラインド",
-    "source": "熱 PDF p.61–62",
-    "file": "h07-shading.png"
+    "source": "heat",
+    "page": 62,
+    "rect": [
+      0.1,
+      0.19,
+      0.88,
+      0.83
+    ],
+    "title": "内ブラインドと外ブラインドの熱の行き先",
+    "cards": [],
+    "file": "h07-shading.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1170,
+    "scale": 3.383190883190883,
+    "rectPoints": [
+      72.0,
+      102.6,
+      633.6,
+      448.2
+    ],
+    "sha256": "6a2bcf1ebe487749f19826c64f1e218d6cedfc368a954d0560368b220d708db4",
+    "credits": [
+      "倉渕隆著：「初学者の建築講座建築環境工学」,市ヶ谷出版, 2016より"
+    ],
+    "originalCrop": "h062-blinds"
   },
   {
     "id": "h08-eaves",
-    "title": "南面の水平庇と太陽高度",
-    "source": "熱 PDF p.45・61–66",
-    "file": "h08-eaves.png"
+    "source": "heat",
+    "page": 26,
+    "rect": [
+      0.035,
+      0.18,
+      0.97,
+      0.675
+    ],
+    "title": "庇による夏の日射遮蔽・冬の日射取得",
+    "cards": [],
+    "file": "h08-eaves.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 712,
+    "scale": 2.4137192690577645,
+    "rectPoints": [
+      29.46614196777344,
+      107.14960327148437,
+      816.6330773925781,
+      401.8110122680664
+    ],
+    "sha256": "54b9d6a81a49e8b5db3d6b72690c3978232b356653fb82e3c71455fc0e8a6c9c",
+    "credits": [
+      "※ 次世代省エネルギー基準解説書編集委員会：「住宅の次世代省エネルギー基準と指針第2版」,",
+      "建築環境・省エネルギー機構, 2000.9より"
+    ],
+    "originalCrop": "h026-eaves"
   },
   {
     "id": "h09-lowe",
-    "title": "Low-E複層ガラスの膜位置",
-    "source": "熱 PDF p.63–67",
-    "file": "h09-lowe.png"
+    "source": "heat",
+    "page": 64,
+    "rect": [
+      0.06,
+      0.12,
+      0.91,
+      0.72
+    ],
+    "title": "Low-E複層ガラスの断面と低放射膜の位置",
+    "cards": [],
+    "file": "h09-lowe.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1007,
+    "scale": 3.104575163398693,
+    "rectPoints": [
+      43.199999999999996,
+      64.8,
+      655.2,
+      388.8
+    ],
+    "sha256": "b379285eb62b5d29106ad79555380b4a2f814f3ac0cc022de4f7e5f2965e2b91",
+    "credits": [
+      "※ YKKAPカタログ「住宅用ウインドウ複層ガラス2019.07①」より"
+    ],
+    "originalCrop": "h064-lowe"
   },
   {
     "id": "h10-neutral",
-    "title": "日射取得がある室の冷暖房負荷",
-    "source": "熱 PDF p.69・過去問 問4",
-    "file": "h10-neutral.png"
+    "source": "heat",
+    "page": 69,
+    "rect": [
+      0.02,
+      0.17,
+      0.985,
+      0.94
+    ],
+    "title": "日射があるときの熱収支式・冷暖房の符号",
+    "cards": [],
+    "file": "h10-neutral.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1138,
+    "scale": 2.734599884858952,
+    "rectPoints": [
+      14.4,
+      91.80000000000001,
+      709.2,
+      507.59999999999997
+    ],
+    "sha256": "347750a36ebf32ca57f67eff4b5240e541c8a2ca0878abe0f34032be63f688dc",
+    "credits": [
+      "される ※夜間放射がない場合（ある場合は透明部位の定式化が異なる）"
+    ],
+    "originalCrop": "h069-room-balance"
   },
   {
     "id": "h11-capacity",
-    "title": "断熱性・熱容量と室温変動",
-    "source": "熱 PDF p.81–83・99",
-    "file": "h11-capacity.png"
+    "source": "heat",
+    "page": 81,
+    "rect": [
+      0.14,
+      0.115,
+      0.84,
+      0.77
+    ],
+    "title": "重量間仕切り・暖炉・軽量間仕切りと応答",
+    "cards": [],
+    "file": "h11-capacity.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1900,
+    "height": 1334,
+    "scale": 3.76984126984127,
+    "rectPoints": [
+      100.80000000000001,
+      62.1,
+      604.8,
+      415.8
+    ],
+    "sha256": "cf1515afce40fe3a83117018489448ffafdbe4989ae70dde8b3975c1273b5d54",
+    "credits": [
+      "5 エドワード・アレン著, 安藤正雄、越智卓英、小松幸夫、深尾精一共訳：建物はどの ように働いているか, 鹿島出版会, 1982より"
+    ],
+    "originalCrop": "h081-heavy"
   },
   {
     "id": "h12-conduction",
-    "title": "壁内の小領域の熱収支",
-    "source": "熱 PDF p.89–97",
-    "file": "h12-conduction.png"
+    "source": "heat",
+    "page": 90,
+    "rect": [
+      0.03,
+      0.16,
+      0.99,
+      0.74
+    ],
+    "title": "微小領域への流入・流出・蓄熱",
+    "cards": [],
+    "file": "h12-conduction.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 862,
+    "scale": 2.748842592592593,
+    "rectPoints": [
+      21.599999999999998,
+      86.4,
+      712.8,
+      399.6
+    ],
+    "sha256": "a1966f50cf90ff629eeb8edef4354a9f415ae6eeb4c419c25c8f4935974e4239",
+    "credits": [
+      "ことにより、その温度が𝛿𝛿𝜃𝜃𝑖𝑖[K]上昇するとしたときの熱収支式を立てる"
+    ],
+    "originalCrop": "h090-controlvolume"
   },
   {
     "id": "h13-response",
-    "title": "集中熱容量モデルのステップ応答",
-    "source": "熱 PDF p.99–106",
-    "file": "h13-response.png"
+    "source": "heat",
+    "page": 104,
+    "rect": [
+      0.035,
+      0.13,
+      0.96,
+      0.99
+    ],
+    "title": "暖房開始・停止後の室温応答と室温変動率",
+    "cards": [],
+    "file": "h13-response.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1326,
+    "scale": 2.852852852852853,
+    "rectPoints": [
+      25.200000000000003,
+      70.2,
+      691.1999999999999,
+      534.6
+    ],
+    "sha256": "ba5d125fe2ee4c73707ce8f984819b7f823ff4fc5edf7d4d70fcc639a11ccf7b",
+    "credits": [],
+    "originalCrop": "h104-response"
   },
   {
     "id": "h14-human",
-    "title": "人体の熱収支と温熱環境6要素",
-    "source": "熱 PDF p.108–117",
-    "file": "h14-human.png"
+    "source": "heat",
+    "page": 112,
+    "rect": [
+      0.45,
+      0.13,
+      0.92,
+      0.94
+    ],
+    "title": "人体の放熱機構と温熱環境6要素",
+    "cards": [],
+    "file": "h14-human.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1354,
+    "height": 1751,
+    "scale": 4.0,
+    "rectPoints": [
+      324.0,
+      70.2,
+      662.4,
+      507.59999999999997
+    ],
+    "sha256": "926a1dfe4de8162140f1c6e145508b1b095573c47a931d174fa31815b3483c29",
+    "credits": [],
+    "originalCrop": "h112-environment"
   },
   {
     "id": "h15-pmv",
-    "title": "PMVとPPDの対応",
-    "source": "熱 PDF p.117–129",
-    "file": "h15-pmv.png"
+    "source": "heat",
+    "page": 125,
+    "rect": [
+      0.06,
+      0.37,
+      0.53,
+      0.97
+    ],
+    "title": "PMV–PPD曲線と快適範囲",
+    "cards": [],
+    "file": "h15-pmv.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1355,
+    "height": 1297,
+    "scale": 4.0,
+    "rectPoints": [
+      43.199999999999996,
+      199.8,
+      381.6,
+      523.8
+    ],
+    "sha256": "5d4fbbf0b02e74fdffdc50cf802d98783617e5bc25a1fe32c044c6a04989275f",
+    "credits": [],
+    "originalCrop": "h125-ppd"
   },
   {
     "id": "h16-globe",
-    "title": "グローブ温度計の熱収支",
-    "source": "熱 PDF p.130–132",
-    "file": "h16-globe.png"
+    "source": "heat",
+    "page": 130,
+    "rect": [
+      0.06,
+      0.19,
+      0.95,
+      0.89
+    ],
+    "title": "グローブ温度計の黒球・放射・対流の収支",
+    "cards": [],
+    "file": "h16-globe.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1121,
+    "scale": 2.9650436953807744,
+    "rectPoints": [
+      43.199999999999996,
+      102.6,
+      684.0,
+      480.6
+    ],
+    "sha256": "5471a3f1279c24417d4e817da8a151f08c453a392d1127f5cd07e07da5f76974",
+    "credits": [],
+    "originalCrop": "h130-globe"
   },
   {
     "id": "h17-psychrometric",
-    "title": "空気線図：加熱・冷却と露点",
-    "source": "熱 PDF p.136・142–147",
-    "file": "h17-psychrometric.png"
+    "source": "heat",
+    "page": 144,
+    "rect": [
+      0.09,
+      0.16,
+      0.91,
+      0.95
+    ],
+    "title": "空気線図の乾球温度・絶対湿度・飽和曲線",
+    "cards": [],
+    "file": "h17-psychrometric.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1373,
+    "scale": 3.218157181571815,
+    "rectPoints": [
+      64.8,
+      86.4,
+      655.2,
+      513.0
+    ],
+    "sha256": "3bfd1986c8f7555bb62742bf263bdd02293b30e5561e492a115bf79fac6c6b1a",
+    "credits": [],
+    "originalCrop": "h144-chart"
   },
   {
     "id": "h18-coil",
-    "title": "冷却・除湿コイルとドレン",
-    "source": "熱 PDF p.135–137",
-    "file": "h18-coil.png"
+    "source": "heat",
+    "page": 135,
+    "rect": [
+      0.09,
+      0.345,
+      0.91,
+      0.552
+    ],
+    "title": "冷却コイル・空気の流れ・凝縮水",
+    "cards": [],
+    "file": "h18-coil.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 679,
+    "scale": 3.8921465213821684,
+    "rectPoints": [
+      53.57881164550781,
+      290.46239410400386,
+      541.7413177490234,
+      464.7398305664063
+    ],
+    "sha256": "bf9442bd49e3fcf2495b48bd2feaa144f2c796d316b888c0da8d31f336e55058",
+    "credits": [],
+    "originalCrop": "h135-coolingcoil"
   },
   {
     "id": "h19-mixing",
-    "title": "混合空気と加湿の状態変化",
-    "source": "熱 PDF p.135–138",
-    "file": "h19-mixing.png"
+    "source": "heat",
+    "page": 135,
+    "rect": [
+      0.08,
+      0.55,
+      0.93,
+      0.9
+    ],
+    "title": "2種類の空気の混合と内分点",
+    "cards": [],
+    "file": "h19-mixing.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1108,
+    "scale": 3.7547766441569155,
+    "rectPoints": [
+      47.6256103515625,
+      463.055990600586,
+      553.6477203369141,
+      757.7279846191407
+    ],
+    "sha256": "effa2470cf35a1cc81be2b80f3731de54f0f7c3b34972d3747546a2cd82252e4",
+    "credits": [],
+    "originalCrop": "h135-mixing"
   },
   {
     "id": "h20-degreedays",
-    "title": "暖房デグリーデーと参照温度",
-    "source": "熱 PDF p.149–159",
-    "file": "h20-degreedays.png"
-  },
-  {
-    "id": "a01-combustion",
-    "title": "燃焼器具の給気元と排気先",
-    "source": "空気 PDF p.11–14",
-    "file": "a01-combustion.png"
-  },
-  {
-    "id": "a02-oxygen",
-    "title": "開放型器具の酸素収支",
-    "source": "空気 PDF p.26–28",
-    "file": "a02-oxygen.png"
-  },
-  {
-    "id": "a03-hood",
-    "title": "排気フードの捕集と測定",
-    "source": "空気 PDF p.43–50",
-    "file": "a03-hood.png"
-  },
-  {
-    "id": "a04-contaminant",
-    "title": "室内汚染の定常・非定常収支",
-    "source": "空気 PDF p.56–76・101–106",
-    "file": "a04-contaminant.png"
-  },
-  {
-    "id": "a05-recirculation",
-    "title": "外気・循環空気とフィルタの配置",
-    "source": "空気 PDF p.82–93",
-    "file": "a05-recirculation.png"
-  },
-  {
-    "id": "a06-filter",
-    "title": "粒子の捕集：濾材と電気集じん",
-    "source": "空気 PDF p.79–87",
-    "file": "a06-filter.png"
-  },
-  {
-    "id": "a07-isolation",
-    "title": "汚染源隔離と室間の気流方向",
-    "source": "空気 PDF p.61–63",
-    "file": "a07-isolation.png"
-  },
-  {
-    "id": "a08-tracer",
-    "title": "トレーサガスで換気量を測る",
-    "source": "空気 PDF p.115–131",
-    "file": "a08-tracer.png"
-  },
-  {
-    "id": "a09-decay",
-    "title": "濃度減衰と片対数表示",
-    "source": "空気 PDF p.103–113・119–123",
-    "file": "a09-decay.png"
-  },
-  {
-    "id": "a10-ventpatterns",
-    "title": "室内の流れと空気交換効率",
-    "source": "空気 PDF p.198・AIJ公開講習資料 p.7",
-    "file": "a10-ventpatterns.png"
-  },
-  {
-    "id": "a11-agecurves",
-    "title": "ステップ法で空気齢を測る",
-    "source": "空気 PDF p.168–173",
-    "file": "a11-agecurves.png"
-  },
-  {
-    "id": "a12-airage",
-    "title": "局所平均空気齢と室平均空気齢",
-    "source": "空気 PDF p.158–162・182–191",
-    "file": "a12-airage.png"
-  },
-  {
-    "id": "a13-pressure",
-    "title": "送風系の全圧・静圧・動圧",
-    "source": "空気 PDF p.211–215",
-    "file": "a13-pressure.png"
-  },
-  {
-    "id": "a14-pressuremeasure",
-    "title": "流れる空気の圧力を測る",
-    "source": "空気 PDF p.211–215・三菱電機 技術資料",
-    "file": "a14-pressuremeasure.png"
-  },
-  {
-    "id": "a15-operating",
-    "title": "送風機の動作点と系の抵抗",
-    "source": "空気 PDF p.218–231",
-    "file": "a15-operating.png"
-  },
-  {
-    "id": "a16-fans",
-    "title": "送風機の直列・並列運転",
-    "source": "空気 PDF p.224–231",
-    "file": "a16-fans.png"
-  },
-  {
-    "id": "a17-duct",
-    "title": "直管・曲がり・拡大部の損失",
-    "source": "空気 PDF p.233–245",
-    "file": "a17-duct.png"
-  },
-  {
-    "id": "a18-jet",
-    "title": "噴流の広がりと周囲空気の誘引",
-    "source": "空気 PDF p.275–282",
-    "file": "a18-jet.png"
-  },
-  {
-    "id": "a19-jetdecay",
-    "title": "噴流の4領域と到達距離",
-    "source": "空気 PDF p.278–283",
-    "file": "a19-jetdecay.png"
-  },
-  {
-    "id": "a20-anemo",
-    "title": "アネモ型吹出し口の断面",
-    "source": "空気 PDF p.287",
-    "file": "a20-anemo.png"
-  },
-  {
-    "id": "a21-outlets",
-    "title": "吹出し口の形状と噴流",
-    "source": "空気 PDF p.284–296",
-    "file": "a21-outlets.png"
-  },
-  {
-    "id": "a22-draft",
-    "title": "窓の冷下降流と暖房時の成層",
-    "source": "空気 PDF p.260–274",
-    "file": "a22-draft.png"
-  },
-  {
-    "id": "a23-cfd",
-    "title": "室内気流の予測とタスク領域",
-    "source": "空気 PDF p.297–307",
-    "file": "a23-cfd.png"
+    "source": "heat",
+    "page": 150,
+    "rect": [
+      0.05,
+      0.22,
+      0.96,
+      0.99
+    ],
+    "title": "暖房・冷房デグリーデーの面積と定義式",
+    "cards": [],
+    "file": "h20-degreedays.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1207,
+    "scale": 2.8998778998779002,
+    "rectPoints": [
+      36.0,
+      118.8,
+      691.1999999999999,
+      534.6
+    ],
+    "sha256": "7572a83d220054346f6c19cf9609ba883a02e04243b1c4ecbad161f716087a31",
+    "credits": [],
+    "originalCrop": "h150-degreedays"
   },
   {
     "id": "h21-solar",
-    "title": "面に入射する日射の3成分",
-    "source": "熱 PDF p.45–46",
-    "file": "h21-solar.png"
+    "source": "heat",
+    "page": 45,
+    "rect": [
+      0.21,
+      0.16,
+      0.8,
+      0.73
+    ],
+    "title": "直達日射・天空日射・地物反射・夜間放射",
+    "cards": [],
+    "file": "h21-solar.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1700,
+    "height": 1232,
+    "scale": 4.0,
+    "rectPoints": [
+      151.2,
+      86.4,
+      576.0,
+      394.2
+    ],
+    "sha256": "62d111c67874d5ffe19a839987fd330bc5f85c79ed3231db535f42e1103a3379",
+    "credits": [],
+    "originalCrop": "h045-solar"
   },
   {
     "id": "h22-airprocess",
-    "title": "空気線図上の混合と加湿",
-    "source": "熱 PDF p.135–138",
-    "file": "h22-airprocess.png"
+    "source": "heat",
+    "page": 137,
+    "rect": [
+      0.08,
+      0.536,
+      0.93,
+      0.92
+    ],
+    "title": "水噴霧加湿・蒸気加湿の空気線図",
+    "cards": [],
+    "file": "h22-airprocess.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1215,
+    "scale": 3.7547766441569155,
+    "rectPoints": [
+      47.6256103515625,
+      451.2691108398438,
+      553.6477203369141,
+      774.5663842773438
+    ],
+    "sha256": "50a25ba4f50883668fb79d38cf51a10f6164a709afde6f52ca9bd8705fa20bce",
+    "credits": [],
+    "originalCrop": "h137-humidification"
   },
   {
     "id": "h23-moisture",
-    "title": "絶対湿度と相対湿度を区別する",
-    "source": "熱 PDF p.133–134・142–147",
-    "file": "h23-moisture.png"
+    "source": "heat",
+    "page": 141,
+    "rect": [
+      0.46,
+      0.44,
+      0.94,
+      0.9
+    ],
+    "title": "乾き空気＋水蒸気＝湿り空気",
+    "cards": [],
+    "file": "h23-moisture.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1384,
+    "height": 994,
+    "scale": 4.0,
+    "rectPoints": [
+      331.2,
+      237.6,
+      676.8,
+      486.0
+    ],
+    "sha256": "d9f8c3c687782cda6989eb3e9107e1bc130ef94ee5a4d348c6dca22e451e0192",
+    "credits": [],
+    "originalCrop": "h141-moistair"
   },
   {
     "id": "h24-wbgt",
-    "title": "WBGTで用いる3つの温度",
-    "source": "熱 PDF p.130–132",
-    "file": "h24-wbgt.png"
-  },
-  {
-    "id": "a24-removal",
-    "title": "汚染質の発生源と除去の指標",
-    "source": "空気 PDF p.143–156",
-    "file": "a24-removal.png"
-  },
-  {
-    "id": "a25-fanblades",
-    "title": "シロッコとターボの羽根",
-    "source": "空気 PDF p.216–225",
-    "file": "a25-fanblades.png"
-  },
-  {
-    "id": "a26-ductends",
-    "title": "ベルマウス入口と大気開放出口",
-    "source": "空気 PDF p.237–238",
-    "file": "a26-ductends.png"
-  },
-  {
-    "id": "a27-draftindex",
-    "title": "局所的な気流の不快感とDR",
-    "source": "空気 PDF p.251–259",
-    "file": "a27-draftindex.png"
+    "source": "heat",
+    "page": 129,
+    "rect": [
+      0.12,
+      0.35,
+      0.84,
+      0.53
+    ],
+    "title": "日射あり・なしのWBGTの式と使用温度",
+    "cards": [],
+    "file": "h24-wbgt.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 357,
+    "scale": 3.6651234567901234,
+    "rectPoints": [
+      86.39999999999999,
+      189.0,
+      604.8,
+      286.2
+    ],
+    "sha256": "4674fba2a712ba68aebeeb0858c6724b3b4b11844ec19b0c86bb450dbacb3a57",
+    "credits": [],
+    "originalCrop": "h129-wbgt"
   },
   {
     "id": "h25-shf",
-    "title": "顕熱・潜熱と室内の状態変化",
-    "source": "熱 PDF p.137–138",
-    "file": "h25-shf.png"
+    "source": "heat",
+    "page": 138,
+    "rect": [
+      0.08,
+      0.461,
+      0.93,
+      0.9
+    ],
+    "title": "室内顕熱・潜熱負荷と顕熱比SHF",
+    "cards": [],
+    "file": "h25-shf.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 1389,
+    "scale": 3.7547766441569155,
+    "rectPoints": [
+      47.6256103515625,
+      388.12511212158205,
+      553.6477203369141,
+      757.7279846191407
+    ],
+    "sha256": "ff832247a17cf189dc72c0ffed2abcfcf9a97168a95bb0890629f06634bd078e",
+    "credits": [],
+    "originalCrop": "h138-shf"
   },
   {
     "id": "h26-solarload",
-    "title": "窓1面＋換気の定常熱負荷",
-    "source": "熱 PDF p.69・過去問 問4",
-    "file": "h26-solarload.png"
+    "source": "heat",
+    "page": 69,
+    "rect": [
+      0.02,
+      0.23,
+      0.985,
+      0.45
+    ],
+    "title": "窓の日射熱取得・貫流熱・換気熱の項",
+    "cards": [],
+    "file": "h26-solarload.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "熱1-7.pdf",
+    "width": 1901,
+    "height": 326,
+    "scale": 2.734599884858952,
+    "rectPoints": [
+      14.4,
+      124.2,
+      709.2,
+      243.0
+    ],
+    "sha256": "ea2228254bededf48a2014f744d679691e14e3b8c9b2a2b11bdc54856b83a38f",
+    "credits": [
+      "される ※夜間放射がない場合（ある場合は透明部位の定式化が異なる）"
+    ],
+    "originalCrop": "h069-windowbalance"
+  },
+  {
+    "id": "a01-combustion",
+    "source": "air",
+    "page": 10,
+    "rect": [
+      0.1,
+      0.19,
+      0.93,
+      0.94
+    ],
+    "title": "開放型・半密閉型・密閉型の給排気経路",
+    "cards": [],
+    "file": "a01-combustion.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1288,
+    "scale": 3.179384203480589,
+    "rectPoints": [
+      72.0,
+      102.6,
+      669.6,
+      507.59999999999997
+    ],
+    "sha256": "d6afe7f07ae1bf96a7c3ab20e43d1040ae29452b45868dc9bc1b084a6fd39205",
+    "credits": [],
+    "originalCrop": "a010-combustion-types"
+  },
+  {
+    "id": "a02-oxygen",
+    "source": "air",
+    "page": 28,
+    "rect": [
+      0.08,
+      0.22,
+      0.95,
+      0.98
+    ],
+    "title": "開放型器具の酸素消費・負の発生量M",
+    "cards": [],
+    "file": "a02-oxygen.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1246,
+    "scale": 3.033205619412516,
+    "rectPoints": [
+      57.6,
+      118.8,
+      684.0,
+      529.2
+    ],
+    "sha256": "f81c838e92726199d23682cb41df0779b755321992392cc29ab8a76c75c4a28d",
+    "credits": [],
+    "originalCrop": "a028-oxygenbalance"
+  },
+  {
+    "id": "a03-hood",
+    "source": "air",
+    "page": 48,
+    "rect": [
+      0,
+      0.17,
+      0.995,
+      0.96
+    ],
+    "title": "排気捕集率の測定：排気濃度と背景濃度",
+    "cards": [],
+    "file": "a03-hood.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1900,
+    "height": 1132,
+    "scale": 2.65214963707426,
+    "rectPoints": [
+      0.0,
+      91.80000000000001,
+      716.4,
+      518.4
+    ],
+    "sha256": "ba2860730c46921359a03f3d71b74430bf8de626e63b235bbd3e92f46361e72b",
+    "credits": [],
+    "originalCrop": "a048-capturetest"
+  },
+  {
+    "id": "a04-contaminant",
+    "source": "air",
+    "page": 73,
+    "rect": [
+      0.05,
+      0.08,
+      0.97,
+      0.8
+    ],
+    "title": "室の粉じん発生・流入・流出の収支図",
+    "cards": [],
+    "file": "a04-contaminant.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1117,
+    "scale": 2.8683574879227054,
+    "rectPoints": [
+      36.0,
+      43.2,
+      698.4,
+      432.0
+    ],
+    "sha256": "a3a8655c15f48f3a5ce9bfff698357e7c238a81d7ed48a636d552cd93ff9f5bc",
+    "credits": [],
+    "originalCrop": "a073-dustbalance"
+  },
+  {
+    "id": "a05-recirculation",
+    "source": "air",
+    "page": 88,
+    "rect": [
+      0.005,
+      0.045,
+      0.99,
+      0.91
+    ],
+    "title": "取入れ外気・循環風量・給気量とフィルタ配置",
+    "cards": [],
+    "file": "a05-recirculation.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1252,
+    "scale": 2.679075014100395,
+    "rectPoints": [
+      3.6,
+      24.3,
+      712.8,
+      491.40000000000003
+    ],
+    "sha256": "a38b46743a0ae5032614a4615d87f248cec357b9aa6e40e7836583b643e66a0a",
+    "credits": [],
+    "originalCrop": "a088-recirculation"
+  },
+  {
+    "id": "a06-filter",
+    "source": "air",
+    "page": 79,
+    "rect": [
+      0.015,
+      0.17,
+      0.99,
+      0.99
+    ],
+    "title": "粒子用フィルタの前後の濃度と通過量",
+    "cards": [],
+    "file": "a06-filter.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1199,
+    "scale": 2.7065527065527064,
+    "rectPoints": [
+      10.799999999999999,
+      91.80000000000001,
+      712.8,
+      534.6
+    ],
+    "sha256": "c6e3733c867a5accd3c2d2480fb77cb6fe42e2671cd1e36187c35029c076f922",
+    "credits": [],
+    "originalCrop": "a079-filtration"
+  },
+  {
+    "id": "a07-isolation",
+    "source": "air",
+    "page": 63,
+    "rect": [
+      0.04,
+      0.28,
+      0.97,
+      0.96
+    ],
+    "title": "分煙の間仕切りと非喫煙側から喫煙側への気流",
+    "cards": [],
+    "file": "a07-isolation.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1042,
+    "scale": 2.837514934289128,
+    "rectPoints": [
+      28.8,
+      151.20000000000002,
+      698.4,
+      518.4
+    ],
+    "sha256": "ca1662cd8499a4560a8065453769beae7a66d9f3282537cdd9fb42d0710d135f",
+    "credits": [],
+    "originalCrop": "a063-smoking"
+  },
+  {
+    "id": "a08-tracer",
+    "source": "air",
+    "page": 119,
+    "rect": [
+      0.02,
+      0.145,
+      0.99,
+      0.99
+    ],
+    "title": "濃度減衰法のガス供給・攪拌・測定装置",
+    "cards": [],
+    "file": "a08-tracer.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1242,
+    "scale": 2.720504009163803,
+    "rectPoints": [
+      14.4,
+      78.3,
+      712.8,
+      534.6
+    ],
+    "sha256": "450504bacfe63ed2437ea2f4330b854b4dbbc89713da87111b9b7ec95f138312",
+    "credits": [],
+    "originalCrop": "a119-decaysetup"
+  },
+  {
+    "id": "a09-decay",
+    "source": "air",
+    "page": 123,
+    "rect": [
+      0.03,
+      0.19,
+      0.999,
+      0.99
+    ],
+    "title": "濃度差の片対数グラフ：直線の傾き",
+    "cards": [],
+    "file": "a09-decay.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1177,
+    "scale": 2.723311546840959,
+    "rectPoints": [
+      21.599999999999998,
+      102.6,
+      719.28,
+      534.6
+    ],
+    "sha256": "4715c4bbdf8656f1ee1d8209bef9124922fdac12ae67a31abf6ea95e5ef29750",
+    "credits": [],
+    "originalCrop": "a123-semilog"
+  },
+  {
+    "id": "a10-ventpatterns",
+    "source": "air",
+    "page": 198,
+    "rect": [
+      0.53,
+      0.15,
+      0.93,
+      0.56
+    ],
+    "title": "完全混合：室平均空気齢τn・効率0.5",
+    "cards": [],
+    "file": "a10-ventpatterns.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1153,
+    "height": 886,
+    "scale": 4.0,
+    "rectPoints": [
+      381.6,
+      81.0,
+      669.6,
+      302.40000000000003
+    ],
+    "sha256": "6a00ee192663b18d618e281410a4c435c5e85e4176ebea7919bf62a6bcf39c19",
+    "credits": [],
+    "originalCrop": "a198-mixing"
+  },
+  {
+    "id": "a11-agecurves",
+    "source": "air",
+    "page": 170,
+    "rect": [
+      0.035,
+      0.195,
+      0.97,
+      0.98
+    ],
+    "title": "ステップダウン：濃度減衰曲線の下側の面積",
+    "cards": [],
+    "file": "a11-agecurves.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1197,
+    "scale": 2.8223410576351755,
+    "rectPoints": [
+      25.200000000000003,
+      105.3,
+      698.4,
+      529.2
+    ],
+    "sha256": "5323aa1bf1cbfbda0eaf10d87284b6f077e75c4b1c9d34dbc5d37065552625f3",
+    "credits": [],
+    "originalCrop": "a170-stepdown"
+  },
+  {
+    "id": "a12-airage",
+    "source": "air",
+    "page": 158,
+    "rect": [
+      0.01,
+      0.025,
+      0.995,
+      0.975
+    ],
+    "title": "給気から地点Pへ届く空気の経路と空気齢",
+    "cards": [],
+    "file": "a12-airage.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1375,
+    "scale": 2.679075014100395,
+    "rectPoints": [
+      7.2,
+      13.5,
+      716.4,
+      526.5
+    ],
+    "sha256": "121b96f7eeb3e6b9e4b307dca46868e443fad9554951975ef8ec537d11e3c938",
+    "credits": [],
+    "originalCrop": "a158-airage"
+  },
+  {
+    "id": "a13-pressure",
+    "source": "air",
+    "page": 213,
+    "rect": [
+      0,
+      0.19,
+      1,
+      0.98
+    ],
+    "title": "吸込み・送風機・直管・出口の圧力線図",
+    "cards": [],
+    "file": "a13-pressure.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1900,
+    "height": 1127,
+    "scale": 2.638888888888889,
+    "rectPoints": [
+      0.0,
+      102.6,
+      720.0,
+      529.2
+    ],
+    "sha256": "c978f1061a349be998e30c8afa8d8f1bd17b7e1c5431224036293b1d0ba25810",
+    "credits": [],
+    "originalCrop": "a213-pressureprofile"
+  },
+  {
+    "id": "a14-pressuremeasure",
+    "source": "air",
+    "page": 215,
+    "rect": [
+      0.14,
+      0.806,
+      0.82,
+      0.965
+    ],
+    "title": "動圧ρU²/2と吐出し口速度U",
+    "cards": [],
+    "file": "a14-pressuremeasure.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 334,
+    "scale": 3.8807189542483664,
+    "rectPoints": [
+      100.80000000000001,
+      435.24,
+      590.4,
+      521.1
+    ],
+    "sha256": "46353ed4e3ec68685592675557c368c3c965a5fd32bce978d2881ab0b0ce1c7f",
+    "credits": [],
+    "originalCrop": "a215-dynamic"
+  },
+  {
+    "id": "a15-operating",
+    "source": "air",
+    "page": 230,
+    "rect": [
+      0.35,
+      0.25,
+      0.93,
+      0.97
+    ],
+    "title": "送風機特性曲線と系抵抗曲線の交点",
+    "cards": [],
+    "file": "a15-operating.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1671,
+    "height": 1556,
+    "scale": 4.0,
+    "rectPoints": [
+      251.99999999999997,
+      135.0,
+      669.6,
+      523.8
+    ],
+    "sha256": "bb50aa5814dd7f41b3f5006bac511d8bb99426bf3a6ea66146d8f89eebbd53ef",
+    "credits": [],
+    "originalCrop": "a230-operatingpoint"
+  },
+  {
+    "id": "a16-fans",
+    "source": "air",
+    "page": 230,
+    "rect": [
+      0.035,
+      0.25,
+      0.93,
+      0.97
+    ],
+    "title": "2台の直列・並列配管と送風機特性曲線",
+    "cards": [],
+    "file": "a16-fans.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1147,
+    "scale": 2.9484792054624456,
+    "rectPoints": [
+      25.200000000000003,
+      135.0,
+      669.6,
+      523.8
+    ],
+    "sha256": "19e3c7c5111023b8f4f68c42fdc80989a24910d3efce8216a2ef545aa1dd396d",
+    "credits": [],
+    "originalCrop": "a230-seriesparallel"
+  },
+  {
+    "id": "a17-duct",
+    "source": "air",
+    "page": 231,
+    "rect": [
+      0.04,
+      0.23,
+      0.96,
+      0.97
+    ],
+    "title": "直管の圧力線図と摩擦損失",
+    "cards": [],
+    "file": "a17-duct.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1147,
+    "scale": 2.8683574879227054,
+    "rectPoints": [
+      28.8,
+      124.2,
+      691.1999999999999,
+      523.8
+    ],
+    "sha256": "dcd876303e1e59523d983659cd70d5ae19a999d4fa8cda77654b04c7cd64c4e3",
+    "credits": [],
+    "originalCrop": "a231-friction"
+  },
+  {
+    "id": "a18-jet",
+    "source": "air",
+    "page": 276,
+    "rect": [
+      0.035,
+      0.17,
+      0.99,
+      0.98
+    ],
+    "title": "軸対称噴流・平面噴流・放射状噴流の立体図",
+    "cards": [],
+    "file": "a18-jet.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1210,
+    "scale": 2.763234438627109,
+    "rectPoints": [
+      25.200000000000003,
+      91.80000000000001,
+      712.8,
+      529.2
+    ],
+    "sha256": "ce9bc823bc24154e8dc9434d4a9280371c256e09a56f54b3286793ca4a331178",
+    "credits": [],
+    "originalCrop": "a276-jettypes"
+  },
+  {
+    "id": "a19-jetdecay",
+    "source": "air",
+    "page": 278,
+    "rect": [
+      0.045,
+      0.19,
+      0.95,
+      0.99
+    ],
+    "title": "第1域：定速域を強調した授業の減衰図",
+    "cards": [],
+    "file": "a19-jetdecay.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1260,
+    "scale": 2.9158993247391036,
+    "rectPoints": [
+      32.4,
+      102.6,
+      684.0,
+      534.6
+    ],
+    "sha256": "4b67e3ce0fe47caf7afc619be7634f5bae3aeb518b5c79266fcb83f8dd683512",
+    "credits": [],
+    "originalCrop": "a278-region1"
+  },
+  {
+    "id": "a20-anemo",
+    "source": "air",
+    "page": 288,
+    "rect": [
+      0.025,
+      0.15,
+      0.98,
+      0.78
+    ],
+    "title": "アネモの中コーン位置と垂直・水平気流",
+    "cards": [],
+    "file": "a20-anemo.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 941,
+    "scale": 2.7632344386271086,
+    "rectPoints": [
+      18.0,
+      81.0,
+      705.6,
+      421.2
+    ],
+    "sha256": "ab60e95f7d14d8e2b4162367dc26f964d889b07aeafc5065bf75b2102fdda555",
+    "credits": [],
+    "originalCrop": "a288-anemocone"
+  },
+  {
+    "id": "a21-outlets",
+    "source": "air",
+    "page": 276,
+    "rect": [
+      0.035,
+      0.17,
+      0.99,
+      0.98
+    ],
+    "title": "軸対称噴流・平面噴流・放射状噴流の立体図",
+    "cards": [],
+    "file": "a21-outlets.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1210,
+    "scale": 2.763234438627109,
+    "rectPoints": [
+      25.200000000000003,
+      91.80000000000001,
+      712.8,
+      529.2
+    ],
+    "sha256": "ce9bc823bc24154e8dc9434d4a9280371c256e09a56f54b3286793ca4a331178",
+    "credits": [],
+    "originalCrop": "a276-jettypes"
+  },
+  {
+    "id": "a22-draft",
+    "source": "air",
+    "page": 263,
+    "rect": [
+      0.64,
+      0.41,
+      0.98,
+      0.99
+    ],
+    "title": "冷たい窓に沿って下降するコールドドラフト",
+    "cards": [],
+    "file": "a22-draft.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 980,
+    "height": 1254,
+    "scale": 4.0,
+    "rectPoints": [
+      460.8,
+      221.39999999999998,
+      705.6,
+      534.6
+    ],
+    "sha256": "ce1deac1a58eea6172ad1353ca06d882e2e05d95a42be0083f20415c13bf3c63",
+    "credits": [],
+    "originalCrop": "a263-colddraft"
+  },
+  {
+    "id": "a23-cfd",
+    "source": "air",
+    "page": 298,
+    "rect": [
+      0.025,
+      0.19,
+      0.99,
+      0.75
+    ],
+    "title": "CFDの室形状・テトラメッシュと代表断面",
+    "cards": [],
+    "file": "a23-cfd.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 828,
+    "scale": 2.7345998848589526,
+    "rectPoints": [
+      18.0,
+      102.6,
+      712.8,
+      405.0
+    ],
+    "sha256": "4e6beec7f1ac092df538e0286bf7e4f23d76cf99a9544c3bb6817b68b8cd8493",
+    "credits": [],
+    "originalCrop": "a298-cfdmesh"
+  },
+  {
+    "id": "a24-removal",
+    "source": "air",
+    "page": 145,
+    "rect": [
+      0.13,
+      0.1,
+      0.91,
+      0.715
+    ],
+    "title": "既知の点発生源Qと評価点Pの汚染濃度",
+    "cards": [],
+    "file": "a24-removal.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1125,
+    "scale": 3.383190883190883,
+    "rectPoints": [
+      93.60000000000001,
+      54.0,
+      655.2,
+      386.09999999999997
+    ],
+    "sha256": "9773b60df219998008eba3d099787a127f1cb4fb241d7c864eebc4303f156a20",
+    "credits": [],
+    "originalCrop": "a145-knownsource"
+  },
+  {
+    "id": "a25-fanblades",
+    "source": "air",
+    "page": 227,
+    "rect": [
+      0.08,
+      0.15,
+      0.94,
+      0.59
+    ],
+    "title": "シロッコとターボの羽根・回転方向",
+    "cards": [],
+    "file": "a25-fanblades.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 730,
+    "scale": 3.068475452196383,
+    "rectPoints": [
+      57.6,
+      81.0,
+      676.8,
+      318.59999999999997
+    ],
+    "sha256": "7def82331972db6523b8ccdee853ca26d25b8e5f44778bf98a000d59b6b83bf9",
+    "credits": [],
+    "originalCrop": "a227-blades"
+  },
+  {
+    "id": "a26-ductends",
+    "source": "air",
+    "page": 237,
+    "rect": [
+      0.01,
+      0.14,
+      0.995,
+      0.99
+    ],
+    "title": "ベルマウス入口での加速と圧力変化",
+    "cards": [],
+    "file": "a26-ductends.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1231,
+    "scale": 2.679075014100395,
+    "rectPoints": [
+      7.2,
+      75.60000000000001,
+      716.4,
+      534.6
+    ],
+    "sha256": "7a7cc98edc97d62f3f2735f5924b4d7b91138ca426dabbca336d543593e0afc1",
+    "credits": [],
+    "originalCrop": "a237-bellmouth"
+  },
+  {
+    "id": "a27-draftindex",
+    "source": "air",
+    "page": 257,
+    "rect": [
+      0.035,
+      0.17,
+      0.98,
+      0.99
+    ],
+    "title": "DR：局所気温・平均風速・乱れの強さ",
+    "cards": [],
+    "file": "a27-draftindex.png",
+    "mode": "original-pdf-crop",
+    "sourceFile": "空気8-13.pdf",
+    "width": 1901,
+    "height": 1237,
+    "scale": 2.792475014697237,
+    "rectPoints": [
+      25.200000000000003,
+      91.80000000000001,
+      705.6,
+      534.6
+    ],
+    "sha256": "09c8260041fb1a67aef63ad2b79092e6538096dc9dc8d73254be335bd5c190f1",
+    "credits": [],
+    "originalCrop": "a257-dr"
   }
 ]
