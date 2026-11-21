@@ -32,6 +32,13 @@ try:
   # Locally uploaded images remain available offline without any public image URL.
   p.evaluate("async()=>{const canvas=document.createElement('canvas');canvas.width=64;canvas.height=48;canvas.getContext('2d').fillRect(0,0,64,48);const blob=await new Promise(r=>canvas.toBlob(r,'image/png')),ref=await putCardImage(blob,imageOwner()),c=state.cards.find(c=>c.folderId==='history');c.fields[6]=ref;state.session.queue=[{id:c.id,retry:true}];revealed=false;persist();render()}")
   context.set_offline(True);p.reload();p.locator('.front').click();p.wait_for_function("document.querySelector('.illustration')?.naturalWidth===64");assert p.locator('.grade .primary').is_visible();assert p.evaluate("state.cards.find(c=>c.folderId==='history').memory.reviews")==2;context.set_offline(False)
+  # Embedded English columns and their quiz also work with the actual worker offline.
+  context.set_offline(True);p.reload();p.locator('#folderSelect').select_option('english')
+  before_column=p.evaluate('syncString(state)');p.locator('#columnsNav').click();p.locator('.column-tile button').first.click()
+  assert 'charge' in p.locator('#columnPageTitle').inner_text()
+  p.locator('.column-choices button').nth(1).click();assert p.locator('.column-feedback').inner_text().startswith('正解です。')
+  assert p.evaluate('syncString(state)')==before_column
+  p.locator('#columnReader').get_by_role('button',name='学習に戻る',exact=True).first.click();p.locator('#folderSelect').select_option('history');context.set_offline(False)
   # Browser install prompt wiring, cancellation and installed-state display.
   p.locator('[data-tab=data]').click();p.evaluate("(()=>{const e=new Event('beforeinstallprompt',{cancelable:true});e.prompt=async()=>{window.promptCalls=(window.promptCalls||0)+1};e.userChoice=Promise.resolve({outcome:'dismissed'});window.dispatchEvent(e)})()");assert p.locator('#installApp').is_visible();p.locator('#installApp').click();assert p.evaluate('window.promptCalls')==1;assert not p.locator('#installApp').is_visible()
   p.evaluate("Object.defineProperty(navigator,'standalone',{value:true,configurable:true});renderInstall()");assert '起動しています' in p.locator('#pwaStatus').inner_text();assert not p.locator('#pwaInstallGuide').is_visible()

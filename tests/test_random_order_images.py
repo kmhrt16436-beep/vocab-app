@@ -30,6 +30,8 @@ with sync_playwright() as pw:
  p.evaluate("()=>{while(studyItem()&&!studyItem().retry){revealed=true;grade(true)}}");assert p.evaluate('state.session.queue.length')==3
  p.evaluate("()=>{while(studyItem()){revealed=true;grade(false)}}");assert p.evaluate('state.session.queue.length')==0;assert p.evaluate("state.cards.find(c=>c.id===failedID).due===after(1)")
  print('PASS: failures return once at the end and stay scheduled for tomorrow; no duplicate retry loops')
+ # The bulk grading above can offer a column; dismiss it before checking the study layout.
+ p.evaluate('closeColumnBreak()')
  # A card with an actual image: meanings stay visible, all answer fields stay expanded, and the image gets space.
  p.evaluate("""()=>{state=initial();const c=card(['submit','動）提出する','動）従う、服従する','類）hand in：提出する','Please submit your report by Friday.','金曜日までに報告書を提出してください。','https://kmhrt16436-beep.github.io/vocab-app/toeic-001.png']);state.cards=[c];state.session.queue=[{id:c.id,retry:false}];activeFolder='*';activeTag='';revealed=true;tab('study')}""")
  for width,height in [(390,744),(360,640),(1366,768),(844,390)]:

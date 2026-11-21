@@ -4,6 +4,8 @@ CSS・JavaScriptを含む単体の `index.html` です。外部ライブラリ�
 
 教科ごとのフォルダを使う場合は [フォルダ機能の使い方](README_folders.md) を参照してください。
 
+英単語セットには [10語ごとのTOEICコラム](README_columns.md) があります。
+
 ホーム画面からアプリとして使う場合は [PWAの使い方](README_pwa.md) を参照してください。PWAにはマニフェスト・Service Worker・アイコンも公開します。
 
 ## 1. リポジトリを作る

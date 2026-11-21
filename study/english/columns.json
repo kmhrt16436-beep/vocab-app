@@ -1,0 +1,1207 @@
+{
+  "version": 1,
+  "note": "自作の学習解説と例文。公式問題の転載ではありません。",
+  "articles": [
+    {
+      "id": "position-motion",
+      "title": "位置・移動・放置を、前置詞で見分ける",
+      "intro": "800点を目指す段階では、動詞の和訳だけでなく「何が、どこへ、どこにあるか」を一続きに読む力が大切です。写真描写では、物を置く動作と置かれた状態を区別し、説明文では前置詞まで見て場面を確定させましょう。put、place、leaveのいずれも日本語で「置く」と訳せますが、焦点が違います。",
+      "words": [
+        "place A into B",
+        "take A out of B",
+        "sill",
+        "wheelbarrow",
+        "leave",
+        "in a way",
+        "run along a street",
+        "across from each other",
+        "run in the family",
+        "be piled (up) / be stacked (up)"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "put / place",
+            "物をある場所へ置く",
+            "placeは位置を整えて置く場面にも使う"
+          ],
+          [
+            "leave",
+            "置いたままにする・残す",
+            "移動より、その後も残ることに注目"
+          ],
+          [
+            "into / out of",
+            "内部への移動／内部からの移動",
+            "inは、内部にある状態にも使う"
+          ],
+          [
+            "across from / along",
+            "向かいに／～に沿って",
+            "道路を挟んだ位置か、線に沿う方向か"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "「入れる」と「入っている」は別の情報",
+          "text": "put a folder into a bagは、外から中への移動です。一方、a folder is in a bagは状態です。ただしput a folder in a bagも自然で、inがあるから必ず静止とは限りません。動詞と前置詞を組み合わせて判断します。take A out of Bでは、Aが取り出す物、Bが元の入れ物です。",
+          "example": "Please place the forms in this tray.",
+          "translation": "書類をこのトレーに置いてください。"
+        },
+        {
+          "heading": "leaveは「去る」だけではない",
+          "text": "leave the officeは職場を出る、leave a bag in the officeはかばんを職場に置いておく、leave the door openはドアを開けたままにする、です。leaveの直後に何が続くかを見れば、意味を絞れます。名詞のleaveは休暇なので、on leaveやpaid leaveも一まとまりで覚えます。",
+          "example": "She left her briefcase on the sill.",
+          "translation": "彼女は窓台にブリーフケースを置いたままにしました。"
+        },
+        {
+          "heading": "写真では「積む動作」と「山積みの状態」を区別する",
+          "text": "Workers are stacking boxesなら作業中、Boxes are stackedなら積まれた状態です。be being stackedは積まれている最中。pileとstackは重なりますが、stackは整然と重なった積み重ねを表しやすい語です。「山に見えるから動作中」と決めず、人の動きとbe動詞の後を確かめましょう。",
+          "example": "The boxes are stacked beside the cart.",
+          "translation": "箱は荷車の横に積み重ねられています。"
+        }
+      ],
+      "quiz": {
+        "question": "「資料を机の上に置いたままにした」に合うのは？",
+        "choices": [
+          "She left the papers on the desk.",
+          "She left the desk.",
+          "She took the papers out of the desk."
+        ],
+        "answer": 0,
+        "explanation": "leave＋物＋場所は「物をそこに残す」。2つ目は机のそばを離れる意味、3つ目は机の内部から取り出す動作です。"
+      },
+      "takeaway": "動詞だけを暗記せず、動詞＋目的語＋前置詞で場面を再現する。"
+    },
+    {
+      "id": "piles-offers",
+      "title": "山積みの状態と、「手伝いましょうか」の言い分け",
+      "intro": "この10語には写真描写と会話の表現が集まっています。共通する攻略点は、同じ場面を別の形で言い換えられるようにすることです。「山がある」と「山になるよう並べられている」、そして「自分がする提案」と「一緒にする誘い」を区別すると、聞き取った内容と応答がつながります。",
+      "words": [
+        "be put into piles / be put into stacks",
+        "be arranged in piles / be arranged in stacks",
+        "a pile of ~ / piles of ~ / a stack of ~ / stacks of ~",
+        "reach for ~",
+        "briefcase",
+        "have fun",
+        "I'll look it up (for you).",
+        "Would you like some help doing ~?",
+        "Shall I ~?",
+        "Shall we ~?"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "a pile / stack of",
+            "～の山・積み重ね",
+            "ofの後は、積まれている物"
+          ],
+          [
+            "in piles / stacks",
+            "いくつかの山にして",
+            "inは配置・まとまり方を示す"
+          ],
+          [
+            "reach for",
+            "～を取ろうと手を伸ばす",
+            "実際に手に取れたとは限らない"
+          ],
+          [
+            "Shall I / Shall we",
+            "私がしましょうか／一緒にしませんか",
+            "提案の実行者がIかweか"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "ofとinで、文の中の役割が変わる",
+          "text": "a stack of documentsは「書類の山」という名詞句。Documents are arranged in stacks.は書類の配置を説明します。a pile ofは何が積まれているか、in pilesはどう分けて置かれているかです。pileは数えられるので、単数ならa、複数ならpilesの形にも注意しましょう。",
+          "example": "The files are arranged in neat stacks.",
+          "translation": "ファイルは整った山になるよう並べられています。"
+        },
+        {
+          "heading": "reach forとpick upを同じ動作にしない",
+          "text": "reach forは目標へ手を伸ばす段階、pick upは持ち上げる段階です。写真の人が腕を伸ばしていても、物を持っているとは限りません。look upも見たままの「上を見る」だけでなく、辞書やシステムで情報を調べる意味があります。look it upのように、代名詞はlookとupの間に置きます。",
+          "example": "I'll look it up for you.",
+          "translation": "あなたのためにそれを調べます。"
+        },
+        {
+          "heading": "手伝いの申し出は、誰が動くかを見る",
+          "text": "Shall I carry this?は話し手が運ぶ申し出。Shall we begin?は一緒に始める提案です。Would you like some help moving these boxes?も手伝いの申し出で、相手への指示ではありません。応答がYesでなくても、That would be great.なら申し出を受け入れています。",
+          "example": "Shall I carry your briefcase?",
+          "translation": "ブリーフケースをお持ちしましょうか。"
+        }
+      ],
+      "quiz": {
+        "question": "「私が予約を確認しましょうか」に最も合うのは？",
+        "choices": [
+          "Shall we check the reservation?",
+          "Shall I check the reservation?",
+          "Have fun checking the reservation."
+        ],
+        "answer": 1,
+        "explanation": "Shall Iは話し手自身がする申し出。Shall weなら「一緒に確認しませんか」という提案になります。"
+      },
+      "takeaway": "写真は動作の段階を、会話は行動する人を見分ける。"
+    },
+    {
+      "id": "work-schedules",
+      "title": "almostの落とし穴と、予定の前後・職場への報告",
+      "intro": "意味を大づかみにしていると取り違えやすいのが、almostとreportです。almost finishedは「ほとんど終えた」ですが、almost missed the trainは通常「乗り遅れそうだったが、遅れなかった」。またreportは、後ろに続く語によって「報告する」「出勤する」「直属である」が分かれます。語の結び付きから読む練習をしましょう。",
+      "words": [
+        "Why don't I ~?",
+        "Do you want me to ~? / Would you like me to ~?",
+        "almost do",
+        "go to work",
+        "report to work",
+        "report to ~",
+        "ahead of schedule",
+        "behind schedule",
+        "restore",
+        "renovate"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "almost / nearly",
+            "もう少しで・ほとんど",
+            "動作を完了したかどうかを確認"
+          ],
+          [
+            "ahead of / behind schedule",
+            "予定より早い／予定より遅い",
+            "速度ではなく、予定との比較"
+          ],
+          [
+            "report to work",
+            "出勤する",
+            "toの後が勤務・場所なら出頭の意味"
+          ],
+          [
+            "report to a supervisor",
+            "上司の指揮下にある・報告する",
+            "組織紹介か、一回の行動かを文脈で判断"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "almost＋動詞は、起きなかったことにも注目する",
+          "text": "I almost forgot.は忘れかけたが思い出した、というのが普通です。The project is almost complete.なら完成間近で、まだ完成したとは言っていません。almost all employeesは「ほぼ全員」ですが、almost employeesとは言いません。almostの直後の語と、文が到達を肯定しているかを確認します。",
+          "example": "We almost missed the last train.",
+          "translation": "私たちは危うく終電に乗り遅れるところでした。"
+        },
+        {
+          "heading": "予定表現には基準がある",
+          "text": "ahead of scheduleとbehind scheduleは、当初の予定を基準にします。on scheduleは予定どおり、by Fridayは金曜日まで、until Fridayは金曜日まで継続、です。「早い」「まで」を見ただけで選ばず、納期なのか継続期間なのかを区別しましょう。",
+          "example": "The repairs are ahead of schedule.",
+          "translation": "修理は予定より早く進んでいます。"
+        },
+        {
+          "heading": "reportの後ろをひとかたまりで覚える",
+          "text": "report to work at nineは9時に出勤すること。She reports to the director.は組織の説明なら部長の直属という関係です。report on salesは売上について報告する、report a problemは問題を報告する。toは相手・行き先、onは話題という違いが、解釈の助けになります。",
+          "example": "Please report to work by nine.",
+          "translation": "9時までに出勤してください。"
+        }
+      ],
+      "quiz": {
+        "question": "We almost missed the deadline. の通常の意味は？",
+        "choices": [
+          "締切を大幅に過ぎた。",
+          "締切よりずっと早く終わった。",
+          "危うく締切に遅れるところだった。"
+        ],
+        "answer": 2,
+        "explanation": "almost missedは「遅れかけた」。通常はぎりぎり間に合ったことを示し、実際に遅れたとは逆です。"
+      },
+      "takeaway": "almostの到達度と、reportの後ろの前置詞を必ず読む。"
+    },
+    {
+      "id": "building-repairs",
+      "title": "restore・renovate・remodel・refurbishを区別する",
+      "intro": "どれも「改修する」と訳せるため、日本語訳だけの暗記では記憶が混ざる語です。実際には意味が重なり、複数の語が使える工事もあります。唯一の正解を無理に作るのではなく、「元に戻す」「改善する」「造りを変える」「きれいに整える」のどこに焦点があるかで整理しましょう。",
+      "words": [
+        "remodel",
+        "refurbish",
+        "redecorate",
+        "restore a historic building",
+        "restore service",
+        "renovate an office",
+        "undergo renovations",
+        "remodel a kitchen",
+        "refurbished equipment",
+        "newly refurbished rooms"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "restore",
+            "元の状態・機能を取り戻す",
+            "歴史的建物、停電後のservice"
+          ],
+          [
+            "renovate",
+            "古い建物などを改修して改善する",
+            "office、hotel、building"
+          ],
+          [
+            "remodel",
+            "構造・間取り・意匠を作り変える",
+            "kitchen、bathroom、layout"
+          ],
+          [
+            "refurbish / redecorate",
+            "設備や内装を整える／装飾を変える",
+            "家具・整備と、壁紙・色などの違い"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "restoreは「復旧」のイメージを持つ",
+          "text": "restore a historic buildingは以前の姿を取り戻す修復、restore powerは電力の復旧です。建物だけに使う語ではありません。repairは壊れた部分を直すことに焦点があり、restoreは元の状態・機能の回復に焦点があります。restorationは名詞なので、冠詞や前置詞の後に来る形も確認します。",
+          "example": "Power was restored after the storm.",
+          "translation": "嵐の後、電力が復旧しました。"
+        },
+        {
+          "heading": "renovateとremodelは「改善」と「造りの変更」",
+          "text": "renovate an officeは古くなったオフィスの改修全体を言えます。remodel a kitchenなら、設備配置や間取りを作り変える印象が強まります。ただし実際の工事は重なり得ます。空所問題で意味が両方通るときは、名詞形renovation、動名詞remodelingなど、文法の条件を先に確認しましょう。",
+          "example": "They remodeled the kitchen last month.",
+          "translation": "彼らは先月キッチンを改装しました。"
+        },
+        {
+          "heading": "refurbishedは中古整備品でも使う",
+          "text": "refurbished equipmentは、整備・修理して再び使える状態にした機器です。必ず新品であるとは言えません。redecorateは壁紙や塗装など装飾面を変えること。newly refurbished roomsでは、newlyがrefurbishedを修飾し、全体でroomsを説明します。newlyを形容詞newと混同しないようにしましょう。",
+          "example": "The hotel offers newly refurbished rooms.",
+          "translation": "そのホテルは改装を終えたばかりの客室を提供しています。"
+        }
+      ],
+      "quiz": {
+        "question": "停電後に「電力を復旧する」と言うとき、最も自然なのは？",
+        "choices": [
+          "restore power",
+          "redecorate power",
+          "remodel power"
+        ],
+        "answer": 0,
+        "explanation": "restoreは失われた機能や状態を取り戻す語。redecorateは装飾、remodelは造りの変更が中心です。"
+      },
+      "takeaway": "和訳を揃えるより、対象と変化の方向をセットで記憶する。"
+    },
+    {
+      "id": "advice-preference",
+      "title": "控えめな推量と、「どちらでもよい」の答え方",
+      "intro": "会話では、単語の意味だけでなく発言の役割が問われます。A would know that.は「Aさんなら分かるでしょう」と、尋ねる相手を間接的に示す言い方です。一方、Either one is fine.は選択を任せる応答。推量、助言、希望の有無を分けて聞くと、Yes／No以外の返答も理解しやすくなります。",
+      "words": [
+        "redecorate an interior",
+        "A would know that.",
+        "You'd better ask A.",
+        "You should check with A.",
+        "A might know.",
+        "if you'd like",
+        "issue",
+        "logistics",
+        "Either one is fine.",
+        "I have no preference."
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "would know / might know",
+            "分かるだろう／知っているかもしれない",
+            "断定より控えめな推量"
+          ],
+          [
+            "had better / should",
+            "～したほうがよい／～すべきだ",
+            "had betterは強い助言になり得る"
+          ],
+          [
+            "either / both",
+            "どちらの一方でも／両方",
+            "Either isは単数、Both areは複数"
+          ],
+          [
+            "issue / logistics",
+            "問題・発行／物流",
+            "文脈と品詞で意味を確定する"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "wouldは過去の話だけではない",
+          "text": "The manager would know.は、現在の質問に対して「マネジャーなら分かるでしょう」と言えます。A might know.は可能性を示します。会話の最初に場所や担当を尋ねられ、応答に人名が出たら、質問をその人に回している可能性を考えましょう。wouldが聞こえたから過去と決め付けないことが大切です。",
+          "example": "Maya would know the delivery date.",
+          "translation": "マヤさんなら配達日が分かるでしょう。"
+        },
+        {
+          "heading": "had betterは丁寧なshouldとは限らない",
+          "text": "You'd better ask A.の'dはhad。had better＋動詞の原形で、そうしないと困るという強めの助言にもなります。shouldはより広く助言・推奨を表せます。check with AはAに確認を取ること。check Aという形なら、A自体を点検する意味にもなるので、withまで聞き取ります。",
+          "example": "You should check with the logistics team.",
+          "translation": "物流チームに確認したほうがよいでしょう。"
+        },
+        {
+          "heading": "eitherは「両方とも」ではない",
+          "text": "Tea or coffee?にEither is fine.なら、どちらか一方を選んでもらって構わないという返答です。I have no preference.も特に希望がないという意味で、相手の提案を否定していません。issueは名詞なら問題・号、動詞なら発行・支給。issue an invoiceのように目的語と一緒に覚えます。",
+          "example": "Either delivery date is fine with me.",
+          "translation": "どちらの配達日でも私は構いません。"
+        }
+      ],
+      "quiz": {
+        "question": "Either one is fine. に最も近い返答は？",
+        "choices": [
+          "I need both of them.",
+          "I have no preference.",
+          "Neither is acceptable."
+        ],
+        "answer": 1,
+        "explanation": "どちらか一方で構わない＝特に希望はない。bothは両方、neitherはどちらも～ないので意味が異なります。"
+      },
+      "takeaway": "助動詞は時制だけでなく、推量や助言の強さを表す。"
+    },
+    {
+      "id": "polite-requests",
+      "title": "依頼表現は、丁寧さと「実際にしてほしいこと」で読む",
+      "intro": "Could you open the window?は、普通の会話なら能力の質問より依頼です。遠回しな表現ほど、文の表面と相手に求める行動が離れます。800点を目指すなら、丁寧な導入を聞いた後に、誰が何をするのかを取り出せるようにしましょう。似た表現でも、後ろに続ける動詞の形は同じではありません。",
+      "words": [
+        "Either works for me.",
+        "It doesn't matter to me.",
+        "Either is fine with me.",
+        "Can you ~? / Will you ~?",
+        "Could you ~? / Would you ~?",
+        "I was wondering if you could [would] ~.",
+        "I'd appreciate it if you could [would] ~. / I'd be grateful if you could [would] ~.",
+        "Do you mind doing ~? / Would you mind doing ~?",
+        "I'm not in charge of that this year.",
+        "O is arranging that."
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "Can / Could you do ...?",
+            "相手に～してほしい",
+            "Couldはより控えめな依頼になりやすい"
+          ],
+          [
+            "I was wondering if you could ...",
+            "～していただけないかと思いまして",
+            "wasでも現在の依頼として使える"
+          ],
+          [
+            "I'd appreciate it if you could ...",
+            "～していただけるとありがたい",
+            "appreciateの直後のitにも注目"
+          ],
+          [
+            "Would you mind doing ...?",
+            "～していただけますか",
+            "mindの後は通常-ing"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "couldを過去の能力に固定しない",
+          "text": "Could you send the file today?は今日送ることを頼んでいます。I was wondering if you could ...も、過去の独り言ではなく今の依頼として使えます。if節の後まで追い、依頼された作業と期限を拾いましょう。丁寧さは文脈・声の調子にもよるので、助動詞だけで絶対的な順位を決める必要はありません。",
+          "example": "Could you send the revised schedule today?",
+          "translation": "修正した予定表を今日送っていただけますか。"
+        },
+        {
+          "heading": "mindの質問へのNoは、拒否とは限らない",
+          "text": "Would you mind opening the door?は、直訳すると開けるのを嫌がるかどうかの質問です。Not at all.やNo, of course not.なら嫌ではない、つまり了承です。Yes／Noだけを機械的に置き換えず、Sure, I'll do it.のような後半まで確認しましょう。実際の会話では答え方に幅があります。",
+          "example": "Would you mind moving this chair?",
+          "translation": "この椅子を移動していただけますか。"
+        },
+        {
+          "heading": "依頼と担当確認を分けて聞く",
+          "text": "I'm not in charge of that this year.は、その人が今年の担当ではないという情報です。O is arranging that.ならOが手配中。依頼への応答が担当者の説明になっても、無関係な返事ではありません。in charge ofの後は担当対象、arrangeの後は手配する事柄だと整理しておきます。",
+          "example": "Please ask Ken; he is arranging that.",
+          "translation": "ケンさんに頼んでください。彼が手配しています。"
+        }
+      ],
+      "quiz": {
+        "question": "Would you mind checking this? に「構いません」と答えるなら？",
+        "choices": [
+          "Yes, I would mind.",
+          "I cannot check it.",
+          "Not at all."
+        ],
+        "answer": 2,
+        "explanation": "Not at all.は「少しも嫌ではない」という了承。mind doingの問いにNo系の返答が使えることがポイントです。"
+      },
+      "takeaway": "丁寧な前置きを聞き流さず、依頼内容・動詞の形・応答の意図を確認する。"
+    },
+    {
+      "id": "roles-make-let",
+      "title": "担当・職・仕事を区別し、letの後を間違えない",
+      "intro": "この10語では、職場での役割や簡単な指示を扱います。position、job、taskはすべて「仕事」と訳せますが、空きポストなのか職業なのか、一つの作業なのかが違います。さらにletのような短い動詞こそ、後続の形が得点差につながります。訳だけでなく、語の後ろに必要な部品も覚えましょう。",
+      "words": [
+        "O's in charge of that. / O's responsible for that. / O is working on it.",
+        "let O do",
+        "position",
+        "down the hall",
+        "shredding machine",
+        "go get ~",
+        "for a change",
+        "put out",
+        "as often as needed",
+        "training session"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "position / job / task",
+            "職・役職／仕事・職／個別の作業",
+            "応募するpostか、一件の作業か"
+          ],
+          [
+            "in charge of / responsible for",
+            "～を担当して／～に責任がある",
+            "後ろは名詞や-ing"
+          ],
+          [
+            "let O do / allow O to do",
+            "Oに～させる／許可する",
+            "letは原形、allowはto不定詞"
+          ],
+          [
+            "session / seminar / workshop",
+            "一回の活動／講習・研究会／実習型講習",
+            "同じtrainingでも内容・単位が違う"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "positionは「位置」だけではない",
+          "text": "an open positionは空きポスト、apply for a positionは職に応募することです。taskは具体的な作業なので、職に応募する意味でapply for a taskとは通常言いません。training sessionは研修の一回のまとまり。training自体を数える感覚でa trainingとせず、a sessionなどを使うと明確になります。",
+          "example": "We have an opening for this position.",
+          "translation": "私たちにはこの職の募集枠があります。"
+        },
+        {
+          "heading": "letとallowの後の形を対にする",
+          "text": "Let me check.はlet＋人＋動詞の原形です。Allow me to check.ならtoが必要です。let me to checkとはしません。「許す」と和訳できる点だけで形を混ぜないようにしましょう。go getは会話でgo and getのような意味。形式的な案内文では、そのまま全てのgoに応用せず、go and ...という形も覚えます。",
+          "example": "Let me check the training schedule.",
+          "translation": "研修の予定を確認させてください。"
+        },
+        {
+          "heading": "短い句動詞ほど、対象から意味を選ぶ",
+          "text": "put out a fireなら消火する、put out a noticeなら発行する。outを「外へ」とだけ訳すと合いません。as often as neededは「必要なだけ何度でも」で、必ず頻繁にという意味ではありません。for a changeは「気分転換に・たまには」と、普段からの変化を示します。",
+          "example": "Check the equipment as often as needed.",
+          "translation": "必要に応じて何度でも機器を点検してください。"
+        }
+      ],
+      "quiz": {
+        "question": "空所に入る形は？ Let me ___ the directory.",
+        "choices": [
+          "check",
+          "to check",
+          "checking"
+        ],
+        "answer": 0,
+        "explanation": "let＋目的語＋動詞の原形なのでcheck。allow meならto checkが必要です。"
+      },
+      "takeaway": "意味が似る語は、後ろに来る名詞・原形・to不定詞まで比較する。"
+    },
+    {
+      "id": "requests-revisions",
+      "title": "seatとsit、find outとfind、希望の表し方",
+      "intro": "似た綴りや日本語訳が同じ語でも、文の組み立ては違います。特にseatとsitは、座る本人を主語にするのか、誰かを座らせるのかが分かれます。この10語では、発見する、変更する、希望を伝えるといった職場のやり取りを、文型も含めて整理します。知っている意味を素早く選ぶ練習にしましょう。",
+      "words": [
+        "have a job for ~",
+        "seat",
+        "find out ~",
+        "I'd rather + 主語 + 過去形",
+        "I'd rather you didn't.",
+        "Go ahead and ~.",
+        "the same A as B",
+        "as for ~",
+        "get in touch with ~",
+        "make changes to ~"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "sit / seat",
+            "座る／～を座らせる",
+            "sitは自動詞、seatは目的語を取る"
+          ],
+          [
+            "find / find out",
+            "見つける／調べて分かる",
+            "物の発見と情報の判明を区別"
+          ],
+          [
+            "would rather do / would rather S did",
+            "自分がしたい／相手などにしてほしい",
+            "主語が変わると後続の形も変わる"
+          ],
+          [
+            "the same A as B",
+            "Bと同じA",
+            "比較相手の前はas"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "be seatedは「座らされている」と限らない",
+          "text": "Please sit down.とPlease be seated.はいずれも着席を促します。seatは人を座らせる他動詞なので、We seated the guests.と言えます。be seatedは自然に「着席している」状態にも使われます。take a seatも着席すること。過去形satとseatedを取り違えないよう、基本形を対にしましょう。",
+          "example": "Please remain seated until we arrive.",
+          "translation": "到着するまで着席したままでいてください。"
+        },
+        {
+          "heading": "find outは情報が分かることに焦点を当てる",
+          "text": "find the keyなら鍵という物を見つけること。find out why the meeting was canceledなら、中止理由という情報を知ることです。discoverは新たに発見する、determineは調査などによって特定・決定する意味でも使えます。日本語が「分かる」でも、空所の後が名詞か疑問詞節かを見ます。",
+          "example": "I'll find out when the delivery arrives.",
+          "translation": "配達がいつ着くか調べます。"
+        },
+        {
+          "heading": "would ratherの過去形は、過去の出来事ではない",
+          "text": "I'd rather leave now.は自分が今出たい希望。I'd rather you left now.では、相手に今出てほしいという希望に過去形を使います。I'd rather you didn't.は控えめな断りにもなります。Go ahead and ...は許可や促し。申し出への応答なら「どうぞ」と行動を許している場合があります。",
+          "example": "I'd rather you called tomorrow.",
+          "translation": "明日お電話いただくほうがありがたいです。"
+        }
+      ],
+      "quiz": {
+        "question": "「中止の理由を調べる」に合うのは？",
+        "choices": [
+          "find a cancellation",
+          "find out why it was canceled",
+          "seat why it was canceled"
+        ],
+        "answer": 1,
+        "explanation": "find out＋疑問詞節で「なぜ～かを調べて知る」。why以下をひとかたまりの情報として読みます。"
+      },
+      "takeaway": "似た訳ほど、主語・目的語・その後ろの形で区別する。"
+    },
+    {
+      "id": "announcements-phone",
+      "title": "案内文の定型表現と、電話の状態を言い分ける",
+      "intro": "Please be advised that ...などの堅い表現は、単語を一語ずつ直訳するより「これから知らせる内容が来る」と処理すると速く読めます。電話表現は「通話中」「保留中」「待って」の状態の違いが重要です。案内の内容、求められる行動、今どの段階にいるかを切り分けましょう。",
+      "words": [
+        "Please be aware that ~.",
+        "Please be advised that ~.",
+        "I must warn you that ~.",
+        "You are kindly reminded that ~.",
+        "Keep in mind that ~.",
+        "be on the phone",
+        "hold on",
+        "be on hold",
+        "put 人 on hold",
+        "be on good terms with ~"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "be aware / be advised that",
+            "～を承知している／～をご承知ください",
+            "that以下が知らせたい内容"
+          ],
+          [
+            "remind / warn / advise",
+            "念を押す／警告する／助言・通知する",
+            "既知の予定か、危険か、通知か"
+          ],
+          [
+            "on the phone / on hold",
+            "通話中／保留中",
+            "保留中は相手と会話できるとは限らない"
+          ],
+          [
+            "hold on / put someone on hold",
+            "少し待つ／人を保留にする",
+            "自分の待機か、相手にする操作か"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "be advisedは、必ず助言を受ける意味ではない",
+          "text": "Please be advised that the office is closed.は、閉鎖を知らせる正式な通知です。Please be aware that ...やPlease note that ...も重要な案内を導きます。that節を読んだら、日時・変更点・例外を拾いましょう。冒頭が長くても、本文の重要情報がそこまで多いとは限りません。",
+          "example": "Please be advised that parking is limited.",
+          "translation": "駐車スペースに限りがあることをご承知ください。"
+        },
+        {
+          "heading": "remindは、既に知り得ることを思い出させる",
+          "text": "remind someone to doは「～するよう念を押す」。remind someone of somethingは「～を思い出させる」。warnは注意すべき危険や不利益を伝えます。rememberは本人が覚えていることなので、remember me to submitのように人に念押しする形にはできません。",
+          "example": "Please remind me to call the supplier.",
+          "translation": "仕入先に電話するよう私に念を押してください。"
+        },
+        {
+          "heading": "電話では保留と転送を区別する",
+          "text": "be on holdは保留されて待っている状態、transfer a callは別の相手へ転送することです。hold onは「少々お待ちください」という短い依頼にも使えます。put you on holdは相手を保留にする操作。be on good terms withは良好な関係で、電話の状態を表すonとは別のまとまりです。",
+          "example": "May I put you on hold briefly?",
+          "translation": "少しの間、保留にしてもよろしいでしょうか。"
+        }
+      ],
+      "quiz": {
+        "question": "Please remind me ___ the invoice. に入るのは？",
+        "choices": [
+          "submit",
+          "submitting",
+          "to submit"
+        ],
+        "answer": 2,
+        "explanation": "remind＋人＋to doで「人に～するよう念を押す」。remember to doと主語・目的語の役割を混同しないこと。"
+      },
+      "takeaway": "通知の定型句はまとめて読み、電話は現在の状態を具体的に描く。"
+    },
+    {
+      "id": "directions-continuation",
+      "title": "移動の案内と、続行・伝達の句動詞",
+      "intro": "道案内や業務連絡では、take、direct、showなど短い動詞が多く使われます。日本語で「案内する」と同じでも、人を連れていくのか、道順を教えるのかは違います。またonが付く句動詞も、移動中・継続・伝達と働きが変わります。目的語と場面から、具体的な行動に言い換えることが大切です。",
+      "words": [
+        "on one's way to ~",
+        "go on -ing",
+        "pass on ~",
+        "directory",
+        "human resources department",
+        "take 人 to 場所",
+        "write down",
+        "direct 人 to 場所",
+        "praise 人 for ~",
+        "admire 人 for ~"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "take / escort someone to",
+            "人を場所へ連れていく",
+            "案内役が同行する場面に合う"
+          ],
+          [
+            "direct / show someone to",
+            "人に場所を案内する",
+            "directは指示、showは同行の場合もある"
+          ],
+          [
+            "go on doing / go on to do",
+            "同じことを続ける／次に別のことをする",
+            "-ingとto不定詞の違い"
+          ],
+          [
+            "pass on / write down",
+            "伝える・見送る／書き留める",
+            "伝える物か、辞退する機会か"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "on the wayは、ただの行き先ではない",
+          "text": "on one's way to the officeは、職場へ向かう途中という移動の段階を示します。go to the officeと同じ情報ではありません。take a visitor to the officeなら訪問者を連れていくこと。人と場所が続く動詞では、誰が案内される側なのかをすぐ区別しましょう。",
+          "example": "Please take our guest to the meeting room.",
+          "translation": "お客様を会議室へお連れしてください。"
+        },
+        {
+          "heading": "go onは、後続の形で行動の続き方が変わる",
+          "text": "She went on speaking.なら同じ発言を続けた、She went on to explain the costs.なら次に費用の説明へ進んだ、となります。pass on the messageは伝言を伝えること。pass on an offerは申し出を見送る場合もあり、onだけから同じ意味を選べません。目的語と前後の行動を確認します。",
+          "example": "Please pass this message on to the manager.",
+          "translation": "この伝言をマネジャーに伝えてください。"
+        },
+        {
+          "heading": "褒める理由と、褒める対象を分ける",
+          "text": "praise someone for somethingでは、someoneが褒める相手、for以下が理由です。admire someone for ...は、その点について人を称賛・敬服すること。admire a viewなら景色の美しさを眺める意味にもなります。forを「～のために」とだけ覚えず、評価の理由を導く働きも押さえましょう。",
+          "example": "They praised her for her quick response.",
+          "translation": "彼らは彼女の素早い対応を褒めました。"
+        }
+      ],
+      "quiz": {
+        "question": "go on to explain the rules は、何を表す？",
+        "choices": [
+          "次に規則を説明する。",
+          "同じ規則の説明を続けるとだけ述べる。",
+          "規則を書き留める。"
+        ],
+        "answer": 0,
+        "explanation": "go on to doは、次の行動へ進むこと。go on doingなら同じ動作を続ける意味になります。"
+      },
+      "takeaway": "句動詞は目的語まで、案内表現は人と場所まで一緒に覚える。"
+    },
+    {
+      "id": "for-reasons-launches",
+      "title": "forの理由表現と、launch・roll out・implementの違い",
+      "intro": "感謝・謝罪・非難・処罰は、英語では似た骨組みの表現で言えます。ただし人の前に来る前置詞は同じではありません。さらに新製品や制度の話題では、launch、roll out、implementが並びます。「開始する」と一括りにせず、何を、どの段階で始めるかを比較すると読み違いが減ります。",
+      "words": [
+        "be grateful to 人 for ~",
+        "apologize to 人 for ~",
+        "blame 人 for ~",
+        "punish 人 for ~",
+        "fine 人 for ~",
+        "be local to ~",
+        "make a delivery",
+        "go over ~",
+        "roll out",
+        "implement"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "be grateful to A for B",
+            "BについてAに感謝している",
+            "toは相手、forは理由"
+          ],
+          [
+            "apologize to A for B",
+            "BについてAに謝罪する",
+            "apologizeは通常、人を直接目的語にしない"
+          ],
+          [
+            "blame / punish / fine A for B",
+            "BのことでAを責める・罰する・罰金を科す",
+            "人は動詞の目的語、forは理由"
+          ],
+          [
+            "launch / roll out / implement",
+            "発売・開始／導入展開／計画を実施する",
+            "商品か、導入過程か、制度・計画か"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "相手と理由の位置を、対で整理する",
+          "text": "be grateful to the staff for their help、apologize to customers for the delayと並べます。一方、thank the staff for their helpならthankの直後に人が来ます。apologize customersとはしません。blame A for BではAが責められる相手です。名詞のfaultと動詞のblameは同じ場所にそのまま置き換えられません。",
+          "example": "We apologized to customers for the delay.",
+          "translation": "私たちは遅延について顧客に謝罪しました。"
+        },
+        {
+          "heading": "罰金を科すfineは、形容詞fineと別にする",
+          "text": "fine a driver for speedingは速度違反で運転者に罰金を科すことです。pay a fineなら名詞の罰金、The room is fine.なら「問題ない」という形容詞。文型と冠詞が手掛かりです。make a deliveryとdeliverも、名詞句と動詞の言い換えなので、空所の位置に合わせて選びます。",
+          "example": "The company was fined for the violation.",
+          "translation": "その会社は違反で罰金を科されました。"
+        },
+        {
+          "heading": "launchとimplementは、対象と段階で使い分ける",
+          "text": "launch a productは市場に出すこと。roll out a serviceは利用可能にして導入・展開することを表し、段階的な展開にも使えますが、必ず段階的とは限りません。implement a policyは方針を実行に移すこと。go over a planは計画を見直す段階で、実施したとは言っていません。",
+          "example": "The company will implement the new policy Monday.",
+          "translation": "その会社は月曜日に新方針を実施します。"
+        }
+      ],
+      "quiz": {
+        "question": "apologize ___ customers ___ the error の組み合わせは？",
+        "choices": [
+          "for / to",
+          "to / for",
+          "with / about"
+        ],
+        "answer": 1,
+        "explanation": "apologize to＋謝る相手、for＋謝る理由。thankならthank＋人＋forになる点も対で覚えます。"
+      },
+      "takeaway": "相手・理由・対象物という役割を、前置詞や目的語の位置に結び付ける。"
+    },
+    {
+      "id": "plans-water",
+      "title": "予定の確定度と、水回りのトラブルを読む",
+      "intro": "upcomingとscheduledはどちらも今後の予定に使えますが、前者は近く起こること、後者は予定が組まれていることに焦点があります。同じ段落に修理や配管の話が出れば、予定の変更理由と作業の段階を結び付けます。名詞・動詞・派生語が混ざるため、品詞と対象も意識しましょう。",
+      "words": [
+        "schedule",
+        "move on",
+        "one at a time",
+        "get to ~",
+        "upcoming",
+        "report on ~",
+        "shorten",
+        "flood",
+        "flooding",
+        "plumbing"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "upcoming / scheduled",
+            "近く行われる／予定された",
+            "近さと、予定に入っていることの違い"
+          ],
+          [
+            "one at a time / at once",
+            "一つずつ／一度に・すぐに",
+            "順番の処理か、同時か、即時か"
+          ],
+          [
+            "flood / flooding",
+            "洪水・水浸しにする／浸水・氾濫",
+            "名詞・動詞・進行形を文で判定"
+          ],
+          [
+            "plumbing / plumber",
+            "配管設備・配管工事／配管工",
+            "設備や仕事と、それをする人の違い"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "upcomingだけでは、実施日が確定したとは限らない",
+          "text": "an upcoming eventは近く開催される行事。a scheduled inspectionは予定に入っている点検です。be scheduled to doは～する予定、be scheduled for Fridayは金曜日に予定されている、という形です。postponeは延期、cancelは中止、rescheduleは予定を組み直すことで、必ず先延ばしになるとは限りません。",
+          "example": "The inspection is scheduled for Friday.",
+          "translation": "点検は金曜日に予定されています。"
+        },
+        {
+          "heading": "at onceは、文脈で「同時」か「即時」かを選ぶ",
+          "text": "Please enter one at a time.は一人ずつ入る指示、They all spoke at once.は同時に話した状態です。Please come at once.はすぐ来る依頼。one by oneも順番を表しますが、文中で何を一つずつ扱っているのかを確認しましょう。move on to the next topicも次の段階へ移る表現です。",
+          "example": "Please check the forms one at a time.",
+          "translation": "書類は一枚ずつ確認してください。"
+        },
+        {
+          "heading": "水回りの派生語は、被害・設備・人に分ける",
+          "text": "floodingは浸水という現象を表す名詞でも、The room is flooding.の進行形の一部でも使えます。plumbingは配管設備・配管工事、plumberは配管工です。shortenは短くする動詞、shortは短いという形容詞。長い単語の語尾だけで即断せず、文中で必要な品詞を確認しましょう。",
+          "example": "A plumber will inspect the damaged pipes.",
+          "translation": "配管工が損傷した配管を点検します。"
+        }
+      ],
+      "quiz": {
+        "question": "配管を点検する「人」を指すのは？",
+        "choices": [
+          "plumbing",
+          "flooding",
+          "plumber"
+        ],
+        "answer": 2,
+        "explanation": "plumberが配管工。plumbingは設備や工事で、人そのものではありません。"
+      },
+      "takeaway": "予定の性質、順番、水害の現象・設備・人を別々に整理する。"
+    },
+    {
+      "id": "drain-sewer",
+      "title": "sink・drain・sewerを、一本の排水経路で覚える",
+      "intro": "水回りの単語は、全部「排水」と訳すと区別しづらくなります。流し台から水が出ていく経路を思い浮かべ、器具・排水口や管・下水道・流れる汚水をそれぞれの場所に置いて覚えましょう。修理の案内文では、故障している場所と行われる作業を分けて読むと、原因と対応を追いやすくなります。",
+      "words": [
+        "clog",
+        "be clogged",
+        "sink drain",
+        "drain",
+        "sewer",
+        "sewer pipe"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "sink / drain",
+            "流し台／排水口・排水管、排水する",
+            "器具全体と、水が流れ出る所・動作"
+          ],
+          [
+            "drainpipe / sewer pipe",
+            "排水管／下水管",
+            "屋内などの排水経路か、下水道の管か"
+          ],
+          [
+            "sewer / sewage / sewerage",
+            "下水道／下水／下水道設備・制度",
+            "管路、流れる物、設備全体を区別"
+          ],
+          [
+            "clog / be clogged / unclog",
+            "詰まらせる／詰まっている／詰まりを除く",
+            "原因となる動作・現在の状態・対処"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "sinkとdrainは、同じ器具の違う部分に注目する",
+          "text": "sinkは手や食器などを洗う流し台。drainは水が抜ける排水口や排水管、また排水するという動詞です。a clogged drainなら排水口や管の詰まりで、必ず流し台そのものが壊れたとは限りません。写真や修理報告では、どこに問題があるかを具体的に想像します。水が流れない原因が排水口にあるのか、下流の管にあるのかも、報告の内容から読み分けましょう。",
+          "example": "The sink drain is clogged with food.",
+          "translation": "流し台の排水口が食べ物で詰まっています。"
+        },
+        {
+          "heading": "sewerの中を流れるのがsewage",
+          "text": "sewerは下水を運ぶ地下の管路などで、数えられる名詞としてa sewerやsewersにできます。sewageは流れる下水で、通常は不可算。sewerageは下水道設備や処理の体系です。似た綴りでも役割が違うので、語尾だけを丸暗記せず、管・中身・全体という関係で区別しましょう。",
+          "example": "The damaged sewer pipe needs urgent repairs.",
+          "translation": "損傷した下水管は緊急の修理が必要です。"
+        },
+        {
+          "heading": "詰まった状態と、作業中の動作を読み分ける",
+          "text": "The pipe is clogged.は詰まっている状態、The worker is unclogging the pipe.は詰まりを取り除く作業中です。blockもふさぐという意味で使えますが、block an entranceのように水回り以外にも広く使います。drainageは排水やその設備を表す名詞。repairの目的語になっている物から、作業の対象を確かめます。",
+          "example": "The plumber is unclogging the drain.",
+          "translation": "配管工が排水口の詰まりを取り除いています。"
+        }
+      ],
+      "quiz": {
+        "question": "「下水道を流れる汚水」を指す語は？",
+        "choices": [
+          "sewage",
+          "sewer",
+          "plumber"
+        ],
+        "answer": 0,
+        "explanation": "sewageは下水、sewerはそれを運ぶ下水道、plumberは配管工です。中身と設備を分けて覚えます。"
+      },
+      "takeaway": "流し台→排水口・排水管→下水道という経路に、語を配置して覚える。"
+    },
+    {
+      "id": "business-basics",
+      "title": "charge・available・issueを、品詞と相手で見分ける",
+      "intro": "ビジネスでよく使う語ほど、日本語訳が一つに収まりません。chargeは料金にも請求にも充電にも、issueは問題にも発行にもなります。読むたびに辞書の最初の意味へ戻るのではなく、文の形と対象を手掛かりに意味を選びましょう。初期サンプルの5語を、TOEICで使える結び付きに広げます。",
+      "words": [
+        "submit",
+        "charge",
+        "available",
+        "issue",
+        "purchase"
+      ],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "fee / fare / charge",
+            "手数料等／運賃／請求額・料金",
+            "何に対する支払いかを見る"
+          ],
+          [
+            "available / convenient",
+            "利用・入手できる／都合がよい・便利な",
+            "利用可能性と、使う側の利便性の違い"
+          ],
+          [
+            "issue / problem / matter",
+            "論点・問題／解決すべき問題／事柄",
+            "issueは必ず故障や悪いこととは限らない"
+          ],
+          [
+            "submit / purchase",
+            "提出する／購入する",
+            "submission、purchaserとの品詞の違い"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "chargeは、何を誰にするのかまで確認する",
+          "text": "an extra chargeは追加料金、charge a customer a feeは顧客に料金を請求することです。charge a batteryは充電すること。同じ動詞でも目的語が意味を決めます。fareは交通機関の運賃、feeは専門サービス・入場・登録などの料金に使われますが、料金の呼び方には重なりもあります。",
+          "example": "There is an additional charge for delivery.",
+          "translation": "配達には追加料金がかかります。"
+        },
+        {
+          "heading": "availableとconvenientは単純な同義語ではない",
+          "text": "The room is available.なら空きがあり使えること。The location is convenient.なら場所が便利なことです。Are you available tomorrow?は明日時間があるかの質問。Is tomorrow convenient for you?は明日が相手にとって都合よいかを尋ねます。言い換えられる場面はあっても、すべての名詞に交換できません。",
+          "example": "Is the meeting room available this afternoon?",
+          "translation": "今日の午後、会議室は利用できますか。"
+        },
+        {
+          "heading": "issueは、冠詞と目的語が意味を絞る",
+          "text": "resolve an issueなら問題を解決すること。the latest issueなら雑誌などの最新号。issue a ticketなら券を発行することです。purchaseはbuyより改まった言い方で、名詞にもなります。submit the applicationの名詞形はsubmission。冠詞の後に名詞、助動詞の後に原形など、必要な品詞も一緒に確かめます。",
+          "example": "Please submit your application by Friday.",
+          "translation": "金曜日までに申請書を提出してください。"
+        }
+      ],
+      "quiz": {
+        "question": "電池を充電する場合の自然な表現は？",
+        "choices": [
+          "issue a battery",
+          "charge a battery",
+          "submit a battery"
+        ],
+        "answer": 1,
+        "explanation": "chargeは目的語がbatteryなら充電。料金の請求だけに意味を固定しないようにします。"
+      },
+      "takeaway": "多義語は品詞＋対象＋場面で選び、名詞形や形容詞形も対にする。"
+    },
+    {
+      "id": "parts-of-speech",
+      "title": "訳が分かっていても落とす、品詞と修飾の見抜き方",
+      "intro": "新しい英単語の10語でも使える、TOEICの語法コラムです。ここでは個々の単語の意味当てから一歩進み、文が要求する形を見ます。選択肢が同じ語の派生語なら、意味だけでは解けないことがあります。名詞の前後、動詞の前後、toの働きという順に構造を確かめましょう。",
+      "words": [],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "名詞",
+            "物・人・行為などの名前",
+            "冠詞＋形容詞＋名詞というまとまり"
+          ],
+          [
+            "形容詞",
+            "名詞の性質・状態を説明",
+            "名詞の前、be動詞などの後"
+          ],
+          [
+            "副詞",
+            "動詞・形容詞・文などを修飾",
+            "carefully review、highly effective"
+          ],
+          [
+            "動詞",
+            "出来事や状態を述べる",
+            "時制・態・主語との一致を確認"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "冠詞の直後を、すぐ名詞と決めない",
+          "text": "the rapid expansionではrapidは形容詞で、名詞の中心はexpansionです。空所の直前にtheがあっても、右側に名詞が続けば形容詞が入る可能性があります。まず名詞句の終わりを探しましょう。冠詞・所有格・形容詞・名詞をひとかたまりにして読むと、選択肢の品詞を絞れます。空所の左だけで判断せず、右側の語まで読む習慣を付けます。",
+          "example": "We expect a significant improvement in sales.",
+          "translation": "私たちは売上の大幅な改善を見込んでいます。"
+        },
+        {
+          "heading": "形容詞の前は、副詞による程度の説明を疑う",
+          "text": "highly effectiveやcommercially availableのように、副詞が形容詞を説明します。ただし-lyなら必ず副詞ではありません。friendlyやcostlyは形容詞、fastは形容詞にも副詞にも使えます。語尾は手掛かりにとどめ、その語が何を修飾するかを確かめましょう。",
+          "example": "The revised procedure is highly effective.",
+          "translation": "改訂された手順は非常に効果的です。"
+        },
+        {
+          "heading": "toの後を、必ず動詞の原形にしない",
+          "text": "plan to attendのtoは不定詞の印ですが、look forward toのtoは前置詞なので、後ろは名詞か-ingです。be committed to improvingも同様です。新しく覚える語は、意味と一緒に後ろの型を一つ記録しましょう。形容詞・名詞・派生語も、その単語が実際に使われる短い句で比較すると定着します。",
+          "example": "We look forward to meeting your team.",
+          "translation": "皆様のチームにお会いするのを楽しみにしています。"
+        }
+      ],
+      "quiz": {
+        "question": "空所に入るのは？ a ___ effective method",
+        "choices": [
+          "high",
+          "higher",
+          "highly"
+        ],
+        "answer": 2,
+        "explanation": "effectiveという形容詞を修飾するので副詞highly。「非常に効果的な方法」という名詞句です。"
+      },
+      "takeaway": "選択肢の和訳より先に、空所が何を説明する場所かを見る。"
+    },
+    {
+      "id": "time-prepositions",
+      "title": "by・until・during・withinは「いつまで」を分解して覚える",
+      "intro": "新しい英単語の10語と一緒に確認したい、時間表現の使い分けです。TOEICの案内文では、締切、継続、期間内、経過後が混在します。日本語の「まで」「中に」だけで覚えると、意味が重なってしまいます。時間軸に作業の完了点と継続区間を置くと、前置詞の違いが見えてきます。",
+      "words": [],
+      "table": {
+        "headers": [
+          "表現",
+          "中心となる意味・形",
+          "見分ける手掛かり"
+        ],
+        "rows": [
+          [
+            "by / until",
+            "～までに完了／～まで継続",
+            "締切の点と、続く区間"
+          ],
+          [
+            "during / while",
+            "～の間に／～している間",
+            "during＋名詞、while＋主語・動詞が基本"
+          ],
+          [
+            "within / in",
+            "～以内に／～後に・～の間に",
+            "期限内か、経過後かは文脈で確認"
+          ],
+          [
+            "for / since",
+            "期間の長さ／始まった時点",
+            "for three years、since 2020"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "heading": "byは完了の締切、untilは継続の終わり",
+          "text": "Submit the form by Friday.は金曜日までに提出すること。The office is open until Friday.は金曜日まで営業が続くことです。I will wait until five.なら5時まで待ち続けます。byがあれば必ず完了形というわけではなく、行動の期限を表す働きとして理解しましょう。",
+          "example": "Please return the equipment by Friday.",
+          "translation": "金曜日までに機器を返却してください。"
+        },
+        {
+          "heading": "duringとwhileは後ろに来る形を比較する",
+          "text": "during the meetingは会議という名詞句、while we discuss the budgetは主語と動詞を含む節です。while attendingのような省略形もあるので、whileの直後が必ず主語とは限りません。前置詞か接続詞かを見分けるときは、後ろのまとまり全体を見ることが大切です。",
+          "example": "Please silence your phone during the presentation.",
+          "translation": "発表の間は携帯電話を消音にしてください。"
+        },
+        {
+          "heading": "withinの期間は、いつから数えるかも読む",
+          "text": "within two business daysは2営業日以内。案内文にafter receiving the orderとあれば、注文受領を起点に数えます。in two daysは2日後という意味でも使うため、withinと同じとは限りません。期間の長さと起点を別々に拾うと、納期や返信期限の読み違いを防げます。",
+          "example": "We will reply within two business days.",
+          "translation": "2営業日以内に返信します。"
+        }
+      ],
+      "quiz": {
+        "question": "「午後5時まで待ち続ける」に合うのは？",
+        "choices": [
+          "wait until five",
+          "wait by five",
+          "wait during five"
+        ],
+        "answer": 0,
+        "explanation": "待つ状態が5時まで続くのでuntil。byは完了の締切を示すときに使います。"
+      },
+      "takeaway": "締切の点・継続の区間・期間の起点を、別々に捉える。"
+    }
+  ]
+}
