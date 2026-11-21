@@ -130,7 +130,7 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
 <p class="muted">一度ログインすると、カードの追加と学習結果を自動保存します。PCで登録したカードはスマホへ、スマホの学習結果はPCへ自動で反映します。通常は保存先を選ぶ操作は不要です。ページを開き直したときや再接続時にも同期します。</p>
 <details id="cloudRecovery"><summary>復旧用の操作（通常は不要）</summary><p>自動同期前の端末データは、このブラウザにバックアップしています。</p><button id="downloadRecovery">同期前の端末データをJSONで保存</button><div id="cloudChoice"><p class="muted">以下は全データの置き換えです。通常は自動同期にお任せください。</p><p id="cloudSummary"></p><div class="actions"><button id="useCloud">クラウドから全データを読み直す</button><button id="useDevice" class="negative">この端末の全データでクラウドを置き換える</button></div></div></details>
 </div>
-<div class="panel" id="csvPanel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code id="csvColumnOrder"></code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csvFolder">追加先フォルダ</label><select id="csvFolder"></select><p id="csvColumns" class="muted"></p><label for="csvTags">取り込むカードのタグ（複数可・省略可）</label><input id="csvTags" list="tagSuggestions" placeholder="例：2020年過去問, 重点復習"><p class="muted">同じ問題・答え・補足のカードは再作成せず、タグと追加先フォルダを共有します。授業画像の更新によるURLの違いは同じカードとして扱います。独自の画像が違うカードは残します。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>追加した画像・カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">カードと進捗はこの端末・ブラウザに自動保存します。追加した画像も端末内に保存し、JSONバックアップに含めます。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。未保存の画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
+<div class="panel" id="csvPanel"><h2>CSVで一括追加</h2><p class="muted">1行につき1枚、次の順序で7列を入力してください。追加されたカードは今日から学習できます。</p><p><code id="csvColumnOrder"></code></p><p class="muted">見出し行は不要です（上記と同じ見出し行は読み飛ばします）。カンマ・改行を含む項目はダブルクォートで囲み、項目内の「"」は「""」と記述してください。</p><label for="csvFolder">追加先フォルダ</label><select id="csvFolder"></select><p id="csvColumns" class="muted"></p><label for="csvTags">取り込むカードのタグ（複数可・省略可）</label><input id="csvTags" list="tagSuggestions" placeholder="例：2020年過去問, 重点復習"><p class="muted">同じ問題・答え・補足のカードは再作成せず、タグと追加先フォルダを共有します。授業画像の更新によるURLの違いは同じカードとして扱います。独自の画像が違うカードは残します。</p><label for="csv">CSVを貼り付け</label><textarea id="csv" rows="7" spellcheck="false" placeholder='submit,動）提出する,動）従う,派）名）submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'></textarea><p id="csvStatus" role="status"></p><button id="importCsv" class="primary">CSVを追加する</button></div><div class="panel"><h2>すべてのデータを保存・復元</h2><p>追加した画像・カード・復習予定・今日のキューをJSONに保存します。機種変更やバックアップに使えます。</p><button id="exportJson">JSONをエクスポート</button><label for="jsonFile">JSONファイルから復元</label><input type="file" id="jsonFile" accept=".json,application/json"><label for="jsonText">またはJSONを貼り付け</label><textarea id="jsonText" rows="4" spellcheck="false"></textarea><p class="muted">復元すると現在の全データを置き換えます。</p><button id="importJson" class="negative">JSONから復元する</button><p id="jsonStatus" role="status"></p></div><div class="panel"><h3>保存について</h3><p class="muted">カードと進捗はこの端末・ブラウザに自動保存します。追加した画像も端末内に保存し、JSONバックアップに含めます。ブラウザのデータ削除やファイルの移動で保存内容にアクセスできなくなる場合があるため、JSONで定期的にバックアップしてください。未保存の画像URLの表示には通信が必要です。絵文字イラストはオフラインでも使えます。</p></div></section>
 </main></div><dialog id="imageCropDialog" aria-labelledby="cropTitle"><div class="crop-heading"><h2 id="cropTitle">画像を切り抜く</h2><p>枠をドラッグして移動、四隅で大きさを調整。枠の外をドラッグして範囲を描き直せます。</p></div><div id="cropWorkArea"><div id="cropSurface"><canvas id="cropCanvas" aria-hidden="true"></canvas><div id="cropSelection" tabindex="0" role="group" aria-label="切り抜く範囲。矢印キーで移動"><button type="button" class="crop-handle nw" data-corner="nw" aria-label="切り抜き範囲の左上を調整"></button><button type="button" class="crop-handle ne" data-corner="ne" aria-label="切り抜き範囲の右上を調整"></button><button type="button" class="crop-handle sw" data-corner="sw" aria-label="切り抜き範囲の左下を調整"></button><button type="button" class="crop-handle se" data-corner="se" aria-label="切り抜き範囲の右下を調整"></button></div></div></div><div class="crop-footer"><p id="cropDimensions"></p><div class="actions"><button type="button" id="resetImageCrop">全体に戻す</button><button type="button" id="rotateImageCrop">90°回転</button></div><details id="cropNumbers"><summary>数値で調整</summary><div class="crop-numbers"><label>左（%）<input id="crop-x" type="number" min="0" max="99" step="0.1"></label><label>上（%）<input id="crop-y" type="number" min="0" max="99" step="0.1"></label><label>幅（%）<input id="crop-w" type="number" min="1" max="100" step="0.1"></label><label>高さ（%）<input id="crop-h" type="number" min="1" max="100" step="0.1"></label></div></details><p id="cropStatus" role="status"></p><div class="actions"><button type="button" id="cancelImageCrop">キャンセル</button><button type="button" id="applyImageCrop" class="primary">この範囲を使う</button></div></div></dialog><div id="toast" role="status" hidden></div>
 <script>
 'use strict';
@@ -140,6 +140,154 @@ const generalLabels=['問題・用語','①重要な答え','②補足・別の�
 function defaultFolder(){return {id:DEFAULT_FOLDER,name:'英語',kind:'vocabulary',deleted:false}}
 const labels=['英単語','①重要な日本語訳','②他の意味','③類義語・派生語・対義語','④短い例文','⑤例文の日本語訳','⑥イラスト'];
 const $=id=>document.getElementById(id);
+// BEGIN RELATED_WORD_POS
+// Reviewed word + Japanese sense pairs only; do not guess from spelling or label phrases.
+const RELATED_WORD_POS=new Map([
+ ["admiration：称賛","名"],
+ ["almost：ほとんど","副"],
+ ["along：～に沿って","前"],
+ ["apology：謝罪","名"],
+ ["appreciate：感謝する","動"],
+ ["arrange：手配する","動"],
+ ["arrange：整える","動"],
+ ["assignment：割り当てられた仕事","名"],
+ ["availability：利用可能性","名"],
+ ["block：ふさぐ","動"],
+ ["buy：買う","動"],
+ ["cart：荷車","名"],
+ ["check：確認する","動"],
+ ["confirm：確認する","動"],
+ ["contact：連絡する","動"],
+ ["contractor：工事業者","名"],
+ ["criticize：批判する","動"],
+ ["decorate：装飾する","動"],
+ ["decor：室内装飾","名"],
+ ["delay：遅れ","名"],
+ ["deliver：配達する","動"],
+ ["depart：出発する","動"],
+ ["determine：突き止める","動"],
+ ["discharge：放電する（充電するの対義）","動"],
+ ["discover：発見する","動"],
+ ["distribution：配送","名"],
+ ["document：書類","名"],
+ ["drainage：排水","名"],
+ ["drainpipe：排水管","名"],
+ ["escort：付き添って案内する","動"],
+ ["examine：調べる","動"],
+ ["extinguish：消火する","動"],
+ ["fault：責任","名"],
+ ["fee：料金","名"],
+ ["fetch：取ってくる","動"],
+ ["fine：罰金","名"],
+ ["flooding：浸水","名"],
+ ["flood：水浸しにする","動"],
+ ["forthcoming：近く行われる","形"],
+ ["grab：つかむ","動"],
+ ["grateful：感謝している","形"],
+ ["gratitude：感謝","名"],
+ ["guide：案内する","動"],
+ ["hallway：廊下","名"],
+ ["hereditary：遺伝性の","形"],
+ ["identical：同一の","形"],
+ ["implementation：実施","名"],
+ ["inherit：受け継ぐ","動"],
+ ["issuance：発行","名"],
+ ["launch：発売する","動"],
+ ["layout：配置","名"],
+ ["lengthen：長くする","動"],
+ ["listing：一覧","名"],
+ ["locally：地元で","副"],
+ ["local：地元の","形"],
+ ["logistical：物流の","形"],
+ ["modify：変更する","動"],
+ ["nearly：もう少しで","副"],
+ ["neatly：きちんと","副"],
+ ["newly：新たに","副"],
+ ["notice：お知らせ","名"],
+ ["obtainable：入手可能な","形"],
+ ["offer：申し出る","動"],
+ ["outage：停止","名"],
+ ["overflow：あふれる","動"],
+ ["penalty：罰則","名"],
+ ["pile：山","名"],
+ ["pipe：管","名"],
+ ["plumber：配管工","名"],
+ ["post：職","名"],
+ ["preference：好み","名"],
+ ["preservation：保存","名"],
+ ["probably：おそらく","副"],
+ ["problem：問題","名"],
+ ["proceed：進む","動"],
+ ["publish：発行する","動"],
+ ["punishment：罰","名"],
+ ["purchaser：購入者","名"],
+ ["reach：到着する","動"],
+ ["reach：手を伸ばす","動"],
+ ["recharge：充電し直す","動"],
+ ["redecoration：模様替え","名"],
+ ["redesign：設計し直す","動"],
+ ["refurbished：整備済みの","形"],
+ ["refurbishment：改装","名"],
+ ["refurbish：改装する","動"],
+ ["regarding：～に関して","前"],
+ ["relay：伝達する","動"],
+ ["reminder：念押しのお知らせ","名"],
+ ["remind：思い出させる","動"],
+ ["remodeling：改装","名"],
+ ["renovation：改修","名"],
+ ["repair：修理する","動"],
+ ["reporter：記者","名"],
+ ["report：報告書","名"],
+ ["request：依頼","名"],
+ ["respect：尊敬する","動"],
+ ["restoration：修復","名"],
+ ["review：見直す","動"],
+ ["revise：修正する","動"],
+ ["reward：褒賞を与える","動"],
+ ["rollout：導入","名"],
+ ["scheduled：予定された","形"],
+ ["seating：座席配置","名"],
+ ["sell：売る","動"],
+ ["sewage：下水","名"],
+ ["sewerage：下水道設備","名"],
+ ["sewer：下水道","名"],
+ ["short：短い","形"],
+ ["shredder：シュレッダー","名"],
+ ["shred：細かく切る","動"],
+ ["sink：流し台","名"],
+ ["sort：分類する","動"],
+ ["stack：積み重ねる","動"],
+ ["start：始める","動"],
+ ["submission：提出、服従","名"],
+ ["suitcase：旅行かばん","名"],
+ ["supervisor：上司","名"],
+ ["timetable：時刻表","名"],
+ ["trainee：研修生","名"],
+ ["unavailable：利用できない","形"],
+ ["unclog：詰まりを取り除く","動"],
+ ["wait：待つ","動"],
+ ["warning：警告","名"],
+ ["warn：警告する","動"],
+ ["wheel：車輪","名"],
+ ["windowsill：窓台","名"],
+ ["withdraw：撤回する","動"],
+ ["workshop：実習型の講習会","名"],
+ ["write-down：評価減","名"],
+]);
+function annotateRelatedWords(text){
+ return text.replace(/[^／\r\n]+/g,part=>{
+  const match=part.match(/^(\s*)((?:(?:類|派|対|関連)）)?)(.*?)(\s*)$/);
+  if(!match)return part;
+  const [,leading,relation,entry,trailing]=match,pos=RELATED_WORD_POS.get(entry);
+  return pos?leading+relation+pos+'）'+entry+trailing:part;
+ });
+}
+function relatedWordPosPending(input){
+ if(!Array.isArray(input?.cards))return false;
+ const vocabulary=new Set((input.folders||[defaultFolder()]).filter(f=>f.kind==='vocabulary').map(f=>f.id));
+ return input.cards.some(c=>vocabulary.has(c.folderId||DEFAULT_FOLDER)&&typeof c.fields?.[3]==='string'&&annotateRelatedWords(c.fields[3])!==c.fields[3]);
+}
+// END RELATED_WORD_POS
 // BEGIN HEAT_AIR_TAG_PRESET
 const HEAT_AIR_TAG_PRESET="heat-air-subject-priority-v1";
 const HEAT_AIR_PRESET_TAGS=new Map([["【H1-01】熱伝導・対流・放射の違いは？",["熱分野","テスト用"]],["【H1-02】熱抵抗を直列に重ねると合成抵抗は？",["熱分野","テスト用"]],["【H1-03】均質材料の単位面積当たりの熱抵抗は？",["熱分野","テスト用"]],["【H1-04】熱貫流率Uを熱抵抗から求める式は？",["熱分野","テスト用"]],["【H1-05】熱貫流率Uと熱貫流抵抗の大小関係は？",["熱分野","テスト用"]],["【H1-06】熱伝導率と熱貫流率の違いは？",["熱分野","テスト用"]],["【H1-07】熱流密度qと部位全体の熱流Qの関係は？",["熱分野","テスト用"]],["【H1-08】室内表面の総合熱伝達率は？",["熱分野","テスト用"]],["【H1-09】平均放射温度MRTの近似式は？",["熱分野","テスト用"]],["【H1-10】環境温度を気温とMRTで表す式は？",["熱分野","テスト用"]],["【H1-11】換気の顕熱負荷を室内流入正で表すと？",["熱分野","テスト用"]],["【H1-12】換気量がm³/hで与えられたら熱負荷式に入れる前に何をする？",["熱分野","テスト用"]],["【H1-13】換気180 m³/h、温度差10Kの顕熱負荷の大きさは？",["熱分野","テスト用"]],["【H1-14】建物全体の総合熱貫流率[W/K]は？",["熱分野","テスト用"]],["【H1-15】部位のUと建物全体のGを区別する単位は？",["熱分野","テスト用"]],["【H1-16】熱損失係数を総合熱貫流率Gと延床面積A_Fで表すと？",["熱分野","テスト用"]],["【H1-17】内部発熱Hのある室の定常冷房負荷は？",["熱分野","テスト用"]],["【H1-18】G＝270 W/K、外気10℃、室温24℃、H＝1000Wなら何が必要？",["熱分野","テスト用"]],["【H1-19】冷暖房がないときの自然室温は？",["熱分野","テスト用"]],["【H1-20】中空層で生じる熱移動は伝導だけか？",["熱分野","テスト用"]],["【H1-21】高断熱化と高気密化を組み合わせる理由は？",["熱分野","テスト用"]],["【H1-22】異なる温度の複数室を計算する基本手順は？",["熱分野","テスト用"]],["【H1-23】隣室jから室iへの貫流熱は？",["熱分野","テスト用"]],["【H1-24】室jから室iへの流入空気による正味流入熱は？",["熱分野","テスト用"]],["【H1-25】多数室で換気負荷を「流入風量」で整理できる理由は？",["熱分野","テスト用"]],["【H1-26】多数室で空気が運ぶ熱を決める温度は？",["熱分野","テスト用"]],["【H1-27】自然室温の室を連立式で求めるとき、冷房負荷は？",["熱分野","テスト用"]],["【H1-28】室間の貫流熱を全室で足し合わせると？",["熱分野","テスト用"]],["【H2-01】入射日射量を3成分に分けると？",["熱分野","テスト用"]],["【H2-02】日射と夜間放射の波長領域の違いは？",["熱分野","テスト用"]],["【H2-03】日射の入射量を左右する幾何条件は？",["熱分野","テスト用"]],["【H2-04】不透明部位の相当外気温度SATは？",["熱分野","テスト用"]],["【H2-05】SATを使う目的は？",["熱分野","テスト用"]],["【H2-06】日射吸収率a_sが大きくなるとSATは？",["熱分野","テスト用"]],["【H2-07】夜間放射量J_nが大きくなるとSATは？",["熱分野","テスト用"]],["【H2-08】外気30℃、J＝1000、a_s＝0.7、ε＝0.9、J_n＝100、α_o＝23ならSATは？",["熱分野","テスト用"]],["【H2-09】SAT＝56.5℃、室温25℃、U＝0.5の流入熱密度は？",["熱分野","テスト用"]],["【H2-10】日射熱取得率ηの定義は？",["熱分野","テスト用"]],["【H2-11】窓面積A_w、入射日射Jのとき日射熱取得量は？",["熱分野","テスト用"]],["【H2-12】日射遮蔽係数SCの基準は？",["熱分野","テスト用"]],["【H2-13】外ブラインドが内ブラインドより遮熱に有利な理由は？",["熱分野","テスト用"]],["【H2-14】庇・ルーバーの光環境上の利点と注意点は？",["熱分野","テスト用"]],["【H2-15】庇等の熱的効果を詳しく評価するために必要な情報は？",["熱分野","テスト用"]],["【H2-16】南面の水平庇が夏と冬で異なる働きをする理由は？",["熱分野","テスト用"]],["【H2-17】Low-E複層ガラスが熱貫流率を小さくする主な仕組みは？",["熱分野","テスト用"]],["【H2-18】遮熱タイプと断熱タイプのLow-E膜位置の違いは？",["熱分野","テスト用"]],["【H2-19】窓の断熱性能Uと遮熱性能ηは同じか？",["熱分野","テスト用"]],["【H2-20】窓1面＋換気の室の定常冷房負荷は？",["熱分野","テスト用"]],["【H2-21】過去問のU＝4、A_w＝10、C_pρ＝1200、V＝0.005の熱損失係数Gは？",["熱分野","テスト用"]],["【H2-22】過去問のη＝0.2、A_w＝10、J＝100の取得日射熱Sは？",["熱分野","テスト用"]],["【H2-23】熱損失係数46W/K、日射取得200Wの室で、外気θ_o・室温θ_RならQ_Cは？",["熱分野","テスト用"]],["【H2-24】熱損失係数46W/K、取得熱200Wの室で、自然室温と外気温の関係は？",["熱分野","テスト用"]],["【H2-25】G＝46W/K、取得熱200W、許容室温22〜27℃なら無負荷帯の外気温は？",["熱分野","テスト用"]],["【H2-26】外気温軸の22〜27℃を無負荷帯にしてはいけない理由は？",["熱分野","テスト用"]],["【H2-27】G＝46W/K、取得熱200W、暖房設定22℃で、低温側のQ_C(θ_o)は？",["熱分野","テスト用"]],["【H2-28】G＝46W/K、取得熱200W、冷房設定27℃で、高温側のQ_C(θ_o)は？",["熱分野","テスト用"]],["【H2-29】G＝46W/K、取得熱200W、許容室温22〜27℃。外気20℃で冷暖房は必要？",["熱分野","テスト用"]],["【H2-30】G＝46W/K、取得熱200W、暖房設定22℃、外気10℃なら暖房負荷は？",["熱分野","テスト用"]],["【H2-31】G＝46W/K、取得熱200W、冷房設定27℃、外気30℃なら冷房負荷は？",["熱分野","テスト用"]],["【H2-32】一般に取得熱S、熱損失係数Gのとき無負荷帯の外気温は？",["熱分野","テスト用"]],["【H2-33】日射を減らすと無負荷帯は外気温軸上でどちらへ動く？",["熱分野","テスト用"]],["【H2-34】熱負荷の折れ線グラフの検算方法は？",["熱分野","テスト用"]],["【H3-01】定常伝熱と非定常伝熱の違いは？",["熱分野"]],["【H3-02】部材の熱容量Cは？",["熱分野"]],["【H3-03】容積比熱と熱容量の違いは？",["熱分野"]],["【H3-04】同じ断熱性なら熱容量が大きい室の応答は？",["熱分野"]],["【H3-05】同じ熱容量でも蓄熱効果が変わる要因は？",["熱分野"]],["【H3-06】フーリエの法則を温度勾配で表すと？",["熱分野"]],["【H3-07】一次元熱伝導方程式は？",["熱分野"]],["【H3-08】熱拡散率aの定義と単位は？",["熱分野"]],["【H3-09】壁内の小領域の熱収支の基本形は？",["熱分野"]],["【H3-10】陽解法の内部節点の更新式は？",["熱分野"]],["【H3-11】一次元等間隔内部節点の陽解法での安定条件は？",["熱分野"]],["【H3-12】相当熱容量とは？",["熱分野"]],["【H3-13】単室の集中熱容量モデルの収支式は？",["熱分野"]],["【H3-14】外気・発熱が一定のとき集中モデルの室温解は？",["熱分野"]],["【H3-15】熱時定数τの定義は？",["熱分野"]],["【H3-16】ステップ加熱開始から1時定数後の応答率は？",["熱分野"]],["【H3-17】加熱停止後の温度差はどう変化する？",["熱分野"]],["【H3-18】室温変動率δと時定数τの関係は？",["熱分野"]],["【H3-19】RC容積比熱2000kJ/(m³K)、厚さ0.14m、有効熱容量1/2、U＝3ならτは？",["熱分野"]],["【H4-01】温熱環境の環境側4要素は？",["熱分野"]],["【H4-02】温熱環境の人体側2要素は？",["熱分野"]],["【H4-03】人体のコア温度はおよそ何℃か？",["熱分野"]],["【H4-04】中性温域と恒温適応域の違いは？",["熱分野"]],["【H4-05】人体の簡略化した熱収支M＝C＋R＋Eの各項は？",["熱分野"]],["【H4-06】1metの意味と値は？",["熱分野"]],["【H4-07】1cloの値と物理的意味は？",["熱分野"]],["【H4-08】作用温度OTの一般式は？",["熱分野"]],["【H4-09】OTを気温とMRTの平均で近似できる条件は？",["熱分野"]],["【H4-10】気温26℃、MRT28℃、同じ熱伝達率ならOTは？",["熱分野"]],["【H4-11】ET*がOTに加えて考慮する要素は？",["熱分野"]],["【H4-12】SET*が統合して評価する要素は？",["熱分野"]],["【H4-13】PMVとは？",["熱分野"]],["【H4-14】PMVの0・正・負の意味は？",["熱分野"]],["【H4-15】PPDとは？",["熱分野"]],["【H4-16】スライドでのPMVの快適範囲は？",["熱分野"]],["【H4-17】PMVが0ならPPDも0になるか？",["熱分野"]],["【H4-18】気温が皮膚温より低い条件で気流が強くなると寒く感じやすい理由は？",["熱分野"]],["【H4-19】暑熱環境で湿度が高いと暑く感じやすい理由は？",["熱分野"]],["【H4-20】着衣量・代謝量が増えると暑い側になりやすい理由は？",["熱分野"]],["【H4-21】WBGTの日射ありの式は？",["熱分野"]],["【H4-22】WBGTの日射なしの式は？",["熱分野"]],["【H4-23】θ_wb＝25℃、θ_g＝35℃、θ_a＝30℃の日射ありWBGTは？",["熱分野"]],["【H4-24】グローブ温度計で対流と放射が釣り合う式は？",["熱分野"]],["【H5-01】湿り空気を分けて扱う2成分は？",["熱分野"]],["【H5-02】絶対湿度xの定義と単位は？",["熱分野"]],["【H5-03】相対湿度φの定義式は？",["熱分野"]],["【H5-04】絶対湿度xと水蒸気分圧fの関係は？",["熱分野"]],["【H5-05】水蒸気量一定で空気を加熱すると相対湿度は？",["熱分野"]],["【H5-06】露点温度とは？",["熱分野"]],["【H5-07】20℃・60%のスライドの状態点での絶対湿度は？",["熱分野"]],["【H5-08】湿り空気の比エンタルピーhの近似式は？",["熱分野"]],["【H5-09】空気線図の状態点を決める基本手順は？",["熱分野"]],["【H5-10】2種の空気を断熱混合した後のhとxは？",["熱分野"]],["【H5-11】混合空気の線図上の位置は？",["熱分野"]],["【H5-12】混合後の温度は常に質量加重平均で厳密に求まるか？",["熱分野"]],["【H5-13】h₁＝30、h₂＝60、G₁:G₂＝2:1なら混合hは？",["熱分野"]],["【H5-14】加湿しない加熱で一定の状態量は？",["熱分野"]],["【H5-15】加熱コイルの熱量q_hは？",["熱分野"]],["【H5-16】冷却・除湿コイルの除去熱量q_cは？",["熱分野"]],["【H5-17】冷却コイルで除湿が生じる条件は？",["熱分野"]],["【H5-18】除湿量Lを求める式は？",["熱分野"]],["【H5-19】G＝1 kg/s、x₁−x₂＝0.003 kg/kgなら除湿量は？",["熱分野"]],["【H5-20】気化式・水噴霧加湿の近似的な線図上の変化は？",["熱分野"]],["【H5-21】蒸気加湿の状態変化を水噴霧加湿と区別すると？",["熱分野"]],["【H5-22】熱水分比uとは？",["熱分野"]],["【H5-23】顕熱比SHFの式は？",["熱分野"]],["【H5-24】顕熱3kW、潜熱1kWならSHFは？",["熱分野"]],["【H5-25】室の顕熱・潜熱負荷から吹出し状態を求める線図上の考え方は？",["熱分野"]],["【H6-01】暖房デグリーデーの定義は？",["熱分野"]],["【H6-02】冷房デグリーデーの定義は？",["熱分野"]],["【H6-03】設定18℃、3日の日平均外気温10・15・20℃なら暖房DDは？",["熱分野"]],["【H6-04】G[W/K]と暖房DDから年間負荷[MJ]を求める式は？",["熱分野"]],["【H6-05】年間熱負荷をkWhで求める換算係数は？",["熱分野"]],["【H6-06】DD法の年間熱負荷と空調機の消費電力は同じか？",["熱分野"]],["【H6-07】内部発熱Hを考慮した参照温度は？",["熱分野"]],["【H6-08】内部発熱が大きい建物では参照温度はどうなる？",["熱分野"]],["【H6-09】住宅と大型内部発熱建物の熱計画の違いは？",["熱分野"]],["【H6-10】拡張デグリーデーで通常のDDに加えて考慮するものは？",["熱分野"]],["【H6-11】不透明部位の日射熱取得率をa_s・U・α_oで表すと？",["熱分野"]],["【H6-12】DD法を使うときの主な近似条件は？",["熱分野"]],["【A1-01】開放型の給気元と排気先は？",["空気分野","テスト用"]],["【A1-02】半密閉型の給気元と排気先は？",["空気分野","テスト用"]],["【A1-03】密閉型の給気元と排気先は？",["空気分野","テスト用"]],["【A1-04】CF型とFE型の違いは？",["空気分野","テスト用"]],["【A1-05】BF型とFF型の違いは？",["空気分野","テスト用"]],["【A1-06】換気不足の開放型器具でCO中毒が起こる仕組みは？",["空気分野","テスト用"]],["【A1-07】必要換気量の計算で用いる室内酸素濃度の下限は？",["空気分野","テスト用"]],["【A1-08】酸素消費量をM＜0で表した定常収支は？",["空気分野","テスト用"]],["【A1-09】理論廃ガス量A_thを用いた開放型の酸素消費量は？",["空気分野","テスト用"]],["【A1-10】外気酸素21%、室内下限20.5%なら必要換気量は？",["空気分野","テスト用"]],["【A1-11】排気捕集率ηを考慮すると必要換気量は？",["空気分野","テスト用"]],["【A1-12】排気捕集率が高いと必要換気量を減らせる理由は？",["空気分野","テスト用"]],["【A1-13】授業資料の開放型の必要換気量Vの簡便式は？",["空気分野","テスト用"]],["【A1-14】授業資料の排気フードI型・II型の簡便式は？",["空気分野","テスト用"]],["【A1-15】授業資料の煙突の必要換気量の簡便式は？",["空気分野","テスト用"]],["【A1-16】排気捕集率をトレーサガスで測る式は？",["空気分野","テスト用"]],["【A1-17】KQ_f＝2m³/h、捕集率なしの簡便式で必要換気量は？",["空気分野","テスト用"]],["【A1-18】必要換気量の式で文字Qに注意する理由は？",["空気分野","テスト用"]],["【A2-01】室内定常濃度を求める基本収支は？",["空気分野","テスト用"]],["【A2-02】外気濃度C₀、発生量M、換気量Qの室の定常濃度は？",["空気分野","テスト用"]],["【A2-03】許容濃度C_limを満たす必要換気量は？",["空気分野","テスト用"]],["【A2-04】外気濃度が許容濃度以上のとき換気量だけで解決できるか？",["空気分野","テスト用"]],["【A2-05】ppmを体積分率に換算する方法は？",["空気分野","テスト用"]],["【A2-06】1人0.02m³/hを20人が発生すると総CO₂発生量は？",["空気分野","テスト用"]],["【A2-07】過去問20人・外気500m³/h・外気400ppmのCO₂濃度は？",["空気分野","テスト用"]],["【A2-08】過去問25人・外気500m³/h・外気400ppmのCO₂濃度は？",["空気分野","テスト用"]],["【A2-09】粉じん用フィルタを循環空気に置くとCO₂も除去できるか？",["空気分野","テスト用"]],["【A2-10】粉じん捕集率ηと通過率Pの関係は？",["空気分野","テスト用"]],["【A2-11】フィルタ通過後の濃度と通過汚染量は？",["空気分野","テスト用"]],["【A2-12】外気Q₀と循環Q_rから給気量Q_sを求めると？",["空気分野","テスト用"]],["【A2-13】過去問の混合空気を給気直前に濾過する粉じん収支は？",["空気分野","テスト用"]],["【A2-14】同じ循環・濾過モデルの室内粉じん濃度は？",["空気分野","テスト用"]],["【A2-15】目標濃度Cから必要なフィルタ通過率を逆算する式は？",["空気分野","テスト用"]],["【A2-16】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",["空気分野","テスト用"]],["【A2-17】Q₀/Q_r＝500/1000m³/h、M＝200mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",["空気分野","テスト用"]],["【A2-18】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³、η＝0.6なら粉じん濃度Cは？",["空気分野","テスト用"]],["【A2-19】Q₀/Q_r＝500/1500m³/h、M＝250mg/h、C₀＝0.05mg/m³。C＝0.15に必要なηは？",["空気分野","テスト用"]],["【A2-20】必要ηの計算結果が1を超えた場合の意味は？",["空気分野","テスト用"]],["【A2-21】プレフィルタが外気側だけにある場合、収支のどこを変える？",["空気分野","テスト用"]],["【A2-22】HEPAのスライド上の捕集性能は？",["空気分野","テスト用"]],["【A2-23】ULPAのスライド上の捕集性能は？",["空気分野","テスト用"]],["【A2-24】電気集じん器の原理は？",["空気分野","テスト用"]],["【A2-25】フィルタの質量法と計数法は同じ捕集率になるか？",["空気分野","テスト用"]],["【A2-26】喫煙室から非喫煙側への漏れを抑える気流方向は？",["空気分野","テスト用"]],["【A2-27】粒子用空気清浄機だけで煙の全成分を対策できない理由は？",["空気分野","テスト用"]],["【A3-01】室内濃度の非定常収支式は？",["空気分野","テスト用"]],["【A3-02】一定Q・M・C₀での濃度変化の一般解は？",["空気分野","テスト用"]],["【A3-03】非定常濃度式を初期・定常・過渡で検算する方法は？",["空気分野","テスト用"]],["【A3-04】換気回数Nの定義と単位は？",["空気分野","テスト用"]],["【A3-05】換気の名目時定数は？",["空気分野","テスト用"]],["【A3-06】発生停止後M＝0の濃度減衰式は？",["空気分野","テスト用"]],["【A3-07】濃度差が1/eになるまでの時間は？",["空気分野","テスト用"]],["【A3-08】完全混合でNt＝1のとき初期濃度差は何%残る？",["空気分野","テスト用"]],["【A3-09】完全混合でNt＝3のとき初期濃度差は何%残る？",["空気分野","テスト用"]],["【A3-10】2時点の濃度から換気回数を求める式は？",["空気分野","テスト用"]],["【A3-11】濃度差が1/10になる時間t_0.1からNを求める式は？",["空気分野","テスト用"]],["【A3-12】外気400ppmを%で測った室濃度から引く場合の値は？",["空気分野","テスト用"]],["【A3-13】濃度1%から0.1%への低下を「濃度差10分の1」と扱えるか？",["空気分野","テスト用"]],["【A3-14】濃度差6000ppmから1000ppmへ1.5hで減衰したNは？",["空気分野","テスト用"]],["【A3-15】Q＝150m³/h、V＝75m³、M＝0.3m³/h、C₀400ppmの定常CO₂濃度は？",["空気分野","テスト用"]],["【A3-16】V＝75m³、Q＝150m³/h、M＝0.3m³/h、C₀＝400ppm、初期1000ppmのC(t)は？",["空気分野","テスト用"]],["【A3-17】定常濃度法の原理は？",["空気分野","テスト用"]],["【A3-18】濃度減衰法の測定手順は？",["空気分野","テスト用"]],["【A3-19】一定濃度法の原理は？",["空気分野","テスト用"]],["【A3-20】濃度減衰を片対数グラフに描いたときの特徴は？",["空気分野","テスト用"]],["【A3-21】換気回数が時間変化する二時点法で求まるものは？",["空気分野","テスト用"]],["【A3-22】外気と同じ初期濃度から発生を始めたときの式は？",["空気分野","テスト用"]],["【A3-23】非定常濃度の式で指数が無次元になる条件は？",["空気分野","テスト用"]],["【A4-01】換気回数だけで室内の空気分配を評価できない理由は？",["空気分野","テスト用"]],["【A4-02】空気齢とは？",["空気分野","テスト用"]],["【A4-03】給気吹出し口の空気齢は？",["空気分野","テスト用"]],["【A4-04】局所平均空気齢τ_Pとは？",["空気分野","テスト用"]],["【A4-05】名目換気時間τ_nは？",["空気分野","テスト用"]],["【A4-06】局所空気交換指数の空気齢による式は？",["空気分野","テスト用"]],["【A4-07】室平均空気齢と局所平均空気齢の違いは？",["空気分野","テスト用"]],["【A4-08】空気交換効率εᵃの定義式は？",["空気分野","テスト用"]],["【A4-09】完全混合の室平均空気齢と空気交換効率は？",["空気分野","テスト用"]],["【A4-10】ピストンフローの室平均空気齢と空気交換効率は？",["空気分野","テスト用"]],["【A4-11】ショートサーキットとは？",["空気分野","テスト用"]],["【A4-12】V＝100m³、Q＝200m³/h、τ_P＝0.25hの局所空気交換指数は？",["空気分野","テスト用"]],["【A4-13】τ_n＝0.5h、室平均空気齢0.4hならεᵃは？",["空気分野","テスト用"]],["【A4-14】パルス法で局所平均空気齢を求める式は？",["空気分野","テスト用"]],["【A4-15】ステップアップ法の局所平均空気齢は？",["空気分野","テスト用"]],["【A4-16】ステップダウン法の局所平均空気齢は？",["空気分野","テスト用"]],["【A4-17】ステップ法で背景濃度がゼロでない場合の扱いは？",["空気分野","テスト用"]],["【A4-18】ステップアップ・ダウン法がパルス法より扱いやすい点は？",["空気分野","テスト用"]],["【A4-19】排気口のステップダウンから室平均空気齢を求める式は？",["空気分野","テスト用"]],["【A4-20】空気清浄度指数の式と前提は？",["空気分野","テスト用"]],["【A4-21】汚染質除去効率の式は？",["空気分野","テスト用"]],["【A4-22】空気清浄度指数と局所空気交換指数が同じ形でも異なる理由は？",["空気分野","テスト用"]],["【A4-23】ターンオーバー時間と汚染質除去効率の関係は？",["空気分野","テスト用"]],["【A4-24】置換換気で居住域の空気を良好にしやすい仕組みは？",["空気分野","テスト用"]],["【A4-25】換気効率の指標を選ぶとき最初に区別することは？",["空気分野","テスト用"]],["【A5-01】全圧・静圧・動圧の関係は？",["空気分野","テスト用"]],["【A5-02】動圧の式と単位は？",["空気分野","テスト用"]],["【A5-03】空気密度1.2kg/m³、速度10m/sの動圧は？",["空気分野","テスト用"]],["【A5-04】全圧100Pa、動圧60Paなら静圧は？",["空気分野","テスト用"]],["【A5-05】送風機全圧の定義は？",["空気分野","テスト用"]],["【A5-06】送風機静圧の定義は？",["空気分野","テスト用"]],["【A5-07】送風機のない実在ダクトで全圧はどう変化する？",["空気分野","テスト用"]],["【A5-08】理想流体のベルヌーイ関係で一定なのは？",["空気分野","テスト用"]],["【A5-09】大気圧基準の吸込みダクトで静圧はどうなりやすい？",["空気分野","テスト用"]],["【A5-10】良好なベルマウス入口で加速すると圧力は？",["空気分野","テスト用"]],["【A5-11】ダクト出口が大気開放のとき出口静圧と出口損失は？",["空気分野","テスト用"]],["【A5-12】ダクト圧力線図を描く手順は？",["空気分野","テスト用"]],["【A5-13】一定断面の直管で全圧と静圧の線の間隔は？",["空気分野","テスト用"]],["【A5-14】風量Qと平均速度Uと断面積Aの関係は？",["空気分野","テスト用"]],["【A5-15】5000m³/h、吐出し口0.1m²なら速度は？",["空気分野","テスト用"]],["【A5-16】Q＝5000m³/h、吐出し口0.1m²、ρ＝1.2kg/m³、送風機全圧750Paなら静圧は？",["空気分野","テスト用"]],["【A5-17】空気動力を風量Q[m³/s]と全圧で表すと？",["空気分野","テスト用"]],["【A5-18】送風機効率η_fと軸動力の関係は？",["空気分野","テスト用"]],["【A5-19】全圧1000Pa、6000m³/h、効率0.5なら軸動力は？",["空気分野","テスト用"]],["【A5-20】同じ送風機で回転数をk倍にすると風量・圧力・動力は？",["空気分野","テスト用"]],["【A5-21】同じ回転数で相似な羽根車径をk倍にすると？",["空気分野","テスト用"]],["【A5-22】同じ送風機2台の直列・並列運転の理想的効果は？",["空気分野","テスト用"]],["【A5-23】直管部の摩擦圧力損失の式は？",["空気分野","テスト用"]],["【A5-24】局部圧力損失の式は？",["空気分野","テスト用"]],["【A5-25】直管と曲がり等を含む経路の全損失は？",["空気分野","テスト用"]],["【A5-26】同じダクトで風量が2倍なら圧力損失は概ね何倍？",["空気分野","テスト用"]],["【A5-27】摩擦係数0.02、長さ10m、径0.2m、動圧60Paなら直管損失は？",["空気分野","テスト用"]],["【A5-28】送風機の動作点とは？",["空気分野","テスト用"]],["【A5-29】シロッコファンとターボファンの羽根の違いは？",["空気分野","テスト用"]],["【A5-30】等摩擦法とは？",["空気分野","テスト用"]],["【A5-31】等速法と静圧再取得法の違いは？",["空気分野","テスト用"]],["【A5-32】ダクトの急拡大・急縮小を避ける理由は？",["空気分野","テスト用"]],["【A6-01】居住域のスライド上の一般的な高さは？",["空気分野","テスト用"]],["【A6-02】ドラフトとは？",["空気分野","テスト用"]],["【A6-03】DRを大きくする3つの条件は？",["空気分野","テスト用"]],["【A6-04】スライドの有効ドラフト温度EDTの式は？",["空気分野","テスト用"]],["【A6-05】スライドのEDTによる快適範囲は？",["空気分野","テスト用"]],["【A6-06】ADPIとは？",["空気分野","テスト用"]],["【A6-07】コールドドラフトが窓周りで起こる理由は？",["空気分野","テスト用"]],["【A6-08】コールドドラフトの代表的な対策は？",["空気分野","テスト用"]],["【A6-09】軸対称噴流・平面噴流・放射状噴流の代表的吹出しは？",["空気分野","テスト用"]],["【A6-10】噴流の第1域は？",["空気分野","テスト用"]],["【A6-11】噴流の第2域は？",["空気分野","テスト用"]],["【A6-12】噴流の第3域は？",["空気分野","テスト用"]],["【A6-13】噴流の第4域は？",["空気分野","テスト用"]],["【A6-14】第3域の軸対称噴流の中心速度の式は？",["空気分野","テスト用"]],["【A6-15】吹出しV₀＝5m/s、K＝4、D₀＝0.1m、X＝4mならV_xは？",["空気分野","テスト用"]],["【A6-16】噴流の到達距離とは？",["空気分野","テスト用"]],["【A6-17】第3域の式から到達距離X_tを求めると？",["空気分野","テスト用"]],["【A6-18】K＝4、D₀＝0.1、V₀＝5、V_t＝0.25の到達距離は？",["空気分野","テスト用"]],["【A6-19】壁面噴流の到達距離は自由噴流と比べてどうなるか？",["空気分野","テスト用"]],["【A6-20】アネモ型吹出し口の特徴は？",["空気分野","テスト用"]],["【A6-21】アネモ型の冷房・暖房時の中コーン位置と方向は？",["空気分野","テスト用"]],["【A6-22】パン型とアネモ型の違いは？",["空気分野","テスト用"]],["【A6-23】ノズル型が適する空間は？",["空気分野","テスト用"]],["【A6-24】パンカルーバの特徴と注意点は？",["空気分野","テスト用"]],["【A6-25】グリルとレジスタの区別は？",["空気分野","テスト用"]],["【A6-26】スロット型の特徴と注意点は？",["空気分野","テスト用"]],["【A6-27】天井からの水平吹出しを暖房に使うときの注意点は？",["空気分野","テスト用"]],["【A6-28】側壁上部の冷風吹出しで速度が弱すぎると？",["空気分野","テスト用"]],["【A6-29】天井からの下向き暖房で気流が床に届かないと？",["空気分野","テスト用"]],["【A6-30】タスク・アンビエント空調の考え方は？",["空気分野","テスト用"]],["【A6-31】CFDで室内気流を予測するときに必要な基本設定は？",["空気分野","テスト用"]],["【空気】開放型・半密閉型・密閉型の給気元と排気先は？",["空気分野","テスト用"]],["【空気】空気交換効率 εᵃ の定義式は？",["空気分野","テスト用"]],["【空気】全圧・静圧・動圧の関係と、動圧の式は？",["空気分野","テスト用"]],["【熱】内ブラインドより外ブラインドが日射遮蔽に有利な理由は？",["熱分野","テスト用"]],["【熱】窓1面＋換気の定常熱負荷を、冷房側を正として表せ。",["熱分野","テスト用"]]]);
@@ -203,7 +351,7 @@ function initial(){return {version:4,folders:[defaultFolder()],settings:{schedul
 ['available','形）利用できる、入手できる','形）手が空いている、都合がつく','類）obtainable：入手可能な\n派）availability：利用可能性\n対）unavailable：利用できない','The meeting room is available at two.','その会議室は2時に利用できます。','🚪 予定表の2時の欄が空いている会議室。'],
 ['issue','名）問題、課題','名）発行物、号\n動）発行する、支給する','類）problem：問題\n派）issuance：発行\n関連）resolve an issue：問題を解決する','We need to resolve this issue today.','私たちは今日この問題を解決する必要があります。','🧩 チームが会議で問題の解決策を話し合っている。'],
 ['purchase','動）購入する','名）購入、購入品','類）buy：買う\n派）purchaser：購入者\n対）sell：売る','You can purchase tickets online.','オンラインでチケットを購入できます。','🎟️ スマートフォンでチケットを購入している。']
-].map(fields=>card(fields)),session:{date:today(),queue:[],done:0,doneByFolder:{},reviewCounts:{}}}}
+].map(fields=>{fields[3]=annotateRelatedWords(fields[3]);return card(fields)}),session:{date:today(),queue:[],done:0,doneByFolder:{},reviewCounts:{}}}}
 function validDate(v){if(typeof v!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(v))return false;const d=new Date(v+'T12:00:00');return !isNaN(d)&&dateKey(d)===v}
 function validateStringSet(value,label){
  if(value===undefined)return [];
@@ -288,6 +436,8 @@ function validate(raw){
  if(!folderIds.has(DEFAULT_FOLDER))normalizedFolders.unshift(defaultFolder());
  const live=new Set(normalizedFolders.filter(f=>!f.deleted).map(f=>f.id)),ids=new Set();
  const cards=raw.cards.map(c=>{if(!c||typeof c.id!=='string'||!c.id||ids.has(c.id)||!Array.isArray(c.fields)||c.fields.length!==7||c.fields.some(f=>typeof f!=='string')||!c.fields[0].trim()||!c.fields[1].trim()||!Number.isInteger(c.stage)||c.stage<0||c.stage>6||!validDate(c.due))throw Error('カードの項目・ID・復習予定が不正です。');ids.add(c.id);return {id:c.id,folderId:live.has(c.folderId)?c.folderId:DEFAULT_FOLDER,tags:validateTags(c.tags),tagPresets:validateStringSet(c.tagPresets,'タグ分類の適用履歴'),sharedFolderIds:validateStringSet(c.sharedFolderIds,'共有フォルダ').filter(id=>live.has(id)&&id!==c.folderId),mergedIds:validateStringSet(c.mergedIds,'統合元ID').filter(id=>id!==c.id),fields:[...c.fields],stage:c.stage,due:c.due,memory:validateMemory(c)}});
+ const vocabulary=new Set(normalizedFolders.filter(f=>f.kind==='vocabulary').map(f=>f.id));
+ for(const c of cards)if(vocabulary.has(c.folderId))c.fields[3]=annotateRelatedWords(c.fields[3]);
  const q=raw.session;if(!validDate(q.date)||!Array.isArray(q.queue)||!Number.isSafeInteger(q.done)||q.done<0)throw Error('学習キューが不正です。');
  for(const c of cards)for(const id of c.mergedIds)ids.add(id);
  const qids=new Set(),queue=q.queue.map(v=>{if(!v||!ids.has(v.id)||qids.has(v.id)||typeof v.retry!=='boolean')throw Error('学習キューのカードが不正です。');qids.add(v.id);return {id:v.id,retry:v.retry}});
@@ -383,7 +533,7 @@ function selectedCards(){return state.cards.filter(c=>(activeFolder===ALL_FOLDER
 function studyItem(){const ids=new Set(selectedCards().map(c=>c.id));return state.session.queue.find(q=>ids.has(q.id))}
 function folderOptions(select,value,all=false){const actual=(all&&value===ALL_FOLDERS)||liveFolders().some(f=>f.id===value)?value:DEFAULT_FOLDER,signature=JSON.stringify([all,liveFolders().map(f=>[f.id,f.name])]);if(select.dataset.folderSignature!==signature){select.replaceChildren();if(all){const option=el('option','','すべてのフォルダ');option.value=ALL_FOLDERS;select.append(option)}for(const f of liveFolders()){const option=el('option','',f.name);option.value=f.id;select.append(option)}select.dataset.folderSignature=signature}select.value=actual}
 function selectFolder(id){activeFolder=id===ALL_FOLDERS||liveFolders().some(f=>f.id===id)?id:DEFAULT_FOLDER;try{localStorage.setItem(FOLDER_VIEW_KEY,activeFolder)}catch(e){}$('csvFolder').value=activeFolder===ALL_FOLDERS?DEFAULT_FOLDER:activeFolder;revealed=false;render()}
-function updateCsvLabels(){const id=$('csvFolder').value;$('csvColumnOrder').textContent=labelsFor(id).join(',');$('csvColumns').textContent=`「${folderInfo(id).name}」へ追加します。表面と①は必須です。`;$('csv').placeholder=folderInfo(id).kind==='general'?'フランス革命が始まった年は？,1789年,,関連：人権宣言,,,🏰 民衆が牢獄の前に集まっている。':'submit,動）提出する,動）従う,submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'}
+function updateCsvLabels(){const id=$('csvFolder').value;$('csvColumnOrder').textContent=labelsFor(id).join(',');$('csvColumns').textContent=`「${folderInfo(id).name}」へ追加します。表面と①は必須です。`;$('csv').placeholder=folderInfo(id).kind==='general'?'フランス革命が始まった年は？,1789年,,関連：人権宣言,,,🏰 民衆が牢獄の前に集まっている。':'submit,動）提出する,動）従う,派）名）submission：提出,Please submit the report.,報告書を提出してください。,📄 書類を提出する。'}
 function renderFolders(){
  if(activeFolder!==ALL_FOLDERS&&!liveFolders().some(f=>f.id===activeFolder))activeFolder=DEFAULT_FOLDER;
  folderOptions($('folderSelect'),activeFolder,true);$('sidebarAdd').textContent=activeFolder!==ALL_FOLDERS&&folderInfo(activeFolder).kind==='general'?'＋ カードを登録':'＋ 単語を登録';$('search').placeholder=activeFolder!==ALL_FOLDERS&&folderInfo(activeFolder).kind==='general'?'例：フランス革命 ／ 1789':'例：submit ／ 提出';
@@ -396,7 +546,7 @@ function renderFolders(){
  if(editing&&!state.cards.some(c=>c.id===editing)){const shared=state.cards.find(c=>c.mergedIds.includes(editing));if(shared)editing=shared.id;else{editing=null;$('editor').hidden=true}}
  if(!$('editor').hidden){folderOptions($('cardFolder'),$('cardFolder').value||DEFAULT_FOLDER);updateEditorLabels()}
 }
-function updateEditorLabels(){const current=labelsFor($('cardFolder').value);current.forEach((name,i)=>document.querySelector(`label[for="f${i}"]`).textContent=name+(i<2?'（必須）':''))}
+function updateEditorLabels(){const current=labelsFor($('cardFolder').value);current.forEach((name,i)=>document.querySelector(`label[for="f${i}"]`).textContent=name+(i<2?'（必須）':''));const vocabulary=folderInfo($('cardFolder').value).kind==='vocabulary';$('relatedPosHelp').hidden=!vocabulary;$('f3').placeholder=vocabulary?'派）名）submission：提出\n類）動）buy：買う\n類）形）obtainable：入手可能な':''}
 $('folderSelect').onchange=e=>{selectFolder(e.target.value);$('csvFolder').value=activeFolder===ALL_FOLDERS?DEFAULT_FOLDER:activeFolder;updateCsvLabels()};
 $('manageFolders').onclick=()=>{tab('data');$('folderPanel').scrollIntoView({block:'start'})};
 $('folderForm').onsubmit=e=>{e.preventDefault();const name=$('folderName').value.trim();if(!name||name.length>60)return;const folder={id:uid(),name,kind:$('folderKind').value,deleted:false};state.folders.push(folder);activeFolder=folder.id;persist();$('folderForm').reset();selectFolder(folder.id);toast('フォルダを作成しました。')};
@@ -415,6 +565,7 @@ $('schedulerMode').onchange=e=>{state.settings.scheduler=e.target.value;revealed
 function tab(name){activeTab=name;document.body.dataset.view=name;$('workspace').scrollTop=0;window.scrollTo({top:0,behavior:'instant'});document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tab===name)));['study','cards','data'].forEach(id=>$(id).hidden=id!==name);render()}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
 labels.forEach((label,i)=>{const l=el('label','',label+(i<2?'（必須）':''));l.htmlFor='f'+i;const f=el(i===0?'input':'textarea');f.id='f'+i;f.name='f'+i;f.required=i<2;if(i>0)f.rows=2;if(i===6)f.placeholder='絵文字＋情景の一文、または画像のURL';$('formFields').append(l,f)});
+const relatedPosHelp=el('p','muted','品詞は関係の後に付けます（例：派）名）submission：提出）。名・動・形・副・前・接・代を使えます。熟語・フレーズには品詞を付けません。配布済み英語カードの確認済みの単語には自動で補います。それ以外は品詞も入力してください。');relatedPosHelp.id='relatedPosHelp';$('f3').setAttribute('aria-describedby','relatedPosHelp');$('f3').after(relatedPosHelp);
 const imageTools=el('div','card-image-tools');imageTools.id='cardImageTools';imageTools.innerHTML='<input id="cardImageFile" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/bmp" hidden><div class="actions"><button type="button" id="chooseCardImage">画像を選ぶ</button><button type="button" id="pasteCardImage">画像を貼り付け</button></div><p class="muted">写真・スクリーンショットを選び、使いたい範囲を切り抜けます。画像のドラッグ＆ドロップにも対応します。</p><img id="cardImagePreview" alt="カードに追加する画像のプレビュー" hidden><div class="actions"><button type="button" id="recropCardImage" disabled>切り抜きを調整</button><button type="button" id="removeCardImage" hidden>画像を外す</button></div><p id="cardImageStatus" role="status"></p><p class="muted">「保存する」でカードに反映します。画像は軽量化して端末内に保存し、ログイン中はほかの端末にも同期します。</p>';$('formFields').append(imageTools);
 let imageLoadSerial=0,editorImageEpoch=0,imageDraft=null,imageCrop=null,imageDrag=null,imageEditorSaving=false;
 function resetImageEditor(){editorImageEpoch++;imageLoadSerial++;if(imageCrop?.bitmap&&imageCrop.bitmap!==imageDraft?.bitmap)imageCrop.bitmap.close?.();if(imageDraft?.bitmap)imageDraft.bitmap.close?.();imageDraft=null;imageCrop=null;imageDrag=null;if($('imageCropDialog').open)$('imageCropDialog').close();$('cardImageFile').value='';$('cardImageStatus').textContent=''}
@@ -600,7 +751,7 @@ async function readCloud(preferCached=false){
   if(!rows.length)return null;
   if(!Number.isSafeInteger(rows[0].revision)||rows[0].revision<1)throw Error('クラウドの版番号が不正です。');
   const epoch=cloudEpoch,owner=cloudLocalKey(cloudAuth.user.id),payload=await importCardImages(rows[0].payload,owner);if(epoch!==cloudEpoch)throw Error('接続状態が変更されました。');
-  return {revision:rows[0].revision,needsUpgrade:rows[0].payload?.version!==4||studyTagPresetPending(rows[0].payload),payload:readStoredState(JSON.stringify(payload),owner)};
+  return {revision:rows[0].revision,needsUpgrade:rows[0].payload?.version!==4||studyTagPresetPending(rows[0].payload)||relatedWordPosPending(rows[0].payload),payload:readStoredState(JSON.stringify(payload),owner)};
 }
 async function writeCloud(revision,snapshot){
   const epoch=cloudEpoch,owner=imageOwner(),payload=await exportCardImages(JSON.parse(snapshot),owner);if(epoch!==cloudEpoch||owner!==imageOwner())throw Error('接続状態が変更されました。');
