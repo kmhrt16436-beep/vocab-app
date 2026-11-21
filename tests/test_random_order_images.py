@@ -30,19 +30,24 @@ with sync_playwright() as pw:
  p.evaluate("()=>{while(studyItem()&&!studyItem().retry){revealed=true;grade(true)}}");assert p.evaluate('state.session.queue.length')==3
  p.evaluate("()=>{while(studyItem()){revealed=true;grade(false)}}");assert p.evaluate('state.session.queue.length')==0;assert p.evaluate("state.cards.find(c=>c.id===failedID).due===after(1)")
  print('PASS: failures return once at the end and stay scheduled for tomorrow; no duplicate retry loops')
- # A card with an actual image: meanings stay visible, extra details can expand, and the image gets space.
+ # A card with an actual image: meanings stay visible, all answer fields stay expanded, and the image gets space.
  p.evaluate("""()=>{state=initial();const c=card(['submit','動）提出する','動）従う、服従する','類）hand in：提出する','Please submit your report by Friday.','金曜日までに報告書を提出してください。','https://kmhrt16436-beep.github.io/vocab-app/toeic-001.png']);state.cards=[c];state.session.queue=[{id:c.id,retry:false}];activeFolder='*';activeTag='';revealed=true;tab('study')}""")
  for width,height in [(390,744),(360,640),(1366,768),(844,390)]:
-  p.set_viewport_size({'width':width,'height':height});p.evaluate('revealed=true;renderStudy(true)');p.wait_for_function("document.querySelector('.illustration')?.naturalWidth>0")
+  p.set_viewport_size({'width':width,'height':height});p.evaluate('revealed=true;renderStudy()');p.wait_for_function("document.querySelector('.illustration')?.naturalWidth>0")
   box=p.evaluate("""()=>{const image=document.querySelector('.illustration'),r=image.getBoundingClientRect(),g=document.querySelector('.grade').getBoundingClientRect(),nav=document.querySelector('nav').getBoundingClientRect(),a=document.querySelector('.answer-layout').getBoundingClientRect();return {paint:Math.min(r.width/image.naturalWidth,r.height/image.naturalHeight)*image.naturalHeight,areaHeight:a.height,grade:g.bottom,limit:innerWidth<900?nav.top:innerHeight,overflow:document.documentElement.scrollWidth>innerWidth}}""")
   assert not box['overflow'] and box['grade']<=box['limit']+1,box
-  if width==390:assert box['paint']>=260,box
-  if width==360:assert box['paint']>=185,box
+  if width==390:assert box['paint']>=200,box
+  if width==360:assert box['paint']>=145,box
   if width==1366:assert box['paint']>=460,box
   p.screenshot(path=str(Path(tempfile.gettempdir())/f'flash-cards-large-{width}.png'))
   assert p.get_by_text('動）提出する',exact=True).is_visible() and p.get_by_text('動）従う、服従する',exact=True).is_visible()
-  if width<900:
-   assert not p.locator('.answer-extra').evaluate('(e)=>e.open');assert not p.get_by_text('Please submit your report by Friday.',exact=True).is_visible();p.locator('.answer-extra summary').click();assert p.get_by_text('Please submit your report by Friday.',exact=True).is_visible();p.evaluate('applySyncedState(normalizedSync(state))');assert p.locator('.answer-extra').evaluate('(e)=>e.open')
+  assert p.locator('.answer-extra').count()==0
+  for text in ['類）hand in：提出する','Please submit your report by Friday.','金曜日までに報告書を提出してください。']:assert p.get_by_text(text,exact=True).is_visible()
+  assert p.locator('.answer-text>.field').count()==5
+  aligned=p.locator('.answer-text>.field').evaluate_all('(fields)=>fields.map(f=>f.getBoundingClientRect().x)');assert max(aligned)-min(aligned)<1
+  if height>640 and width<900 or width==360:
+   assert p.locator('.answer-text').evaluate('(e)=>e.scrollHeight<=e.clientHeight+2'),'The example should fit without disclosure or inner scrolling'
+  p.evaluate('applySyncedState(normalizedSync(state))');assert p.get_by_text('Please submit your report by Friday.',exact=True).is_visible()
   important=p.locator('.important').evaluate('(e)=>({size:parseFloat(getComputedStyle(e).fontSize),color:getComputedStyle(e).color})');normal=p.locator('.answer-text>.field .value:not(.important)').first.evaluate('(e)=>parseFloat(getComputedStyle(e).fontSize)');assert abs(important['size']/normal-1.5)<.05 and important['color']=='rgb(189, 41, 41)'
- print('PASS: larger pictures at mobile/desktop sizes, meanings stay visible, details expand and stay open through sync, grading controls fit, important meaning remains red and 1.5×')
+ print('PASS: larger pictures at mobile/desktop sizes, meanings stay visible, examples/translation are always visible and aligned through sync, grading controls fit, important meaning remains red and 1.5×')
  assert not errors,errors;b.close()
