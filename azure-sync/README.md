@@ -2,6 +2,20 @@
 
 現行のSupabaseメールログインを継続し、カード・画像・学習進捗の保存先をAzureへ移すためのAPIです。公開アプリの `AZURE_STORAGE_CONFIG.enabled` は **false** のままです。配置や検証前に保存先は切り替わりません。
 
+## 配置ZIPの権限修正
+
+旧配置スクリプトは秘密情報用の `umask 077` をコードのZIPにも引き継ぎ、Flex Consumptionで必要な読み取り権限を満たしていませんでした。`package.py` は送信対象の公開コードだけを644、フォルダを755としてZIPへ格納します。接続キーを含む一時ファイルの600は維持し、ZIPに含めません。
+
+すでに `flashcards-api-97c87b4b3a` を作成済みの場合は、修正版コミットの `redeploy.sh` をCloud Shellで実行すると、既存リソースと接続設定を使ってコードだけを再配置できます。キーの再入力・リソースの新規作成・データの削除・公開アプリの保存先変更は行いません。
+
+```bash
+export FLASH_SOURCE_REF=COMMIT_SHA
+curl -fsSL "https://raw.githubusercontent.com/kmhrt16436-beep/vocab-app/$FLASH_SOURCE_REF/azure-sync/redeploy.sh" -o redeploy-azure.sh
+bash redeploy-azure.sh
+```
+
+ホスト名はAzure Resource Managerの `properties.defaultHostName` から取得します。CLIの配置処理が終わっただけでは成功とせず、`check-health.py` がAPIのHTTP 200・`ready: true`・サービス名を確認します。503が続く場合は失敗として停止します。
+
 ## 今あるリソース
 
 - サブスクリプション：Azure for Students
@@ -37,7 +51,7 @@ FLASH_SOURCE_REF=COMMIT_SHA bash deploy-azure.sh
 3. `Supabase Publishable key` を聞かれたら、アプリで使っている**公開キー**を貼り付けてEnterを押します。入力は画面に表示されません。`sb_secret_...` や `service_role` キーは使用しません。
 4. スクリプトは既存のFree Tierとコンテナーを確認し、Japan EastでFlex Consumptionが利用可能か確認します。利用できなければ停止します。EUAPや有料の別プランへ自動変更しません。
 5. 非公開Standard LRSストレージとFunctionsを作り、接続情報をサーバーのアプリ設定へ登録し、固定コミットからコードを配置します。名前はサブスクリプションIDのハッシュから決め、再実行してもリソースが増えないようにします。Application Insightsは作りません。Always Readyは設定しません。
-6. 最後に出る `https://...azurewebsites.net/api/health` を開きます。`ready: true` はAPIからBlob/Cosmosへ接続できたことを示します。メール認証・ユーザーデータの移行・端末間同期が成功したことまでは示しません。
+6. 最後に `https://...azurewebsites.net/api/health` への接続確認が実行されます。`ready: true` はAPIからBlob/Cosmosへ接続できたことを示します。メール認証・ユーザーデータの移行・端末間同期が成功したことまでは示しません。
 
 Azure認証情報をChatGPTへ貼り付ける必要はありません。スクリプトがAzure CLI経由で取得し、保護された一時ファイルからサーバー設定へ登録します。一時ファイルは終了時に削除します。
 

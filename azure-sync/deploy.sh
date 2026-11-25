@@ -70,7 +70,7 @@ try:
 except Exception: raise SystemExit('The public key could not be verified for the current Supabase project.')
 PY
 mkdir -p "$TASK_DIR/source/azure-sync/src"
-for file in host.json package.json package-lock.json src/functions.js src/service.js src/store.js; do
+for file in host.json package.json package-lock.json package.py check-health.py src/functions.js src/service.js src/store.js; do
   curl -fsSL --retry 2 --max-time 45 "https://raw.githubusercontent.com/kmhrt16436-beep/vocab-app/$SOURCE_REF/azure-sync/$file" -o "$TASK_DIR/source/azure-sync/$file"
 done
 if ! az storage account show -g "$RESOURCE_GROUP" -n "$STORAGE_NAME" --output none 2>/dev/null; then
@@ -101,16 +101,8 @@ with open(sys.argv[1],'w') as f: json.dump(settings,f)
 PY
 az functionapp config appsettings set -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --settings "@$TASK_DIR/settings.json" --output none
 unset COSMOS_KEY PUBLIC_KEY STORAGE_CONNECTION
-python3 - "$TASK_DIR/source/azure-sync" "$TASK_DIR/deploy.zip" <<'PY'
-from pathlib import Path
-from zipfile import ZipFile,ZIP_DEFLATED
-import sys
-root=Path(sys.argv[1])
-files=['host.json','package.json','package-lock.json']+[str(p.relative_to(root)) for p in (root/'src').glob('*.js')]
-with ZipFile(sys.argv[2],'w',ZIP_DEFLATED) as z:
-    for name in files: z.write(root/name,name)
-PY
+python3 "$TASK_DIR/source/azure-sync/package.py" "$TASK_DIR/source/azure-sync" "$TASK_DIR/deploy.zip"
 az functionapp deployment source config-zip -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --src "$TASK_DIR/deploy.zip" --build-remote true --output none
-HOSTNAME=$(az functionapp show -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --query defaultHostName -o tsv)
-printf '\nDeployment finished. Open this URL and share the result:\nhttps://%s/api/health\n' "$HOSTNAME"
+HOSTNAME=$(az resource show -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --resource-type Microsoft.Web/sites --query properties.defaultHostName -o tsv)
+python3 "$TASK_DIR/source/azure-sync/check-health.py" "$HOSTNAME"
 printf '\nThe live app has NOT switched storage yet. Keep Supabase running.\n'

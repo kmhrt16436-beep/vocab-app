@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "main": "src/functions.js",
-  "engines": {"node": ">=22"},
-  "scripts": {"test": "node test/sync.test.js", "start": "func start"},
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/sync.test.js && python3 test/test_package.py",
+    "start": "func start"
+  },
   "dependencies": {
     "@azure/cosmos": "^4.3.0",
     "@azure/functions": "^4.7.0",
