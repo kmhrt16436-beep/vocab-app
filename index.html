@@ -818,10 +818,12 @@ const CONFIG_KEY=KEY+':cloud-config', AUTH_KEY=KEY+':cloud-auth';
 let cloudConfig=null, cloudAuth=null, cloudReady=false, cloudRevision=0, cloudBase='', cloudTimer;
 let cloudBusy=false, cloudEpoch=0, cloudRefresh=null, cloudRequestBusy=false;
 let activeStorageKey=KEY, pendingCloudLink=null;
+const CLOUD_SAVE_DELAY=10000,CLOUD_POLL_INTERVAL=60000;
+function scheduleCloudSave(){if(cloudTimer)return;cloudTimer=setTimeout(()=>{cloudTimer=null;syncCloud()},CLOUD_SAVE_DELAY)}
 persist=function(){
   if(storageBlocked)return;
   try{localStorage.setItem(activeStorageKey,JSON.stringify(state))}catch(e){$('storageNotice').hidden=false;$('storageNotice').textContent='端末へ保存できません。閉じる前にJSONをエクスポートしてください。'}
-  if(cloudReady){rememberCloud();if(!cloudBase||syncString(state)!==cloudBase)cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+  if(cloudReady){rememberCloud();if(!cloudBase||syncString(state)!==cloudBase){cloudMessage('未同期の変更を自動保存しています。');scheduleCloudSave()}}
   queueMicrotask(refreshStudyIllustrations);
 };
 function cloudLocalKey(id){return KEY+':account:'+id}
@@ -1026,7 +1028,7 @@ function guestForSync(input,remoteExists){
 }
 async function syncCloud(force=false){
   if(!cloudAuth?.user?.id||!cloudReady||cloudBusy||(cloudRequestBusy&&!force))return;
-  cloudBusy=true;const epoch=cloudEpoch;
+  clearTimeout(cloudTimer);cloudTimer=null;cloudBusy=true;const epoch=cloudEpoch;
   try{
     for(let attempt=0;attempt<4;attempt++){
       const remote=await readCloud(!force);if(epoch!==cloudEpoch)return;
@@ -1040,11 +1042,11 @@ async function syncCloud(force=false){
       // 保存中に追加・判定した内容も、保存済みの結果と合わせて次の送信に残す。
       const next=JSON.stringify(state)===before?candidate:mergeStudyData(state,candidate,JSON.parse(before));
       cloudRevision=revision;cloudBase=snapshot;applySyncedState(next);rememberCloud();
-      if(syncString(state)!==cloudBase){cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),1000)}
+      if(syncString(state)!==cloudBase){cloudMessage('未同期の変更を自動保存しています。');clearTimeout(cloudTimer);cloudTimer=null;scheduleCloudSave()}
       else cloudMessage('同期済み：'+new Date().toLocaleTimeString('ja-JP'));
       return;
     }
-    cloudMessage('未同期：別の端末の更新と調整しています。自動で再試行します。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>syncCloud(),2000);
+    cloudMessage('未同期：別の端末の更新と調整しています。自動で再試行します。');clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>{cloudTimer=null;syncCloud()},CLOUD_SAVE_DELAY);
   }catch(e){if(epoch===cloudEpoch)cloudMessage('未同期：'+e.message+' 変更は端末に保存しています。接続が戻ると再試行します。')}
   finally{cloudBusy=false}
 }
@@ -1204,8 +1206,8 @@ async function initCloud(){
 }
 window.addEventListener('hashchange',()=>{const h=new URLSearchParams(location.hash.slice(1));if(h.has('access_token')||h.has('error_description'))initCloud()});
 window.addEventListener('online',()=>{if(pendingCloudLink&&!cloudAuth?.user?.id)initCloud();else syncCloud();refreshStudyIllustrations()});
-setInterval(()=>{if(!document.hidden)syncCloud()},20000);
-document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncCloud()});
+setInterval(()=>{if(!document.hidden)syncCloud()},CLOUD_POLL_INTERVAL);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden||(cloudReady&&(!cloudBase||syncString(state)!==cloudBase)))syncCloud()});
 initCloud().then(installRequestedToeic9Pack);
 refreshStudyIllustrations();
 
