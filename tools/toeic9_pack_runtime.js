@@ -35,6 +35,7 @@ function combineToeic9Pack(input,pack,targetFolder){
  return {state:validate(next),added,updated,kept};
 }
 async function installRequestedToeic9Pack(){
+ if(new URLSearchParams(location.search).get('organize')==='shinsoku-listening')return organizeShinsokuListening();
  if(new URLSearchParams(location.search).get('pack')!=='toeic9-part7'||requestedPackBusy)return;
  tab('data');
  if(storageBlocked){packPanelMessage('保存データを読み込めていないため追加を停止しました。元のデータを復元してから再度開いてください。',true);return}
@@ -59,3 +60,30 @@ async function installRequestedToeic9Pack(){
 $('toeic9PackStudy').onclick=()=>tab('study');
 $('toeic9PackBackup').onclick=async()=>{const value=localStorage.getItem(activeStorageKey+':before-pack:'+TOEIC9_PACK_ID);if(!value){packPanelMessage('この端末には追加前のバックアップがありません。',true);return}try{const payload=await exportCardImages(JSON.parse(value),activeStorageKey),blob=new Blob([JSON.stringify(payload)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='before-toeic9-part7.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(e){packPanelMessage('バックアップを保存できません：'+e.message,true)}};
 window.addEventListener('online',installRequestedToeic9Pack);
+
+let shinsokuBusy=false;
+function classifyShinsokuListening(input){
+ const next=JSON.parse(JSON.stringify(input)),vocabulary=new Set(next.folders.filter(f=>!f.deleted&&f.kind==='vocabulary').map(f=>f.id));let total=0,added=0;
+ for(const c of next.cards){
+  const official=c.tags.includes(TOEIC9_PACK_TAG)||c.tagPresets.includes(TOEIC9_PACK_ID)||[c.id,...c.mergedIds].some(id=>/^toeic9-part7-\d{3}$/.test(id))||/^https:\/\/kmhrt16436-beep\.github\.io\/vocab-app\/study\/english\/toeic9-part7\/images\//.test(c.fields[6]);
+  if(!vocabulary.has(c.folderId)||!belongsToFolder(c,DEFAULT_FOLDER)||official)continue;
+  total++;if(!c.tags.includes('神速リスニング')){c.tags=validateTags([...c.tags,'神速リスニング']);added++}
+ }
+ return {state:next,total,added};
+}
+async function organizeShinsokuListening(){
+ if(new URLSearchParams(location.search).get('organize')!=='shinsoku-listening'||shinsokuBusy)return;
+ const panel=$('shinsokuPanel'),status=$('shinsokuStatus');panel.hidden=false;tab('data');
+ if(storageBlocked){status.textContent='元の保存データを読み込めていないため、タグ付けを停止しました。';return}
+ if(localStorage.getItem(AUTH_KEY)&&(!cloudAuth?.user?.id||!cloudReady||!cloudBase)){status.textContent='ログインと同期が完了するとタグを付けます。接続状態を確認してください。';return}
+ if(cloudBusy){setTimeout(organizeShinsokuListening,1200);return}
+ shinsokuBusy=true;
+ try{
+  const result=classifyShinsokuListening(state);localStorage.setItem(activeStorageKey,JSON.stringify(result.state));state=result.state;activeFolder=DEFAULT_FOLDER;activeTag='神速リスニング';localStorage.setItem(FOLDER_VIEW_KEY,activeFolder);localStorage.setItem(TAG_VIEW_KEY,activeTag);revealed=false;persist();render();
+  const url=new URL(location.href);url.searchParams.delete('organize');history.replaceState(null,'',url.pathname+url.search+url.hash);
+  status.textContent=`英語フォルダの対象${result.total}枚を「神速リスニング」にまとめました（新たにタグを追加${result.added}枚）。「公式問題集9」と他の教科、既存タグ、画像、復習履歴はそのままです。`;
+  $('shinsokuStudy').hidden=result.total===0;if(cloudReady)await syncCloud();
+ }catch(e){status.textContent='タグを付けられませんでした：'+e.message+' 接続後に整理用リンクを開き直してください。'}
+ finally{shinsokuBusy=false}
+}
+$('shinsokuStudy').onclick=()=>tab('study');

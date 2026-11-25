@@ -17,5 +17,8 @@ anchor="cloudMessage('自動同期を開始しています。');await syncCloud(
 if anchor+'await installRequestedToeic9Pack();' not in s:
     assert s.count(anchor)==1;s=s.replace(anchor,anchor+'await installRequestedToeic9Pack();',1)
 assert 'id="toeic9PackPanel"' in s
+if 'id="shinsokuPanel"' not in s:
+    html='<div id="shinsokuPanel" class="panel" hidden><h2>神速リスニングのタグ付け</h2><p>英語フォルダの「公式問題集9」以外のカードをまとめます。</p><p id="shinsokuStatus" role="status"></p><button id="shinsokuStudy" class="primary" hidden>「神速リスニング」を学習する</button></div>'
+    s=s.replace('<section id="data" hidden>','<section id="data" hidden>'+html,1)
 p.write_text(s)
 print('Installed explicit-link importer. Normal page loads do not import or retag anything.')
