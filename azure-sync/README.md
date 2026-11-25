@@ -107,3 +107,13 @@ npm test
 `test/sync.test.js` は偽ストレージを使って認証・別アカウント分離・条件付き更新・大きい画像の保存・チェックサム・移行競合・通信応答消失・古いJSONの整理を検証します。`tests/test_azure_sync.py` はPlaywrightでブラウザ側の保存先変更と画像、旧版番号の分離、削除のマージ、トークン更新、未同期の再送を確認します。実Azure環境での配置と実データの移行は、これらのローカル検証とは別に必要です。
 
 公式資料：[Flex Consumptionの配置](https://learn.microsoft.com/azure/azure-functions/flex-consumption-how-to)、[Cosmos Free Tier](https://learn.microsoft.com/azure/cosmos-db/free-tier)。
+
+## ブラウザで本人のデータを照合する
+
+[Azure移行確認ページ](https://kmhrt16436-beep.github.io/vocab-app/azure-migration.html)は、通常の単語帳と同じブラウザのログインを使います。公開キー・パスワード・トークンを貼り付ける画面ではありません。API・認証先はコード内の固定URLを使用します。
+
+PCとスマホを同期済みにし、最新JSONを保存してほかの単語帳タブを閉じてから、「ログインとデータを確認」を押します。本人のSupabaseデータとAzureのカード数・画像数・学習判定数・フォルダ・タグを表示し、カードの内容と直接追加画像のバイト列も照合します。初回のAPIアクセスでは、未移行アカウントの旧データがAzureへコピーされます。端末のカードを書き換える処理や、Supabaseの元データを削除する処理はありません。
+
+確認した端末のデータがSupabaseまたはAzureと一致する場合だけ、端末用の切り替えボタンが使えます。切り替えると既存の保存先記憶機能を使って、その端末だけがAzure同期を開始します。PCとスマホそれぞれで行い、カード・画像・進捗が実際に同期することを確認してください。公開 `index.html` の全員向けフラグはまだfalseのままです。
+
+`tests/test_azure_migration.py` は、画像バイトの一致・確認だけでは切り替わらないこと・元データを変更しないこと・未同期データの保護・トークン更新・ログイン変更・確認後の別タブによる編集を検証します。

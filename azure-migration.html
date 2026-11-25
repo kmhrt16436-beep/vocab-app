@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Azureへの移行確認 | flash cards</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f4ee;color:#203e36;font:16px/1.65 system-ui,sans-serif}main{max-width:800px;margin:auto;padding:24px 16px 48px}h1{font-size:26px;margin:0 0 16px}section{padding:20px;background:#fffefa;border:1px solid #d9e1d8;border-radius:16px;margin:16px 0}button,a.button{display:inline-block;min-height:48px;padding:12px 18px;border:0;border-radius:10px;font:inherit;background:#235d4d;color:#fff;text-decoration:none;cursor:pointer}button:disabled{opacity:.5;cursor:default}.muted{color:#65776d;font-size:14px}.error{color:#ad2525}#status{white-space:pre-wrap;overflow-wrap:anywhere}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:10px 5px;border-bottom:1px solid #ddd;text-align:right}th:first-child,td:first-child{text-align:left}#identity{overflow-wrap:anywhere}#comparison{font-weight:700}p{margin:10px 0}a{color:#235d4d}#switch{width:100%}[hidden]{display:none!important}
+</style>
+<main>
+<h1>Azureへの移行確認</h1>
+<p>今のメールログインを使って、カード・画像・学習進捗を確認します。</p>
+<section>
+<p><strong>先にPC・スマホの単語帳を「同期済み」にして、ほかの単語帳タブやアプリを閉じてください。</strong> 確認中はカードの編集・学習を止めてください。</p>
+<p class="muted">確認ボタンを押すと、Azureにまだデータがない場合だけ、本人のSupabaseデータをAzureへコピーします。元のデータと、この端末のカードは削除しません。移行後もSupabaseはメールログインに使用します。</p>
+<button id="check">ログインとデータを確認</button>
+<p id="status" role="status" aria-live="polite">単語帳を使っているのと同じChrome・同じブラウザのプロフィールで開いてください。</p>
+</section>
+<section id="result" hidden>
+<p id="identity"></p>
+<table><thead><tr><th>確認項目</th><th>この端末</th><th>Supabase</th><th>Azure</th></tr></thead><tbody id="summary"></tbody></table>
+<p id="comparison"></p>
+<p id="localStatus"></p>
+<p class="muted">「画像あり」は画像URL・直接追加した画像のあるカード数です。公開画像URLのリンク先の表示は、切り替え後のカード画面でも確認してください。</p>
+<p>内容を確認したら、この端末をAzureへ切り替えて単語帳を開けます。PCとスマホそれぞれで同じ操作が必要です。</p>
+<button id="switch" disabled>この端末をAzureへ切り替えて開く</button>
+</section>
+<p><a href="./index.html">通常の単語帳へ戻る</a></p>
+</main>
+<script>
+'use strict';
+const KEY='daily-words-v1',AUTH='https://glpnosfxkewlqzpqnsep.supabase.co',API='https://flashcards-api-97c87b4b3a.azurewebsites.net/api';
+const $=id=>document.getElementById(id);
+let session=null,config=null,checked=null;
+function identityGuard(){const saved=JSON.parse(localStorage.getItem(KEY+':cloud-auth')||'null'),c=JSON.parse(localStorage.getItem(KEY+':cloud-config')||'null');if(!saved?.user?.id||saved.user.id!==session?.user?.id||c?.url!==AUTH)throw Error('ログインまたは接続先が変わりました。ページを開き直してください。')}
+function readSession(){config=JSON.parse(localStorage.getItem(KEY+':cloud-config')||'null');session=JSON.parse(localStorage.getItem(KEY+':cloud-auth')||'null');if(config?.url!==AUTH||typeof config.key!=='string'||!session?.access_token||!session?.refresh_token||!session?.user?.id)throw Error('このブラウザの単語帳で先にログインしてください。キーやパスワードをここに入力する必要はありません。');identityGuard()}
+async function request(url,options={}){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),120000);try{return await fetch(url,{...options,signal:controller.signal,cache:'no-store'})}finally{clearTimeout(timer)}}
+async function refresh(){identityGuard();const response=await request(AUTH+'/auth/v1/token?grant_type=refresh_token',{method:'POST',headers:{apikey:config.key,'Content-Type':'application/json'},body:JSON.stringify({refresh_token:session.refresh_token})});if(!response.ok)throw Error('ログインの有効期限が切れています。通常の単語帳でメールからログインし直してください。');const data=await response.json();identityGuard();if(data?.user?.id!==session.user.id||!data.access_token||!data.refresh_token)throw Error('ログイン情報を確認できません。');session=data;localStorage.setItem(KEY+':cloud-auth',JSON.stringify(data))}
+async function authenticated(url,retry=true){identityGuard();const response=await request(url,{headers:{Authorization:'Bearer '+session.access_token,...(url.startsWith(AUTH+'/')?{apikey:config.key}:{})}});if(response.status===401&&retry){await refresh();return authenticated(url,false)}if(!response.ok){if(response.status===401)throw Error('ログイン情報を確認できません。通常の単語帳でログインし直してください。');throw Error('接続先がエラーを返しました（HTTP '+response.status+'）。保存先は切り替えていません。')}const data=await response.json();identityGuard();return data}
+function validPayload(value){return value&&Array.isArray(value.cards)&&value.cards.every(c=>c&&typeof c.id==='string'&&Array.isArray(c.fields)&&c.fields.length===7&&c.fields.every(f=>typeof f==='string'))}
+function stable(value){if(Array.isArray(value))return value.map(stable);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(key=>[key,stable(value[key])]));return value}
+const imageHashes=new Map();
+async function imageRef(value){if(!/^data:image\/(png|jpeg|webp);base64,/.test(value))return value;if(!imageHashes.has(value)){const binary=atob(value.slice(value.indexOf(',')+1)),bytes=Uint8Array.from(binary,c=>c.charCodeAt(0));imageHashes.set(value,'card-image:'+[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join(''))}return imageHashes.get(value)}
+async function fingerprint(value){if(!validPayload(value))return null;const cards=[];for(const card of value.cards){const fields=[...card.fields];fields[6]=await imageRef(fields[6]);cards.push({...card,fields,tags:[...(card.tags||[])].sort()})}cards.sort((a,b)=>a.id.localeCompare(b.id));const folders=[...(value.folders||[])].sort((a,b)=>a.id.localeCompare(b.id));return JSON.stringify(stable({cards,folders,settings:value.settings}))}
+function stats(value){if(!validPayload(value))return null;return [value.cards.length,value.cards.filter(c=>/^(https?:|card-image:|data:image\/)/i.test(c.fields[6])).length,value.cards.reduce((n,c)=>n+(Number(c.memory?.reviews)||0),0),(value.folders||[]).filter(f=>!f.deleted).length,new Set(value.cards.flatMap(c=>c.tags||[])).size]}
+function showSummary(local,legacy,azure){const values=[stats(local),stats(legacy),stats(azure)];$('summary').replaceChildren();['カード数','画像ありのカード','学習判定の合計','フォルダ数','タグの種類'].forEach((label,i)=>{const row=document.createElement('tr'),name=document.createElement('th');name.textContent=label;row.append(name);for(const value of values){const cell=document.createElement('td');cell.textContent=value?String(value[i]):'—';row.append(cell)}$('summary').append(row)})}
+$('check').onclick=async()=>{
+ $('check').disabled=true;$('switch').disabled=true;$('result').hidden=true;$('status').className='';checked=null;imageHashes.clear();
+ try{
+  readSession();$('status').textContent='ログインを確認しています…';const user=await authenticated(AUTH+'/auth/v1/user');if(user?.id!==session.user.id)throw Error('本人確認が一致しません。通常の単語帳でログインし直してください。');
+  const localKey=KEY+':account:'+user.id,localText=localStorage.getItem(localKey),local=localText?JSON.parse(localText):null;
+  $('status').textContent='Supabaseの保存データを確認しています…';const rows=await authenticated(AUTH+'/rest/v1/word_progress?select=payload&user_id=eq.'+encodeURIComponent(user.id));if(!Array.isArray(rows)||rows.length>1)throw Error('Supabaseの応答が不正です。');const legacy=rows[0]?.payload||null;if(legacy&&!validPayload(legacy))throw Error('Supabaseのデータ形式を確認できません。');
+  $('status').textContent='Azureのデータを確認しています。初回は画像を含むデータのコピーに時間がかかる場合があります…';const remote=await authenticated(API+'/state');if(!remote||!Number.isSafeInteger(remote.revision)||remote.revision<1||!validPayload(remote.payload))throw Error('Azureに保存データが見つかりません。通常の単語帳で同期済みになっているか確認してください。');
+  $('status').textContent='カード・画像・学習進捗を照合しています…';const [lf,sf,af]=await Promise.all([fingerprint(local),fingerprint(legacy),fingerprint(remote.payload)]);identityGuard();
+  if(localStorage.getItem(localKey)!==localText)throw Error('確認中に端末のカードが更新されました。ほかの単語帳を閉じて、もう一度確認してください。');
+  showSummary(local,legacy,remote.payload);$('identity').textContent=(user.email||'ログイン済みのアカウント')+' ／ Azure版番号 '+remote.revision;$('result').hidden=false;
+  const same=sf===af;$('comparison').textContent=same?'SupabaseとAzureのカード・画像・学習進捗・フォルダ・設定が一致しました。':'SupabaseとAzureの内容に差があります。すでに別端末をAzureへ切り替えて更新していれば、差がある場合があります。カード数・画像・進捗を確認してください。';$('comparison').className=same?'':'error';
+  const safeLocal=!local||lf===sf||lf===af;$('localStatus').textContent=safeLocal?'端末のデータを照合できました。':'この端末に未同期の変更、または照合できない差があります。通常の単語帳で同期済みを確認し、最新のJSONバックアップを保存してから再確認してください。';
+  if(safeLocal){checked={userId:user.id,localKey,localText};$('switch').disabled=false}
+  $('status').textContent=safeLocal?'確認が完了しました。この端末の保存先は、下の切り替えボタンを押すまで変更しません。':'保存先は変更していません。端末データを確認してください。';
+ }catch(error){$('status').className='error';$('status').textContent=(error.name==='AbortError'?'確認がタイムアウトしました。通信を確認して再度お試しください。':error.message)+'\n端末のカードは変更していません。'}
+ finally{$('check').disabled=false;imageHashes.clear()}
+};
+$('switch').onclick=()=>{try{if(!checked)throw Error('先にデータを確認してください。');identityGuard();if(session.user.id!==checked.userId||localStorage.getItem(checked.localKey)!==checked.localText)throw Error('確認後にログインまたはカードが更新されました。もう一度確認してください。');localStorage.setItem(KEY+':azure-storage:'+AUTH,JSON.stringify(API));location.assign('./index.html')}catch(error){$('switch').disabled=true;$('status').textContent=error.message;$('status').className='error'}};
+</script>
+</html>
