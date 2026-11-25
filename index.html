@@ -125,7 +125,7 @@ select{font:inherit;max-width:100%;width:100%;min-height:48px;padding:10px;borde
 <section id="study"><div class="toolbar"><span class="eyebrow">TODAY'S PRACTICE</span><span id="sessionType" class="badge"></span></div><div id="studyContent"></div></section>
 <section id="columns" hidden aria-label="英単語のコラム"><div class="toolbar"><h2>10語で読む TOEICコラム</h2><button id="columnsToStudy">学習に戻る</button></div><p id="columnSummary" class="muted"></p><div id="columnIndex" class="column-index"></div><div id="columnReader" hidden></div></section>
 <section id="cards" hidden><div class="toolbar"><h2>カード管理</h2><button id="addCard" class="primary">＋ 追加</button></div><div id="editor" class="panel" hidden><h3 id="editorTitle">カードを追加</h3><form id="cardForm"><label for="cardFolder">保存先フォルダ</label><select id="cardFolder"></select><label for="cardTags">タグ（複数可）</label><input id="cardTags" list="tagSuggestions" placeholder="例：過去問, 重点復習"><p class="muted">カンマ・読点で区切ります。同じカードの復習履歴は、どのタグで開いても共通です。</p><div id="sharedFoldersNote" class="muted"></div><div id="formFields"></div><div class="actions"><button type="button" id="cancelEdit">キャンセル</button><button type="submit" id="saveCardButton" class="primary">保存する</button></div></form></div><label for="search">単語・意味で検索</label><input id="search" type="search" placeholder="例：submit ／ 提出"><details id="bulkTags" class="panel"><summary>表示中のカードにタグを付ける</summary><p>このフォルダ・タグ・検索条件で表示しているカードが対象です。コピーは作りません。</p><label for="bulkTagInput">追加するタグ</label><input id="bulkTagInput" list="tagSuggestions" placeholder="例：過去問, 苦手"><button id="applyBulkTags">表示中のカードに追加</button><p id="bulkTagStatus" role="status"></p></details><div id="cardList"></div></section>
-<section id="data" hidden><div id="mobileSettingsHost"></div><div class="panel" id="installPanel"><h2>アプリとして使う</h2><p id="pwaStatus" role="status"></p><p id="pwaInstallGuide" class="muted">ホーム画面のアイコンから、アドレスバーのない専用画面で起動できます。インストールは無料です。</p><button id="installApp" class="primary" hidden>アプリをインストール</button><p id="pwaOfflineStatus" class="muted">一度オンラインで開いて準備が完了すれば、保存済みのカードはオフラインでも学習できます。直接追加した画像は端末内から表示できます。配布済み英語イラストは表示して保存された直近32枚まで利用できます。その他のURL画像・同期・メールログインには通信が必要です。</p><p id="pwaUpdateNotice" hidden>新しいバージョンがあります。学習の区切りで更新できます。</p><button id="updateApp" hidden>更新して再読み込み</button></div><div class="panel" id="folderPanel"><h2>学習フォルダ</h2><p class="muted">教科ごとにカードを分けられます。今あるカードは「英語」に引き継いでいます。</p><form id="folderForm"><label for="folderName">新しいフォルダ名</label><input id="folderName" maxlength="60" required placeholder="例：世界史・生物・資格試験"><label for="folderKind">カードの種類</label><select id="folderKind"><option value="general">その他の学習（問題・答え）</option><option value="vocabulary">英単語（英語・日本語訳）</option></select><button type="submit" class="primary" style="margin-top:12px">フォルダを作る</button></form><div id="folderList"></div><p class="muted">フォルダを削除した場合、中のカードは最初のフォルダへ移動します。カードと復習履歴は残ります。</p></div><datalist id="tagSuggestions"></datalist><div class="panel" id="tagPanel"><h2>タグとカードの共有</h2><p>熱・空気の総復習セットは自動分類します。「熱分野」142枚、「空気分野」156枚、「テスト用」218枚（過去問直結＋解法の基礎）。テスト用は分野タグと重複します。問題・答え・復習履歴はそのままです。</p><p>1枚に複数のタグを付けられます。たとえば「熱」「過去問」「重点復習」のどこから開いても、答えた結果と次回復習日は共通です。通常の出題は1枚につき1回、×だけは最後にもう一度です。</p><p>既存の同じ内容のカードは自動で1枚にまとめます。元のフォルダ名をタグに残し、元のどのフォルダからも学習できます。履歴は直近の復習を優先して引き継ぎます。答え・補足が違うカードは分けて残します。</p><div id="tagList"></div><button id="downloadTagBackup">タグ対応前のデータをJSONで保存</button><p id="tagBackupStatus" class="muted" role="status"></p><p class="muted">カードの編集、CSV取り込み、またはカード管理の「表示中のカードにタグを付ける」から追加できます。タグを外してもカードと復習履歴は残ります。</p></div><div class="panel" id="cloudPanel">
+<section id="data" hidden><div id="toeic9PackPanel" class="panel" hidden><h2>公式問題集9 · 画像付き145語</h2><p>今回の記録した意味を①として優先し、「公式問題集9」タグで追加します。既存の英語カードのタグは変更しません。対応する同じ語があれば履歴を引き継ぎます。</p><p id="toeic9PackStatus" role="status"></p><button id="toeic9PackStudy" class="primary" hidden>「公式問題集9」を学習する</button><button id="toeic9PackBackup">追加前のデータをJSONで保存</button></div><div id="mobileSettingsHost"></div><div class="panel" id="installPanel"><h2>アプリとして使う</h2><p id="pwaStatus" role="status"></p><p id="pwaInstallGuide" class="muted">ホーム画面のアイコンから、アドレスバーのない専用画面で起動できます。インストールは無料です。</p><button id="installApp" class="primary" hidden>アプリをインストール</button><p id="pwaOfflineStatus" class="muted">一度オンラインで開いて準備が完了すれば、保存済みのカードはオフラインでも学習できます。直接追加した画像は端末内から表示できます。配布済み英語イラストは表示して保存された直近32枚まで利用できます。その他のURL画像・同期・メールログインには通信が必要です。</p><p id="pwaUpdateNotice" hidden>新しいバージョンがあります。学習の区切りで更新できます。</p><button id="updateApp" hidden>更新して再読み込み</button></div><div class="panel" id="folderPanel"><h2>学習フォルダ</h2><p class="muted">教科ごとにカードを分けられます。今あるカードは「英語」に引き継いでいます。</p><form id="folderForm"><label for="folderName">新しいフォルダ名</label><input id="folderName" maxlength="60" required placeholder="例：世界史・生物・資格試験"><label for="folderKind">カードの種類</label><select id="folderKind"><option value="general">その他の学習（問題・答え）</option><option value="vocabulary">英単語（英語・日本語訳）</option></select><button type="submit" class="primary" style="margin-top:12px">フォルダを作る</button></form><div id="folderList"></div><p class="muted">フォルダを削除した場合、中のカードは最初のフォルダへ移動します。カードと復習履歴は残ります。</p></div><datalist id="tagSuggestions"></datalist><div class="panel" id="tagPanel"><h2>タグとカードの共有</h2><p>熱・空気の総復習セットは自動分類します。「熱分野」142枚、「空気分野」156枚、「テスト用」218枚（過去問直結＋解法の基礎）。テスト用は分野タグと重複します。問題・答え・復習履歴はそのままです。</p><p>1枚に複数のタグを付けられます。たとえば「熱」「過去問」「重点復習」のどこから開いても、答えた結果と次回復習日は共通です。通常の出題は1枚につき1回、×だけは最後にもう一度です。</p><p>既存の同じ内容のカードは自動で1枚にまとめます。元のフォルダ名をタグに残し、元のどのフォルダからも学習できます。履歴は直近の復習を優先して引き継ぎます。答え・補足が違うカードは分けて残します。</p><div id="tagList"></div><button id="downloadTagBackup">タグ対応前のデータをJSONで保存</button><p id="tagBackupStatus" class="muted" role="status"></p><p class="muted">カードの編集、CSV取り込み、またはカード管理の「表示中のカードにタグを付ける」から追加できます。タグを外してもカードと復習履歴は残ります。</p></div><div class="panel" id="cloudPanel">
 <h2>メールでログイン・端末間同期</h2>
 <p class="muted">同じメールアドレスでログインすると、カード・復習予定・今日の進捗を共有できます。</p>
 <details id="cloudSettings"><summary>初回の接続設定</summary><p class="muted">管理者から案内されたSupabaseの接続情報を入力します。この端末に保存されます。</p><label for="cloudUrl">Project URL</label><input id="cloudUrl" type="url" placeholder="https://xxxxx.supabase.co" autocomplete="off"><label for="cloudKey">Publishable key（公開キー）</label><input id="cloudKey" type="text" placeholder="sb_publishable_… または anon キー" autocomplete="off"><p class="muted">公開用キーのみ使用してください。service_role・secretキーは入力しないでください。</p><button id="saveCloudConfig">接続設定を保存</button></details>
@@ -1016,7 +1016,7 @@ async function loginCloud(data){
   if(previousOwner!==target){resetImageEditor();clearImageURLs();editing=null;$('editor').hidden=true;labels.forEach((_,i)=>$('f'+i).value='');$('cardImagePreview').removeAttribute('src');$('cardImagePreview').hidden=true;}
   activeStorageKey=target;saveRecovery(JSON.stringify(state));
   try{const meta=JSON.parse(localStorage.getItem(cloudMetaKey())||'null');if(meta&&Number.isSafeInteger(meta.revision)&&meta.revision>0){cloudRevision=meta.revision;cloudBase=syncString(meta.base)}}catch(e){}
-  cloudReady=true;cloudAccountUI();applySyncedState(normalizedSync(state));rememberCloud();cloudMessage('自動同期を開始しています。');await syncCloud(true);
+  cloudReady=true;cloudAccountUI();applySyncedState(normalizedSync(state));rememberCloud();cloudMessage('自動同期を開始しています。');await syncCloud(true);await installRequestedToeic9Pack();
 }
 function guestForSync(input,remoteExists){
   if(!remoteExists||cloudBase)return input;
@@ -1085,6 +1085,70 @@ $('cloudLogout').onclick=()=>cloudAction(async()=>{
   $('cloudRecovery').open=false;cloudAccountUI();persist();cloudMessage('ログアウトしました。ログイン前の端末データを表示しています。');
   if(oldAuth&&cloudConfig)fetch(cloudConfig.url+'/auth/v1/logout?scope=local',{method:'POST',headers:{apikey:cloudConfig.key,Authorization:'Bearer '+oldAuth.access_token}}).catch(()=>{});
 });
+// BEGIN TOEIC9_PACK
+// Opt-in installation: only an explicit ?pack=toeic9-part7 link imports this set.
+let requestedPackBusy=false;
+const TOEIC9_PACK_ID='toeic9-part7-v1',TOEIC9_PACK_TAG='公式問題集9';
+function packPanelMessage(message,error=false){
+ $('toeic9PackPanel').hidden=false;$('toeic9PackStatus').textContent=message;$('toeic9PackStatus').setAttribute('role',error?'alert':'status');
+}
+function packNoteUnion(...values){return [...new Set(values.flatMap(v=>v.split(/\r?\n|／/)).map(v=>v.trim()).filter(Boolean))].join('／')}
+function validateToeic9Pack(pack){
+ if(pack?.version!==1||pack.id!==TOEIC9_PACK_ID||pack.tag!==TOEIC9_PACK_TAG||pack.count!==145||!Array.isArray(pack.cards)||pack.cards.length!==145)throw Error('追加セットの形式が正しくありません。');
+ const ids=new Set(),words=new Set();
+ for(const [i,row] of pack.cards.entries()){
+  if(row.id!=='toeic9-part7-'+String(i+1).padStart(3,'0')||ids.has(row.id)||!Array.isArray(row.fields)||row.fields.length!==7||row.fields.some(v=>typeof v!=='string')||!row.fields[0].trim()||!row.fields[1].trim()||words.has(row.fields[0]))throw Error('カードの形式が正しくありません。');
+  if(!/^https:\/\/kmhrt16436-beep\.github\.io\/vocab-app\/study\/english\/toeic9-part7\/images\/sheet-\d{2}\.svg#card-[1-4]$/.test(row.fields[6]))throw Error('画像の形式が正しくありません。');
+  ids.add(row.id);words.add(row.fields[0]);
+ }
+ return pack;
+}
+function combineToeic9Pack(input,pack,targetFolder){
+ validateToeic9Pack(pack);const next=validate(JSON.parse(JSON.stringify(input))),folder=next.folders.find(f=>f.id===targetFolder&&!f.deleted&&f.kind==='vocabulary');
+ if(!folder)throw Error('追加先の英単語フォルダがありません。');let added=0,updated=0,kept=0;
+ for(const row of pack.cards){
+  let existing=next.cards.find(c=>c.id===row.id||c.mergedIds.includes(row.id));
+  if(!existing)existing=next.cards.filter(c=>next.folders.find(f=>f.id===c.folderId)?.kind==='vocabulary'&&c.fields[0].normalize('NFKC').trim().toLowerCase()===row.fields[0].normalize('NFKC').trim().toLowerCase()).sort((a,b)=>Number(b.folderId===folder.id)-Number(a.folderId===folder.id)||b.memory.reviews-a.memory.reviews||a.id.localeCompare(b.id))[0];
+  if(existing){
+   if(existing.id!==row.id)existing.mergedIds=validateStringSet([...existing.mergedIds,row.id],'統合元ID');
+   existing.tags=validateTags([...existing.tags,TOEIC9_PACK_TAG]);if(existing.folderId!==folder.id)existing.sharedFolderIds=validateStringSet([...existing.sharedFolderIds,folder.id],'共有フォルダ');
+   if(existing.tagPresets.includes(TOEIC9_PACK_ID)){kept++;continue}
+   const old=[...existing.fields],customImage=CARD_IMAGE_REF.test(old[6])||CARD_IMAGE_DATA.test(old[6]);
+   existing.fields=[...row.fields];existing.fields[2]=packNoteUnion(row.fields[2],old[1]===row.fields[1]?'':old[1],old[2]);existing.fields[3]=packNoteUnion(row.fields[3],old[3]);if(customImage)existing.fields[6]=old[6];
+   existing.tagPresets=validateStringSet([...existing.tagPresets,TOEIC9_PACK_ID],'セットの適用履歴');updated++;
+  }else{
+   const c=card([...row.fields],folder.id);c.id=row.id;c.tags=[TOEIC9_PACK_TAG];c.tagPresets=[TOEIC9_PACK_ID];next.cards.push(c);next.session.queue.push({id:c.id,retry:false});added++;
+  }
+ }
+ return {state:validate(next),added,updated,kept};
+}
+async function installRequestedToeic9Pack(){
+ if(new URLSearchParams(location.search).get('pack')!=='toeic9-part7'||requestedPackBusy)return;
+ tab('data');
+ if(storageBlocked){packPanelMessage('保存データを読み込めていないため追加を停止しました。元のデータを復元してから再度開いてください。',true);return}
+ if(localStorage.getItem(AUTH_KEY)&&(!cloudAuth?.user?.id||!cloudReady||!cloudBase)){
+  packPanelMessage('ログインと同期が完了すると「公式問題集9」を追加します。接続状態を確認してください。');return;
+ }
+ if(cloudBusy){setTimeout(installRequestedToeic9Pack,1200);return}
+ requestedPackBusy=true;const owner=activeStorageKey,epoch=cloudEpoch;packPanelMessage('「公式問題集9」145語の画像付きカードを読み込んでいます。');tab('data');
+ try{
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),20000);let pack;
+  try{const response=await fetch('./study/english/toeic9-part7/cards.json',{cache:'no-cache',signal:controller.signal});if(!response.ok)throw Error('追加セットを取得できませんでした。');pack=validateToeic9Pack(await response.json())}finally{clearTimeout(timeout)}
+  if(owner!==activeStorageKey||epoch!==cloudEpoch)throw Error('アカウントが変わったため追加を停止しました。追加用リンクを開き直してください。');
+  syncDay();const target=state.folders.find(f=>f.id===activeFolder&&!f.deleted&&f.kind==='vocabulary')||state.folders.find(f=>f.id===DEFAULT_FOLDER&&!f.deleted&&f.kind==='vocabulary')||state.folders.find(f=>!f.deleted&&f.kind==='vocabulary');if(!target)throw Error('英単語フォルダを作成してから追加してください。');
+  const before=JSON.stringify(state),backup=owner+':before-pack:'+TOEIC9_PACK_ID;if(!localStorage.getItem(backup))localStorage.setItem(backup,before);
+  const result=combineToeic9Pack(state,pack,target.id);localStorage.setItem(owner,JSON.stringify(result.state));state=result.state;activeFolder=target.id;activeTag=TOEIC9_PACK_TAG;localStorage.setItem(FOLDER_VIEW_KEY,activeFolder);localStorage.setItem(TAG_VIEW_KEY,activeTag);revealed=false;orderStudyQueue();persist();render();
+  const url=new URL(location.href);url.searchParams.delete('pack');history.replaceState(null,'',url.pathname+url.search+url.hash);
+  packPanelMessage(`「公式問題集9」に追加しました。新規${result.added}枚・既存カードを更新${result.updated}枚・登録済み${result.kept}枚。元のタグと復習履歴は引き継いでいます。`);
+  $('toeic9PackStudy').hidden=false;if(cloudReady)await syncCloud();
+ }catch(e){packPanelMessage('追加できませんでした：'+e.message+' 接続後、このリンクを開き直すと再試行できます。',true)}
+ finally{requestedPackBusy=false}
+}
+$('toeic9PackStudy').onclick=()=>tab('study');
+$('toeic9PackBackup').onclick=async()=>{const value=localStorage.getItem(activeStorageKey+':before-pack:'+TOEIC9_PACK_ID);if(!value){packPanelMessage('この端末には追加前のバックアップがありません。',true);return}try{const payload=await exportCardImages(JSON.parse(value),activeStorageKey),blob=new Blob([JSON.stringify(payload)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='before-toeic9-part7.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(e){packPanelMessage('バックアップを保存できません：'+e.message,true)}};
+window.addEventListener('online',installRequestedToeic9Pack);
+
+// END TOEIC9_PACK
 async function initCloud(){
   try{
     const hash=new URLSearchParams(location.hash.slice(1));
@@ -1114,7 +1178,7 @@ window.addEventListener('hashchange',()=>{const h=new URLSearchParams(location.h
 window.addEventListener('online',()=>{if(pendingCloudLink&&!cloudAuth?.user?.id)initCloud();else syncCloud();refreshStudyIllustrations()});
 setInterval(()=>{if(!document.hidden)syncCloud()},20000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncCloud()});
-initCloud();
+initCloud().then(installRequestedToeic9Pack);
 refreshStudyIllustrations();
 
 // Home-screen installation is optional. Do not reload during a study session automatically.
