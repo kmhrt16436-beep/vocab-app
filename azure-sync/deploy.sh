@@ -102,6 +102,8 @@ PY
 az functionapp config appsettings set -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --settings "@$TASK_DIR/settings.json" --output none
 unset COSMOS_KEY PUBLIC_KEY STORAGE_CONNECTION
 python3 "$TASK_DIR/source/azure-sync/package.py" "$TASK_DIR/source/azure-sync" "$TASK_DIR/deploy.zip"
+# The Azure platform handles OPTIONS before the application handler; configure both layers.
+az functionapp cors add -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --allowed-origins "$APP_ORIGIN" --output none
 az functionapp deployment source config-zip -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --src "$TASK_DIR/deploy.zip" --build-remote true --output none
 HOSTNAME=$(az resource show -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --resource-type Microsoft.Web/sites --query properties.defaultHostName -o tsv)
 python3 "$TASK_DIR/source/azure-sync/check-health.py" "$HOSTNAME"

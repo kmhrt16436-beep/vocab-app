@@ -24,6 +24,16 @@ bash redeploy-azure.sh
 - データベース：`flashcards`
 - コンテナー：`user-data`、パーティションキー `/userId`、手動400 RU/s
 
+## ブラウザからの接続許可
+
+Azureのホスト側がOPTIONSリクエストを処理するため、API内の許可だけでなく、Function AppのCORSにも `https://kmhrt16436-beep.github.io` を登録します。配置スクリプトはこの設定を行います。既存リソースでは次のコマンドだけでも反映できます。
+
+```bash
+az functionapp cors add --resource-group flash-cards-rg --name flashcards-api-97c87b4b3a --allowed-origins https://kmhrt16436-beep.github.io
+```
+
+実Azure上で、Origin・Access-Control-Request-Method・Access-Control-Request-Headersを付けたOPTIONS応答に、許可するOriginとメソッド・ヘッダーが含まれることを確認してからブラウザで移行を試します。`/api/health` の成功だけではブラウザ側のCORS設定の完了までは分かりません。
+
 ## 保存と認証の仕組み
 
 - Azure Functions Node.js 22 / Flex ConsumptionがAPIを提供します。

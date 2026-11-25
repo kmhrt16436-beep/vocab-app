@@ -15,6 +15,7 @@ for file in host.json package.json package-lock.json package.py check-health.py 
   curl -fsSL --retry 2 --max-time 45 "https://raw.githubusercontent.com/kmhrt16436-beep/vocab-app/$SOURCE_REF/azure-sync/$file" -o "$TASK_DIR/source/$file"
 done
 python3 "$TASK_DIR/source/package.py" "$TASK_DIR/source" "$TASK_DIR/deploy.zip"
+az functionapp cors add -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --allowed-origins https://kmhrt16436-beep.github.io --output none
 az functionapp deployment source config-zip -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --src "$TASK_DIR/deploy.zip" --build-remote true --output none
 HOSTNAME=$(az resource show -g "$RESOURCE_GROUP" -n "$FUNCTION_NAME" --resource-type Microsoft.Web/sites --query properties.defaultHostName -o tsv)
 python3 "$TASK_DIR/source/check-health.py" "$HOSTNAME"
